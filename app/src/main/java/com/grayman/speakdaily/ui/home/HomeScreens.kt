@@ -93,6 +93,7 @@ import com.grayman.speakdaily.ui.Game
 import com.grayman.speakdaily.ui.Mascot
 import com.grayman.speakdaily.ui.MascotMood
 import com.grayman.speakdaily.ui.SecondaryButton
+import com.grayman.speakdaily.ui.SoundTestCard
 import com.grayman.speakdaily.ui.SpeechBubble
 import com.grayman.speakdaily.ui.listening.ListeningTestSettings
 import com.grayman.speakdaily.ui.listening.ListeningTestTab
@@ -502,6 +503,8 @@ private fun RecordsScreen(
                 }
             }
         }
+
+        SoundTestCard()
 
         SectionTitle("억양 음성")
         Text(

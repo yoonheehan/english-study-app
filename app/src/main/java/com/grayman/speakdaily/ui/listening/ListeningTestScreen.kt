@@ -63,6 +63,7 @@ import com.grayman.speakdaily.ui.GameProgressBar
 import com.grayman.speakdaily.ui.Mascot
 import com.grayman.speakdaily.ui.MascotMood
 import com.grayman.speakdaily.ui.SecondaryButton
+import com.grayman.speakdaily.ui.SoundWarning
 import kotlin.random.Random
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -322,6 +323,7 @@ private fun QuestionPage(session: TestSession, pageIndex: Int, onNext: () -> Uni
                         .padding(horizontal = 8.dp, vertical = 4.dp),
                 )
             }
+            SoundWarning()
             ListeningStatus(player.playing)
             when (page) {
                 is TestPage.Response -> ResponseChoices(session, pageIndex, player)

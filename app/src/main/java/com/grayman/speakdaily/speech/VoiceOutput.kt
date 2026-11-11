@@ -36,17 +36,40 @@ class VoiceOutput(context: Context) {
     private val _notInstalled = MutableStateFlow<List<Accent>>(emptyList())
     val notInstalled: StateFlow<List<Accent>> = _notInstalled
 
+    private val _problem = MutableStateFlow<String?>(null)
+
+    /** Why speech last failed, in words the learner can act on; null while speech works. */
+    val problem: StateFlow<String?> = _problem
+
     private val tts = TextToSpeech(context.applicationContext) { status ->
-        if (status == TextToSpeech.SUCCESS) onEngineReady()
+        if (status == TextToSpeech.SUCCESS) {
+            onEngineReady()
+        } else {
+            _problem.value = "음성 엔진을 시작하지 못했어요. 설정 > 텍스트 음성 변환에서 기본 엔진을 확인해 주세요."
+        }
     }
 
     private fun onEngineReady() {
         tts.setOnUtteranceProgressListener(object : UtteranceProgressListener() {
             override fun onStart(utteranceId: String) = Unit
-            override fun onDone(utteranceId: String) = finish(utteranceId)
+            override fun onDone(utteranceId: String) {
+                _problem.value = null
+                finish(utteranceId)
+            }
 
             @Deprecated("Deprecated in the platform API")
-            override fun onError(utteranceId: String) = finish(utteranceId)
+            override fun onError(utteranceId: String) = onError(utteranceId, TextToSpeech.ERROR)
+
+            override fun onError(utteranceId: String, errorCode: Int) {
+                _problem.value = when (errorCode) {
+                    TextToSpeech.ERROR_NETWORK, TextToSpeech.ERROR_NETWORK_TIMEOUT ->
+                        "이 억양 음성은 인터넷이 필요해요. 연결을 확인하거나 음성을 내려받아 주세요."
+                    TextToSpeech.ERROR_NOT_INSTALLED_YET -> "음성 데이터를 아직 내려받는 중이에요. 잠시 뒤 다시 해 보세요."
+                    TextToSpeech.ERROR_OUTPUT -> "소리를 내보내지 못했어요. 블루투스나 출력 기기를 확인해 주세요."
+                    else -> "음성을 재생하지 못했어요 (오류 $errorCode)."
+                }
+                finish(utteranceId)
+            }
             override fun onStop(utteranceId: String, interrupted: Boolean) = finish(utteranceId)
         })
         refreshVoices()
@@ -66,6 +89,9 @@ class VoiceOutput(context: Context) {
             )
         }
         _accents.value = voices.filterValues { it.isNotEmpty() }.keys.toList()
+        if (_accents.value.isEmpty()) {
+            _problem.value = "영어 음성이 설치되어 있지 않아요. '억양 음성 받기'에서 영어(미국)를 받아 주세요."
+        }
         _notInstalled.value = byAccent.filter { (accent, list) ->
             list.isNotEmpty() && voices[accent].isNullOrEmpty()
         }.keys.toList()
@@ -99,7 +125,10 @@ class VoiceOutput(context: Context) {
                     pending.remove(id)
                     tts.stop()
                 }
-                if (tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, id) != TextToSpeech.SUCCESS) finish(id)
+                if (tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, id) != TextToSpeech.SUCCESS) {
+                    _problem.value = "음성 엔진이 재생 요청을 거절했어요. 앱을 다시 열어 보세요."
+                    finish(id)
+                }
             }
         }
     }

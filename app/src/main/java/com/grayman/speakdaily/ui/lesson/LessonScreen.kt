@@ -47,6 +47,7 @@ import com.grayman.speakdaily.app
 import com.grayman.speakdaily.data.Lesson
 import com.grayman.speakdaily.speech.Accent
 import com.grayman.speakdaily.ui.GameProgressBar
+import com.grayman.speakdaily.ui.SoundWarning
 import kotlinx.coroutines.flow.first
 
 enum class LessonStep(val labelKo: String) {
@@ -124,6 +125,9 @@ fun LessonScreen(lessonId: String, onExit: () -> Unit) {
             }
         }
 
+        if (step != LessonStep.SUMMARY) {
+            SoundWarning(Modifier.padding(horizontal = 20.dp, vertical = 4.dp))
+        }
         AnimatedContent(
             targetState = step,
             transitionSpec = { (slideInHorizontally { it / 3 } + fadeIn()) togetherWith fadeOut() },

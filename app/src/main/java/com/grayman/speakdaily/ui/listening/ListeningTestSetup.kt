@@ -50,6 +50,7 @@ import com.grayman.speakdaily.ui.Game
 import com.grayman.speakdaily.ui.Mascot
 import com.grayman.speakdaily.ui.MascotMood
 import com.grayman.speakdaily.ui.SecondaryButton
+import com.grayman.speakdaily.ui.SoundWarning
 import com.grayman.speakdaily.ui.SpeechBubble
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
@@ -151,6 +152,7 @@ fun ListeningTestTab(profileLevel: Level, onStart: (ListeningTestSettings) -> Un
             )
         }
 
+        SoundWarning()
         ChunkyButton(
             "테스트 시작",
             icon = Icons.Rounded.Headphones,

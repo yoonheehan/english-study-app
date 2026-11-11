@@ -22,7 +22,7 @@ import androidx.compose.ui.graphics.drawscope.rotate
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 
-enum class MascotMood { IDLE, HAPPY, LISTENING, SAD }
+enum class MascotMood { IDLE, HAPPY }
 
 private val Body = Color(0xFFFF7A59)
 private val BodyDark = Color(0xFFE45F3E)
@@ -39,11 +39,7 @@ private val Ink = Color(0xFF1F2A33)
 @Composable
 fun Mascot(mood: MascotMood, modifier: Modifier = Modifier, size: Dp = 120.dp) {
     val transition = rememberInfiniteTransition(label = "mascot")
-    val bounceAmount = when (mood) {
-        MascotMood.HAPPY -> 0.09f
-        MascotMood.SAD -> 0.01f
-        else -> 0.025f
-    }
+    val bounceAmount = if (mood == MascotMood.HAPPY) 0.09f else 0.025f
     val bounce by transition.animateFloat(
         initialValue = 0f,
         targetValue = 1f,
@@ -53,16 +49,9 @@ fun Mascot(mood: MascotMood, modifier: Modifier = Modifier, size: Dp = 120.dp) {
         ),
         label = "bounce",
     )
-    val wave by transition.animateFloat(
-        initialValue = 0f,
-        targetValue = 1f,
-        animationSpec = infiniteRepeatable(tween(900)),
-        label = "wave",
-    )
     Canvas(modifier.size(size)) {
         val s = this.size.minDimension
         val lift = -bounce * bounceAmount * s
-        if (mood == MascotMood.LISTENING) drawSoundWaves(s, wave)
         translateY(lift) {
             drawFeet(s)
             drawBird(s, mood, bounce)
@@ -75,18 +64,6 @@ private inline fun DrawScope.translateY(y: Float, block: DrawScope.() -> Unit) {
     drawContext.canvas.translate(0f, y)
     block()
     drawContext.canvas.restore()
-}
-
-private fun DrawScope.drawSoundWaves(s: Float, phase: Float) {
-    for (i in 0..1) {
-        val p = (phase + i * 0.5f) % 1f
-        drawCircle(
-            color = Wing.copy(alpha = (1f - p) * 0.5f),
-            radius = s * (0.38f + p * 0.12f),
-            center = Offset(s * 0.5f, s * 0.5f),
-            style = Stroke(s * 0.018f),
-        )
-    }
 }
 
 private fun DrawScope.drawFeet(s: Float) {
@@ -110,7 +87,7 @@ private fun DrawScope.drawBird(s: Float, mood: MascotMood, bounce: Float) {
     drawOval(Belly, Offset(s * 0.28f, s * 0.46f), Size(s * 0.44f, s * 0.38f))
 
     // Wings lift when happy
-    val lift = if (mood == MascotMood.HAPPY) 25f + bounce * 25f else if (mood == MascotMood.SAD) -8f else 4f
+    val lift = if (mood == MascotMood.HAPPY) 25f + bounce * 25f else 4f
     rotate(lift, pivot = Offset(s * 0.17f, s * 0.48f)) {
         drawOval(Wing, Offset(s * 0.09f, s * 0.46f), Size(s * 0.17f, s * 0.27f))
     }
@@ -138,18 +115,8 @@ private fun DrawScope.drawBird(s: Float, mood: MascotMood, bounce: Float) {
             drawCircle(Color.White, s * 0.016f, Offset(center.x + s * 0.018f, center.y - s * 0.008f))
         }
     }
-    if (mood == MascotMood.SAD) {
-        // Inner ends raised: worried, not angry.
-        drawLine(Ink, Offset(s * 0.30f, s * 0.29f), Offset(s * 0.42f, s * 0.25f), s * 0.018f, StrokeCap.Round)
-        drawLine(Ink, Offset(s * 0.70f, s * 0.29f), Offset(s * 0.58f, s * 0.25f), s * 0.018f, StrokeCap.Round)
-    }
-
-    // Beak: opens when happy or listening along
-    val open = when (mood) {
-        MascotMood.HAPPY -> s * 0.05f
-        MascotMood.LISTENING -> s * 0.02f * bounce
-        else -> 0f
-    }
+    // Beak opens when happy.
+    val open = if (mood == MascotMood.HAPPY) s * 0.05f else 0f
     val lower = Path().apply {
         moveTo(s * 0.43f, s * 0.47f + open)
         lineTo(s * 0.57f, s * 0.47f + open)

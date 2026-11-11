@@ -47,8 +47,6 @@ import com.grayman.speakdaily.ui.ChunkyButton
 import com.grayman.speakdaily.ui.Confetti
 import com.grayman.speakdaily.ui.Game
 import com.grayman.speakdaily.ui.GameProgressBar
-import com.grayman.speakdaily.ui.Mascot
-import com.grayman.speakdaily.ui.MascotMood
 import com.grayman.speakdaily.ui.SecondaryButton
 import com.grayman.speakdaily.ui.SpeechBubble
 import kotlinx.coroutines.launch
@@ -114,14 +112,6 @@ fun ListeningResult(session: TestSession, onExit: () -> Unit, onRetry: () -> Uni
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.spacedBy(14.dp),
         ) {
-            Mascot(
-                when {
-                    percent >= 70 -> MascotMood.HAPPY
-                    percent >= 50 -> MascotMood.IDLE
-                    else -> MascotMood.SAD
-                },
-                size = 140.dp,
-            )
             Text(
                 "${report.total.correct} / ${report.total.total}",
                 style = MaterialTheme.typography.headlineLarge,

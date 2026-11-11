@@ -32,6 +32,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Stop
+import androidx.compose.material.icons.rounded.Headphones
 import androidx.compose.material.icons.rounded.Mic
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -47,6 +48,7 @@ import androidx.compose.ui.draw.scale
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.hapticfeedback.HapticFeedbackType
 import androidx.compose.ui.platform.LocalHapticFeedback
@@ -54,6 +56,7 @@ import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import kotlin.math.sin
 import kotlin.random.Random
 
 /** Game-style button: a colored face on a darker edge that presses down when touched. */
@@ -215,6 +218,49 @@ fun Chip(text: String, background: Color, content: Color, modifier: Modifier = M
             .padding(horizontal = 8.dp, vertical = 3.dp),
     ) {
         Text(text, color = content, style = MaterialTheme.typography.labelMedium)
+    }
+}
+
+@Composable
+fun HeadphonesBadge(modifier: Modifier = Modifier) {
+    Icon(
+        Icons.Rounded.Headphones,
+        contentDescription = null,
+        tint = Game.LagoonEdge,
+        modifier = modifier.background(Game.LagoonSoft, RoundedCornerShape(18.dp)).padding(16.dp),
+    )
+}
+
+private val IdleWaveform = floatArrayOf(0.26f, 0.48f, 0.72f, 0.94f, 0.62f, 0.40f, 0.24f)
+
+/** Decorative playback indicator. The surrounding screen provides the status text. */
+@Composable
+fun PlaybackWaveform(playing: Boolean, modifier: Modifier = Modifier) {
+    val phase = if (playing) {
+        rememberInfiniteTransition(label = "playback").animateFloat(
+            initialValue = 0f,
+            targetValue = (2 * Math.PI).toFloat(),
+            animationSpec = infiniteRepeatable(tween(1050, easing = LinearEasing)),
+            label = "waveform phase",
+        )
+    } else {
+        null
+    }
+    Canvas(modifier.background(Game.LagoonSoft, RoundedCornerShape(18.dp))) {
+        val step = size.width / (IdleWaveform.size + 3)
+        val angle = phase?.value
+        IdleWaveform.forEachIndexed { index, idleHeight ->
+            val fraction = if (angle == null) idleHeight else 0.54f + 0.37f * sin(angle + index * 0.88f)
+            val halfHeight = size.height * 0.31f * fraction
+            val x = step * (index + 2)
+            drawLine(
+                color = Game.LagoonEdge,
+                start = Offset(x, center.y - halfHeight),
+                end = Offset(x, center.y + halfHeight),
+                strokeWidth = step * 0.37f,
+                cap = StrokeCap.Round,
+            )
+        }
     }
 }
 

@@ -8,7 +8,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.rounded.GraphicEq
+import androidx.compose.material.icons.rounded.Speed
 import androidx.compose.material.icons.rounded.PlayArrow
 import androidx.compose.material.icons.automirrored.rounded.VolumeUp
 import androidx.compose.material3.MaterialTheme
@@ -263,7 +263,7 @@ fun ShadowStep(
             )
             SecondaryButton(
                 if (rate == 1f) "느리게" else "보통 속도",
-                icon = Icons.Rounded.GraphicEq,
+                icon = Icons.Rounded.Speed,
                 onClick = {
                     rate = if (rate == 1f) 0.75f else 1f
                     scope.launch { app.voice.speak(line.text, accent, line.speaker, rate) }

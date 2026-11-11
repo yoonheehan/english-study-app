@@ -1,7 +1,5 @@
 package com.grayman.speakdaily.ui.listening
 
-import android.content.Intent
-import android.speech.tts.TextToSpeech
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -10,13 +8,13 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.statusBars
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.windowInsetsPadding
@@ -47,8 +45,7 @@ import com.grayman.speakdaily.app
 import com.grayman.speakdaily.data.Level
 import com.grayman.speakdaily.ui.ChunkyButton
 import com.grayman.speakdaily.ui.Game
-import com.grayman.speakdaily.ui.Mascot
-import com.grayman.speakdaily.ui.MascotMood
+import com.grayman.speakdaily.ui.HeadphonesBadge
 import com.grayman.speakdaily.ui.SecondaryButton
 import com.grayman.speakdaily.ui.SoundWarning
 import com.grayman.speakdaily.ui.SpeechBubble
@@ -88,9 +85,11 @@ fun ListeningTestTab(profileLevel: Level, onStart: (ListeningTestSettings) -> Un
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         Text("듣기 테스트", style = MaterialTheme.typography.headlineMedium, color = MaterialTheme.colorScheme.onBackground)
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Mascot(MascotMood.LISTENING, size = 84.dp)
-            Spacer(Modifier.width(8.dp))
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(10.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            HeadphonesBadge(Modifier.size(64.dp))
             SpeechBubble(
                 "토익 리스닝처럼 질문-응답, 짧은 대화, 안내방송 세 파트로 나와요. 문제마다 억양도 바뀌어요!",
                 Modifier.weight(1f),
@@ -146,7 +145,7 @@ fun ListeningTestTab(profileLevel: Level, onStart: (ListeningTestSettings) -> Un
                 "억양 음성 받기",
                 icon = Icons.Rounded.Download,
                 onClick = {
-                    runCatching { context.startActivity(Intent(TextToSpeech.Engine.ACTION_INSTALL_TTS_DATA)) }
+                    runCatching { context.startActivity(context.app.voice.installVoicesIntent()) }
                 },
                 modifier = Modifier.fillMaxWidth(),
             )

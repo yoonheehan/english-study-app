@@ -1,12 +1,5 @@
 package com.grayman.speakdaily.ui.home
 
-import android.content.Intent
-import android.speech.tts.TextToSpeech
-import androidx.compose.animation.core.RepeatMode
-import androidx.compose.animation.core.animateFloat
-import androidx.compose.animation.core.infiniteRepeatable
-import androidx.compose.animation.core.rememberInfiniteTransition
-import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -53,7 +46,6 @@ import androidx.compose.material.icons.rounded.LocalHospital
 import androidx.compose.material.icons.rounded.LocalFireDepartment
 import androidx.compose.material.icons.rounded.Lock
 import androidx.compose.material.icons.rounded.Map
-import androidx.compose.material.icons.rounded.Route
 import androidx.compose.material.icons.rounded.Schedule
 import androidx.compose.material.icons.rounded.ShoppingBag
 import androidx.compose.material.icons.automirrored.rounded.ShowChart
@@ -75,11 +67,12 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.scale
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.stateDescription
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.LifecycleResumeEffect
@@ -166,7 +159,7 @@ private fun BottomTabs(selected: Int, onSelect: (Int) -> Unit) {
                 .windowInsetsPadding(WindowInsets.navigationBars),
             horizontalArrangement = Arrangement.spacedBy(6.dp),
         ) {
-            TabButton("학습", Icons.Rounded.Route, selected == 0, Modifier.weight(1f)) { onSelect(0) }
+            TabButton("학습", Icons.AutoMirrored.Rounded.Chat, selected == 0, Modifier.weight(1f)) { onSelect(0) }
             TabButton("듣기 테스트", Icons.Rounded.Headphones, selected == 1, Modifier.weight(1.3f)) { onSelect(1) }
             TabButton("기록", Icons.AutoMirrored.Rounded.ShowChart, selected == 2, Modifier.weight(1f)) { onSelect(2) }
         }
@@ -318,14 +311,24 @@ private fun Stat(icon: ImageVector, tint: Color, text: String) {
 private fun TodayBanner(state: HomeState, dueCount: Int) {
     val message = when {
         state.practicedToday -> "오늘 연습 완료! 더 하고 싶다면 언제든 환영이에요."
-        dueCount > 0 -> "복습할 표현 ${dueCount}개가 기다리고 있어요. 오늘도 10분만 같이 말해 봐요!"
+        dueCount > 0 -> "복습할 표현 ${dueCount}개가 기다리고 있어요. 오늘도 10분만 말해 봐요!"
         state.streak > 0 -> "${state.streak}일째 이어 가는 중이에요. 오늘도 해 볼까요?"
         else -> "오늘의 첫 레슨을 시작해 봐요. 10분이면 충분해요!"
     }
-    Row(verticalAlignment = Alignment.CenterVertically) {
-        Mascot(if (state.practicedToday) MascotMood.HAPPY else MascotMood.IDLE, size = 76.dp)
-        Spacer(Modifier.width(8.dp))
-        SpeechBubble(message, Modifier.weight(1f))
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .background(MaterialTheme.colorScheme.surface, RoundedCornerShape(16.dp))
+            .padding(14.dp),
+        horizontalArrangement = Arrangement.spacedBy(12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Icon(
+            if (state.practicedToday) Icons.Rounded.Check else Icons.AutoMirrored.Rounded.Chat,
+            contentDescription = null,
+            tint = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        Text(message, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
     }
 }
 
@@ -351,14 +354,27 @@ private fun UnitHeader(unit: PathUnit) {
 @Composable
 private fun PathNodeRow(node: PathNode, index: Int, onClick: () -> Unit) {
     val shift = listOf(-56, 0, 56, 0)[index % 4].dp
+    val status = when (node.state) {
+        NodeState.DONE -> "완료"
+        NodeState.CURRENT -> "다음 레슨"
+        NodeState.LOCKED -> "잠김"
+    }
     Column(
         Modifier
             .fillMaxWidth()
             .padding(vertical = 4.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
-        Column(Modifier.offset(x = shift), horizontalAlignment = Alignment.CenterHorizontally) {
-            LessonBubble(node, onClick)
+        Column(
+            Modifier
+                .offset(x = shift)
+                .clip(RoundedCornerShape(16.dp))
+                .clickable(enabled = node.state != NodeState.LOCKED, role = Role.Button, onClick = onClick)
+                .semantics(mergeDescendants = true) { stateDescription = status }
+                .padding(horizontal = 4.dp, vertical = 2.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+        ) {
+            LessonIcon(node)
             Spacer(Modifier.height(4.dp))
             Text(
                 node.lesson.titleKo,
@@ -374,50 +390,35 @@ private fun PathNodeRow(node: PathNode, index: Int, onClick: () -> Unit) {
 }
 
 @Composable
-private fun LessonBubble(node: PathNode, onClick: () -> Unit) {
-    val pulse = rememberInfiniteTransition(label = "node").animateFloat(
-        1f,
-        1.12f,
-        infiniteRepeatable(tween(800), RepeatMode.Reverse),
-        label = "pulse",
-    )
-    val (face, edge) = when (node.state) {
-        NodeState.DONE -> Game.Good to Game.GoodEdge
-        NodeState.CURRENT -> Game.Lagoon to Game.LagoonEdge
-        NodeState.LOCKED -> Game.Locked to Color(0xFF99A3AB)
-    }
-    Box(contentAlignment = Alignment.Center, modifier = Modifier.size(92.dp)) {
-        if (node.state == NodeState.CURRENT) {
-            Box(
-                Modifier
-                    .size(84.dp)
-                    .scale(pulse.value)
-                    .border(5.dp, Game.Lagoon.copy(alpha = 0.35f), CircleShape),
-            )
-        }
-        Box(
-            Modifier
-                .size(70.dp)
-                .offset(y = 4.dp)
-                .background(edge, CircleShape),
+private fun LessonIcon(node: PathNode) {
+    val colors = MaterialTheme.colorScheme
+    val shape = RoundedCornerShape(18.dp)
+    val current = node.state == NodeState.CURRENT
+    Box(
+        modifier = Modifier
+            .size(68.dp)
+            .background(if (current) Game.LagoonSoft else colors.surfaceVariant, shape)
+            .border(1.dp, if (current) Game.LagoonEdge else colors.outline, shape),
+        contentAlignment = Alignment.Center,
+    ) {
+        Icon(
+            iconFor(node.lesson.icon),
+            contentDescription = null,
+            tint = if (current) Game.LagoonEdge else colors.onSurfaceVariant,
+            modifier = Modifier.size(32.dp),
         )
-        Box(
-            Modifier
-                .size(70.dp)
-                .clip(CircleShape)
-                .background(face)
-                .clickable(enabled = node.state != NodeState.LOCKED, role = Role.Button, onClick = onClick),
-            contentAlignment = Alignment.Center,
-        ) {
+        if (!current) {
+            val done = node.state == NodeState.DONE
             Icon(
-                when (node.state) {
-                    NodeState.DONE -> Icons.Rounded.Check
-                    NodeState.LOCKED -> Icons.Rounded.Lock
-                    NodeState.CURRENT -> iconFor(node.lesson.icon)
-                },
-                contentDescription = node.lesson.titleKo,
-                tint = Color.White,
-                modifier = Modifier.size(34.dp),
+                if (done) Icons.Rounded.Check else Icons.Rounded.Lock,
+                contentDescription = null,
+                tint = if (done) Game.OnGoodSoft else colors.onSurfaceVariant,
+                modifier = Modifier
+                    .align(Alignment.BottomEnd)
+                    .padding(3.dp)
+                    .size(20.dp)
+                    .background(if (done) Game.GoodSoft else colors.surface, CircleShape)
+                    .padding(3.dp),
             )
         }
     }
@@ -522,7 +523,7 @@ private fun RecordsScreen(
         SecondaryButton(
             "억양 음성 설치",
             onClick = {
-                runCatching { context.startActivity(Intent(TextToSpeech.Engine.ACTION_INSTALL_TTS_DATA)) }
+                runCatching { context.startActivity(context.app.voice.installVoicesIntent()) }
             },
             modifier = Modifier.fillMaxWidth(),
         )

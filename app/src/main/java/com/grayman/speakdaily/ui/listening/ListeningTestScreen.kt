@@ -60,8 +60,8 @@ import com.grayman.speakdaily.ui.AnswerTile
 import com.grayman.speakdaily.ui.ChunkyButton
 import com.grayman.speakdaily.ui.Game
 import com.grayman.speakdaily.ui.GameProgressBar
-import com.grayman.speakdaily.ui.Mascot
-import com.grayman.speakdaily.ui.MascotMood
+import com.grayman.speakdaily.ui.HeadphonesBadge
+import com.grayman.speakdaily.ui.PlaybackWaveform
 import com.grayman.speakdaily.ui.SecondaryButton
 import com.grayman.speakdaily.ui.SoundWarning
 import kotlin.random.Random
@@ -269,7 +269,7 @@ private fun PartIntro(session: TestSession, page: TestPage, onStart: () -> Unit)
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(14.dp, Alignment.CenterVertically),
     ) {
-        Mascot(MascotMood.LISTENING, size = 150.dp)
+        HeadphonesBadge(Modifier.size(88.dp))
         Text("Part $partNumber", style = MaterialTheme.typography.titleMedium, color = Game.Xp)
         Text(page.part.labelKo, style = MaterialTheme.typography.headlineLarge, color = MaterialTheme.colorScheme.onBackground)
         Text(
@@ -355,7 +355,7 @@ private fun ListeningStatus(playing: Boolean) {
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        Mascot(if (playing) MascotMood.LISTENING else MascotMood.IDLE, size = 64.dp)
+        PlaybackWaveform(playing, Modifier.size(width = 72.dp, height = 44.dp))
         Text(
             if (playing) "잘 들어 보세요..." else "답을 고르세요",
             style = MaterialTheme.typography.titleMedium,

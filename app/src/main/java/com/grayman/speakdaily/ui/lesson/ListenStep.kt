@@ -1,7 +1,5 @@
 package com.grayman.speakdaily.ui.lesson
 
-import android.content.Intent
-import android.speech.tts.TextToSpeech
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -14,12 +12,13 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Download
-import androidx.compose.material.icons.rounded.GraphicEq
 import androidx.compose.material.icons.rounded.Public
 import androidx.compose.material.icons.rounded.Replay
+import androidx.compose.material.icons.rounded.Speed
 import androidx.compose.material.icons.automirrored.rounded.VolumeUp
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -48,8 +47,7 @@ import com.grayman.speakdaily.speech.Accent
 import com.grayman.speakdaily.ui.AnswerTile
 import com.grayman.speakdaily.ui.ChunkyButton
 import com.grayman.speakdaily.ui.Game
-import com.grayman.speakdaily.ui.Mascot
-import com.grayman.speakdaily.ui.MascotMood
+import com.grayman.speakdaily.ui.PlaybackWaveform
 import com.grayman.speakdaily.ui.SecondaryButton
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
@@ -150,12 +148,12 @@ private fun ListenPhaseContent(
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
         Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
-            Mascot(if (player.playing) MascotMood.LISTENING else MascotMood.IDLE, size = 150.dp)
+            PlaybackWaveform(player.playing, Modifier.size(width = 128.dp, height = 72.dp))
         }
         AccentBadge(accent)
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             SecondaryButton("다시 듣기", icon = Icons.Rounded.Replay, onClick = { player.play(accent) })
-            SecondaryButton("느리게", icon = Icons.Rounded.GraphicEq, onClick = { player.play(accent, 0.75f) })
+            SecondaryButton("느리게", icon = Icons.Rounded.Speed, onClick = { player.play(accent, 0.75f) })
         }
         if (canChangeAccent) {
             SecondaryButton(
@@ -175,7 +173,7 @@ private fun ListenPhaseContent(
                 "억양 음성 받기",
                 icon = Icons.Rounded.Download,
                 onClick = {
-                    runCatching { context.startActivity(Intent(TextToSpeech.Engine.ACTION_INSTALL_TTS_DATA)) }
+                    runCatching { context.startActivity(context.app.voice.installVoicesIntent()) }
                 },
                 modifier = Modifier.fillMaxWidth(),
             )
@@ -289,7 +287,7 @@ private fun DictationPhase(lesson: Lesson, accent: Accent, score: LessonScore, o
             )
             SecondaryButton(
                 "느리게",
-                icon = Icons.Rounded.GraphicEq,
+                icon = Icons.Rounded.Speed,
                 onClick = { scope.launch { app.voice.speak(line.text, accent, line.speaker, 0.7f) } },
             )
         }

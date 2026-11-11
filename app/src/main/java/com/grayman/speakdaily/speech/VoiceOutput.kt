@@ -1,6 +1,8 @@
 package com.grayman.speakdaily.speech
 
 import android.content.Context
+import android.content.Intent
+import android.util.Log
 import android.speech.tts.TextToSpeech
 import android.speech.tts.UtteranceProgressListener
 import android.speech.tts.Voice
@@ -24,6 +26,26 @@ enum class Accent(val tag: String, val labelKo: String) {
 
 /** Plays English in a chosen accent. Sentences are suspend calls, so a dialogue is a plain loop. */
 class VoiceOutput(context: Context) {
+    private val appContext = context.applicationContext
+
+    /**
+     * Google's engine ships the most English accents (US, UK, Australia, India, Nigeria).
+     * Phones such as Galaxy devices default to their own engine with fewer, so prefer
+     * Google's whenever it is installed. This changes only this app, not system settings.
+     */
+    val enginePackage: String? = run {
+        val installed = appContext.packageManager
+            .queryIntentServices(Intent(TextToSpeech.Engine.INTENT_ACTION_TTS_SERVICE), 0)
+            .map { it.serviceInfo.packageName }
+        if (GOOGLE_TTS in installed) GOOGLE_TTS else null
+    }
+
+    /** Opens the voice download screen of the engine this app actually uses. */
+    fun installVoicesIntent(): Intent = Intent(TextToSpeech.Engine.ACTION_INSTALL_TTS_DATA).apply {
+        enginePackage?.let { setPackage(it) }
+        addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+    }
+
     private val pending = ConcurrentHashMap<String, CancellableContinuation<Unit>>()
     private val nextId = AtomicLong()
     private var voices: Map<Accent, List<Voice>> = emptyMap()
@@ -41,7 +63,9 @@ class VoiceOutput(context: Context) {
     /** Why speech last failed, in words the learner can act on; null while speech works. */
     val problem: StateFlow<String?> = _problem
 
-    private val tts = TextToSpeech(context.applicationContext) { status ->
+    private val tts = TextToSpeech(appContext, { status -> onInit(status) }, enginePackage)
+
+    private fun onInit(status: Int) {
         if (status == TextToSpeech.SUCCESS) {
             onEngineReady()
         } else {
@@ -89,6 +113,12 @@ class VoiceOutput(context: Context) {
             )
         }
         _accents.value = voices.filterValues { it.isNotEmpty() }.keys.toList()
+        Log.i(
+            TAG,
+            "engine=${tts.defaultEngine} " + byAccent.entries.joinToString { (accent, list) ->
+                "${accent.tag}: ${list.count(isInstalled)}/${list.size}"
+            },
+        )
         if (_accents.value.isEmpty()) {
             _problem.value = "영어 음성이 설치되어 있지 않아요. '억양 음성 받기'에서 영어(미국)를 받아 주세요."
         }
@@ -146,6 +176,8 @@ class VoiceOutput(context: Context) {
 
     private companion object {
         const val ENGINE_WAIT_MS = 8_000L
+        const val GOOGLE_TTS = "com.google.android.tts"
+        const val TAG = "VOICE"
         const val MS_PER_CHAR = 200
         const val MIN_TIMEOUT_MS = 6_000L
     }

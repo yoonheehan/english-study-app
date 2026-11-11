@@ -1,0 +1,103 @@
+{
+  "qr": [
+    {"id": "b1-qr-01", "prompt": "Do you know if the pharmacy is still open?", "promptKo": "약국이 아직 열려 있는지 아세요?", "answer": 0, "options": [
+      {"text": "I think it closes at nine.", "ko": "9시에 닫는 것 같아요."},
+      {"text": "Yes, I opened it.", "ko": "네, 제가 열었어요."},
+      {"text": "The farm is far away.", "ko": "농장은 멀어요."}]},
+    {"id": "b1-qr-02", "prompt": "Why don't we take a taxi instead?", "promptKo": "대신 택시를 타는 게 어때요?", "answer": 1, "options": [
+      {"text": "Because it was raining.", "ko": "비가 와서요."},
+      {"text": "Good idea, it's faster.", "ko": "좋은 생각이에요, 더 빠르죠."},
+      {"text": "I took it yesterday.", "ko": "어제 탔어요."}]},
+    {"id": "b1-qr-03", "prompt": "I can't find my keys anywhere.", "promptKo": "열쇠를 아무 데서도 못 찾겠어요.", "answer": 2, "options": [
+      {"text": "The key is practice.", "ko": "핵심은 연습이에요."},
+      {"text": "I'll find a hotel.", "ko": "호텔을 찾아볼게요."},
+      {"text": "Have you checked your coat pocket?", "ko": "코트 주머니는 확인해 봤어요?"}]},
+    {"id": "b1-qr-04", "prompt": "Who's in charge of the new project?", "promptKo": "새 프로젝트는 누가 맡고 있어요?", "answer": 0, "options": [
+      {"text": "Ms. Park is leading it.", "ko": "박 씨가 이끌고 있어요."},
+      {"text": "It's free of charge.", "ko": "무료예요."},
+      {"text": "Starting next month.", "ko": "다음 달부터요."}]},
+    {"id": "b1-qr-05", "prompt": "Should I bring anything to the party?", "promptKo": "파티에 뭐 가져갈까요?", "answer": 1, "options": [
+      {"text": "It starts at eight.", "ko": "8시에 시작해요."},
+      {"text": "Just bring yourself.", "ko": "몸만 오시면 돼요."},
+      {"text": "It was a great party.", "ko": "멋진 파티였어요."}]},
+    {"id": "b1-qr-06", "prompt": "How long have you lived in this city?", "promptKo": "이 도시에 산 지 얼마나 됐어요?", "answer": 0, "options": [
+      {"text": "About five years now.", "ko": "이제 5년쯤 됐어요."},
+      {"text": "It's a long street.", "ko": "긴 거리예요."},
+      {"text": "I live with my sister.", "ko": "언니랑 같이 살아요."}]},
+    {"id": "b1-qr-07", "prompt": "The printer's out of paper again.", "promptKo": "프린터에 또 종이가 떨어졌어요.", "answer": 1, "options": [
+      {"text": "I'll print it for you.", "ko": "제가 인쇄해 드릴게요."},
+      {"text": "There's more in the supply room.", "ko": "비품실에 더 있어요."},
+      {"text": "It's a newspaper.", "ko": "그건 신문이에요."}]},
+    {"id": "b1-qr-08", "prompt": "Would you rather sit inside or outside?", "promptKo": "안에 앉을래요, 밖에 앉을래요?", "answer": 1, "options": [
+      {"text": "Yes, I would.", "ko": "네, 그럴게요."},
+      {"text": "Outside, it's such a nice day.", "ko": "밖이요, 날씨가 정말 좋네요."},
+      {"text": "I'm right here.", "ko": "저 여기 있어요."}]},
+    {"id": "b1-qr-09", "prompt": "Didn't you get my email?", "promptKo": "제 이메일 못 받았어요?", "answer": 2, "options": [
+      {"text": "I'll mail it today.", "ko": "오늘 우편으로 보낼게요."},
+      {"text": "My address changed.", "ko": "제 주소가 바뀌었어요."},
+      {"text": "Sorry, I haven't checked my inbox yet.", "ko": "미안해요, 아직 메일함을 확인 못 했어요."}]},
+    {"id": "b1-qr-10", "prompt": "When's the report due?", "promptKo": "보고서 마감이 언제예요?", "answer": 0, "options": [
+      {"text": "By Friday afternoon.", "ko": "금요일 오후까지요."},
+      {"text": "It was a good report.", "ko": "좋은 보고서였어요."},
+      {"text": "Due to the weather.", "ko": "날씨 때문에요."}]}
+  ],
+  "sets": [
+    {"id": "b1-c-01", "type": "conversation", "titleKo": "호텔 방 바꾸기",
+     "lines": [
+      {"speaker": 0, "text": "Hi, I checked in this morning, but my room is right next to the elevator, and it's quite noisy.", "ko": "안녕하세요, 오늘 아침에 체크인했는데 방이 엘리베이터 바로 옆이라 꽤 시끄러워요."},
+      {"speaker": 1, "text": "I'm sorry to hear that. Let me see what's available. I have a quieter room on the eighth floor.", "ko": "불편을 드려 죄송합니다. 빈방을 확인해 볼게요. 8층에 더 조용한 방이 있어요."},
+      {"speaker": 0, "text": "That sounds great. Is there any extra charge?", "ko": "좋네요. 추가 요금이 있나요?"},
+      {"speaker": 1, "text": "No, it's the same price. I'll send someone to help with your luggage.", "ko": "아니요, 같은 가격입니다. 짐 옮기는 것을 도울 사람을 보내 드릴게요."}],
+     "questions": [
+      {"q": "What is the problem with the room?", "qKo": "방의 문제는 무엇인가요?", "answer": 1, "options": ["It's too small.", "It's noisy.", "It's dirty.", "The air conditioner is broken."]},
+      {"q": "Where is the new room?", "qKo": "새 방은 어디에 있나요?", "answer": 2, "options": ["On the second floor", "Next to the elevator", "On the eighth floor", "In another hotel"]},
+      {"q": "What will the clerk do?", "qKo": "직원은 무엇을 해 줄 건가요?", "answer": 0, "options": ["Send someone to help with the luggage", "Give a discount", "Call a taxi", "Offer free breakfast"]}]},
+    {"id": "b1-c-02", "type": "conversation", "titleKo": "회의 시간 조정",
+     "lines": [
+      {"speaker": 0, "text": "Daniel, can we move tomorrow's meeting to the afternoon? I have a dentist appointment in the morning.", "ko": "대니얼, 내일 회의를 오후로 옮길 수 있을까요? 오전에 치과 예약이 있어서요."},
+      {"speaker": 1, "text": "The afternoon is tricky for me. I'm meeting a client at two. How about four?", "ko": "오후는 좀 애매해요. 2시에 고객을 만나거든요. 4시는 어때요?"},
+      {"speaker": 0, "text": "Four works. Should I book the small conference room?", "ko": "4시 좋아요. 작은 회의실을 예약할까요?"},
+      {"speaker": 1, "text": "Yes, please. And could you send me the sales numbers before then?", "ko": "네, 부탁해요. 그리고 그 전에 매출 수치 좀 보내 줄래요?"}],
+     "questions": [
+      {"q": "Why does the woman want to move the meeting?", "qKo": "여자는 왜 회의를 옮기려 하나요?", "answer": 0, "options": ["She has a dentist appointment.", "She is traveling.", "She is sick.", "She is meeting a client."]},
+      {"q": "What time will they meet?", "qKo": "몇 시에 만나나요?", "answer": 2, "options": ["At two", "At ten", "At four", "At noon"]},
+      {"q": "What does Daniel ask the woman to send?", "qKo": "대니얼은 여자에게 무엇을 보내 달라고 하나요?", "answer": 3, "options": ["The agenda", "A contract", "The room booking", "The sales numbers"]}]},
+    {"id": "b1-c-03", "type": "conversation", "titleKo": "자전거 수리",
+     "lines": [
+      {"speaker": 0, "text": "Hi, my bike's brakes aren't working well. Can you fix them today?", "ko": "안녕하세요, 자전거 브레이크가 잘 안 들어요. 오늘 고쳐 주실 수 있나요?"},
+      {"speaker": 1, "text": "We're pretty busy, but I can have it ready by tomorrow morning.", "ko": "꽤 바쁘지만 내일 아침까지는 해 드릴 수 있어요."},
+      {"speaker": 0, "text": "Tomorrow's fine. How much will it cost?", "ko": "내일도 괜찮아요. 비용은 얼마나 들까요?"},
+      {"speaker": 1, "text": "Around thirty dollars, depending on the parts. I'll call you if it's more.", "ko": "부품에 따라 다르지만 30달러 정도예요. 더 나오면 전화 드릴게요."}],
+     "questions": [
+      {"q": "What is wrong with the bike?", "qKo": "자전거의 문제는?", "answer": 1, "options": ["A flat tire", "The brakes", "The chain", "The light"]},
+      {"q": "When will the bike be ready?", "qKo": "자전거는 언제 준비되나요?", "answer": 2, "options": ["In an hour", "Tonight", "Tomorrow morning", "Next week"]},
+      {"q": "What will the mechanic do if it costs more?", "qKo": "비용이 더 나오면 정비사는 어떻게 하나요?", "answer": 0, "options": ["Call the customer", "Fix it anyway", "Give a discount", "Ask the manager"]}]},
+    {"id": "b1-t-01", "type": "talk", "titleKo": "공항 탑승구 변경",
+     "lines": [
+      {"speaker": 0, "text": "Good afternoon, passengers. Flight three oh two to Singapore will now board at gate seventeen instead of gate twelve.", "ko": "승객 여러분, 안녕하세요. 싱가포르행 302편은 12번이 아닌 17번 탑승구에서 탑승합니다."},
+      {"speaker": 0, "text": "Boarding will begin in about fifteen minutes. Anyone needing extra help may board first.", "ko": "탑승은 약 15분 후 시작됩니다. 도움이 필요하신 분은 먼저 탑승하실 수 있습니다."},
+      {"speaker": 0, "text": "Please have your boarding pass and passport ready.", "ko": "탑승권과 여권을 준비해 주세요."}],
+     "questions": [
+      {"q": "What has changed?", "qKo": "무엇이 바뀌었나요?", "answer": 1, "options": ["The departure time", "The gate", "The destination", "The airline"]},
+      {"q": "Who may board first?", "qKo": "누가 먼저 탑승할 수 있나요?", "answer": 0, "options": ["People needing extra help", "Business travelers", "Airline staff", "Passengers in row one"]},
+      {"q": "What should passengers have ready?", "qKo": "승객은 무엇을 준비해야 하나요?", "answer": 3, "options": ["Their luggage", "A credit card", "A meal voucher", "Their boarding pass and passport"]}]},
+    {"id": "b1-t-02", "type": "talk", "titleKo": "사무실 공지",
+     "lines": [
+      {"speaker": 0, "text": "Hi everyone, a quick update before you leave. The office will be closed next Monday for building repairs, so please work from home that day.", "ko": "여러분, 퇴근 전에 짧게 알려 드릴게요. 다음 주 월요일은 건물 수리로 사무실이 닫으니 그날은 재택근무해 주세요."},
+      {"speaker": 0, "text": "The internet in the office may also be slow on Friday afternoon.", "ko": "금요일 오후에는 사무실 인터넷도 느릴 수 있어요."},
+      {"speaker": 0, "text": "If you need anything printed, do it before Friday noon.", "ko": "인쇄할 게 있으면 금요일 정오 전에 하세요."}],
+     "questions": [
+      {"q": "Why will the office be closed on Monday?", "qKo": "월요일에 사무실은 왜 닫나요?", "answer": 1, "options": ["It's a holiday.", "For building repairs", "For a company party", "The company is moving."]},
+      {"q": "What should staff do on Monday?", "qKo": "직원들은 월요일에 무엇을 해야 하나요?", "answer": 2, "options": ["Take a day off", "Come in late", "Work from home", "Attend training"]},
+      {"q": "When should printing be done?", "qKo": "인쇄는 언제 해야 하나요?", "answer": 0, "options": ["Before Friday noon", "On Monday morning", "On Thursday night", "After the repairs"]}]},
+    {"id": "b1-t-03", "type": "talk", "titleKo": "아침 교통 정보",
+     "lines": [
+      {"speaker": 0, "text": "This is your traffic update for the morning. There's been an accident on Highway nine near the river bridge, so traffic is moving very slowly.", "ko": "아침 교통 정보입니다. 강다리 근처 9번 고속도로에서 사고가 나서 차량이 아주 천천히 움직이고 있습니다."},
+      {"speaker": 0, "text": "Drivers heading downtown should take Main Street instead.", "ko": "시내로 가시는 분은 대신 메인 스트리트를 이용하세요."},
+      {"speaker": 0, "text": "The city also reminds you that the subway is running extra trains today.", "ko": "또한 오늘 지하철이 증편 운행된다는 점도 알려 드립니다."}],
+     "questions": [
+      {"q": "Where is the accident?", "qKo": "사고는 어디서 났나요?", "answer": 0, "options": ["Near the river bridge", "Downtown", "On Main Street", "At a subway station"]},
+      {"q": "What does the speaker suggest?", "qKo": "말하는 사람은 무엇을 권하나요?", "answer": 1, "options": ["Waiting at home", "Using Main Street", "Taking a taxi", "Leaving later"]},
+      {"q": "What is special about the subway today?", "qKo": "오늘 지하철은 무엇이 특별한가요?", "answer": 2, "options": ["It's free.", "It's closed.", "It's running extra trains.", "It's running late."]}]}
+  ]
+}

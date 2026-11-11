@@ -1,0 +1,104 @@
+{
+  "qr": [
+    {"id": "b2-qr-01", "prompt": "Has the client signed the contract yet?", "promptKo": "고객이 계약서에 서명했나요?", "answer": 0, "options": [
+      {"text": "They're still reviewing a few clauses.", "ko": "아직 몇몇 조항을 검토하고 있어요."},
+      {"text": "Sign here, please.", "ko": "여기 서명해 주세요."},
+      {"text": "The contact list is updated.", "ko": "연락처 목록이 갱신됐어요."}]},
+    {"id": "b2-qr-02", "prompt": "I'm thinking of applying for the manager position.", "promptKo": "매니저 자리에 지원해 볼까 생각 중이에요.", "answer": 1, "options": [
+      {"text": "The position is near the window.", "ko": "그 위치는 창가예요."},
+      {"text": "You'd be great at it.", "ko": "정말 잘하실 거예요."},
+      {"text": "I applied the paint.", "ko": "제가 페인트를 칠했어요."}]},
+    {"id": "b2-qr-03", "prompt": "Wasn't the shipment supposed to arrive yesterday?", "promptKo": "배송품이 어제 도착하기로 하지 않았어요?", "answer": 2, "options": [
+      {"text": "It's a big ship.", "ko": "큰 배예요."},
+      {"text": "I'll arrive by noon.", "ko": "정오까지 도착할게요."},
+      {"text": "There was a delay at customs.", "ko": "세관에서 지연이 있었어요."}]},
+    {"id": "b2-qr-04", "prompt": "Could you walk me through the new software?", "promptKo": "새 소프트웨어 사용법을 차근차근 알려 주실래요?", "answer": 0, "options": [
+      {"text": "Sure, do you have twenty minutes now?", "ko": "그럼요, 지금 20분 괜찮아요?"},
+      {"text": "I walk to work every day.", "ko": "매일 걸어서 출근해요."},
+      {"text": "It's soft and comfortable.", "ko": "부드럽고 편해요."}]},
+    {"id": "b2-qr-05", "prompt": "Why is the conference room locked?", "promptKo": "회의실이 왜 잠겨 있어요?", "answer": 1, "options": [
+      {"text": "It's on the third floor.", "ko": "3층에 있어요."},
+      {"text": "Facilities is replacing the carpet.", "ko": "시설팀이 카펫을 교체하고 있어요."},
+      {"text": "I'll lock it after the meeting.", "ko": "회의 끝나고 잠글게요."}]},
+    {"id": "b2-qr-06", "prompt": "Who approved this budget?", "promptKo": "이 예산은 누가 승인했어요?", "answer": 0, "options": [
+      {"text": "The finance director did.", "ko": "재무 이사님이요."},
+      {"text": "It's over budget.", "ko": "예산을 넘었어요."},
+      {"text": "Yes, I approve.", "ko": "네, 찬성해요."}]},
+    {"id": "b2-qr-07", "prompt": "We're running low on printer ink.", "promptKo": "프린터 잉크가 얼마 안 남았어요.", "answer": 2, "options": [
+      {"text": "Running keeps me fit.", "ko": "달리기로 건강을 유지해요."},
+      {"text": "The price is low.", "ko": "가격이 낮아요."},
+      {"text": "I'll put in an order this afternoon.", "ko": "오늘 오후에 주문 넣을게요."}]},
+    {"id": "b2-qr-08", "prompt": "Shouldn't we get a second opinion before deciding?", "promptKo": "결정하기 전에 다른 의견도 들어 봐야 하지 않을까요?", "answer": 1, "options": [
+      {"text": "The second floor, on the left.", "ko": "2층 왼쪽이요."},
+      {"text": "That's probably wise.", "ko": "그게 현명하겠네요."},
+      {"text": "I'd like the fish.", "ko": "생선 요리로 할게요."}]},
+    {"id": "b2-qr-09", "prompt": "How did the presentation go?", "promptKo": "발표는 어떻게 됐어요?", "answer": 0, "options": [
+      {"text": "Better than I expected.", "ko": "생각보다 잘됐어요."},
+      {"text": "It goes on the screen.", "ko": "화면에 띄워요."},
+      {"text": "Around thirty slides.", "ko": "30장 정도요."}]},
+    {"id": "b2-qr-10", "prompt": "Would you mind covering my shift on Saturday?", "promptKo": "토요일 제 근무 좀 대신해 줄 수 있어요?", "answer": 1, "options": [
+      {"text": "I don't mind the cold.", "ko": "추위는 상관없어요."},
+      {"text": "Sorry, I'm away that weekend.", "ko": "미안해요, 그 주말엔 멀리 가 있어요."},
+      {"text": "The shift key is broken.", "ko": "시프트 키가 고장 났어요."}]}
+  ],
+  "sets": [
+    {"id": "b2-c-01", "type": "conversation", "titleKo": "캠페인 예산 초과",
+     "lines": [
+      {"speaker": 0, "text": "Kevin, the marketing campaign is already fifteen percent over budget, and we're only halfway through.", "ko": "케빈, 마케팅 캠페인이 아직 절반밖에 안 왔는데 벌써 예산을 15% 초과했어요."},
+      {"speaker": 1, "text": "I know. The video production cost much more than the agency quoted.", "ko": "알아요. 영상 제작비가 대행사 견적보다 훨씬 많이 들었어요."},
+      {"speaker": 0, "text": "Can we cut anything from the second half?", "ko": "후반부에서 뺄 수 있는 게 있을까요?"},
+      {"speaker": 1, "text": "We could drop the print ads. The online ads are performing better anyway.", "ko": "인쇄 광고를 뺄 수 있어요. 어차피 온라인 광고 성과가 더 좋거든요."},
+      {"speaker": 0, "text": "Good. Put the numbers together and I'll take it to the director on Thursday.", "ko": "좋아요. 수치를 정리해 주면 목요일에 이사님께 가져갈게요."}],
+     "questions": [
+      {"q": "What is the main problem?", "qKo": "주된 문제는?", "answer": 0, "options": ["The campaign is over budget.", "The agency quit.", "The ads were released late.", "Sales are falling."]},
+      {"q": "What caused the extra cost?", "qKo": "추가 비용의 원인은?", "answer": 1, "options": ["Print ads", "Video production", "Online ads", "Staff overtime"]},
+      {"q": "What will the woman do on Thursday?", "qKo": "여자는 목요일에 무엇을 하나요?", "answer": 2, "options": ["Meet the agency", "Cancel the campaign", "Present the plan to the director", "Approve new ads"]}]},
+    {"id": "b2-c-02", "type": "conversation", "titleKo": "스타트업 이직 제안",
+     "lines": [
+      {"speaker": 0, "text": "I heard you got an offer from that startup. Are you taking it?", "ko": "그 스타트업에서 제안받았다며. 갈 거야?"},
+      {"speaker": 1, "text": "I'm torn. The salary's higher, but they want me to start in two weeks.", "ko": "고민 중이야. 연봉은 더 높은데 2주 안에 출근하래."},
+      {"speaker": 0, "text": "Two weeks is tight. Would your current boss let you leave that quickly?", "ko": "2주는 빠듯하네. 지금 상사가 그렇게 빨리 보내 줄까?"},
+      {"speaker": 1, "text": "Probably not. I'm going to ask the startup if I can start next month instead.", "ko": "아마 안 될 거야. 대신 다음 달부터 시작해도 되는지 스타트업에 물어보려고."}],
+     "questions": [
+      {"q": "How does the man feel about the offer?", "qKo": "남자는 제안에 대해 어떻게 느끼나요?", "answer": 1, "options": ["Excited", "Uncertain", "Disappointed", "Angry"]},
+      {"q": "What is one concern about the offer?", "qKo": "제안에 대한 걱정 하나는?", "answer": 3, "options": ["The salary is lower.", "The office is far away.", "The job is part-time.", "The start date is very soon."]},
+      {"q": "What will the man probably do?", "qKo": "남자는 아마 무엇을 할까요?", "answer": 1, "options": ["Decline the offer", "Ask for a later start date", "Ask his boss for a raise", "Accept immediately"]}]},
+    {"id": "b2-c-03", "type": "conversation", "titleKo": "인터넷 고객센터",
+     "lines": [
+      {"speaker": 0, "text": "I've called three times about my internet connection, and it still drops every evening.", "ko": "인터넷 연결 때문에 세 번이나 전화했는데 아직도 매일 저녁 끊겨요."},
+      {"speaker": 1, "text": "I apologize for the trouble. I can see your previous tickets. It looks like the issue is with the line outside your building.", "ko": "불편을 드려 죄송합니다. 이전 접수 내역이 보이네요. 건물 밖 회선 문제로 보입니다."},
+      {"speaker": 0, "text": "So when will it actually be fixed?", "ko": "그래서 실제로 언제 고쳐지나요?"},
+      {"speaker": 1, "text": "A technician can come Wednesday between nine and noon. I'll also credit one month of service to your account.", "ko": "수요일 9시에서 12시 사이에 기사가 방문할 수 있습니다. 한 달 이용료도 계정에 적립해 드릴게요."}],
+     "questions": [
+      {"q": "How many times has the customer called before?", "qKo": "고객은 이전에 몇 번 전화했나요?", "answer": 2, "options": ["Once", "Twice", "Three times", "Four times"]},
+      {"q": "What is causing the problem?", "qKo": "문제의 원인은?", "answer": 1, "options": ["The router", "The line outside the building", "A software update", "Bad weather"]},
+      {"q": "What will the company give the customer?", "qKo": "회사는 고객에게 무엇을 주나요?", "answer": 0, "options": ["One month of service credit", "A new router", "An upgraded plan", "A gift card"]}]},
+    {"id": "b2-t-01", "type": "talk", "titleKo": "출장비 정책 변경",
+     "lines": [
+      {"speaker": 0, "text": "Starting next quarter, we're changing how travel expenses are handled.", "ko": "다음 분기부터 출장비 처리 방식이 바뀝니다."},
+      {"speaker": 0, "text": "Instead of paying upfront and waiting for reimbursement, employees will receive a company card.", "ko": "먼저 결제하고 환급을 기다리는 대신 직원들은 법인 카드를 받게 됩니다."},
+      {"speaker": 0, "text": "All receipts must still be uploaded within five business days. Training sessions on the new system will be held next Tuesday and Wednesday.", "ko": "모든 영수증은 여전히 영업일 5일 이내에 올려야 합니다. 새 시스템 교육은 다음 주 화요일과 수요일에 열립니다."}],
+     "questions": [
+      {"q": "What is the announcement about?", "qKo": "공지의 주제는?", "answer": 1, "options": ["New hiring", "The travel expense process", "An office move", "The holiday schedule"]},
+      {"q": "What will employees receive?", "qKo": "직원들은 무엇을 받나요?", "answer": 2, "options": ["A bonus", "A laptop", "A company card", "Travel vouchers"]},
+      {"q": "When must receipts be uploaded?", "qKo": "영수증은 언제까지 올려야 하나요?", "answer": 0, "options": ["Within five business days", "By the end of the month", "Within 24 hours", "Before the trip"]}]},
+    {"id": "b2-t-02", "type": "talk", "titleKo": "팟캐스트 광고",
+     "lines": [
+      {"speaker": 0, "text": "Before we get back to the show, a word from our sponsor.", "ko": "방송으로 돌아가기 전에 후원사 소식입니다."},
+      {"speaker": 0, "text": "Brightdesk is a standing desk that adjusts at the touch of a button. It's designed for small apartments and folds flat against the wall.", "ko": "브라이트데스크는 버튼 하나로 높이가 조절되는 스탠딩 책상입니다. 작은 집에 맞게 설계되어 벽에 납작하게 접힙니다."},
+      {"speaker": 0, "text": "Listeners can get twenty percent off this month with the code SHOW twenty.", "ko": "청취자분들은 이번 달 코드 SHOW20으로 20% 할인을 받을 수 있습니다."}],
+     "questions": [
+      {"q": "What is being advertised?", "qKo": "무엇을 광고하나요?", "answer": 1, "options": ["A chair", "A standing desk", "A podcast app", "An apartment"]},
+      {"q": "What is special about the product?", "qKo": "제품의 특징은?", "answer": 0, "options": ["It folds flat against the wall.", "It's made of solid wood.", "It has built-in speakers.", "It's free to try."]},
+      {"q": "How can listeners get a discount?", "qKo": "할인은 어떻게 받나요?", "answer": 3, "options": ["Call the store", "Visit a showroom", "Subscribe to the show", "Use a code"]}]},
+    {"id": "b2-t-03", "type": "talk", "titleKo": "박물관 오디오 가이드",
+     "lines": [
+      {"speaker": 0, "text": "You're now standing in front of the museum's oldest exhibit, a fishing boat over two thousand years old.", "ko": "지금 박물관에서 가장 오래된 전시물인 2천 년이 넘은 고기잡이배 앞에 서 계십니다."},
+      {"speaker": 0, "text": "It was discovered in nineteen ninety-four when workers were building a new harbor.", "ko": "이 배는 1994년 새 항구를 짓던 인부들에게 발견됐습니다."},
+      {"speaker": 0, "text": "Because the wood is so fragile, the room is kept cool and dark. Please don't use flash photography here.", "ko": "나무가 매우 약해서 이 방은 서늘하고 어둡게 유지됩니다. 여기서는 플래시 촬영을 하지 마세요."}],
+     "questions": [
+      {"q": "What is the exhibit?", "qKo": "전시물은 무엇인가요?", "answer": 1, "options": ["A painting", "An ancient fishing boat", "A statue", "An old map"]},
+      {"q": "How was it found?", "qKo": "어떻게 발견됐나요?", "answer": 0, "options": ["During harbor construction", "By divers", "In a museum basement", "By a farmer"]},
+      {"q": "Why is the room kept cool and dark?", "qKo": "방을 서늘하고 어둡게 하는 이유는?", "answer": 2, "options": ["To save energy", "For a light show", "To protect the fragile wood", "For visitor comfort"]}]}
+  ]
+}

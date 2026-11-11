@@ -1,0 +1,109 @@
+[
+  {
+    "id": "a1-hello",
+    "title": "Nice to meet you",
+    "titleKo": "처음 만난 사람과 인사",
+    "icon": "wave",
+    "settingKo": "새 직장 첫날, 옆자리 동료와 인사합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Hi, I'm Anna. Are you new here?", "ko": "안녕하세요, 저는 애나예요. 여기 새로 오셨어요?"},
+      {"speaker": 1, "text": "Yes, it's my first day. I'm Min.", "ko": "네, 오늘이 첫날이에요. 저는 민이에요."},
+      {"speaker": 0, "text": "Nice to meet you, Min. Where are you from?", "ko": "만나서 반가워요, 민. 어디서 오셨어요?"},
+      {"speaker": 1, "text": "I'm from Korea. Nice to meet you too.", "ko": "한국에서 왔어요. 저도 만나서 반가워요."}
+    ],
+    "gist": {
+      "questionKo": "민에 대해 알 수 있는 것은?",
+      "options": ["오늘이 첫 출근이다", "애나의 오랜 친구다", "다음 주에 한국으로 간다"],
+      "answer": 0
+    },
+    "dictation": {"line": 3, "distractors": ["are", "name", "work"]},
+    "shadow": [0, 2],
+    "phrases": [
+      {"en": "Nice to meet you.", "ko": "만나서 반가워요."},
+      {"en": "Where are you from?", "ko": "어디서 오셨어요?"}
+    ],
+    "response": {
+      "situationKo": "처음 만난 사람이 인사를 건넵니다. 자연스럽게 답해 보세요.",
+      "prompt": "Hi! I don't think we've met. I'm Tom.",
+      "keywords": ["nice to meet", "i'm", "my name", "hi", "hello"],
+      "answers": [
+        {"text": "Hi Tom, I'm Min. Nice to meet you.", "tone": "보통", "noteKo": "어디서나 쓰기 좋은 기본 답변이에요."},
+        {"text": "Hey, I'm Min!", "tone": "친근", "noteKo": "또래나 편한 자리에서 짧게 말할 때 써요."},
+        {"text": "Hello, Tom. It's a pleasure to meet you. My name is Min.", "tone": "정중", "noteKo": "업무 자리나 어른께 어울려요."},
+        {"text": "Hiya, I'm Min. Lovely to meet you.", "tone": "친근", "region": "영국식", "noteKo": "Hiya와 lovely는 영국에서 자주 들려요."}
+      ]
+    }
+  },
+  {
+    "id": "a1-coffee",
+    "title": "At the coffee shop",
+    "titleKo": "카페에서 주문하기",
+    "icon": "coffee",
+    "settingKo": "카페 직원에게 음료를 주문합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Hi there. What can I get for you?", "ko": "안녕하세요. 무엇을 드릴까요?"},
+      {"speaker": 1, "text": "Can I have a small latte, please?", "ko": "작은 라떼 한 잔 주시겠어요?"},
+      {"speaker": 0, "text": "Sure. For here or to go?", "ko": "네. 드시고 가세요, 가져가세요?"},
+      {"speaker": 1, "text": "To go, please. How much is it?", "ko": "가져갈게요. 얼마예요?"},
+      {"speaker": 0, "text": "That's four dollars.", "ko": "4달러입니다."}
+    ],
+    "gist": {
+      "questionKo": "손님은 음료를 어떻게 하기로 했나요?",
+      "options": ["매장에서 마신다", "가지고 나간다", "주문을 취소한다"],
+      "answer": 1
+    },
+    "dictation": {"line": 1, "distractors": ["big", "want", "tea"]},
+    "shadow": [1, 3],
+    "phrases": [
+      {"en": "Can I have a small latte, please?", "ko": "작은 라떼 한 잔 주시겠어요?"},
+      {"en": "How much is it?", "ko": "얼마예요?"}
+    ],
+    "response": {
+      "situationKo": "카페 직원이 주문을 받습니다. 원하는 음료를 말해 보세요.",
+      "prompt": "Good morning! What would you like?",
+      "keywords": ["can i have", "i'd like", "i would like", "please", "coffee", "latte", "tea"],
+      "answers": [
+        {"text": "Can I have an iced coffee, please?", "tone": "보통", "noteKo": "주문할 때 가장 무난한 문장이에요."},
+        {"text": "I'd like a green tea, please.", "tone": "정중", "noteKo": "I'd like는 공손하게 들려요."},
+        {"text": "Just a black coffee, thanks.", "tone": "친근", "noteKo": "짧게 말해도 자연스러워요."},
+        {"text": "Could I get a flat white, please?", "tone": "정중", "region": "호주·영국식", "noteKo": "flat white는 호주와 영국 카페의 흔한 메뉴예요."}
+      ]
+    }
+  },
+  {
+    "id": "a1-way",
+    "title": "Where is the station?",
+    "titleKo": "길 물어보기",
+    "icon": "map",
+    "settingKo": "길에서 만난 사람에게 지하철역을 묻습니다.",
+    "lines": [
+      {"speaker": 1, "text": "Excuse me. Where is the train station?", "ko": "실례합니다. 기차역이 어디예요?"},
+      {"speaker": 0, "text": "Go straight and turn left at the bank.", "ko": "직진하다가 은행에서 왼쪽으로 도세요."},
+      {"speaker": 1, "text": "Is it far from here?", "ko": "여기서 먼가요?"},
+      {"speaker": 0, "text": "No, it's about five minutes on foot.", "ko": "아니요, 걸어서 5분쯤 걸려요."},
+      {"speaker": 1, "text": "Great. Thank you so much!", "ko": "좋아요. 정말 감사합니다!"}
+    ],
+    "gist": {
+      "questionKo": "역까지 어떻게 가나요?",
+      "options": ["은행에서 왼쪽으로 돈다", "버스를 탄다", "은행에서 오른쪽으로 돈다"],
+      "answer": 0
+    },
+    "dictation": {"line": 3, "distractors": ["ten", "bus", "yes"]},
+    "shadow": [0, 2],
+    "phrases": [
+      {"en": "Excuse me. Where is the train station?", "ko": "실례합니다. 기차역이 어디예요?"},
+      {"en": "Is it far from here?", "ko": "여기서 먼가요?"}
+    ],
+    "response": {
+      "situationKo": "지나가는 사람이 길을 잃은 듯 보이는 당신에게 묻습니다.",
+      "prompt": "You look lost. Can I help you?",
+      "keywords": ["where is", "looking for", "yes", "please", "thank", "how do i get"],
+      "answers": [
+        {"text": "Yes, please. Where is the bus stop?", "tone": "보통", "noteKo": "도움을 받아들이고 바로 물어보는 표현이에요."},
+        {"text": "Thanks! I'm looking for the museum.", "tone": "친근", "noteKo": "I'm looking for는 찾는 곳을 말할 때 유용해요."},
+        {"text": "That's very kind of you. How do I get to the museum?", "tone": "정중", "noteKo": "감사 표현을 먼저 하면 더 부드러워요."},
+        {"text": "I'm fine, thanks.", "tone": "보통", "noteKo": "도움이 필요 없을 때 쓰는 답이에요."}
+      ]
+    }
+  }
+]

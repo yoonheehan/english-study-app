@@ -1,0 +1,111 @@
+[
+  {
+    "id": "b2-interview",
+    "title": "The job interview",
+    "titleKo": "면접에서 강점 말하기",
+    "icon": "work",
+    "settingKo": "면접관이 지원 동기와 경험을 묻습니다.",
+    "lines": [
+      {"speaker": 0, "text": "Thanks for coming in. Could you tell me why you're interested in this position?", "ko": "와 주셔서 감사합니다. 이 자리에 왜 관심을 갖게 되셨나요?"},
+      {"speaker": 1, "text": "I've spent five years in customer support, and I'm ready to take on a leadership role.", "ko": "고객 지원 분야에서 5년을 일했고, 이제 리더 역할을 맡을 준비가 됐습니다."},
+      {"speaker": 0, "text": "Can you give me an example of a difficult situation you handled?", "ko": "어려운 상황을 해결한 사례를 말씀해 주시겠어요?"},
+      {"speaker": 1, "text": "Last year our response times slipped, so I reorganized the schedule and cut waiting times in half.", "ko": "작년에 응답 시간이 늘어서 근무표를 재편했고 대기 시간을 절반으로 줄였습니다."},
+      {"speaker": 0, "text": "That's impressive. How did your team react to the changes?", "ko": "인상적이네요. 팀원들은 변화에 어떻게 반응했나요?"},
+      {"speaker": 1, "text": "There was some pushback at first, but they came around once they saw the results.", "ko": "처음엔 반발이 좀 있었지만 결과를 보고 받아들였습니다."}
+    ],
+    "gist": {
+      "questionKo": "지원자가 든 사례의 핵심 성과는?",
+      "options": ["매출을 두 배로 늘렸다", "대기 시간을 절반으로 줄였다", "팀 인원을 절반으로 줄였다"],
+      "answer": 1
+    },
+    "dictation": {"line": 5, "distractors": ["never", "complained", "changes"]},
+    "shadow": [1, 5],
+    "phrases": [
+      {"en": "I'm ready to take on a leadership role.", "ko": "리더 역할을 맡을 준비가 됐습니다."},
+      {"en": "They came around once they saw the results.", "ko": "결과를 보고 받아들였어요."}
+    ],
+    "response": {
+      "situationKo": "면접관이 가장 큰 약점을 묻습니다. 개선하려는 노력과 함께 답해 보세요.",
+      "prompt": "What would you say is your biggest weakness?",
+      "keywords": ["weakness", "tend to", "working on", "improve", "learning", "struggle", "i've been"],
+      "answers": [
+        {"text": "I tend to take on too much myself, so I've been learning to delegate more.", "tone": "정중", "noteKo": "약점과 개선 노력을 함께 보여 주는 표준 구조예요."},
+        {"text": "Public speaking used to make me nervous, but I've been working on it by leading team meetings.", "tone": "정중", "noteKo": "used to로 과거의 약점이라는 느낌을 줘요."},
+        {"text": "Honestly, I can be a bit of a perfectionist, which sometimes slows me down.", "tone": "보통", "noteKo": "흔한 답변이라 구체적인 사례를 덧붙이면 좋아요."},
+        {"text": "I struggle with saying no, so now I check my priorities before I agree to anything.", "tone": "보통", "noteKo": "구체적인 행동 변화가 신뢰를 줘요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-landlord",
+    "title": "Talking to the landlord",
+    "titleKo": "집주인에게 문제 제기",
+    "icon": "home",
+    "settingKo": "계속되는 누수 문제를 집주인에게 전화로 이야기합니다.",
+    "lines": [
+      {"speaker": 1, "text": "Hi, I'm calling about the leak in my kitchen. It's been three weeks since I first reported it.", "ko": "안녕하세요, 부엌 누수 때문에 전화드렸어요. 처음 알린 지 3주가 됐어요."},
+      {"speaker": 0, "text": "I know, and I apologize. The plumber I hired had to cancel twice.", "ko": "알아요, 죄송합니다. 제가 부른 배관공이 두 번이나 취소했어요."},
+      {"speaker": 1, "text": "I understand, but the ceiling is starting to stain and I'm worried about mold.", "ko": "이해는 하지만 천장에 얼룩이 생기기 시작해서 곰팡이가 걱정돼요."},
+      {"speaker": 0, "text": "You're right to be concerned. I'll find someone else who can come by this Friday.", "ko": "걱정하실 만해요. 이번 금요일에 올 수 있는 다른 사람을 찾을게요."},
+      {"speaker": 1, "text": "Thank you. Could you confirm that by email so we both have it in writing?", "ko": "감사합니다. 서로 기록이 남게 이메일로 확인해 주시겠어요?"}
+    ],
+    "gist": {
+      "questionKo": "세입자가 마지막에 요청한 것은?",
+      "options": ["월세 감액", "이메일로 일정 확인", "배관공 연락처"],
+      "answer": 1
+    },
+    "dictation": {"line": 2, "distractors": ["floor", "angry", "paint"]},
+    "shadow": [0, 4],
+    "phrases": [
+      {"en": "It's been three weeks since I first reported it.", "ko": "처음 알린 지 3주가 됐어요."},
+      {"en": "Could you confirm that by email?", "ko": "이메일로 확인해 주시겠어요?"}
+    ],
+    "response": {
+      "situationKo": "집주인이 수리를 다음 달로 미루자고 합니다. 예의를 지키면서 더 빨리 해 달라고 요청하세요.",
+      "prompt": "The repair might have to wait until next month, I'm afraid.",
+      "keywords": ["understand", "can't wait", "sooner", "urgent", "this week", "appreciate", "really need", "next month"],
+      "answers": [
+        {"text": "I understand it's difficult, but this can't wait a month. Could we find a time this week?", "tone": "정중", "noteKo": "공감한 뒤 분명하게 요청하는 구조예요."},
+        {"text": "A month is too long, honestly. It's getting worse every day.", "tone": "보통", "noteKo": "직접적이지만 근거를 함께 제시했어요."},
+        {"text": "I'd really appreciate it if this could be fixed sooner, as it's becoming urgent.", "tone": "정중", "noteKo": "I'd appreciate it if는 격식 있는 요청 표현이에요."},
+        {"text": "If it can't be sooner, could I get someone myself and take it off the rent?", "tone": "보통", "noteKo": "대안을 제시하는 협상식 답변이에요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-deadline",
+    "title": "Pushing the deadline",
+    "titleKo": "회의에서 마감 조정",
+    "icon": "clock",
+    "settingKo": "프로젝트 회의에서 일정이 빠듯하다고 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Where are we with the launch? Are we still on track for the fifteenth?", "ko": "출시 진행은 어떤가요? 15일 일정 그대로 가능한가요?"},
+      {"speaker": 1, "text": "To be honest, it's looking tight. Testing has taken longer than we expected.", "ko": "솔직히 빠듯해 보여요. 테스트가 예상보다 오래 걸렸어요."},
+      {"speaker": 0, "text": "How much extra time would you need to do it properly?", "ko": "제대로 하려면 시간이 얼마나 더 필요한가요?"},
+      {"speaker": 1, "text": "Another week should do it, or we could launch on time with fewer features.", "ko": "일주일이면 될 것 같아요. 아니면 기능을 줄여 제때 출시할 수도 있고요."},
+      {"speaker": 0, "text": "Let me talk to the client and see which option they'd prefer.", "ko": "고객과 얘기해서 어느 쪽을 선호하는지 알아볼게요."}
+    ],
+    "gist": {
+      "questionKo": "담당자가 제시한 두 가지 선택지는?",
+      "options": ["일주일 연기 또는 기능 축소", "인력 충원 또는 프로젝트 취소", "테스트 생략 또는 비용 증액"],
+      "answer": 0
+    },
+    "dictation": {"line": 1, "distractors": ["finished", "shorter", "planned"]},
+    "shadow": [1, 3],
+    "phrases": [
+      {"en": "It's looking tight.", "ko": "빠듯해 보여요."},
+      {"en": "Another week should do it.", "ko": "일주일이면 될 것 같아요."}
+    ],
+    "response": {
+      "situationKo": "상사가 이번 주까지 보고서를 끝낼 수 있냐고 묻습니다. 어렵다고 말하고 대안을 제시하세요.",
+      "prompt": "Can you have the report finished by Friday?",
+      "keywords": ["friday", "tight", "monday", "difficult", "could", "draft", "more time", "instead"],
+      "answers": [
+        {"text": "Friday might be tight. Could I send you a draft then and the final version on Monday?", "tone": "정중", "noteKo": "거절 대신 대안을 제시하는 좋은 방식이에요."},
+        {"text": "I'll do my best, but I may need until Monday to get it right.", "tone": "보통", "noteKo": "품질을 이유로 드는 표현이에요."},
+        {"text": "Honestly, I don't think that's realistic with everything else I've got on.", "tone": "보통", "noteKo": "솔직하지만 관계에 따라 대안을 덧붙이세요."},
+        {"text": "That's a bit of a stretch. What's the most important part to have by then?", "tone": "친근", "noteKo": "우선순위를 되묻는 노련한 답변이에요."}
+      ]
+    }
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "qr": [
+    {"id": "c1-qr-01", "prompt": "I take it you weren't thrilled with the proposal.", "promptKo": "제안이 그다지 마음에 들지 않으셨나 보네요.", "answer": 0, "options": [
+      {"text": "Not exactly. It raised more questions than it answered.", "ko": "그렇죠. 답보다 질문이 더 많이 생겼어요."},
+      {"text": "I'll take it with me.", "ko": "제가 가져갈게요."},
+      {"text": "The proposal was on Tuesday.", "ko": "제안은 화요일이었어요."}]},
+    {"id": "c1-qr-02", "prompt": "Any chance we could push the launch back a week?", "promptKo": "출시를 일주일 미룰 수 있을까요?", "answer": 1, "options": [
+      {"text": "I pushed the door open.", "ko": "문을 밀어서 열었어요."},
+      {"text": "It's worth asking, but I doubt it.", "ko": "물어볼 만은 한데 어려울 것 같아요."},
+      {"text": "The launch was last week.", "ko": "출시는 지난주였어요."}]},
+    {"id": "c1-qr-03", "prompt": "Do you think the merger will go through?", "promptKo": "합병이 성사될 거라고 보세요?", "answer": 2, "options": [
+      {"text": "I'll go through the files.", "ko": "파일을 검토할게요."},
+      {"text": "Mergers are common in spring.", "ko": "합병은 봄에 흔해요."},
+      {"text": "It really hinges on the regulators.", "ko": "결국 규제 당국에 달려 있어요."}]},
+    {"id": "c1-qr-04", "prompt": "You've been quiet in meetings lately.", "promptKo": "요즘 회의에서 말이 없으시네요.", "answer": 0, "options": [
+      {"text": "I've had a lot on my mind, to be honest.", "ko": "솔직히 생각할 게 많았어요."},
+      {"text": "Yes, the room has great soundproofing.", "ko": "네, 그 방은 방음이 잘돼요."},
+      {"text": "It starts later than usual.", "ko": "평소보다 늦게 시작해요."}]},
+    {"id": "c1-qr-05", "prompt": "Shall I loop in the legal team?", "promptKo": "법무팀도 참여시킬까요?", "answer": 1, "options": [
+      {"text": "The loop is two kilometers.", "ko": "순환로는 2킬로미터예요."},
+      {"text": "Might be wise, given the contract terms.", "ko": "계약 조건을 보면 그게 현명할 수도요."},
+      {"text": "They played well, didn't they?", "ko": "경기 잘했죠?"}]},
+    {"id": "c1-qr-06", "prompt": "How come the figures don't add up?", "promptKo": "왜 숫자가 안 맞는 거죠?", "answer": 0, "options": [
+      {"text": "Someone double-counted the March invoices.", "ko": "누가 3월 청구서를 두 번 셌어요."},
+      {"text": "They came up yesterday.", "ko": "어제 올라왔어요."},
+      {"text": "Add them to the list.", "ko": "목록에 추가하세요."}]},
+    {"id": "c1-qr-07", "prompt": "I'd hold off on replying until we hear from Sarah.", "promptKo": "사라 소식 들을 때까지 답장은 보류하는 게 좋겠어요.", "answer": 2, "options": [
+      {"text": "She'll hold the event in May.", "ko": "그녀는 5월에 행사를 열 거예요."},
+      {"text": "Off the top of my head, two.", "ko": "얼핏 생각하기엔 두 개요."},
+      {"text": "Fair enough. I'll sit on the draft for now.", "ko": "그렇네요. 초안은 일단 묵혀 둘게요."}]},
+    {"id": "c1-qr-08", "prompt": "Wouldn't it be cheaper to outsource it?", "promptKo": "외주를 주는 게 더 싸지 않을까요?", "answer": 1, "options": [
+      {"text": "It's cheaper at the outlet store.", "ko": "아웃렛 매장이 더 싸요."},
+      {"text": "In the short run, maybe, but we'd lose control over quality.", "ko": "단기적으로는 그럴지 몰라도 품질 관리를 못 하게 돼요."},
+      {"text": "It's just outside the building.", "ko": "건물 바로 밖에 있어요."}]},
+    {"id": "c1-qr-09", "prompt": "Who's going to break the news to the team?", "promptKo": "팀에 그 소식은 누가 전할 건가요?", "answer": 0, "options": [
+      {"text": "I suppose it falls to me.", "ko": "아무래도 제 몫이겠죠."},
+      {"text": "The news was on at nine.", "ko": "뉴스는 9시에 했어요."},
+      {"text": "It broke during shipping.", "ko": "배송 중에 깨졌어요."}]},
+    {"id": "c1-qr-10", "prompt": "This report could use another pair of eyes.", "promptKo": "이 보고서는 누가 한 번 더 봐 주면 좋겠어요.", "answer": 1, "options": [
+      {"text": "My eyes are tired.", "ko": "눈이 피곤해요."},
+      {"text": "I could take a look this afternoon.", "ko": "오늘 오후에 제가 볼 수 있어요."},
+      {"text": "It's a nice pair of glasses.", "ko": "멋진 안경이네요."}]}
+  ],
+  "sets": [
+    {"id": "c1-c-01", "type": "conversation", "titleKo": "공급업체 협상",
+     "lines": [
+      {"speaker": 0, "text": "So, where do we stand with the supplier negotiations?", "ko": "그래서 공급업체 협상은 어디까지 왔어요?"},
+      {"speaker": 1, "text": "They've agreed to the volume discount, but they're refusing to budge on delivery times.", "ko": "대량 할인은 동의했는데 납기는 꿈쩍도 안 해요."},
+      {"speaker": 0, "text": "Then we need a fallback. What if we split orders between them and the Busan supplier?", "ko": "그럼 대안이 필요하네요. 그쪽이랑 부산 업체에 주문을 나누면 어때요?"},
+      {"speaker": 1, "text": "It would cost more upfront, but it'd hedge against delays. I'll run the numbers.", "ko": "초기 비용은 더 들겠지만 지연 위험은 줄겠네요. 계산해 볼게요."},
+      {"speaker": 0, "text": "Do that, and let's revisit it on Friday before we commit.", "ko": "그렇게 해 주시고, 확정하기 전에 금요일에 다시 봐요."}],
+     "questions": [
+      {"q": "What has the supplier agreed to?", "qKo": "공급업체가 동의한 것은?", "answer": 1, "options": ["Faster delivery", "A volume discount", "A longer contract", "Free shipping"]},
+      {"q": "What does the woman propose?", "qKo": "여자의 제안은?", "answer": 3, "options": ["Ending the contract", "Paying for express delivery", "Delaying production", "Splitting orders between two suppliers"]},
+      {"q": "What is the drawback of the plan?", "qKo": "그 계획의 단점은?", "answer": 0, "options": ["A higher upfront cost", "Lower quality", "Legal risk", "Longer delivery times"]}]},
+    {"id": "c1-c-02", "type": "conversation", "titleKo": "연구 초안 검토",
+     "lines": [
+      {"speaker": 0, "text": "I read your draft. The findings are interesting, but the sample size seems awfully small to draw such firm conclusions.", "ko": "초안 읽었어요. 결과는 흥미롭지만 그렇게 단정적인 결론을 내리기엔 표본이 너무 작아 보여요."},
+      {"speaker": 1, "text": "That's fair. We only had sixty participants because the funding was cut midway.", "ko": "맞는 말이에요. 중간에 예산이 깎여서 참가자가 60명뿐이었어요."},
+      {"speaker": 0, "text": "Then I'd soften the language. Present it as a pilot study and propose a larger follow-up.", "ko": "그럼 표현을 누그러뜨리세요. 예비 연구로 제시하고 더 큰 후속 연구를 제안하는 거죠."},
+      {"speaker": 1, "text": "Good point. It might even strengthen our next grant application.", "ko": "좋은 지적이에요. 다음 연구비 신청에 오히려 도움이 될 수도 있겠네요."}],
+     "questions": [
+      {"q": "What concern does the woman raise?", "qKo": "여자가 제기한 우려는?", "answer": 1, "options": ["The data was falsified.", "The sample is too small.", "The draft is too long.", "The deadline has passed."]},
+      {"q": "Why were there few participants?", "qKo": "참가자가 적었던 이유는?", "answer": 0, "options": ["Funding was cut.", "The weather was bad.", "Participants dropped out.", "Ethics rules changed."]},
+      {"q": "What does the man think of the suggestion?", "qKo": "남자는 제안을 어떻게 생각하나요?", "answer": 2, "options": ["It's too late to change.", "It's unnecessary.", "It could help a future grant application.", "It will cost too much."]}]},
+    {"id": "c1-c-03", "type": "conversation", "titleKo": "팀 간 갈등",
+     "lines": [
+      {"speaker": 0, "text": "Can I be frank? The design team feels like they're being blamed for delays that started upstream.", "ko": "솔직하게 말해도 될까요? 디자인팀은 앞 단계에서 시작된 지연 때문에 비난받는다고 느껴요."},
+      {"speaker": 1, "text": "I wasn't aware it was coming across that way. The deadlines were set before the requirements changed.", "ko": "그렇게 비치는 줄 몰랐어요. 마감은 요구사항이 바뀌기 전에 정해졌거든요."},
+      {"speaker": 0, "text": "Exactly. Maybe a joint retrospective would clear the air?", "ko": "바로 그거예요. 합동 회고를 하면 분위기가 풀리지 않을까요?"},
+      {"speaker": 1, "text": "Agreed. Let's keep it blame-free and focus on the handoff process.", "ko": "동의해요. 누구 탓도 하지 말고 인수인계 과정에 집중하죠."}],
+     "questions": [
+      {"q": "How does the design team feel?", "qKo": "디자인팀은 어떻게 느끼나요?", "answer": 1, "options": ["Overworked", "Unfairly blamed", "Ignored by clients", "Underpaid"]},
+      {"q": "According to the man, why were there delays?", "qKo": "남자에 따르면 지연의 이유는?", "answer": 0, "options": ["Requirements changed after deadlines were set.", "There weren't enough staff.", "There were technical bugs.", "A client complained."]},
+      {"q": "What will they do next?", "qKo": "다음에 무엇을 할 건가요?", "answer": 3, "options": ["Hire more designers", "Change the deadline", "Replace the manager", "Hold a joint review meeting"]}]},
+    {"id": "c1-t-01", "type": "talk", "titleKo": "강연 도입부",
+     "lines": [
+      {"speaker": 0, "text": "Most of us assume that multitasking makes us more productive. The research, however, tells a rather different story.", "ko": "우리 대부분은 멀티태스킹이 생산성을 높인다고 생각합니다. 하지만 연구 결과는 꽤 다른 이야기를 합니다."},
+      {"speaker": 0, "text": "When we switch between tasks, we lose time re-orienting ourselves, and those small losses add up to as much as a third of our working day.", "ko": "일을 오갈 때마다 다시 집중하느라 시간을 잃고, 그 작은 손실이 쌓이면 근무 시간의 3분의 1에 이릅니다."},
+      {"speaker": 0, "text": "Today I'll argue that the most productive people aren't doing more at once. They're simply better at protecting their attention.", "ko": "오늘 저는 가장 생산적인 사람들이 한꺼번에 더 많이 하는 게 아니라 주의력을 더 잘 지킬 뿐이라고 말씀드리겠습니다."}],
+     "questions": [
+      {"q": "What is the main topic of the talk?", "qKo": "강연의 주제는?", "answer": 1, "options": ["Sleep habits", "The cost of multitasking", "Remote work", "Working across time zones"]},
+      {"q": "How much of the working day can be lost?", "qKo": "근무 시간 중 얼마나 잃을 수 있나요?", "answer": 2, "options": ["A tenth", "A quarter", "Up to a third", "Half"]},
+      {"q": "What will the speaker argue?", "qKo": "말하는 사람은 무엇을 주장할 건가요?", "answer": 0, "options": ["Productive people protect their attention.", "Multitasking can be learned.", "Breaks waste time.", "Technology saves time."]}]},
+    {"id": "c1-t-02", "type": "talk", "titleKo": "분기 실적 발표",
+     "lines": [
+      {"speaker": 0, "text": "Revenue for the third quarter came in slightly below forecast, largely because of weaker demand in Europe.", "ko": "3분기 매출은 주로 유럽 수요 부진으로 전망치를 약간 밑돌았습니다."},
+      {"speaker": 0, "text": "That said, our subscription business grew by eighteen percent, and customer retention is at a record high.", "ko": "그렇긴 해도 구독 사업은 18% 성장했고 고객 유지율은 사상 최고입니다."},
+      {"speaker": 0, "text": "Going forward, we'll be shifting marketing spend away from hardware and toward subscriptions.", "ko": "앞으로는 마케팅 비용을 하드웨어에서 구독 쪽으로 옮길 예정입니다."}],
+     "questions": [
+      {"q": "Why was revenue below forecast?", "qKo": "매출이 전망치를 밑돈 이유는?", "answer": 0, "options": ["Weaker demand in Europe", "Supply problems", "Price cuts", "A strike"]},
+      {"q": "What grew by eighteen percent?", "qKo": "18% 성장한 것은?", "answer": 3, "options": ["Hardware sales", "Marketing spend", "Employee numbers", "The subscription business"]},
+      {"q": "What will the company change?", "qKo": "회사는 무엇을 바꿀 건가요?", "answer": 1, "options": ["Close its European offices", "Move marketing spend toward subscriptions", "Raise subscription prices", "Hire more engineers"]}]},
+    {"id": "c1-t-03", "type": "talk", "titleKo": "다큐멘터리 내레이션",
+     "lines": [
+      {"speaker": 0, "text": "For centuries, the town's economy depended entirely on the river. Fishing, trade, even the local festivals revolved around it.", "ko": "수 세기 동안 이 마을의 경제는 전적으로 강에 의존했습니다. 어업, 교역, 심지어 지역 축제까지 강을 중심으로 돌아갔죠."},
+      {"speaker": 0, "text": "But when a dam was built upstream in the nineteen seventies, the fish disappeared almost overnight.", "ko": "하지만 1970년대 상류에 댐이 들어서자 물고기가 거의 하룻밤 사이에 사라졌습니다."},
+      {"speaker": 0, "text": "What followed was a slow, painful reinvention, one that would eventually turn this quiet fishing town into a center for renewable energy research.", "ko": "그 뒤로 느리고 고통스러운 변신이 이어졌고, 결국 이 조용한 어촌은 재생에너지 연구의 중심지가 되었습니다."}],
+     "questions": [
+      {"q": "What did the town's economy depend on?", "qKo": "마을 경제는 무엇에 의존했나요?", "answer": 2, "options": ["Mining", "Tourism", "The river", "Farming"]},
+      {"q": "What caused the fish to disappear?", "qKo": "물고기가 사라진 원인은?", "answer": 1, "options": ["A flood", "A dam upstream", "A new highway", "A factory fire"]},
+      {"q": "What is the town known for now?", "qKo": "지금 마을은 무엇으로 알려져 있나요?", "answer": 0, "options": ["Renewable energy research", "Fishing", "Its festivals", "Trade"]}]}
+  ]
+}

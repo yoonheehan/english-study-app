@@ -1,0 +1,104 @@
+{
+  "qr": [
+    {"id": "a1-qr-01", "prompt": "What's your name?", "promptKo": "이름이 뭐예요?", "answer": 1, "options": [
+      {"text": "I'm fine, thanks.", "ko": "잘 지내요, 고마워요."},
+      {"text": "My name is Leo.", "ko": "제 이름은 레오예요."},
+      {"text": "It's on the table.", "ko": "탁자 위에 있어요."}]},
+    {"id": "a1-qr-02", "prompt": "Where is the bathroom?", "promptKo": "화장실이 어디예요?", "answer": 0, "options": [
+      {"text": "It's down the hall.", "ko": "복도 끝에 있어요."},
+      {"text": "Yes, I'm hungry.", "ko": "네, 배고파요."},
+      {"text": "At nine o'clock.", "ko": "9시에요."}]},
+    {"id": "a1-qr-03", "prompt": "What time is it?", "promptKo": "몇 시예요?", "answer": 2, "options": [
+      {"text": "It's blue.", "ko": "파란색이에요."},
+      {"text": "On Monday.", "ko": "월요일에요."},
+      {"text": "It's half past two.", "ko": "2시 반이에요."}]},
+    {"id": "a1-qr-04", "prompt": "Do you like coffee?", "promptKo": "커피 좋아해요?", "answer": 0, "options": [
+      {"text": "Yes, I love it.", "ko": "네, 정말 좋아해요."},
+      {"text": "It's in the kitchen.", "ko": "부엌에 있어요."},
+      {"text": "No, it's Tuesday.", "ko": "아니요, 화요일이에요."}]},
+    {"id": "a1-qr-05", "prompt": "How much is this bag?", "promptKo": "이 가방 얼마예요?", "answer": 1, "options": [
+      {"text": "It's very big.", "ko": "아주 커요."},
+      {"text": "Twenty dollars.", "ko": "20달러요."},
+      {"text": "My bag is red.", "ko": "제 가방은 빨간색이에요."}]},
+    {"id": "a1-qr-06", "prompt": "Can you help me, please?", "promptKo": "좀 도와주실 수 있어요?", "answer": 2, "options": [
+      {"text": "Help yourself.", "ko": "마음껏 드세요."},
+      {"text": "I'm from Canada.", "ko": "캐나다에서 왔어요."},
+      {"text": "Sure, what do you need?", "ko": "물론이죠, 뭐가 필요하세요?"}]},
+    {"id": "a1-qr-07", "prompt": "Is this seat taken?", "promptKo": "이 자리 주인 있어요?", "answer": 1, "options": [
+      {"text": "I'll take the bus.", "ko": "버스를 탈게요."},
+      {"text": "No, go ahead.", "ko": "아니요, 앉으세요."},
+      {"text": "It's a nice seat.", "ko": "좋은 자리네요."}]},
+    {"id": "a1-qr-08", "prompt": "When is your birthday?", "promptKo": "생일이 언제예요?", "answer": 0, "options": [
+      {"text": "In May.", "ko": "5월이에요."},
+      {"text": "I'm twenty.", "ko": "스무 살이에요."},
+      {"text": "At the party.", "ko": "파티에서요."}]},
+    {"id": "a1-qr-09", "prompt": "Thank you for the gift!", "promptKo": "선물 고마워요!", "answer": 1, "options": [
+      {"text": "It's a gift shop.", "ko": "선물 가게예요."},
+      {"text": "You're welcome.", "ko": "천만에요."},
+      {"text": "Yes, I can.", "ko": "네, 할 수 있어요."}]},
+    {"id": "a1-qr-10", "prompt": "Who is that man?", "promptKo": "저 남자는 누구예요?", "answer": 0, "options": [
+      {"text": "He's my teacher.", "ko": "제 선생님이에요."},
+      {"text": "At the station.", "ko": "역에서요."},
+      {"text": "He's fine, thanks.", "ko": "그는 잘 지내요, 고마워요."}]}
+  ],
+  "sets": [
+    {"id": "a1-c-01", "type": "conversation", "titleKo": "카페에서 친구 만나기",
+     "lines": [
+      {"speaker": 0, "text": "Hi Sam! Sorry I'm late. The bus was slow.", "ko": "안녕 샘! 늦어서 미안해. 버스가 느렸어."},
+      {"speaker": 1, "text": "That's OK, Mia. I just got here.", "ko": "괜찮아, 미아. 나도 방금 왔어."},
+      {"speaker": 0, "text": "What do you want to drink? I can get it.", "ko": "뭐 마실래? 내가 가져올게."},
+      {"speaker": 1, "text": "An orange juice, please. I don't drink coffee.", "ko": "오렌지 주스 부탁해. 나는 커피를 안 마셔."}],
+     "questions": [
+      {"q": "Why is Mia late?", "qKo": "미아는 왜 늦었나요?", "answer": 0, "options": ["The bus was slow.", "She woke up late.", "She lost her phone.", "She was at work."]},
+      {"q": "What does Sam want?", "qKo": "샘은 무엇을 원하나요?", "answer": 2, "options": ["Coffee", "Tea", "Orange juice", "Water"]},
+      {"q": "Who will get the drink?", "qKo": "누가 음료를 가져오나요?", "answer": 1, "options": ["Sam", "Mia", "A waiter", "Sam's friend"]}]},
+    {"id": "a1-c-02", "type": "conversation", "titleKo": "신발 가게에서",
+     "lines": [
+      {"speaker": 0, "text": "Hello. Can I help you?", "ko": "안녕하세요. 도와드릴까요?"},
+      {"speaker": 1, "text": "Yes. Do you have these shoes in size eight?", "ko": "네. 이 신발 8 사이즈 있나요?"},
+      {"speaker": 0, "text": "Let me check. Yes, we have them in black and white.", "ko": "확인해 볼게요. 네, 검은색과 흰색이 있어요."},
+      {"speaker": 1, "text": "Black, please. How much are they?", "ko": "검은색으로 주세요. 얼마예요?"},
+      {"speaker": 0, "text": "They're forty-five dollars.", "ko": "45달러예요."}],
+     "questions": [
+      {"q": "Where are the speakers?", "qKo": "두 사람은 어디에 있나요?", "answer": 0, "options": ["At a shoe store", "At a hospital", "At a school", "At a bank"]},
+      {"q": "What color does the man choose?", "qKo": "남자는 어떤 색을 고르나요?", "answer": 2, "options": ["White", "Brown", "Black", "Blue"]},
+      {"q": "How much are the shoes?", "qKo": "신발은 얼마인가요?", "answer": 1, "options": ["$14", "$45", "$54", "$40"]}]},
+    {"id": "a1-c-03", "type": "conversation", "titleKo": "토요일 약속",
+     "lines": [
+      {"speaker": 0, "text": "Are you free on Saturday?", "ko": "토요일에 시간 있어?"},
+      {"speaker": 1, "text": "Not in the morning. I have a piano lesson. But I'm free in the afternoon.", "ko": "오전엔 안 돼. 피아노 수업이 있어. 그래도 오후엔 괜찮아."},
+      {"speaker": 0, "text": "Great. Let's go to the park at three.", "ko": "좋아. 3시에 공원에 가자."},
+      {"speaker": 1, "text": "OK. See you at the park gate.", "ko": "그래. 공원 입구에서 보자."}],
+     "questions": [
+      {"q": "What does the man do on Saturday morning?", "qKo": "남자는 토요일 오전에 무엇을 하나요?", "answer": 1, "options": ["He works.", "He has a piano lesson.", "He plays soccer.", "He sleeps."]},
+      {"q": "What time will they meet?", "qKo": "몇 시에 만나나요?", "answer": 3, "options": ["At two", "At ten", "At eight", "At three"]},
+      {"q": "Where will they meet?", "qKo": "어디에서 만나나요?", "answer": 0, "options": ["At the park gate", "At a café", "At school", "At the station"]}]},
+    {"id": "a1-t-01", "type": "talk", "titleKo": "학교 안내방송",
+     "lines": [
+      {"speaker": 0, "text": "Good morning, students. Today is Friday.", "ko": "학생 여러분, 좋은 아침입니다. 오늘은 금요일이에요."},
+      {"speaker": 0, "text": "There is no school lunch today. Please bring your own lunch.", "ko": "오늘은 급식이 없어요. 각자 점심을 가져오세요."},
+      {"speaker": 0, "text": "The library closes at three o'clock today. Have a nice weekend!", "ko": "도서관은 오늘 3시에 문을 닫아요. 좋은 주말 보내세요!"}],
+     "questions": [
+      {"q": "What day is it?", "qKo": "오늘은 무슨 요일인가요?", "answer": 2, "options": ["Monday", "Wednesday", "Friday", "Sunday"]},
+      {"q": "What should students bring?", "qKo": "학생들은 무엇을 가져와야 하나요?", "answer": 0, "options": ["Their lunch", "A book", "A pen", "Money"]},
+      {"q": "When does the library close?", "qKo": "도서관은 언제 닫나요?", "answer": 1, "options": ["At one", "At three", "At five", "At four"]}]},
+    {"id": "a1-t-02", "type": "talk", "titleKo": "오늘의 날씨",
+     "lines": [
+      {"speaker": 0, "text": "Here is the weather for today. It's sunny and warm in the morning.", "ko": "오늘의 날씨입니다. 오전에는 맑고 따뜻해요."},
+      {"speaker": 0, "text": "In the afternoon, it will rain. Take an umbrella with you.", "ko": "오후에는 비가 와요. 우산을 챙기세요."},
+      {"speaker": 0, "text": "Tomorrow will be cold and windy.", "ko": "내일은 춥고 바람이 불 거예요."}],
+     "questions": [
+      {"q": "How is the weather in the morning?", "qKo": "오전 날씨는 어떤가요?", "answer": 2, "options": ["Rainy", "Snowy", "Sunny and warm", "Cold"]},
+      {"q": "What should people take?", "qKo": "무엇을 챙겨야 하나요?", "answer": 1, "options": ["A coat", "An umbrella", "Sunglasses", "A hat"]},
+      {"q": "How will the weather be tomorrow?", "qKo": "내일 날씨는 어떨까요?", "answer": 3, "options": ["Hot and sunny", "Warm", "Rainy", "Cold and windy"]}]},
+    {"id": "a1-t-03", "type": "talk", "titleKo": "박물관 안내",
+     "lines": [
+      {"speaker": 0, "text": "Welcome to the City Museum. The museum is open from nine to five.", "ko": "시립 박물관에 오신 것을 환영합니다. 박물관은 9시부터 5시까지 엽니다."},
+      {"speaker": 0, "text": "The café is on the second floor.", "ko": "카페는 2층에 있습니다."},
+      {"speaker": 0, "text": "Please do not take photos in the art rooms. Thank you.", "ko": "미술 전시실에서는 사진을 찍지 마세요. 감사합니다."}],
+     "questions": [
+      {"q": "Where is the speaker?", "qKo": "말하는 사람은 어디에 있나요?", "answer": 0, "options": ["At a museum", "At a park", "At a hotel", "At a store"]},
+      {"q": "Where is the café?", "qKo": "카페는 어디에 있나요?", "answer": 1, "options": ["On the first floor", "On the second floor", "On the third floor", "Outside"]},
+      {"q": "What can't visitors do in the art rooms?", "qKo": "미술 전시실에서 할 수 없는 것은?", "answer": 2, "options": ["Talk", "Eat", "Take photos", "Sit down"]}]}
+  ]
+}

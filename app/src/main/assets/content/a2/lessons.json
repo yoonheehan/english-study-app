@@ -1,0 +1,110 @@
+[
+  {
+    "id": "a2-hotel",
+    "title": "Checking in",
+    "titleKo": "호텔 체크인",
+    "icon": "bed",
+    "settingKo": "호텔 프런트에서 체크인을 합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Good evening. Do you have a reservation?", "ko": "안녕하세요. 예약하셨나요?"},
+      {"speaker": 1, "text": "Yes, I booked a room for two nights under Lee.", "ko": "네, 이 씨 이름으로 2박 예약했어요."},
+      {"speaker": 0, "text": "Here it is. Could I see your passport, please?", "ko": "여기 있네요. 여권 좀 볼 수 있을까요?"},
+      {"speaker": 1, "text": "Of course. What time is breakfast?", "ko": "물론이죠. 아침 식사는 몇 시인가요?"},
+      {"speaker": 0, "text": "It's from seven to ten in the main restaurant.", "ko": "7시부터 10시까지 메인 레스토랑에서 드실 수 있어요."}
+    ],
+    "gist": {
+      "questionKo": "손님이 호텔 직원에게 물어본 것은?",
+      "options": ["체크아웃 시간", "아침 식사 시간", "수영장 위치"],
+      "answer": 1
+    },
+    "dictation": {"line": 1, "distractors": ["three", "paid", "days"]},
+    "shadow": [1, 3],
+    "phrases": [
+      {"en": "I booked a room for two nights.", "ko": "2박으로 방을 예약했어요."},
+      {"en": "What time is breakfast?", "ko": "아침 식사는 몇 시인가요?"}
+    ],
+    "response": {
+      "situationKo": "호텔 직원이 방에 문제가 없었는지 묻습니다. 에어컨이 고장 났다고 말해 보세요.",
+      "prompt": "How is your room? Is everything okay?",
+      "keywords": ["air conditioner", "air conditioning", "ac", "not working", "doesn't work", "broken", "problem"],
+      "answers": [
+        {"text": "Actually, the air conditioner isn't working.", "tone": "보통", "noteKo": "Actually로 시작하면 문제를 부드럽게 꺼낼 수 있어요."},
+        {"text": "It's nice, but the AC is broken. Could someone check it?", "tone": "보통", "noteKo": "요청까지 함께 말하는 문장이에요."},
+        {"text": "I'm sorry to bother you, but the air conditioning doesn't seem to work.", "tone": "정중", "noteKo": "doesn't seem to로 단정을 피했어요."},
+        {"text": "The air con's not working, I'm afraid.", "tone": "친근", "region": "영국식", "noteKo": "영국에서는 air con이라고 자주 말해요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-weekend",
+    "title": "Weekend plans",
+    "titleKo": "주말 계획 이야기",
+    "icon": "calendar",
+    "settingKo": "금요일 오후, 친구와 주말 계획을 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Do you have any plans for the weekend?", "ko": "주말에 무슨 계획 있어?"},
+      {"speaker": 1, "text": "Not really. I might just stay home and rest.", "ko": "별로. 그냥 집에서 쉴까 해."},
+      {"speaker": 0, "text": "Some of us are going hiking on Saturday. Want to come?", "ko": "우리 몇 명이 토요일에 등산 가는데. 같이 갈래?"},
+      {"speaker": 1, "text": "That sounds fun! What time are you leaving?", "ko": "재밌겠다! 몇 시에 출발해?"},
+      {"speaker": 0, "text": "Around eight. I can pick you up.", "ko": "8시쯤. 내가 데리러 갈 수 있어."}
+    ],
+    "gist": {
+      "questionKo": "두 사람은 토요일에 무엇을 할 가능성이 큰가요?",
+      "options": ["집에서 쉰다", "함께 등산을 간다", "영화를 본다"],
+      "answer": 1
+    },
+    "dictation": {"line": 3, "distractors": ["where", "going", "funny"]},
+    "shadow": [1, 3],
+    "phrases": [
+      {"en": "Do you have any plans for the weekend?", "ko": "주말에 무슨 계획 있어?"},
+      {"en": "That sounds fun!", "ko": "재밌겠다!"}
+    ],
+    "response": {
+      "situationKo": "친구가 저녁 식사에 초대합니다. 수락하거나 정중히 거절해 보세요.",
+      "prompt": "We're having dinner at my place on Friday. Can you make it?",
+      "keywords": ["i'd love", "sure", "sorry", "can't", "sounds great", "thanks", "what time", "i can"],
+      "answers": [
+        {"text": "Sure, I'd love to! What time should I come?", "tone": "친근", "noteKo": "수락하면서 시간까지 물어봤어요."},
+        {"text": "Sorry, I can't make it on Friday. Maybe next time?", "tone": "보통", "noteKo": "거절 뒤에 다음을 제안하면 부드러워요."},
+        {"text": "That's very kind of you, but I already have plans.", "tone": "정중", "noteKo": "감사를 먼저 표현하는 거절이에요."},
+        {"text": "Sounds great! Should I bring anything?", "tone": "친근", "noteKo": "초대받았을 때 자주 쓰는 질문이에요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-return",
+    "title": "Returning a shirt",
+    "titleKo": "옷 교환하기",
+    "icon": "bag",
+    "settingKo": "옷가게에 산 셔츠를 가져가 교환을 요청합니다.",
+    "lines": [
+      {"speaker": 1, "text": "Hi. I bought this shirt yesterday, but it's too small.", "ko": "안녕하세요. 어제 이 셔츠를 샀는데 너무 작아요."},
+      {"speaker": 0, "text": "No problem. Do you have your receipt?", "ko": "괜찮습니다. 영수증 있으세요?"},
+      {"speaker": 1, "text": "Yes, here you are. Can I exchange it for a large?", "ko": "네, 여기요. 라지로 교환할 수 있나요?"},
+      {"speaker": 0, "text": "Let me check. I'm sorry, we only have it in blue now.", "ko": "확인해 볼게요. 죄송하지만 지금은 파란색만 있어요."},
+      {"speaker": 1, "text": "Blue is fine. Thanks for your help.", "ko": "파란색도 괜찮아요. 도와주셔서 감사합니다."}
+    ],
+    "gist": {
+      "questionKo": "손님은 결국 어떻게 하기로 했나요?",
+      "options": ["환불받는다", "파란색 라지로 교환한다", "다른 가게로 간다"],
+      "answer": 1
+    },
+    "dictation": {"line": 2, "distractors": ["small", "return", "could"]},
+    "shadow": [0, 2],
+    "phrases": [
+      {"en": "It's too small.", "ko": "너무 작아요."},
+      {"en": "Can I exchange it for a large?", "ko": "라지로 교환할 수 있나요?"}
+    ],
+    "response": {
+      "situationKo": "온라인으로 산 물건이 망가진 채 왔습니다. 고객센터 직원에게 환불을 요청해 보세요.",
+      "prompt": "Thanks for calling. How can I help you today?",
+      "keywords": ["refund", "money back", "broken", "damaged", "return", "ordered", "bought"],
+      "answers": [
+        {"text": "Hi, the item I ordered arrived broken. Can I get a refund?", "tone": "보통", "noteKo": "문제와 원하는 것을 한 번에 말했어요."},
+        {"text": "I'd like to return this because it was damaged.", "tone": "정중", "noteKo": "damaged는 파손됐다는 뜻으로 자주 써요."},
+        {"text": "My order came broken. I want my money back.", "tone": "친근", "noteKo": "직접적이어서 상황에 따라 강하게 들릴 수 있어요."},
+        {"text": "I'm calling about a damaged item. What should I do?", "tone": "정중", "noteKo": "I'm calling about은 전화 첫 문장으로 좋아요."}
+      ]
+    }
+  }
+]

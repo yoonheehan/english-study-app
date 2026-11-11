@@ -1,0 +1,111 @@
+[
+  {
+    "id": "b1-flight",
+    "title": "My flight is delayed",
+    "titleKo": "항공편 지연 대처",
+    "icon": "plane",
+    "settingKo": "공항 카운터에서 지연된 항공편에 대해 묻습니다.",
+    "lines": [
+      {"speaker": 1, "text": "Excuse me, the screen says my flight to Chicago is delayed. Do you know why?", "ko": "실례합니다, 화면에 시카고행 항공편이 지연됐다고 나오는데요. 이유를 아시나요?"},
+      {"speaker": 0, "text": "It's because of bad weather. We expect it to leave in about three hours.", "ko": "악천후 때문입니다. 약 3시간 뒤 출발할 것으로 보고 있어요."},
+      {"speaker": 1, "text": "Three hours? I have a connecting flight, so I'm going to miss it.", "ko": "3시간이요? 연결편이 있어서 놓치겠네요."},
+      {"speaker": 0, "text": "I can put you on the next one and give you a meal voucher.", "ko": "다음 편으로 바꿔 드리고 식사 쿠폰도 드릴 수 있어요."},
+      {"speaker": 1, "text": "That would be great. Thanks for sorting this out.", "ko": "그럼 좋죠. 해결해 주셔서 감사합니다."}
+    ],
+    "gist": {
+      "questionKo": "직원이 제안한 해결책은?",
+      "options": ["표를 전액 환불한다", "호텔을 제공한다", "다음 연결편으로 바꾸고 식사 쿠폰을 준다"],
+      "answer": 2
+    },
+    "dictation": {"line": 3, "distractors": ["ticket", "last", "take"]},
+    "shadow": [2, 4],
+    "phrases": [
+      {"en": "I have a connecting flight.", "ko": "연결편이 있어요."},
+      {"en": "Thanks for sorting this out.", "ko": "해결해 주셔서 감사합니다."}
+    ],
+    "response": {
+      "situationKo": "항공사 직원이 수하물이 도착하지 않았다고 알려 줍니다. 어떻게 할지 물어보세요.",
+      "prompt": "I'm sorry, but it looks like your bag didn't arrive on this flight.",
+      "keywords": ["what should i do", "when", "bag", "suitcase", "deliver", "hotel", "will it", "how long"],
+      "answers": [
+        {"text": "Oh no. When do you think it will get here?", "tone": "보통", "noteKo": "언제 도착할지 묻는 가장 자연스러운 반응이에요."},
+        {"text": "Could you deliver it to my hotel when it arrives?", "tone": "정중", "noteKo": "구체적인 요청을 함께 해서 실용적이에요."},
+        {"text": "You're kidding. What am I supposed to do now?", "tone": "친근", "noteKo": "당황한 감정이 드러나는 표현이에요."},
+        {"text": "I see. Is there a form I need to fill out?", "tone": "정중", "noteKo": "침착하게 절차를 묻는 답변이에요."}
+      ]
+    }
+  },
+  {
+    "id": "b1-doctor",
+    "title": "At the doctor's",
+    "titleKo": "병원에서 증상 설명",
+    "icon": "health",
+    "settingKo": "의사에게 며칠째 이어지는 증상을 설명합니다.",
+    "lines": [
+      {"speaker": 0, "text": "So, what seems to be the problem today?", "ko": "오늘은 어디가 불편하신가요?"},
+      {"speaker": 1, "text": "I've had a sore throat and a bad cough for about four days.", "ko": "4일쯤 목이 아프고 기침이 심해요."},
+      {"speaker": 0, "text": "Have you had a fever or any trouble breathing?", "ko": "열이 있거나 숨쉬기 힘든 적이 있었나요?"},
+      {"speaker": 1, "text": "I had a slight fever last night, but I can breathe fine.", "ko": "어젯밤에 미열이 있었는데 숨은 잘 쉬어져요."},
+      {"speaker": 0, "text": "It sounds like a virus. Get plenty of rest and come back if it gets worse.", "ko": "바이러스인 것 같네요. 푹 쉬시고 심해지면 다시 오세요."}
+    ],
+    "gist": {
+      "questionKo": "의사의 조언은?",
+      "options": ["바로 큰 병원에 간다", "쉬면서 지켜보고 악화되면 다시 온다", "일주일간 항생제를 먹는다"],
+      "answer": 1
+    },
+    "dictation": {"line": 1, "distractors": ["headache", "week", "has"]},
+    "shadow": [1, 3],
+    "phrases": [
+      {"en": "I've had a sore throat for four days.", "ko": "4일째 목이 아파요."},
+      {"en": "Come back if it gets worse.", "ko": "심해지면 다시 오세요."}
+    ],
+    "response": {
+      "situationKo": "약사가 어떤 증상인지 묻습니다. 어제부터 머리가 아프다고 설명해 보세요.",
+      "prompt": "Hi, how can I help? What are your symptoms?",
+      "keywords": ["headache", "head hurts", "since yesterday", "i've had", "i have", "something for"],
+      "answers": [
+        {"text": "I've had a terrible headache since yesterday.", "tone": "보통", "noteKo": "since와 현재완료로 지속된 증상을 말해요."},
+        {"text": "My head's been killing me since yesterday. Do you have anything for that?", "tone": "친근", "noteKo": "killing me는 많이 아프다는 구어 표현이에요."},
+        {"text": "I have a headache that started yesterday. Could you recommend something?", "tone": "정중", "noteKo": "약 추천을 공손하게 요청해요."},
+        {"text": "I've got a splitting headache. Can I have some paracetamol?", "tone": "친근", "region": "영국·인도식", "noteKo": "미국에서는 paracetamol 대신 acetaminophen이나 Tylenol을 많이 써요."}
+      ]
+    }
+  },
+  {
+    "id": "b1-catchup",
+    "title": "Long time no see",
+    "titleKo": "오랜만에 만난 친구",
+    "icon": "chat",
+    "settingKo": "길에서 대학 친구를 우연히 다시 만났습니다.",
+    "lines": [
+      {"speaker": 0, "text": "Wait, is that you? I haven't seen you in years!", "ko": "잠깐, 너야? 몇 년 만이야!"},
+      {"speaker": 1, "text": "No way! How have you been? You look exactly the same.", "ko": "세상에! 어떻게 지냈어? 하나도 안 변했네."},
+      {"speaker": 0, "text": "Pretty good. I moved back last month after working abroad.", "ko": "잘 지냈어. 해외에서 일하다가 지난달에 돌아왔어."},
+      {"speaker": 1, "text": "We should definitely catch up. Are you free for lunch this week?", "ko": "꼭 만나서 얘기하자. 이번 주 점심 시간 돼?"},
+      {"speaker": 0, "text": "Sounds perfect. Let me get your new number.", "ko": "완전 좋아. 네 새 번호 좀 알려 줘."}
+    ],
+    "gist": {
+      "questionKo": "두 사람은 어떻게 하기로 했나요?",
+      "options": ["이번 주에 점심을 함께 먹는다", "지금 바로 커피를 마신다", "해외여행을 같이 간다"],
+      "answer": 0
+    },
+    "dictation": {"line": 3, "distractors": ["dinner", "must", "next"]},
+    "shadow": [1, 3],
+    "phrases": [
+      {"en": "How have you been?", "ko": "어떻게 지냈어?"},
+      {"en": "We should definitely catch up.", "ko": "꼭 만나서 얘기하자."}
+    ],
+    "response": {
+      "situationKo": "오랜만에 만난 친구가 안부를 묻습니다. 근황을 한두 문장으로 말해 보세요.",
+      "prompt": "Hi! Long time no see. How have you been?",
+      "keywords": ["been", "good", "busy", "great", "work", "how about you", "you", "ages"],
+      "answers": [
+        {"text": "It's been ages! I've been pretty busy with work, but I'm doing well. How about you?", "tone": "친근", "noteKo": "근황을 말하고 되묻는 완벽한 흐름이에요."},
+        {"text": "Good to see you! Not much has changed, to be honest.", "tone": "보통", "noteKo": "Not much로 특별한 일이 없다고 말해요."},
+        {"text": "I've been very well, thank you. It's lovely to see you again.", "tone": "정중", "noteKo": "오랜만에 뵙는 윗사람에게 어울려요."},
+        {"text": "Alright, mate? Can't complain. What have you been up to?", "tone": "친근", "region": "영국·호주식", "noteKo": "Can't complain은 그럭저럭 잘 지낸다는 뜻이에요."},
+        {"text": "Hey! I'm doing great. I just started a new job.", "tone": "친근", "noteKo": "구체적인 소식을 넣으면 대화가 이어져요."}
+      ]
+    }
+  }
+]

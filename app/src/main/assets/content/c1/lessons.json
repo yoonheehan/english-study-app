@@ -1,0 +1,112 @@
+[
+  {
+    "id": "c1-salary",
+    "title": "Negotiating an offer",
+    "titleKo": "연봉 협상하기",
+    "icon": "money",
+    "settingKo": "입사 제안을 받은 뒤 조건을 협상합니다.",
+    "lines": [
+      {"speaker": 0, "text": "We're delighted to offer you the role. Has the package we sent over met your expectations?", "ko": "이 자리를 제안하게 되어 기쁩니다. 보내 드린 조건이 기대에 맞으셨나요?"},
+      {"speaker": 1, "text": "I'm thrilled about the role itself, but the base salary is somewhat below what I had in mind.", "ko": "직무 자체는 정말 기쁘지만, 기본급이 생각했던 것보다 다소 낮습니다."},
+      {"speaker": 0, "text": "I see. Is there a particular figure you were hoping for, and what's that based on?", "ko": "그렇군요. 원하시는 금액이 있나요? 근거는 무엇인가요?"},
+      {"speaker": 1, "text": "Given the market rate and the scope of the team I'd be managing, I was aiming for around ten percent more.", "ko": "시장 수준과 제가 맡을 팀 규모를 고려해 10% 정도 더 생각하고 있었습니다."},
+      {"speaker": 0, "text": "There's limited room on base pay, but we may have some flexibility on the signing bonus.", "ko": "기본급은 여지가 적지만, 입사 보너스는 조정할 수 있을 것 같습니다."},
+      {"speaker": 1, "text": "That could work, provided we revisit the salary at my first performance review.", "ko": "첫 성과 평가 때 연봉을 다시 논의한다면 괜찮을 것 같습니다."}
+    ],
+    "gist": {
+      "questionKo": "회사가 조정할 수 있다고 한 항목은?",
+      "options": ["기본급", "입사 보너스", "근무 시간"],
+      "answer": 1
+    },
+    "dictation": {"line": 5, "distractors": ["unless", "reduce", "annual"]},
+    "shadow": [1, 5],
+    "phrases": [
+      {"en": "It's somewhat below what I had in mind.", "ko": "생각했던 것보다 다소 낮습니다."},
+      {"en": "That could work, provided we revisit it later.", "ko": "나중에 다시 논의한다면 괜찮을 것 같아요."}
+    ],
+    "response": {
+      "situationKo": "상대가 예산이 없어 인상은 불가능하다고 합니다. 관계를 해치지 않고 다른 조건을 끌어내 보세요.",
+      "prompt": "I'm afraid the budget simply doesn't allow for a higher salary this year.",
+      "keywords": ["understand", "flexibility", "alternative", "review", "bonus", "remote", "instead", "budget", "revisit", "appreciate"],
+      "answers": [
+        {"text": "I appreciate the constraints. Would there be any flexibility on remote days or additional leave instead?", "tone": "정중", "noteKo": "제약을 인정한 뒤 다른 조건으로 넘어가요."},
+        {"text": "Understood. Could we agree to revisit it in six months, tied to clear performance targets?", "tone": "정중", "noteKo": "조건부 합의를 제안하는 협상 표현이에요."},
+        {"text": "That's a shame, but I'm open to creative solutions. What else might be on the table?", "tone": "보통", "noteKo": "on the table은 논의 가능하다는 뜻이에요."},
+        {"text": "Fair enough. Is it the base that's fixed, or the overall package?", "tone": "친근", "noteKo": "제약의 범위를 정확히 확인하는 질문이에요."}
+      ]
+    }
+  },
+  {
+    "id": "c1-remote",
+    "title": "The remote work debate",
+    "titleKo": "재택근무 찬반 토론",
+    "icon": "forum",
+    "settingKo": "동료와 사무실 복귀 정책을 놓고 의견을 나눕니다.",
+    "lines": [
+      {"speaker": 0, "text": "I know it's unpopular, but I think the return to the office is long overdue.", "ko": "인기 없는 의견인 건 알지만, 사무실 복귀는 진작 했어야 한다고 봐요."},
+      {"speaker": 1, "text": "Really? The data I've seen suggests productivity hasn't suffered in the slightest.", "ko": "정말요? 제가 본 자료로는 생산성이 전혀 떨어지지 않았던데요."},
+      {"speaker": 0, "text": "Output perhaps, but junior staff are missing out on the informal mentoring you only get in person.", "ko": "산출량은 그럴지 몰라도, 신입들은 직접 만나야만 얻는 비공식 멘토링을 놓치고 있어요."},
+      {"speaker": 1, "text": "That's a fair point, though forcing everyone back seems like a blunt solution to a narrow problem.", "ko": "일리는 있지만, 전원 복귀는 좁은 문제에 대한 투박한 해결책 같아요."},
+      {"speaker": 0, "text": "So what would you propose instead, a couple of anchor days each week?", "ko": "그럼 대안이 뭔가요, 일주일에 며칠 정해진 출근일을 두는 건가요?"},
+      {"speaker": 1, "text": "Exactly, as long as those days are used for collaboration rather than sitting on video calls.", "ko": "바로 그거예요. 그날은 화상 회의 대신 협업에 쓴다는 조건으로요."}
+    ],
+    "gist": {
+      "questionKo": "두 번째 화자가 제안하는 절충안은?",
+      "options": ["완전 재택 유지", "전원 사무실 복귀", "협업 중심의 고정 출근일"],
+      "answer": 2
+    },
+    "dictation": {"line": 3, "distractors": ["wrong", "simple", "wide"]},
+    "shadow": [1, 3],
+    "phrases": [
+      {"en": "That's a fair point, though...", "ko": "일리는 있지만..."},
+      {"en": "It's long overdue.", "ko": "진작 했어야 했어요."}
+    ],
+    "response": {
+      "situationKo": "동료가 강한 의견을 말합니다. 일부 인정하되 반론을 제시해 보세요.",
+      "prompt": "Honestly, I think social media has done far more harm than good.",
+      "keywords": ["fair point", "i see", "agree", "however", "though", "but", "on the other hand", "depends", "argue"],
+      "answers": [
+        {"text": "That's a fair point, though I'd argue it's also given a voice to people who never had one.", "tone": "보통", "noteKo": "인정 후 반론을 펴는 대표적인 틀이에요."},
+        {"text": "I see where you're coming from, but doesn't it depend on how people use it?", "tone": "보통", "noteKo": "질문 형태라서 공격적으로 들리지 않아요."},
+        {"text": "I'm not entirely convinced. The harm is real, but so are the benefits for small businesses.", "tone": "정중", "noteKo": "not entirely convinced로 부드럽게 반대해요."},
+        {"text": "You might be right, but I reckon that's a bit of a sweeping statement.", "tone": "친근", "region": "영국·호주식", "noteKo": "I reckon은 영국과 호주에서 I think처럼 써요."}
+      ]
+    }
+  },
+  {
+    "id": "c1-feedback",
+    "title": "Giving hard feedback",
+    "titleKo": "어려운 피드백 전하기",
+    "icon": "feedback",
+    "settingKo": "일을 잘하지만 회의에서 남의 말을 자주 끊는 팀원과 면담합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Thanks for making time. First, the analysis you delivered last week was outstanding.", "ko": "시간 내 줘서 고마워요. 우선 지난주 분석 결과는 정말 훌륭했어요."},
+      {"speaker": 0, "text": "There is something I'd like to raise, though. In meetings, you tend to jump in before others have finished.", "ko": "그런데 말하고 싶은 게 있어요. 회의에서 다른 사람 말이 끝나기 전에 끼어드는 경향이 있어요."},
+      {"speaker": 1, "text": "Oh, I hadn't realized it was coming across that way. I'm usually just excited about the idea.", "ko": "아, 그렇게 보이는 줄 몰랐어요. 보통 아이디어에 신이 나서 그래요."},
+      {"speaker": 0, "text": "I believe that, and your energy is an asset. The trouble is quieter colleagues have started holding back.", "ko": "그렇겠죠, 그 열정은 장점이에요. 문제는 조용한 동료들이 말을 아끼기 시작했다는 거예요."},
+      {"speaker": 1, "text": "That's hard to hear, but I appreciate you telling me. I'll make a point of letting people finish.", "ko": "듣기 힘들지만 말해 줘서 고마워요. 사람들 말을 끝까지 듣도록 신경 쓸게요."}
+    ],
+    "gist": {
+      "questionKo": "피드백의 핵심 우려는 무엇인가요?",
+      "options": ["분석 품질이 떨어졌다", "끼어들기로 동료들이 말을 아끼게 됐다", "회의에 자주 늦는다"],
+      "answer": 1
+    },
+    "dictation": {"line": 4, "distractors": ["easy", "promise", "never"]},
+    "shadow": [2, 4],
+    "phrases": [
+      {"en": "There is something I'd like to raise.", "ko": "말씀드리고 싶은 게 있어요."},
+      {"en": "I hadn't realized it was coming across that way.", "ko": "그렇게 보이는 줄 몰랐어요."}
+    ],
+    "response": {
+      "situationKo": "동료가 마감을 또 놓치고 사과합니다. 비난하지 않으면서 문제를 분명히 말해 보세요.",
+      "prompt": "I'm really sorry I missed the deadline again. Things have been hectic.",
+      "keywords": ["understand", "appreciate", "but", "however", "impact", "affect", "deadline", "let me know", "how can", "pattern", "second time"],
+      "answers": [
+        {"text": "I appreciate the apology, but this is the second time, and it's affecting the whole team. What's getting in the way?", "tone": "보통", "noteKo": "사실과 영향을 말한 뒤 원인을 물어요."},
+        {"text": "I understand things are hectic. Going forward, could you flag it early if a date is at risk?", "tone": "정중", "noteKo": "앞으로의 행동을 구체적으로 요청해요."},
+        {"text": "Thanks for owning it. I do need to be able to rely on these dates, so how can I help you hit the next one?", "tone": "정중", "noteKo": "책임을 인정해 준 뒤 기대치를 분명히 해요."},
+        {"text": "No worries, but let's not make a habit of it, yeah?", "tone": "친근", "noteKo": "가볍게 말해도 경고의 뜻이 담겨요."}
+      ]
+    }
+  }
+]

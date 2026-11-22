@@ -1,0 +1,1242 @@
+[
+  {
+    "id": "f-no-cap",
+    "title": "No cap",
+    "titleKo": "[슬랭] 진짜야, 거짓말 아님",
+    "icon": "chat",
+    "settingKo": "젊은 동료가 쓰는 슬랭 'no cap'을 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "That was the best pizza I've ever had, no cap.", "ko": "그거 내 인생 최고의 피자였어, 진짜로."},
+      {"speaker": 1, "text": "Wait, what does 'no cap' mean? Like, no hat?", "ko": "잠깐, 'no cap'이 무슨 뜻이야? 모자 없다는 거야?"},
+      {"speaker": 0, "text": "Ha, no. 'Cap' means a lie, so 'no cap' means I'm being totally serious.", "ko": "하, 아니. 'cap'이 거짓말이라서 'no cap'은 완전 진심이라는 뜻이야."},
+      {"speaker": 1, "text": "Got it. So if I exaggerate, you'd say 'that's cap'?", "ko": "알겠다. 그럼 내가 과장하면 '그거 cap이네'라고 하는 거지?"}
+    ],
+    "gist": {"questionKo": "'no cap'의 뜻은?", "options": ["모자를 안 썼다", "진짜야, 거짓말 아님", "돈이 없다"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["hat", "joking", "truth"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "No cap.", "ko": "진짜야. (거짓말 아님)"},
+      {"en": "That's cap.", "ko": "그거 뻥이네."}
+    ],
+    "response": {
+      "situationKo": "친구가 믿기 힘든 말을 합니다. 슬랭을 섞어 반응해 보세요.",
+      "prompt": "I ran ten kilometers before breakfast this morning.",
+      "keywords": ["no cap", "that's cap", "for real", "seriously", "no way"],
+      "answers": [
+        {"text": "That's cap. You can't even run for the bus.", "tone": "친근", "noteKo": "친한 사이 장난스러운 의심이에요."},
+        {"text": "No way. For real?", "tone": "친근", "noteKo": "For real?은 '진짜?'예요."},
+        {"text": "Seriously? That's impressive, if it's true.", "tone": "보통", "noteKo": "슬랭 없이 의심을 표현해요."},
+        {"text": "Okay, no cap, I'm actually jealous.", "tone": "친근", "noteKo": "no cap을 내 진심에 써요."}
+      ]
+    }
+  },
+  {
+    "id": "f-giving",
+    "title": "It's giving",
+    "titleKo": "[슬랭] ~느낌이야",
+    "icon": "chat",
+    "settingKo": "친구가 옷 스타일을 평가하며 'it's giving'을 씁니다.",
+    "lines": [
+      {"speaker": 0, "text": "That jacket with those boots? It's giving nineties rock star.", "ko": "그 재킷에 그 부츠? 90년대 록스타 느낌이다."},
+      {"speaker": 1, "text": "Is that a compliment? I can never tell with you.", "ko": "그거 칭찬이야? 너는 도통 모르겠어."},
+      {"speaker": 0, "text": "It's a compliment! 'It's giving' just means it has that vibe.", "ko": "칭찬이야! 'It's giving'은 그 분위기가 난다는 뜻이야."},
+      {"speaker": 1, "text": "Okay, then I'm keeping it. Main character energy all day.", "ko": "좋아, 그럼 이걸로 할래. 오늘 하루 주인공 느낌으로."}
+    ],
+    "gist": {"questionKo": "'It's giving ~'의 뜻은?", "options": ["~을 선물한다", "~ 느낌이 난다", "~을 포기한다"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["insult", "style", "simply"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "It's giving nineties rock star.", "ko": "90년대 록스타 느낌이다."},
+      {"en": "Main character energy.", "ko": "주인공 같은 분위기."}
+    ],
+    "response": {
+      "situationKo": "친구의 새 스타일이나 방을 슬랭으로 칭찬해 보세요.",
+      "prompt": "What do you think of my new apartment?",
+      "keywords": ["it's giving", "vibe", "obsessed", "love", "energy"],
+      "answers": [
+        {"text": "It's giving cozy café vibes. I'm obsessed.", "tone": "친근", "noteKo": "obsessed는 '완전 반했어'예요."},
+        {"text": "Okay, the plants? Very main character energy.", "tone": "친근", "noteKo": "부분을 콕 집어 칭찬해요."},
+        {"text": "I love it. It really suits you.", "tone": "보통", "noteKo": "슬랭 없는 무난한 칭찬이에요."},
+        {"text": "It's giving Paris apartment on a budget, in the best way.", "tone": "친근", "noteKo": "in the best way로 칭찬임을 분명히 해요."}
+      ]
+    }
+  },
+  {
+    "id": "f-lowkey",
+    "title": "Lowkey, highkey",
+    "titleKo": "[슬랭] 은근히, 대놓고",
+    "icon": "chat",
+    "settingKo": "친구와 'lowkey', 'highkey'의 차이를 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "I'm lowkey nervous about the interview tomorrow.", "ko": "내일 면접 은근히 긴장돼."},
+      {"speaker": 1, "text": "Only lowkey? I'd be highkey panicking.", "ko": "은근히만? 나라면 대놓고 패닉일 거야."},
+      {"speaker": 0, "text": "Ha. Lowkey means a little, or secretly. Highkey means very, and openly.", "ko": "하. lowkey는 조금이나 은근히, highkey는 아주, 대놓고라는 뜻이야."},
+      {"speaker": 1, "text": "Well, I'm highkey sure you'll do great.", "ko": "음, 난 네가 잘할 거라고 대놓고 확신해."}
+    ],
+    "gist": {"questionKo": "'lowkey'의 뜻은?", "options": ["아주, 대놓고", "조금, 은근히", "낮은 목소리로"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["certain", "lowkey", "doubt"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "I'm lowkey nervous.", "ko": "은근히 긴장돼."},
+      {"en": "I'm highkey sure.", "ko": "대놓고 확신해."}
+    ],
+    "response": {
+      "situationKo": "lowkey나 highkey를 써서 자신의 감정을 말해 보세요.",
+      "prompt": "How do you feel about the trip next week?",
+      "keywords": ["lowkey", "highkey", "excited", "nervous", "can't wait"],
+      "answers": [
+        {"text": "Highkey excited. I've been packing for a week.", "tone": "친근", "noteKo": "대놓고 신난 상태예요."},
+        {"text": "Lowkey nervous about the flight, but mostly excited.", "tone": "친근", "noteKo": "은근한 걱정을 섞어요."},
+        {"text": "I'm really looking forward to it, honestly.", "tone": "보통", "noteKo": "슬랭 없는 버전이에요."},
+        {"text": "Lowkey can't wait. Highkey haven't booked a hotel.", "tone": "친근", "noteKo": "두 표현을 대조해 웃음을 줘요."}
+      ]
+    }
+  },
+  {
+    "id": "f-touch-grass",
+    "title": "Go touch grass",
+    "titleKo": "[슬랭] 밖에 좀 나가",
+    "icon": "chat",
+    "settingKo": "온라인 논쟁에 빠진 친구에게 'touch grass'라고 말합니다.",
+    "lines": [
+      {"speaker": 0, "text": "I've been arguing with a stranger online about pineapple on pizza for three hours.", "ko": "모르는 사람이랑 피자에 파인애플 문제로 세 시간째 온라인에서 싸우는 중이야."},
+      {"speaker": 1, "text": "Three hours? Bro, go touch grass.", "ko": "세 시간? 야, 밖에 좀 나가."},
+      {"speaker": 0, "text": "Fair. I know it means I need to log off and see the real world.", "ko": "인정. 로그아웃하고 현실 세계 좀 보라는 뜻인 거 알아."},
+      {"speaker": 1, "text": "Exactly. Come for a walk. The pizza debate will survive without you.", "ko": "바로 그거야. 산책 가자. 피자 논쟁은 너 없어도 살아남아."}
+    ],
+    "gist": {"questionKo": "'touch grass'의 뜻은?", "options": ["정원을 가꿔라", "온라인에서 벗어나 현실로 나가라", "잔디에 앉아라"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["run", "argument", "die"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "Go touch grass.", "ko": "밖에 좀 나가. (온라인에서 벗어나)"},
+      {"en": "Log off.", "ko": "로그아웃해. (그만해)"}
+    ],
+    "response": {
+      "situationKo": "게임이나 SNS에 너무 빠진 친구에게 장난스럽게 말해 보세요.",
+      "prompt": "I haven't left my room all weekend. New game came out.",
+      "keywords": ["touch grass", "log off", "come out", "fresh air", "sun"],
+      "answers": [
+        {"text": "Okay, time to touch grass. Coffee in twenty minutes?", "tone": "친근", "noteKo": "농담과 제안을 함께 해요."},
+        {"text": "Log off and come get some fresh air with me.", "tone": "친근", "noteKo": "log off를 '그만하고'로 써요."},
+        {"text": "Have you seen the sun this weekend? It misses you.", "tone": "친근", "noteKo": "의인화로 웃음을 줘요."},
+        {"text": "Maybe take a break and come for a walk later?", "tone": "보통", "noteKo": "부드러운 제안이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-the-ick",
+    "title": "I got the ick",
+    "titleKo": "[슬랭] 갑자기 정떨어짐",
+    "icon": "chat",
+    "settingKo": "데이트 상대에게 갑자기 정이 떨어진 이야기를 합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Everything was perfect until he clapped when the plane landed. I got the ick.", "ko": "다 완벽했는데 비행기 착륙할 때 박수 치더라. 갑자기 정떨어졌어."},
+      {"speaker": 1, "text": "The ick is so unfair. It's always something tiny.", "ko": "그 정떨어짐 진짜 불공평해. 항상 사소한 거잖아."},
+      {"speaker": 0, "text": "I know. He's lovely, but now I can't unsee it.", "ko": "알아. 좋은 사람인데 이제 그게 계속 보여."},
+      {"speaker": 1, "text": "Give it a week. Sometimes the ick wears off.", "ko": "일주일만 기다려 봐. 가끔 그 느낌이 사라지기도 해."}
+    ],
+    "gist": {"questionKo": "'the ick'이란?", "options": ["병에 걸림", "사소한 일로 갑자기 정떨어지는 느낌", "첫눈에 반함"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["horrible", "forget", "always"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "I got the ick.", "ko": "갑자기 정떨어졌어."},
+      {"en": "I can't unsee it.", "ko": "그게 계속 보여. (못 잊어)"}
+    ],
+    "response": {
+      "situationKo": "친구가 '정떨어진' 이유를 묻습니다. 사소한 이유를 재미있게 말해 보세요.",
+      "prompt": "So why didn't the second date happen?",
+      "keywords": ["the ick", "he", "she", "honestly", "tiny", "couldn't"],
+      "answers": [
+        {"text": "Honestly? She chewed with her mouth open. Instant ick.", "tone": "친근", "noteKo": "Instant ick은 순식간에 정떨어짐이에요."},
+        {"text": "He called his mum 'mother'. I know, it's tiny, but I got the ick.", "tone": "친근", "noteKo": "사소함을 스스로 인정해요."},
+        {"text": "We just didn't click, I think.", "tone": "보통", "noteKo": "click은 마음이 통하다예요."},
+        {"text": "He ran for a closing train door and missed. I couldn't recover.", "tone": "친근", "noteKo": "황당한 장면으로 웃음을 줘요."}
+      ]
+    }
+  },
+  {
+    "id": "f-rizz",
+    "title": "He's got rizz",
+    "titleKo": "[슬랭] 매력, 작업 능력",
+    "icon": "chat",
+    "settingKo": "모임에서 인기 많은 친구를 'rizz'로 표현합니다.",
+    "lines": [
+      {"speaker": 0, "text": "How did Jake get three phone numbers in one night?", "ko": "제이크는 어떻게 하룻밤에 번호를 세 개나 받았어?"},
+      {"speaker": 1, "text": "The man has rizz. He just talks to people like they're old friends.", "ko": "걔 매력이 있어. 사람들한테 오랜 친구처럼 말하잖아."},
+      {"speaker": 0, "text": "Rizz comes from 'charisma', right?", "ko": "rizz는 'charisma'에서 온 거지?"},
+      {"speaker": 1, "text": "Yep. And I have negative rizz, so I'm taking notes.", "ko": "응. 나는 마이너스 매력이라 메모하는 중이야."}
+    ],
+    "gist": {"questionKo": "'rizz'는 어디서 온 말인가요?", "options": ["rich", "charisma", "risk"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["strangers", "money", "shouts"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "He's got rizz.", "ko": "걔 매력 있어."},
+      {"en": "I'm taking notes.", "ko": "메모하는 중이야. (배우는 중)"}
+    ],
+    "response": {
+      "situationKo": "친구의 사교성이나 매력을 슬랭으로 칭찬하거나 놀려 보세요.",
+      "prompt": "Did you see how fast she made friends at the party?",
+      "keywords": ["rizz", "charisma", "natural", "unreal", "teach me"],
+      "answers": [
+        {"text": "Unreal. She's got serious rizz.", "tone": "친근", "noteKo": "serious rizz는 엄청난 매력이에요."},
+        {"text": "She's a natural. I need her to teach me.", "tone": "친근", "noteKo": "a natural은 타고난 사람이에요."},
+        {"text": "She has a lot of charisma. People just warm to her.", "tone": "보통", "noteKo": "warm to는 호감을 느끼다예요."},
+        {"text": "Meanwhile I spent twenty minutes talking to the dog.", "tone": "친근", "noteKo": "자학 개그로 대비해요."}
+      ]
+    }
+  },
+  {
+    "id": "f-vibe",
+    "title": "It's a vibe",
+    "titleKo": "[슬랭] 분위기 좋다",
+    "icon": "chat",
+    "settingKo": "새로 생긴 바를 친구와 평가합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Candles, old records, tiny plates of food. This place is a vibe.", "ko": "촛불, 옛날 레코드, 작은 접시 음식. 여기 분위기 좋다."},
+      {"speaker": 1, "text": "Agreed. Although the prices are also a vibe, and not a good one.", "ko": "동의. 근데 가격도 분위기 있다, 좋은 쪽은 아니고."},
+      {"speaker": 0, "text": "Ha. One drink, then we go somewhere cheaper?", "ko": "하. 한 잔만 하고 더 싼 데 갈까?"},
+      {"speaker": 1, "text": "Deal. We'll call it a vibe check.", "ko": "좋아. 분위기 점검이라고 치자."}
+    ],
+    "gist": {"questionKo": "두 사람의 계획은?", "options": ["여기서 저녁까지 먹는다", "한 잔만 하고 더 싼 곳으로 간다", "집에 간다"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["two", "expensive", "stay"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "This place is a vibe.", "ko": "여기 분위기 좋다."},
+      {"en": "A vibe check.", "ko": "분위기 점검."}
+    ],
+    "response": {
+      "situationKo": "처음 가 본 장소의 분위기를 캐주얼하게 평가해 보세요.",
+      "prompt": "So, what do you think of this café?",
+      "keywords": ["a vibe", "vibes", "cozy", "love", "honestly", "not"],
+      "answers": [
+        {"text": "Total vibe. I could work here all day.", "tone": "친근", "noteKo": "Total vibe는 완전 분위기 좋다는 뜻이에요."},
+        {"text": "Cozy vibes, but the music's a bit loud.", "tone": "친근", "noteKo": "장단점을 함께 말해요."},
+        {"text": "It's lovely. Very relaxing.", "tone": "보통", "noteKo": "무난한 표현이에요."},
+        {"text": "Honestly, not the vibe. Too many people on laptops.", "tone": "친근", "noteKo": "not the vibe는 별로라는 뜻이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-main-character",
+    "title": "Main character energy",
+    "titleKo": "[슬랭] 주인공처럼 살기",
+    "icon": "chat",
+    "settingKo": "혼자 여행 가는 친구를 응원합니다.",
+    "lines": [
+      {"speaker": 0, "text": "I'm going to Lisbon alone next month. No plans, just vibes.", "ko": "다음 달에 혼자 리스본 가. 계획 없이 그냥 분위기 따라서."},
+      {"speaker": 1, "text": "Love that. Very main character energy.", "ko": "좋다. 완전 주인공 같아."},
+      {"speaker": 0, "text": "That's the plan: sit in cafés, write in a notebook, pretend I'm in a film.", "ko": "그게 계획이야. 카페에 앉아서 공책에 쓰고 영화 속에 있는 척하기."},
+      {"speaker": 1, "text": "Just don't be the main character who misses her flight.", "ko": "비행기 놓치는 주인공만 되지 마."}
+    ],
+    "gist": {"questionKo": "'main character energy'의 뜻은?", "options": ["주연 배우가 된다", "자기 인생의 주인공처럼 사는 분위기", "에너지 음료"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["catches", "his", "train"]},
+    "shadow": [0,1],
+    "phrases": [
+      {"en": "No plans, just vibes.", "ko": "계획 없이 분위기 따라서."},
+      {"en": "Very main character energy.", "ko": "완전 주인공 같아."}
+    ],
+    "response": {
+      "situationKo": "친구의 대담한 계획을 슬랭으로 응원해 보세요.",
+      "prompt": "I quit my job to learn to surf in Bali for six months.",
+      "keywords": ["main character", "iconic", "love that", "living", "go for it"],
+      "answers": [
+        {"text": "Iconic. Main character energy, honestly.", "tone": "친근", "noteKo": "Iconic은 '전설적이다'는 칭찬이에요."},
+        {"text": "Love that for you. Send pictures.", "tone": "친근", "noteKo": "Love that for you는 '너한테 너무 잘됐다'예요."},
+        {"text": "Wow, that's brave. Go for it.", "tone": "보통", "noteKo": "무난한 응원이에요."},
+        {"text": "You're living the dream. I'm living the commute.", "tone": "친근", "noteKo": "대조로 부러움을 표현해요."}
+      ]
+    }
+  },
+  {
+    "id": "f-texting",
+    "title": "tbh, ngl, imo",
+    "titleKo": "[문자] 줄임말 해독",
+    "icon": "chat",
+    "settingKo": "외국인 친구의 문자 줄임말을 이해하지 못해 물어봅니다.",
+    "lines": [
+      {"speaker": 0, "text": "My friend texted 'ngl the movie was mid tbh'. What does that even mean?", "ko": "친구가 'ngl the movie was mid tbh'라고 보냈어. 이게 무슨 뜻이야?"},
+      {"speaker": 1, "text": "'Not gonna lie, the movie was average, to be honest.' Mid means mediocre.", "ko": "'거짓말 안 하고, 영화 그저 그랬어, 솔직히.' mid는 평범하다는 뜻이야."},
+      {"speaker": 0, "text": "And 'imo'? She uses it all the time.", "ko": "그럼 'imo'는? 걔 맨날 써."},
+      {"speaker": 1, "text": "In my opinion. And 'fr' means for real. You'll pick them up fast.", "ko": "내 생각엔. 그리고 'fr'은 진짜로. 금방 익숙해질 거야."}
+    ],
+    "gist": {"questionKo": "'mid'의 뜻은?", "options": ["중간 휴식", "그저 그런, 평범한", "자정"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["slowly", "opinions", "forever"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "Not gonna lie.", "ko": "거짓말 안 하고. (ngl)"},
+      {"en": "It was mid.", "ko": "그저 그랬어."}
+    ],
+    "response": {
+      "situationKo": "친구에게 줄임말을 섞어 짧게 문자로 답해 보세요.",
+      "prompt": "Text: did u like the new album??",
+      "keywords": ["tbh", "ngl", "imo", "fr", "mid", "lowkey"],
+      "answers": [
+        {"text": "ngl it's fire. song 3 fr", "tone": "친근", "noteKo": "fire는 끝내준다는 뜻이에요."},
+        {"text": "tbh kinda mid imo", "tone": "친근", "noteKo": "줄임말 세 개를 이어 썼어요."},
+        {"text": "lowkey obsessed, been on repeat all day", "tone": "친근", "noteKo": "on repeat는 반복 재생 중이에요."},
+        {"text": "Honestly, it's pretty good. The second half is better.", "tone": "보통", "noteKo": "줄임말 없는 버전이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-just-k",
+    "title": "Why did you just say 'k'?",
+    "titleKo": "[문자] 'ㅇ' 한 글자의 무게",
+    "icon": "chat",
+    "settingKo": "문자로 'k.' 한 글자만 받고 친구가 화났는지 걱정합니다.",
+    "lines": [
+      {"speaker": 0, "text": "I told her I'd be late, and she replied 'k.' with a full stop. Is she angry?", "ko": "늦는다고 했더니 마침표 찍은 'k.'로 답했어. 화난 거야?"},
+      {"speaker": 1, "text": "A single 'k' with a full stop is definitely passive-aggressive.", "ko": "마침표 찍은 'k' 한 글자는 확실히 돌려서 화난 거야."},
+      {"speaker": 0, "text": "Ugh. What if she'd sent 'okay!' instead?", "ko": "으. 대신 'okay!'라고 보냈다면?"},
+      {"speaker": 1, "text": "Then you'd be totally fine. Punctuation is basically tone of voice in texts.", "ko": "그럼 완전 괜찮은 거지. 문자에선 문장 부호가 사실상 목소리 톤이야."}
+    ],
+    "gist": {"questionKo": "문자에서 'k.'는 어떤 느낌인가요?", "options": ["매우 기쁨", "돌려서 화난 느낌", "졸림"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["grammar", "never", "emoji"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "That's passive-aggressive.", "ko": "돌려서 화내는 거야."},
+      {"en": "Punctuation is tone of voice in texts.", "ko": "문자에선 문장 부호가 목소리 톤이야."}
+    ],
+    "response": {
+      "situationKo": "약속에 늦는 친구에게 화나지 않았음을 문자로 확실히 보여 주세요.",
+      "prompt": "Text: so sorry, running 20 min late!!",
+      "keywords": ["no worries", "all good", "take your time", "haha", "!"],
+      "answers": [
+        {"text": "No worries!! I'll grab us a table 😊", "tone": "친근", "noteKo": "느낌표와 이모지로 따뜻함을 보여요."},
+        {"text": "All good, take your time!", "tone": "친근", "noteKo": "All good은 '괜찮아'예요."},
+        {"text": "haha no stress, I'm still on the bus too", "tone": "친근", "noteKo": "haha로 부드럽게 해요."},
+        {"text": "That's absolutely fine. See you soon.", "tone": "보통", "noteKo": "정중한 버전이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-emoji",
+    "title": "What does that emoji mean?",
+    "titleKo": "[문자] 이모지의 숨은 뜻",
+    "icon": "chat",
+    "settingKo": "같은 이모지도 세대마다 다르게 읽힌다는 걸 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "My manager replied to my long email with just a thumbs-up. Is that rude?", "ko": "팀장님이 내 긴 메일에 엄지 이모지 하나로 답했어. 무례한 거야?"},
+      {"speaker": 1, "text": "To older people it just means 'got it'. To younger people it can feel cold.", "ko": "윗세대에겐 그냥 '알겠다'는 뜻이야. 젊은 세대에겐 차갑게 느껴질 수 있고."},
+      {"speaker": 0, "text": "And the skull emoji? My little sister sends it after every joke.", "ko": "그럼 해골 이모지는? 여동생이 농담할 때마다 보내."},
+      {"speaker": 1, "text": "That means 'I'm dead', as in laughing so hard. It's a compliment, weirdly.", "ko": "'죽겠다', 너무 웃겨서 죽겠다는 뜻이야. 이상하게도 칭찬이야."}
+    ],
+    "gist": {"questionKo": "해골 이모지의 뜻은?", "options": ["화났다", "너무 웃겨 죽겠다", "아프다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["crying", "insult", "alive"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "It just means 'got it'.", "ko": "그냥 '알겠다'는 뜻이야."},
+      {"en": "I'm dead.", "ko": "웃겨 죽겠다."}
+    ],
+    "response": {
+      "situationKo": "친구가 보낸 웃긴 영상에 슬랭으로 반응해 보세요.",
+      "prompt": "Text: [sends a video of a cat falling off a sofa]",
+      "keywords": ["i'm dead", "i can't", "crying", "lmao", "stop"],
+      "answers": [
+        {"text": "I'm dead 💀💀", "tone": "친근", "noteKo": "가장 흔한 반응이에요."},
+        {"text": "I can't 😭 the way it looked around after", "tone": "친근", "noteKo": "the way ~로 웃긴 포인트를 짚어요."},
+        {"text": "Stop, I'm crying at work", "tone": "친근", "noteKo": "과장된 반응이에요."},
+        {"text": "Haha, that's hilarious. Poor cat.", "tone": "보통", "noteKo": "슬랭 없는 버전이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-spill-tea",
+    "title": "Spill the tea",
+    "titleKo": "[관용구] 썰 풀어 봐",
+    "icon": "chat",
+    "settingKo": "친구에게 회사 소문을 털어놓으라고 조릅니다.",
+    "lines": [
+      {"speaker": 0, "text": "Okay, you've been smiling at your phone all day. Spill the tea.", "ko": "좋아, 하루 종일 폰 보면서 웃고 있잖아. 썰 풀어 봐."},
+      {"speaker": 1, "text": "Fine. Remember the guy from the coffee shop? He finally asked me out.", "ko": "알았어. 카페 그 남자 기억나? 드디어 데이트 신청했어."},
+      {"speaker": 0, "text": "No way! I need every detail. Start from the beginning.", "ko": "말도 안 돼! 하나도 빠짐없이 다 말해. 처음부터."},
+      {"speaker": 1, "text": "There's not much tea yet. We're getting dinner on Friday.", "ko": "아직 썰이 많진 않아. 금요일에 저녁 먹기로 했어."}
+    ],
+    "gist": {"questionKo": "'spill the tea'의 뜻은?", "options": ["차를 엎질러라", "소식이나 소문을 털어놔라", "차 마시러 가자"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["lunch", "Saturday", "drama"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "Spill the tea.", "ko": "썰 풀어 봐."},
+      {"en": "I need every detail.", "ko": "하나도 빠짐없이 말해."}
+    ],
+    "response": {
+      "situationKo": "친구가 비밀이 있는 것 같아요. 털어놓으라고 장난스럽게 말해 보세요.",
+      "prompt": "Nothing's going on, why do you ask?",
+      "keywords": ["spill", "the tea", "come on", "i know", "what's going on", "details"],
+      "answers": [
+        {"text": "Come on, spill. I know that face.", "tone": "친근", "noteKo": "spill만으로도 써요."},
+        {"text": "Nothing? You've checked your phone ten times. Spill the tea.", "tone": "친근", "noteKo": "근거를 대며 조르기예요."},
+        {"text": "Okay, but I want details later.", "tone": "친근", "noteKo": "일단 물러나는 버전이에요."},
+        {"text": "You seem really happy. Is there some good news?", "tone": "보통", "noteKo": "부드럽게 묻는 버전이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-break-leg",
+    "title": "Break a leg!",
+    "titleKo": "[관용구] 행운을 빌어",
+    "icon": "feedback",
+    "settingKo": "공연을 앞둔 친구에게 행운을 빕니다.",
+    "lines": [
+      {"speaker": 0, "text": "My first stand-up comedy show is tonight. I'm terrified.", "ko": "오늘 밤 첫 스탠드업 코미디 공연이야. 너무 무서워."},
+      {"speaker": 1, "text": "You'll be great. Break a leg!", "ko": "잘할 거야. 다리 부러지세요! (행운을 빌어!)"},
+      {"speaker": 0, "text": "I know it means good luck, but it still sounds threatening.", "ko": "행운을 빈다는 뜻인 건 아는데 그래도 협박처럼 들려."},
+      {"speaker": 1, "text": "Actors think saying 'good luck' directly brings bad luck. Theater people are superstitious.", "ko": "배우들은 '행운을 빌어'라고 직접 말하면 불운이 온다고 생각해. 연극 하는 사람들은 미신을 믿거든."}
+    ],
+    "gist": {"questionKo": "'break a leg'를 쓰는 이유는?", "options": ["다치길 바라서", "'행운을 빌어'라고 직접 말하면 불운하다는 미신 때문", "춤을 추라는 뜻"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["dancers", "lucky", "happy"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "Break a leg!", "ko": "행운을 빌어! (공연 전 인사)"},
+      {"en": "It still sounds threatening.", "ko": "그래도 협박처럼 들려."}
+    ],
+    "response": {
+      "situationKo": "중요한 일을 앞둔 친구에게 자연스럽게 응원해 보세요.",
+      "prompt": "My big presentation is in an hour.",
+      "keywords": ["break a leg", "you've got this", "knock 'em dead", "good luck", "crush it"],
+      "answers": [
+        {"text": "You've got this. Break a leg!", "tone": "친근", "noteKo": "You've got this는 '넌 할 수 있어'예요."},
+        {"text": "Go crush it! Text me after.", "tone": "친근", "noteKo": "crush it은 '끝내주게 해내'예요."},
+        {"text": "Knock 'em dead. You've practiced so much.", "tone": "친근", "noteKo": "Knock 'em dead는 '사로잡아 버려'예요."},
+        {"text": "Good luck! I'm sure it'll go really well.", "tone": "보통", "noteKo": "무난한 응원이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-bite-bullet",
+    "title": "Bite the bullet",
+    "titleKo": "[관용구] 이를 악물고 하기",
+    "icon": "chat",
+    "settingKo": "미루던 치과 예약을 하라고 친구가 떠밉니다.",
+    "lines": [
+      {"speaker": 0, "text": "My tooth has been hurting for weeks, but I hate the dentist.", "ko": "몇 주째 이가 아픈데 치과가 너무 싫어."},
+      {"speaker": 1, "text": "You've got to bite the bullet. It'll only get worse.", "ko": "이 악물고 가야 해. 더 나빠지기만 할 거야."},
+      {"speaker": 0, "text": "I know, I know. I've been putting it off since March.", "ko": "알아, 알아. 3월부터 계속 미뤘어."},
+      {"speaker": 1, "text": "Call them right now while I'm here. No excuses.", "ko": "나 있을 때 지금 당장 전화해. 핑계 없어."}
+    ],
+    "gist": {"questionKo": "'bite the bullet'의 뜻은?", "options": ["총알을 씹다", "싫지만 피할 수 없는 일을 참고 하다", "포기하다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["later", "tomorrow", "email"]},
+    "shadow": [1,2],
+    "phrases": [
+      {"en": "Bite the bullet.", "ko": "이 악물고 해."},
+      {"en": "I've been putting it off.", "ko": "계속 미뤄 왔어."}
+    ],
+    "response": {
+      "situationKo": "미뤄 온 일을 해야 하는 상황을 관용구로 말해 보세요.",
+      "prompt": "Have you told your landlord about the broken window yet?",
+      "keywords": ["bite the bullet", "putting it off", "i'll", "today", "dreading"],
+      "answers": [
+        {"text": "Not yet. I've been putting it off, but I'll bite the bullet today.", "tone": "친근", "noteKo": "두 표현을 함께 써요."},
+        {"text": "I'm dreading it, honestly. He's going to blame me.", "tone": "친근", "noteKo": "dreading은 몹시 두려워하다예요."},
+        {"text": "No, but I'll call him this afternoon.", "tone": "보통", "noteKo": "간단한 다짐이에요."},
+        {"text": "Okay, okay, biting the bullet right now. Wish me luck.", "tone": "친근", "noteKo": "현재진행형으로 생생하게 말해요."}
+      ]
+    }
+  },
+  {
+    "id": "f-under-weather",
+    "title": "Feeling under the weather",
+    "titleKo": "[관용구] 몸이 좀 안 좋아",
+    "icon": "health",
+    "settingKo": "몸이 안 좋다며 약속을 미룹니다.",
+    "lines": [
+      {"speaker": 0, "text": "Still on for drinks tonight?", "ko": "오늘 밤 한잔 여전히 유효해?"},
+      {"speaker": 1, "text": "I'm feeling a bit under the weather, actually. Can we do next week?", "ko": "사실 몸이 좀 안 좋아. 다음 주에 할까?"},
+      {"speaker": 0, "text": "Of course. Rest up and drink lots of water.", "ko": "당연하지. 푹 쉬고 물 많이 마셔."},
+      {"speaker": 1, "text": "Thanks. I'll be right as rain by Friday, I promise.", "ko": "고마워. 금요일엔 멀쩡해질 거야, 약속해."}
+    ],
+    "gist": {"questionKo": "'under the weather'의 뜻은?", "options": ["비를 맞았다", "몸이 좀 안 좋다", "날씨가 나쁘다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["Monday", "sick", "maybe"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "I'm feeling a bit under the weather.", "ko": "몸이 좀 안 좋아."},
+      {"en": "I'll be right as rain.", "ko": "곧 멀쩡해질 거야."}
+    ],
+    "response": {
+      "situationKo": "몸이 안 좋아 약속을 취소하는 메시지를 자연스럽게 말해 보세요.",
+      "prompt": "Are you coming to the barbecue tomorrow?",
+      "keywords": ["under the weather", "rain check", "not feeling great", "sorry", "next time"],
+      "answers": [
+        {"text": "I'm a bit under the weather, so I'll have to take a rain check. Sorry!", "tone": "친근", "noteKo": "rain check는 다음 기회예요."},
+        {"text": "Not feeling great, unfortunately. Save me a burger next time?", "tone": "친근", "noteKo": "가벼운 농담을 덧붙여요."},
+        {"text": "I'm sorry, I'm unwell and won't be able to make it.", "tone": "정중", "noteKo": "정중한 버전이에요."},
+        {"text": "Ugh, coming down with something. Have fun without me!", "tone": "친근", "noteKo": "coming down with는 병이 오는 중이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-cup-of-tea",
+    "title": "Not my cup of tea",
+    "titleKo": "[관용구] 내 취향 아니야",
+    "icon": "chat",
+    "settingKo": "친구가 추천한 공연이 취향이 아니라고 부드럽게 말합니다.",
+    "lines": [
+      {"speaker": 0, "text": "So did you like the jazz concert I took you to?", "ko": "내가 데려간 재즈 공연 좋았어?"},
+      {"speaker": 1, "text": "Honestly, jazz isn't really my cup of tea, but the venue was beautiful.", "ko": "솔직히 재즈는 내 취향은 아닌데 공연장은 예뻤어."},
+      {"speaker": 0, "text": "Fair enough. What is your cup of tea, then?", "ko": "그럴 수 있지. 그럼 네 취향은 뭐야?"},
+      {"speaker": 1, "text": "Loud rock shows where you can't hear yourself think.", "ko": "내 생각도 안 들릴 만큼 시끄러운 록 공연."}
+    ],
+    "gist": {"questionKo": "두 번째 사람의 취향은?", "options": ["재즈", "시끄러운 록 공연", "클래식"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["quiet", "listen", "classical"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "It's not really my cup of tea.", "ko": "내 취향은 아니야."},
+      {"en": "Fair enough.", "ko": "그럴 수 있지."}
+    ],
+    "response": {
+      "situationKo": "친구가 권한 것이 취향이 아니라고 기분 상하지 않게 말해 보세요.",
+      "prompt": "Want to come to my yoga retreat this weekend?",
+      "keywords": ["not my cup of tea", "not really my thing", "but", "thanks", "have fun"],
+      "answers": [
+        {"text": "Thanks, but yoga's not really my cup of tea. Have an amazing time though!", "tone": "친근", "noteKo": "거절 후 응원을 붙여요."},
+        {"text": "It's not really my thing, but I'd be up for brunch after.", "tone": "친근", "noteKo": "대안을 제안해요."},
+        {"text": "I appreciate the invite, but I'll pass this time.", "tone": "정중", "noteKo": "pass는 사양하다예요."},
+        {"text": "Me, sitting still for two days? Not my cup of tea, sadly.", "tone": "친근", "noteKo": "자기 농담으로 거절해요."}
+      ]
+    }
+  },
+  {
+    "id": "f-on-fence",
+    "title": "On the fence",
+    "titleKo": "[관용구] 아직 결정 못 했어",
+    "icon": "chat",
+    "settingKo": "새 휴대폰을 살지 고민하는 친구와 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Are you getting the new phone or not?", "ko": "새 폰 살 거야 말 거야?"},
+      {"speaker": 1, "text": "I'm still on the fence. Mine works fine, but the camera on the new one is amazing.", "ko": "아직 고민 중이야. 내 거 잘 되는데 새 거 카메라가 대박이야."},
+      {"speaker": 0, "text": "Sleep on it. If you still want it next week, go for it.", "ko": "하룻밤 생각해 봐. 다음 주에도 갖고 싶으면 사."},
+      {"speaker": 1, "text": "Good call. Impulse buys always come back to bite me.", "ko": "좋은 생각이야. 충동구매는 늘 나중에 후회하게 돼."}
+    ],
+    "gist": {"questionKo": "'on the fence'의 뜻은?", "options": ["울타리 위에 있다", "결정을 못 하고 고민 중", "확실히 결정했다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["never", "planned", "help"]},
+    "shadow": [1,2],
+    "phrases": [
+      {"en": "I'm still on the fence.", "ko": "아직 고민 중이야."},
+      {"en": "It'll come back to bite me.", "ko": "나중에 후회하게 될 거야."}
+    ],
+    "response": {
+      "situationKo": "아직 결정하지 못한 일에 대해 관용구로 말해 보세요.",
+      "prompt": "So, are you moving to the new apartment?",
+      "keywords": ["on the fence", "torn", "sleep on it", "can't decide", "pros and cons"],
+      "answers": [
+        {"text": "I'm still on the fence. It's bigger, but it's further from work.", "tone": "친근", "noteKo": "장단점을 함께 말해요."},
+        {"text": "Honestly, I'm torn. I'll sleep on it.", "tone": "친근", "noteKo": "torn은 마음이 갈렸다는 뜻이에요."},
+        {"text": "I haven't decided yet. I'm weighing the pros and cons.", "tone": "보통", "noteKo": "weigh는 따져 보다예요."},
+        {"text": "Ask me tomorrow. Today's answer is maybe.", "tone": "친근", "noteKo": "유머로 미결정을 표현해요."}
+      ]
+    }
+  },
+  {
+    "id": "f-ball-court",
+    "title": "The ball's in your court",
+    "titleKo": "[관용구] 이제 네 차례야",
+    "icon": "chat",
+    "settingKo": "연락을 기다리는 친구에게 조언합니다.",
+    "lines": [
+      {"speaker": 0, "text": "I sent him a long apology. Should I text again?", "ko": "그 사람한테 긴 사과 문자를 보냈어. 또 보낼까?"},
+      {"speaker": 1, "text": "No. You've done your part. The ball's in his court now.", "ko": "아니. 네 할 일은 했어. 이제 그 사람 차례야."},
+      {"speaker": 0, "text": "Waiting is the worst part, though.", "ko": "그래도 기다리는 게 제일 힘들어."},
+      {"speaker": 1, "text": "I know. Distract yourself. Let's go see a film.", "ko": "알아. 딴 데 정신 팔자. 영화 보러 가자."}
+    ],
+    "gist": {"questionKo": "'the ball's in his court'의 뜻은?", "options": ["그가 테니스를 친다", "이제 그가 행동할 차례다", "그가 이겼다"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["her", "game", "lost"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "The ball's in his court.", "ko": "이제 그 사람 차례야."},
+      {"en": "You've done your part.", "ko": "네 할 일은 했어."}
+    ],
+    "response": {
+      "situationKo": "협상이나 관계에서 이제 상대가 답할 차례라고 말해 보세요.",
+      "prompt": "Should I lower my price again for the client?",
+      "keywords": ["the ball's in their court", "you've made", "wait", "don't", "your offer"],
+      "answers": [
+        {"text": "No, you've made a fair offer. The ball's in their court now.", "tone": "보통", "noteKo": "상대 차례임을 분명히 해요."},
+        {"text": "Don't. Let them come back to you first.", "tone": "친근", "noteKo": "come back to는 다시 연락하다예요."},
+        {"text": "I'd wait. Lowering it twice makes you look desperate.", "tone": "보통", "noteKo": "이유를 덧붙여요."},
+        {"text": "Hold your nerve. It's their move.", "tone": "친근", "noteKo": "hold your nerve는 흔들리지 말라는 뜻이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-hit-sack",
+    "title": "Time to hit the sack",
+    "titleKo": "[관용구] 이제 자러 갈래",
+    "icon": "home",
+    "settingKo": "밤늦게 영상 통화를 마무리합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Is it really one a.m.? I have to be up at six.", "ko": "진짜 새벽 1시야? 6시에 일어나야 하는데."},
+      {"speaker": 1, "text": "Same. I'm going to hit the sack.", "ko": "나도. 이제 자러 갈래."},
+      {"speaker": 0, "text": "Me too. I'm absolutely knackered.", "ko": "나도. 완전 녹초야."},
+      {"speaker": 1, "text": "Night! Talk tomorrow, and don't scroll in bed.", "ko": "잘 자! 내일 얘기하고, 침대에서 폰 하지 마."}
+    ],
+    "gist": {"questionKo": "'hit the sack'의 뜻은?", "options": ["자루를 치다", "자러 가다", "운동하러 가다"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["awake", "hungry", "slightly"]},
+    "shadow": [1,2],
+    "phrases": [
+      {"en": "I'm going to hit the sack.", "ko": "이제 자러 갈래."},
+      {"en": "I'm absolutely knackered.", "ko": "완전 녹초야. (영국식)"}
+    ],
+    "response": {
+      "situationKo": "늦은 시간 대화를 자연스럽게 끝내는 말을 해 보세요.",
+      "prompt": "One more episode?",
+      "keywords": ["hit the sack", "call it a night", "knackered", "exhausted", "tomorrow"],
+      "answers": [
+        {"text": "Nope, I'm calling it a night. I'm exhausted.", "tone": "친근", "noteKo": "call it a night은 오늘은 여기까지라는 뜻이에요."},
+        {"text": "Tempting, but I need to hit the sack.", "tone": "친근", "noteKo": "Tempting으로 아쉬움을 표현해요."},
+        {"text": "I'm knackered. Same time tomorrow?", "tone": "친근", "noteKo": "영국식 표현과 제안이에요."},
+        {"text": "I'd better get some sleep. Good night!", "tone": "보통", "noteKo": "무난한 마무리예요."}
+      ]
+    }
+  },
+  {
+    "id": "f-deadpan",
+    "title": "Deadpan humor",
+    "titleKo": "[유머] 무표정 농담",
+    "icon": "chat",
+    "settingKo": "무표정으로 농담하는 동료의 말을 진짜로 받아들여 당황합니다.",
+    "lines": [
+      {"speaker": 0, "text": "The printer jammed again. I've decided to quit my job and become a farmer.", "ko": "프린터가 또 걸렸어. 회사 그만두고 농부가 되기로 했어."},
+      {"speaker": 1, "text": "Wait, seriously? You're quitting?", "ko": "잠깐, 진짜? 그만둬?"},
+      {"speaker": 0, "text": "No. That's my deadpan face. You'll learn to read it.", "ko": "아니. 그게 내 무표정 농담 얼굴이야. 읽는 법을 배우게 될 거야."},
+      {"speaker": 1, "text": "Great. Now I'll never know when you're being serious.", "ko": "좋네. 이제 네가 언제 진지한지 절대 모르겠다."}
+    ],
+    "gist": {"questionKo": "첫 번째 사람이 한 말은?", "options": ["진지한 퇴사 선언", "무표정 농담", "농장 견학 제안"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["always", "joking", "funny"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "That's my deadpan face.", "ko": "그게 내 무표정 농담 얼굴이야."},
+      {"en": "You'll learn to read it.", "ko": "읽는 법을 배우게 될 거야."}
+    ],
+    "response": {
+      "situationKo": "사소한 불편에 대해 무표정 과장 농담을 해 보세요.",
+      "prompt": "The Wi-Fi's down again. How are you coping?",
+      "keywords": ["i've decided", "my life", "never", "as you can see", "barely"],
+      "answers": [
+        {"text": "Barely. I've started talking to my plants for company.", "tone": "친근", "noteKo": "과장을 담담하게 말해요."},
+        {"text": "I've decided to live in the woods. Please forward my mail.", "tone": "친근", "noteKo": "황당한 결심을 진지하게 말해요."},
+        {"text": "As you can see, I'm handling it with great dignity.", "tone": "친근", "noteKo": "반어적 표현이에요."},
+        {"text": "Annoying, but I'm getting other work done.", "tone": "보통", "noteKo": "농담 없는 버전이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-self-deprecating",
+    "title": "Making fun of yourself",
+    "titleKo": "[유머] 자기 비하 개그",
+    "icon": "chat",
+    "settingKo": "실수를 자기 농담으로 넘기는 법을 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "Did you really send the birthday email to the whole company instead of just Tom?", "ko": "진짜 생일 메일을 톰한테만이 아니라 전사에 보냈어?"},
+      {"speaker": 1, "text": "I did. Two hundred people now know Tom loves cats. My talent for disaster is unmatched.", "ko": "응. 이제 200명이 톰이 고양이 좋아하는 걸 알아. 사고 치는 재능은 내가 따라올 사람이 없지."},
+      {"speaker": 0, "text": "Ha! At least you can laugh about it.", "ko": "하! 그래도 웃어넘길 수 있네."},
+      {"speaker": 1, "text": "If I don't laugh, I'll have to hide under my desk until Christmas.", "ko": "안 웃으면 크리스마스까지 책상 밑에 숨어 있어야 할 거야."}
+    ],
+    "gist": {"questionKo": "두 번째 사람이 실수에 대처한 방식은?", "options": ["화를 냈다", "자기 농담으로 웃어넘겼다", "회사를 그만뒀다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["cry", "chair", "Easter"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "My talent for disaster is unmatched.", "ko": "사고 치는 재능은 따라올 사람이 없지."},
+      {"en": "At least you can laugh about it.", "ko": "그래도 웃어넘길 수 있네."}
+    ],
+    "response": {
+      "situationKo": "자신의 작은 실수를 자기 농담으로 가볍게 말해 보세요.",
+      "prompt": "Why are you wearing two different shoes?",
+      "keywords": ["fashion", "on purpose", "my talent", "clearly", "new trend"],
+      "answers": [
+        {"text": "It's a new trend. I'm starting it, clearly.", "tone": "친근", "noteKo": "실수를 트렌드라고 우겨요."},
+        {"text": "My talent for getting dressed in the dark strikes again.", "tone": "친근", "noteKo": "strikes again은 '또 발휘됐다'예요."},
+        {"text": "Completely on purpose. Very fashion-forward.", "tone": "친근", "noteKo": "반어적으로 말해요."},
+        {"text": "Oh no, I didn't even notice. Long morning!", "tone": "보통", "noteKo": "솔직하게 인정하는 버전이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-dad-jokes",
+    "title": "Dad jokes",
+    "titleKo": "[유머] 아재 개그",
+    "icon": "chat",
+    "settingKo": "아빠의 아재 개그에 반응하는 법을 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "Did you hear about the restaurant on the moon? Great food, no atmosphere.", "ko": "달에 있는 식당 얘기 들었어? 음식은 좋은데 분위기(대기)가 없대."},
+      {"speaker": 1, "text": "Dad, that's terrible.", "ko": "아빠, 그거 최악이야."},
+      {"speaker": 0, "text": "Then why are you smiling?", "ko": "그럼 왜 웃고 있니?"},
+      {"speaker": 1, "text": "Because it's so bad it's actually good. That's the whole point of a dad joke.", "ko": "너무 별로라서 오히려 좋아서. 그게 아재 개그의 핵심이잖아."}
+    ],
+    "gist": {"questionKo": "아재 개그의 핵심은?", "options": ["진짜 웃겨야 한다", "너무 별로라서 오히려 웃기다", "길어야 한다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["funny", "secret", "never"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "Great food, no atmosphere.", "ko": "음식은 좋은데 분위기가 없어. (말장난)"},
+      {"en": "It's so bad it's actually good.", "ko": "너무 별로라서 오히려 좋아."}
+    ],
+    "response": {
+      "situationKo": "누군가 아재 개그를 했어요. 신음하면서도 즐겁게 반응해 보세요.",
+      "prompt": "Why don't skeletons fight each other? They don't have the guts.",
+      "keywords": ["groan", "that's terrible", "so bad", "i hate", "stop"],
+      "answers": [
+        {"text": "Groan. That's so bad it's good.", "tone": "친근", "noteKo": "전형적인 반응이에요."},
+        {"text": "I hate that I laughed at that.", "tone": "친근", "noteKo": "웃긴 걸 인정하는 반응이에요."},
+        {"text": "Stop. Please. Okay, tell me another one.", "tone": "친근", "noteKo": "싫은 척하며 즐겨요."},
+        {"text": "Ha, that's a classic.", "tone": "보통", "noteKo": "무난한 반응이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-yeah-no",
+    "title": "Yeah, no",
+    "titleKo": "[구어] '어, 아니'의 뜻",
+    "icon": "chat",
+    "settingKo": "원어민이 쓰는 'yeah, no'와 'no, yeah'의 차이를 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "I asked my Aussie coworker if she wanted to work on Saturday, and she said 'yeah, no'.", "ko": "호주 동료한테 토요일에 일할 거냐고 물었더니 'yeah, no'라고 했어."},
+      {"speaker": 1, "text": "That's a no. The 'yeah' just means 'I hear you'.", "ko": "그건 '아니'야. 'yeah'는 그냥 '네 말 들었어'라는 뜻이고."},
+      {"speaker": 0, "text": "So 'no, yeah' means yes?", "ko": "그럼 'no, yeah'는 '응'이야?"},
+      {"speaker": 1, "text": "Usually, yes. The last word is the real answer.", "ko": "보통은 그래. 마지막 단어가 진짜 대답이야."}
+    ],
+    "gist": {"questionKo": "'yeah, no'의 실제 뜻은?", "options": ["응", "아니", "모르겠어"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["first", "maybe", "fake"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "Yeah, no.", "ko": "어, 아니. (거절)"},
+      {"en": "The last word is the real answer.", "ko": "마지막 단어가 진짜 대답이야."}
+    ],
+    "response": {
+      "situationKo": "'yeah, no'나 'no, yeah'로 자연스럽게 답해 보세요.",
+      "prompt": "Do you fancy a run in the rain?",
+      "keywords": ["yeah, no", "no, yeah", "absolutely not", "hard pass", "count me in"],
+      "answers": [
+        {"text": "Yeah, no. Hard pass.", "tone": "친근", "noteKo": "Hard pass는 '절대 안 해'예요."},
+        {"text": "No, yeah, actually, count me in.", "tone": "친근", "noteKo": "no, yeah는 결국 '응'이에요."},
+        {"text": "Yeah, no, I'll be on the sofa, thanks.", "tone": "친근", "noteKo": "구체적으로 거절해요."},
+        {"text": "I think I'll skip it this time.", "tone": "보통", "noteKo": "무난한 거절이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-sarcasm",
+    "title": "Was that sarcastic?",
+    "titleKo": "[유머] 빈정거림 알아채기",
+    "icon": "chat",
+    "settingKo": "친구의 말이 진심인지 빈정거림인지 헷갈립니다.",
+    "lines": [
+      {"speaker": 0, "text": "Oh, great, another team meeting. I just love meetings.", "ko": "오, 좋다, 또 팀 회의네. 나 회의 정말 좋아해."},
+      {"speaker": 1, "text": "Really? I didn't know you enjoyed them.", "ko": "정말? 회의 좋아하는 줄 몰랐어."},
+      {"speaker": 0, "text": "I was being sarcastic. Listen to the flat tone and the 'just'.", "ko": "빈정거린 거야. 밋밋한 톤이랑 'just'를 잘 들어 봐."},
+      {"speaker": 1, "text": "Ah, the words say love, but the voice says please help me.", "ko": "아, 말은 좋다는데 목소리는 살려 달라는 거구나."}
+    ],
+    "gist": {"questionKo": "빈정거림을 알아채는 단서는?", "options": ["큰 목소리", "밋밋한 톤과 강조어", "빠른 말"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["hate", "face", "stop"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "I was being sarcastic.", "ko": "빈정거린 거야."},
+      {"en": "The words say love, but the voice says...", "ko": "말은 좋다는데 목소리는..."}
+    ],
+    "response": {
+      "situationKo": "귀찮은 상황에 대해 빈정거리는 말을 해 보세요.",
+      "prompt": "The train's delayed by an hour.",
+      "keywords": ["oh great", "perfect", "just what", "wonderful", "love that"],
+      "answers": [
+        {"text": "Oh, perfect. Just what I needed today.", "tone": "친근", "noteKo": "전형적인 빈정거림이에요."},
+        {"text": "Wonderful. I love standing on cold platforms.", "tone": "친근", "noteKo": "반대 감정을 과장해요."},
+        {"text": "Love that for me.", "tone": "친근", "noteKo": "반어적인 슬랭 표현이에요."},
+        {"text": "That's annoying. I'll grab a coffee while we wait.", "tone": "보통", "noteKo": "빈정거림 없는 버전이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-aussie",
+    "title": "No worries, mate",
+    "titleKo": "[지역] 호주 영어",
+    "icon": "map",
+    "settingKo": "호주 친구의 표현을 하나씩 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "Wanna grab a coffee this arvo? I'll shout.", "ko": "오늘 오후에 커피 한잔할래? 내가 쏠게."},
+      {"speaker": 1, "text": "Arvo means afternoon, right? And 'I'll shout' means you'll pay?", "ko": "arvo는 오후 맞지? 그리고 'I'll shout'은 네가 산다는 거지?"},
+      {"speaker": 0, "text": "Spot on. You're picking up Aussie slang heaps fast.", "ko": "정확해. 호주 슬랭 엄청 빨리 배운다."},
+      {"speaker": 1, "text": "Cheers, mate. See you at three, then. No worries.", "ko": "고마워, 친구. 그럼 3시에 봐. 걱정 마."}
+    ],
+    "gist": {"questionKo": "'I'll shout'의 뜻은?", "options": ["소리를 지를게", "내가 계산할게", "전화할게"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["four", "thanks", "evening"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "This arvo.", "ko": "오늘 오후. (호주)"},
+      {"en": "I'll shout.", "ko": "내가 쏠게. (호주)"}
+    ],
+    "response": {
+      "situationKo": "호주식 표현을 섞어 친구의 제안에 답해 보세요.",
+      "prompt": "Barbie at mine this arvo?",
+      "keywords": ["no worries", "mate", "arvo", "heaps", "reckon", "cheers"],
+      "answers": [
+        {"text": "Sounds heaps good, mate. I'll bring the drinks.", "tone": "친근", "noteKo": "heaps는 아주, 엄청이에요."},
+        {"text": "Reckon I can make it by four. Cheers!", "tone": "친근", "noteKo": "reckon은 '~인 것 같아'예요."},
+        {"text": "No worries. Need me to bring anything?", "tone": "친근", "noteKo": "No worries는 '좋아, 문제없어'예요."},
+        {"text": "Sounds great! What time should I come?", "tone": "보통", "noteKo": "일반 영어 버전이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-british",
+    "title": "Gutted and knackered",
+    "titleKo": "[지역] 영국 영어",
+    "icon": "map",
+    "settingKo": "영국 친구가 쓰는 감정 표현을 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "We lost the final in the last minute. I'm absolutely gutted.", "ko": "결승에서 마지막 1분에 졌어. 완전 속상해."},
+      {"speaker": 1, "text": "Gutted means really disappointed, right?", "ko": "gutted는 정말 실망했다는 뜻이지?"},
+      {"speaker": 0, "text": "Yeah. And after running for ninety minutes, I'm knackered too.", "ko": "응. 그리고 90분을 뛰었더니 녹초이기도 해."},
+      {"speaker": 1, "text": "Fancy a cuppa? That's the British cure for everything, isn't it?", "ko": "차 한잔할래? 그게 영국식 만병통치약 아니야?"}
+    ],
+    "gist": {"questionKo": "'gutted'의 뜻은?", "options": ["배고프다", "몹시 실망하다", "신나다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["coffee", "nothing", "American"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "I'm absolutely gutted.", "ko": "완전 속상해. (영국)"},
+      {"en": "Fancy a cuppa?", "ko": "차 한잔할래? (영국)"}
+    ],
+    "response": {
+      "situationKo": "영국식 표현을 섞어 하루를 묘사해 보세요.",
+      "prompt": "How was your day?",
+      "keywords": ["knackered", "gutted", "brilliant", "cheers", "fancy", "rubbish"],
+      "answers": [
+        {"text": "Absolutely knackered. Fancy a cuppa?", "tone": "친근", "noteKo": "피곤함과 제안을 함께해요."},
+        {"text": "Brilliant, actually. Got the job!", "tone": "친근", "noteKo": "brilliant는 영국식 '최고'예요."},
+        {"text": "Bit rubbish, to be honest. Train was cancelled again.", "tone": "친근", "noteKo": "rubbish는 '별로'예요."},
+        {"text": "Gutted. My team lost. Cheers for asking, though.", "tone": "친근", "noteKo": "Cheers는 '고마워'예요."}
+      ]
+    }
+  },
+  {
+    "id": "f-southern",
+    "title": "Y'all and fixin' to",
+    "titleKo": "[지역] 미국 남부 영어",
+    "icon": "map",
+    "settingKo": "텍사스 출신 동료의 표현을 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "Y'all want some sweet tea? I'm fixin' to make a fresh pitcher.", "ko": "다들 스위트티 마실래? 이제 막 새로 한 주전자 만들려던 참이야."},
+      {"speaker": 1, "text": "'Fixin' to' means 'about to', right?", "ko": "'fixin' to'는 '막 ~하려던 참'이라는 뜻이지?"},
+      {"speaker": 0, "text": "Sure does. And 'y'all' is just 'you all'. Saves time.", "ko": "맞아. 그리고 'y'all'은 'you all'이야. 시간 절약이지."},
+      {"speaker": 1, "text": "Honestly, it's more useful than 'you guys'. I'm stealing it.", "ko": "솔직히 'you guys'보다 유용하다. 훔쳐 갈게."}
+    ],
+    "gist": {"questionKo": "'fixin' to'의 뜻은?", "options": ["고치는 중", "막 ~하려던 참", "다 끝냈다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["less", "borrowing", "folks"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "I'm fixin' to make some tea.", "ko": "막 차 만들려던 참이야. (미국 남부)"},
+      {"en": "Y'all.", "ko": "너희들, 여러분. (미국 남부)"}
+    ],
+    "response": {
+      "situationKo": "남부식 표현을 섞어 여러 사람에게 말해 보세요.",
+      "prompt": "We're heading out to eat. Coming?",
+      "keywords": ["y'all", "fixin' to", "reckon", "sure", "be right there"],
+      "answers": [
+        {"text": "Y'all go ahead. I'm fixin' to finish this email.", "tone": "친근", "noteKo": "두 표현을 함께 써요."},
+        {"text": "Sure thing. Y'all save me a seat.", "tone": "친근", "noteKo": "Sure thing은 '물론'이에요."},
+        {"text": "Reckon I'll be right there in five.", "tone": "친근", "noteKo": "reckon은 남부에서도 써요."},
+        {"text": "Yes, give me five minutes!", "tone": "보통", "noteKo": "일반 버전이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-irish",
+    "title": "What's the craic?",
+    "titleKo": "[지역] 아일랜드 영어",
+    "icon": "map",
+    "settingKo": "아일랜드 친구의 인사 표현을 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "Ah, there you are! What's the craic?", "ko": "아, 왔구나! 별일 없어?"},
+      {"speaker": 1, "text": "The crack? Is that something illegal?", "ko": "크랙? 그거 불법적인 거야?"},
+      {"speaker": 0, "text": "Ha! No, craic means fun or news. 'What's the craic' just means 'what's up'.", "ko": "하! 아니, craic은 재미나 소식이야. 'What's the craic'은 그냥 '잘 지내?'라는 뜻이야."},
+      {"speaker": 1, "text": "Phew. Grand, then. The craic is that I finally found a flat.", "ko": "휴. 그럼 좋아. 소식은 드디어 집을 구했다는 거야."}
+    ],
+    "gist": {"questionKo": "'craic'의 뜻은?", "options": ["불법 약물", "재미, 소식", "균열"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["house", "lost", "terrible"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "What's the craic?", "ko": "별일 없어? (아일랜드)"},
+      {"en": "Grand.", "ko": "좋아, 괜찮아. (아일랜드)"}
+    ],
+    "response": {
+      "situationKo": "'What's the craic?'에 자연스럽게 근황으로 답해 보세요.",
+      "prompt": "What's the craic?",
+      "keywords": ["grand", "not much", "the craic is", "all good", "yourself"],
+      "answers": [
+        {"text": "Grand, thanks. Not much craic here. Yourself?", "tone": "친근", "noteKo": "Yourself?는 '너는?'이에요."},
+        {"text": "The craic is I'm finally on holiday!", "tone": "친근", "noteKo": "소식을 바로 말해요."},
+        {"text": "All good. Same old, same old.", "tone": "친근", "noteKo": "Same old는 늘 똑같다는 뜻이에요."},
+        {"text": "Not bad at all! How are you?", "tone": "보통", "noteKo": "일반 버전이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-canadian",
+    "title": "Toques and double-doubles",
+    "titleKo": "[지역] 캐나다 영어",
+    "icon": "map",
+    "settingKo": "캐나다 친구의 겨울 표현을 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "It's minus twenty out there, eh? Don't forget your toque.", "ko": "밖에 영하 20도야, 그치? 털모자 잊지 마."},
+      {"speaker": 1, "text": "A toque is a winter hat, right? And why do you say 'eh' so much?", "ko": "toque가 겨울 모자 맞지? 그리고 왜 'eh'를 그렇게 자주 해?"},
+      {"speaker": 0, "text": "It just turns things into a friendly question, like 'right?' Want a double-double on the way?", "ko": "그냥 '그렇지?'처럼 친근한 질문으로 만드는 거야. 가는 길에 더블더블 마실래?"},
+      {"speaker": 1, "text": "Let me guess: two sugars and two creams?", "ko": "맞혀 볼게. 설탕 둘에 크림 둘?"}
+    ],
+    "gist": {"questionKo": "'toque'의 뜻은?", "options": ["커피", "겨울 털모자", "장갑"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["three", "milk", "honey"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "Don't forget your toque, eh?", "ko": "털모자 잊지 마, 그치? (캐나다)"},
+      {"en": "A double-double.", "ko": "크림 둘, 설탕 둘 커피. (캐나다)"}
+    ],
+    "response": {
+      "situationKo": "캐나다식 'eh'를 넣어 날씨 이야기를 해 보세요.",
+      "prompt": "Cold enough for you?",
+      "keywords": ["eh", "freezing", "toque", "brutal", "tell me about it"],
+      "answers": [
+        {"text": "Brutal, eh? Good thing I brought my toque.", "tone": "친근", "noteKo": "eh로 동의를 구해요."},
+        {"text": "Tell me about it. My coffee froze on the way here.", "tone": "친근", "noteKo": "Tell me about it은 '그러니까 말이야'예요."},
+        {"text": "Freezing, eh? Let's get inside.", "tone": "친근", "noteKo": "짧은 캐나다식 반응이에요."},
+        {"text": "It's very cold today, isn't it?", "tone": "보통", "noteKo": "일반 버전이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-nyc",
+    "title": "Standing on line",
+    "titleKo": "[지역] 뉴욕 영어",
+    "icon": "map",
+    "settingKo": "뉴요커 친구의 빠른 말투와 표현을 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "We stood on line for an hour for that bagel, and honestly? Worth it.", "ko": "그 베이글 사려고 한 시간 줄 섰는데, 솔직히? 그럴 만했어."},
+      {"speaker": 1, "text": "On line? I thought it was 'in line'.", "ko": "on line? 'in line' 아니야?"},
+      {"speaker": 0, "text": "Most of the country says 'in line', but plenty of New Yorkers say 'on line'.", "ko": "대부분은 'in line'이라고 하는데 뉴요커들은 'on line'이라고 많이 해."},
+      {"speaker": 1, "text": "Noted. Next time I'll stand on line like a local.", "ko": "기억할게. 다음엔 현지인처럼 줄 서 볼게."}
+    ],
+    "gist": {"questionKo": "뉴욕 사람들이 'in line' 대신 쓰는 표현은?", "options": ["at line", "on line", "by line"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["tourist", "never", "behind"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "We stood on line for an hour.", "ko": "한 시간 줄 섰어. (뉴욕)"},
+      {"en": "Honestly? Worth it.", "ko": "솔직히? 그럴 만했어."}
+    ],
+    "response": {
+      "situationKo": "줄을 오래 선 경험을 빠르고 캐주얼하게 말해 보세요.",
+      "prompt": "How long did you wait for those concert tickets?",
+      "keywords": ["on line", "in line", "forever", "honestly", "worth it"],
+      "answers": [
+        {"text": "Stood on line for three hours. Honestly? Totally worth it.", "tone": "친근", "noteKo": "뉴욕식 표현이에요."},
+        {"text": "Forever. Like, I aged a year in that queue.", "tone": "친근", "noteKo": "과장으로 웃음을 줘요."},
+        {"text": "About two hours in line, but we got front row.", "tone": "보통", "noteKo": "일반 표현이에요."},
+        {"text": "Way too long. Never again. Probably.", "tone": "친근", "noteKo": "Probably로 반전을 줘요."}
+      ]
+    }
+  },
+  {
+    "id": "f-gonna",
+    "title": "Gonna, wanna, gotta",
+    "titleKo": "[구어] 빠르게 줄인 말",
+    "icon": "chat",
+    "settingKo": "원어민이 빨리 말할 때 줄어드는 소리를 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "I'm gonna grab lunch. Wanna come, or you gotta work?", "ko": "나 점심 먹으러 갈 건데. 같이 갈래, 아님 일해야 돼?"},
+      {"speaker": 1, "text": "I gotta finish this first, but I'm gonna be quick.", "ko": "이거 먼저 끝내야 하는데 금방 할게."},
+      {"speaker": 0, "text": "Cool. You know these are just 'going to', 'want to', and 'got to', said fast?", "ko": "좋아. 이게 그냥 'going to', 'want to', 'got to'를 빨리 말한 거라는 거 알지?"},
+      {"speaker": 1, "text": "I do now. I just wouldn't write them in a work email.", "ko": "이제 알아. 업무 메일에는 안 쓸 거지만."}
+    ],
+    "gist": {"questionKo": "'gonna, wanna, gotta'는 어디에 쓰면 안 되나요?", "options": ["친구와 대화", "업무 메일", "문자"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["slow", "wanna", "later"]},
+    "shadow": [0,1],
+    "phrases": [
+      {"en": "I'm gonna grab lunch.", "ko": "점심 먹으러 갈 거야."},
+      {"en": "I gotta finish this first.", "ko": "이거 먼저 끝내야 해."}
+    ],
+    "response": {
+      "situationKo": "gonna, wanna, gotta를 써서 주말 계획을 빠르게 말해 보세요.",
+      "prompt": "What are you doing this weekend?",
+      "keywords": ["gonna", "wanna", "gotta", "probably", "maybe"],
+      "answers": [
+        {"text": "I'm gonna sleep in, then I gotta clean my flat.", "tone": "친근", "noteKo": "자연스러운 구어 리듬이에요."},
+        {"text": "Wanna go hiking? I'm gonna be free on Sunday.", "tone": "친근", "noteKo": "제안을 섞어요."},
+        {"text": "Gotta work Saturday, but Sunday I'm gonna do nothing.", "tone": "친근", "noteKo": "대비로 말해요."},
+        {"text": "I'm going to visit my parents, probably.", "tone": "보통", "noteKo": "줄이지 않은 버전이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-whaddya",
+    "title": "Whaddya mean?",
+    "titleKo": "[구어] 이어서 뭉개지는 소리",
+    "icon": "chat",
+    "settingKo": "'What do you'가 'whaddya'로 들리는 현상을 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "Whaddya wanna do tonight? Didja see the new place on Main Street?", "ko": "오늘 밤 뭐 할래? 메인 스트리트에 새로 생긴 데 봤어?"},
+      {"speaker": 1, "text": "Sorry, 'whaddya' and 'didja'? Can you say that slower?", "ko": "미안, 'whaddya'랑 'didja'? 천천히 말해 줄래?"},
+      {"speaker": 0, "text": "'What do you want to do' and 'Did you see'. We blur the words together when we talk fast.", "ko": "'What do you want to do'랑 'Did you see'. 빨리 말할 때 단어를 뭉개."},
+      {"speaker": 1, "text": "That explains why I understand films with subtitles but not real conversations.", "ko": "그래서 자막 있는 영화는 알아듣는데 실제 대화는 못 알아듣는구나."}
+    ],
+    "gist": {"questionKo": "'didja'는 원래 무엇인가요?", "options": ["did ya", "Did you", "the idea"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["books", "never", "music"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "Whaddya wanna do?", "ko": "뭐 할래? (What do you want to do)"},
+      {"en": "We blur the words together.", "ko": "단어를 뭉개서 말해."}
+    ],
+    "response": {
+      "situationKo": "빠른 말을 못 알아들었을 때 자연스럽게 다시 부탁해 보세요.",
+      "prompt": "Whaddya think, d'ya wanna split a cab or what?",
+      "keywords": ["sorry", "one more time", "slower", "did you say", "come again"],
+      "answers": [
+        {"text": "Sorry, come again? Did you say split a cab?", "tone": "친근", "noteKo": "Come again?은 '다시 말해 줄래?'예요."},
+        {"text": "One more time, a bit slower? My ears are tired.", "tone": "친근", "noteKo": "가볍게 부탁해요."},
+        {"text": "Oh, share a taxi? Yeah, sounds good.", "tone": "친근", "noteKo": "확인하며 답해요."},
+        {"text": "I'm sorry, could you repeat that?", "tone": "보통", "noteKo": "무난한 버전이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-fillers",
+    "title": "Like, you know",
+    "titleKo": "[구어] 군말 쓰기",
+    "icon": "chat",
+    "settingKo": "원어민이 생각할 시간을 벌 때 쓰는 군말을 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "So the meeting was, like, super long, and, you know, nobody actually decided anything.", "ko": "그래서 회의가, 뭐랄까, 엄청 길었고, 있잖아, 아무도 실제로 결정을 안 했어."},
+      {"speaker": 1, "text": "You say 'like' and 'you know' a lot. Does it mean something?", "ko": "'like'랑 'you know'를 많이 쓰네. 무슨 뜻이 있어?"},
+      {"speaker": 0, "text": "Not really. It just fills the gap while I think, like 'um' does.", "ko": "별로. 'um'처럼 생각하는 동안 빈틈을 메우는 거야."},
+      {"speaker": 1, "text": "Good to know. Using a few makes me sound natural, but too many sounds nervous.", "ko": "알아 두면 좋겠다. 조금 쓰면 자연스럽고, 너무 많이 쓰면 긴장해 보이겠네."}
+    ],
+    "gist": {"questionKo": "군말의 역할은?", "options": ["중요한 의미 강조", "생각하는 동안 빈틈 메우기", "질문하기"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["confident", "never", "rude"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "It was, like, super long.", "ko": "그게, 뭐랄까, 엄청 길었어."},
+      {"en": "It just fills the gap.", "ko": "그냥 빈틈을 메우는 거야."}
+    ],
+    "response": {
+      "situationKo": "군말을 적당히 섞어 최근 있었던 일을 자연스럽게 말해 보세요.",
+      "prompt": "How was the party last night?",
+      "keywords": ["like", "you know", "kind of", "honestly", "basically"],
+      "answers": [
+        {"text": "It was, like, really fun, but, you know, kind of loud.", "tone": "친근", "noteKo": "군말이 자연스러운 리듬을 만들어요."},
+        {"text": "Honestly? Basically just a lot of people talking about work.", "tone": "친근", "noteKo": "basically로 요약해요."},
+        {"text": "So, um, I didn't know anyone, but it was kind of nice.", "tone": "친근", "noteKo": "um으로 생각할 시간을 벌어요."},
+        {"text": "It was very enjoyable. I met some interesting people.", "tone": "보통", "noteKo": "군말 없는 버전이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-hedges",
+    "title": "Kinda, sorta, ish",
+    "titleKo": "[구어] 애매하게 말하기",
+    "icon": "chat",
+    "settingKo": "확신이 없을 때 쓰는 애매한 표현을 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "What time are you coming? Seven?", "ko": "몇 시에 와? 7시?"},
+      {"speaker": 1, "text": "Seven-ish. I'm kinda stuck at work, so sorta depends.", "ko": "7시쯤? 일에 좀 묶여 있어서 좀 상황 봐야 돼."},
+      {"speaker": 0, "text": "'Ish' means roughly, right? So seven fifteen is fine?", "ko": "'ish'는 대략이라는 거지? 그럼 7시 15분도 괜찮은 거지?"},
+      {"speaker": 1, "text": "Exactly. And if I say 'seven-ish-ish', expect eight.", "ko": "바로 그거야. 그리고 내가 '7시쯤쯤'이라고 하면 8시로 생각해."}
+    ],
+    "gist": {"questionKo": "'seven-ish'의 뜻은?", "options": ["정확히 7시", "7시쯤", "7시 이전"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["nine", "early", "late"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "Seven-ish.", "ko": "7시쯤."},
+      {"en": "It sorta depends.", "ko": "좀 상황 봐야 돼."}
+    ],
+    "response": {
+      "situationKo": "확실하지 않은 계획을 '-ish', 'kinda'를 써서 말해 보세요.",
+      "prompt": "Are you hungry?",
+      "keywords": ["kinda", "sorta", "ish", "a bit", "i guess"],
+      "answers": [
+        {"text": "Kinda. Snack-ish hungry, not dinner hungry.", "tone": "친근", "noteKo": "-ish를 창의적으로 써요."},
+        {"text": "Sorta? I could eat, I guess.", "tone": "친근", "noteKo": "I could eat은 '먹을 수는 있어'예요."},
+        {"text": "A bit. Maybe in an hour-ish?", "tone": "친근", "noteKo": "시간에도 -ish를 붙여요."},
+        {"text": "Yes, a little. Shall we get something?", "tone": "보통", "noteKo": "무난한 버전이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-how-are-you",
+    "title": "How are you? Fine!",
+    "titleKo": "[뉘앙스] 인사일 뿐인 질문",
+    "icon": "chat",
+    "settingKo": "'How are you?'가 진짜 질문이 아닌 인사라는 걸 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "The cashier asked how I was, so I told her about my back pain and my landlord.", "ko": "계산원이 어떻게 지내냐고 해서 허리 통증이랑 집주인 얘기를 했어."},
+      {"speaker": 1, "text": "Ha! In a shop, 'How are you?' is basically just 'hello'.", "ko": "하! 가게에서 'How are you?'는 사실상 그냥 '안녕'이야."},
+      {"speaker": 0, "text": "So what am I supposed to say?", "ko": "그럼 뭐라고 해야 해?"},
+      {"speaker": 1, "text": "'Good, thanks, you?' Save the real answer for friends who actually ask twice.", "ko": "'좋아요, 고마워요, 당신은요?' 진짜 대답은 두 번 물어보는 친구를 위해 아껴 둬."}
+    ],
+    "gist": {"questionKo": "가게에서 'How are you?'의 의미는?", "options": ["진짜 안부 질문", "그냥 인사", "도움이 필요하냐는 질문"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["once", "strangers", "never"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "It's basically just 'hello'.", "ko": "사실상 그냥 '안녕'이야."},
+      {"en": "Good, thanks, you?", "ko": "좋아요, 고마워요, 당신은요?"}
+    ],
+    "response": {
+      "situationKo": "상황에 맞게 'How are you?'에 답해 보세요. (가게 직원)",
+      "prompt": "Hi there, how are you today?",
+      "keywords": ["good", "thanks", "you", "not bad", "great"],
+      "answers": [
+        {"text": "Good, thanks! You?", "tone": "보통", "noteKo": "가장 흔한 답이에요."},
+        {"text": "Not bad, thanks. How's your day going?", "tone": "친근", "noteKo": "가볍게 되물어요."},
+        {"text": "Great, thank you. And you?", "tone": "정중", "noteKo": "정중한 버전이에요."},
+        {"text": "Surviving! You?", "tone": "친근", "noteKo": "가벼운 농담이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-hang-out",
+    "title": "We should hang out sometime",
+    "titleKo": "[뉘앙스] 언젠가 보자는 말",
+    "icon": "chat",
+    "settingKo": "'언젠가 만나자'가 진짜 약속인지 헷갈립니다.",
+    "lines": [
+      {"speaker": 0, "text": "She said 'we should totally hang out sometime', but she never followed up.", "ko": "걔가 '언젠가 꼭 만나자'고 했는데 연락이 없어."},
+      {"speaker": 1, "text": "'Sometime' is often just polite. It's not a real plan until there's a day and time.", "ko": "'언젠가'는 보통 그냥 예의상 하는 말이야. 날짜랑 시간이 있어야 진짜 계획이지."},
+      {"speaker": 0, "text": "So how do I tell if she means it?", "ko": "그럼 진심인지 어떻게 알아?"},
+      {"speaker": 1, "text": "Suggest something specific, like coffee on Thursday. If she says yes, she meant it.", "ko": "목요일에 커피처럼 구체적으로 제안해 봐. 좋다고 하면 진심이었던 거야."}
+    ],
+    "gist": {"questionKo": "진짜 계획이 되려면?", "options": ["'언젠가'라고 말한다", "날짜와 시간이 있어야 한다", "SNS를 팔로우한다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["dinner", "Friday", "maybe"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "We should hang out sometime.", "ko": "언젠가 만나자. (예의상 말일 수 있음)"},
+      {"en": "Suggest something specific.", "ko": "구체적으로 제안해 봐."}
+    ],
+    "response": {
+      "situationKo": "누군가 '언젠가 보자'고 할 때, 진짜 약속으로 만들어 보세요.",
+      "prompt": "We should grab a drink sometime!",
+      "keywords": ["how about", "are you free", "thursday", "this week", "let's"],
+      "answers": [
+        {"text": "Definitely! Are you free Thursday after work?", "tone": "친근", "noteKo": "바로 구체적인 날을 잡아요."},
+        {"text": "Let's actually do it. How about Saturday?", "tone": "친근", "noteKo": "actually로 진심을 보여 줘요."},
+        {"text": "I'd like that. I'll message you this week.", "tone": "보통", "noteKo": "후속 연락을 약속해요."},
+        {"text": "Yes! Before we both get busy and forget, what's your number?", "tone": "친근", "noteKo": "솔직하게 연락처를 받아요."}
+      ]
+    }
+  },
+  {
+    "id": "f-think-about-it",
+    "title": "I'll think about it",
+    "titleKo": "[뉘앙스] 생각해 볼게 = 아니",
+    "icon": "chat",
+    "settingKo": "'생각해 볼게요'가 사실상 거절인 경우를 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "I pitched my idea to the client, and they said, 'Interesting, we'll think about it.'", "ko": "고객에게 아이디어를 제안했더니 '흥미롭네요, 생각해 볼게요'라고 했어."},
+      {"speaker": 1, "text": "Hmm. Did they ask any follow-up questions or mention next steps?", "ko": "흠. 후속 질문을 하거나 다음 단계를 말했어?"},
+      {"speaker": 0, "text": "No, they just thanked me and ended the call.", "ko": "아니, 그냥 고맙다고 하고 통화를 끝냈어."},
+      {"speaker": 1, "text": "Then it's probably a polite no. A real 'maybe' usually comes with questions.", "ko": "그럼 아마 정중한 거절일 거야. 진짜 '아마도'는 보통 질문이 따라와."}
+    ],
+    "gist": {"questionKo": "진짜 관심의 신호는?", "options": ["고맙다는 인사", "후속 질문과 다음 단계 언급", "짧은 통화"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["yes", "always", "emails"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "We'll think about it.", "ko": "생각해 볼게요. (정중한 거절일 수 있음)"},
+      {"en": "It's probably a polite no.", "ko": "아마 정중한 거절일 거야."}
+    ],
+    "response": {
+      "situationKo": "상대의 애매한 답이 진짜인지 정중하게 확인해 보세요.",
+      "prompt": "We'll think about it and get back to you.",
+      "keywords": ["is there anything", "concerns", "when", "next step", "would it help"],
+      "answers": [
+        {"text": "Of course. Is there anything holding you back that I could address now?", "tone": "정중", "noteKo": "망설이는 이유를 물어요."},
+        {"text": "Thanks. When would be a good time to follow up?", "tone": "정중", "noteKo": "후속 시점을 확인해요."},
+        {"text": "Would it help if I sent a shorter summary with prices?", "tone": "보통", "noteKo": "결정을 돕는 제안이에요."},
+        {"text": "Totally fair. Honestly, if it's a no, that's fine too. Just let me know.", "tone": "친근", "noteKo": "솔직한 답을 편하게 요청해요."}
+      ]
+    }
+  },
+  {
+    "id": "f-im-good",
+    "title": "I'm good",
+    "titleKo": "[뉘앙스] 괜찮아요 = 필요 없어요",
+    "icon": "coffee",
+    "settingKo": "'I'm good'이 '괜찮다(사양)'로 쓰이는 걸 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "Can I get you another drink?", "ko": "음료 한 잔 더 드릴까요?"},
+      {"speaker": 1, "text": "I'm good, thanks.", "ko": "괜찮아요, 고마워요."},
+      {"speaker": 0, "text": "Wait, does 'I'm good' mean yes, you're happy, or no, you don't want one?", "ko": "잠깐, 'I'm good'은 네 좋다는 거야, 아니면 필요 없다는 거야?"},
+      {"speaker": 1, "text": "In this case, no thanks. It means I already have what I need.", "ko": "이 경우엔 사양이야. 이미 필요한 게 있다는 뜻이야."}
+    ],
+    "gist": {"questionKo": "음료 제안에 'I'm good'은?", "options": ["네, 주세요", "괜찮아요(사양)", "기분이 좋다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["yes", "want", "another"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "I'm good, thanks.", "ko": "괜찮아요, 고마워요. (사양)"},
+      {"en": "I already have what I need.", "ko": "이미 필요한 게 있어요."}
+    ],
+    "response": {
+      "situationKo": "권유를 'I'm good' 같은 표현으로 자연스럽게 사양해 보세요.",
+      "prompt": "Want some of my fries?",
+      "keywords": ["i'm good", "i'm all set", "no thanks", "i'm full", "maybe later"],
+      "answers": [
+        {"text": "I'm good, thanks!", "tone": "친근", "noteKo": "가장 흔한 사양이에요."},
+        {"text": "I'm all set, but thanks for offering.", "tone": "보통", "noteKo": "all set은 '다 됐어'예요."},
+        {"text": "Tempting, but I'm full. Maybe later.", "tone": "친근", "noteKo": "여지를 남겨요."},
+        {"text": "No, thank you. I've just eaten.", "tone": "정중", "noteKo": "정중한 사양이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-my-bad",
+    "title": "My bad!",
+    "titleKo": "[구어] 가벼운 사과",
+    "icon": "chat",
+    "settingKo": "작은 실수에 쓰는 가벼운 사과 표현을 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "Hey, you took my coffee. That one's the oat latte.", "ko": "야, 내 커피 가져갔어. 그건 오트 라떼야."},
+      {"speaker": 1, "text": "Oh, my bad! Here you go.", "ko": "아, 내 실수! 여기."},
+      {"speaker": 0, "text": "No worries. They look exactly the same.", "ko": "괜찮아. 완전 똑같이 생겼잖아."},
+      {"speaker": 1, "text": "Still, I owe you one. Next round's on me.", "ko": "그래도 신세 졌다. 다음 건 내가 살게."}
+    ],
+    "gist": {"questionKo": "'my bad'는 언제 쓰나요?", "options": ["심각한 잘못", "가벼운 작은 실수", "화가 났을 때"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["lunch", "yours", "later"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "My bad!", "ko": "내 실수! (가벼운 사과)"},
+      {"en": "I owe you one.", "ko": "신세 졌다."}
+    ],
+    "response": {
+      "situationKo": "작은 실수를 했을 때 가볍게 사과하고 만회해 보세요.",
+      "prompt": "You forgot to save me a seat!",
+      "keywords": ["my bad", "sorry", "i owe you", "totally forgot", "next time"],
+      "answers": [
+        {"text": "My bad! I'll grab you a chair.", "tone": "친근", "noteKo": "사과와 행동을 함께해요."},
+        {"text": "Oh no, totally forgot. I owe you one.", "tone": "친근", "noteKo": "I owe you one으로 만회를 약속해요."},
+        {"text": "Sorry! Take mine, I'll stand.", "tone": "친근", "noteKo": "자리를 양보해요."},
+        {"text": "I'm so sorry, that was careless of me.", "tone": "정중", "noteKo": "조금 더 진지한 버전이에요."}
+      ]
+    }
+  },
+  {
+    "id": "f-small-talk-dodge",
+    "title": "Dodging a nosy question",
+    "titleKo": "[뉘앙스] 곤란한 질문 피하기",
+    "icon": "chat",
+    "settingKo": "사적인 질문을 웃으며 피하는 법을 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "So how much do you earn at your new job? Must be a lot!", "ko": "그래서 새 직장에서 얼마 벌어? 많이 벌겠지!"},
+      {"speaker": 1, "text": "Ha, enough to buy my own coffee, at least. How's your kitchen renovation going?", "ko": "하, 적어도 내 커피 사 먹을 만큼은. 너네 부엌 공사는 어떻게 돼 가?"},
+      {"speaker": 0, "text": "Oh, it's a nightmare. The tiles came in the wrong color.", "ko": "아, 악몽이야. 타일이 색이 잘못 왔어."},
+      {"speaker": 1, "text": "No way. Tell me everything.", "ko": "말도 안 돼. 다 얘기해 봐."}
+    ],
+    "gist": {"questionKo": "두 번째 사람이 질문을 피한 방법은?", "options": ["정확한 연봉을 말했다", "농담 후 화제를 상대 이야기로 돌렸다", "화를 냈다"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["lunch", "car", "bathroom"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "Enough to buy my own coffee.", "ko": "적어도 내 커피 사 먹을 만큼. (얼버무리기)"},
+      {"en": "Tell me everything.", "ko": "다 얘기해 봐."}
+    ],
+    "response": {
+      "situationKo": "사적인 질문을 웃으며 피하고 화제를 바꿔 보세요.",
+      "prompt": "So when are you two getting married?",
+      "keywords": ["ha", "you'll be the first", "who knows", "anyway", "how about you"],
+      "answers": [
+        {"text": "Ha, you'll be the first to know. Anyway, how was your holiday?", "tone": "친근", "noteKo": "농담 후 화제 전환이에요."},
+        {"text": "Who knows! We're just enjoying things as they are. How about you?", "tone": "친근", "noteKo": "부드럽게 되물어요."},
+        {"text": "No plans yet. Did you end up getting that new job, by the way?", "tone": "보통", "noteKo": "by the way로 자연스럽게 넘겨요."},
+        {"text": "I'd rather not talk about that tonight, if that's okay.", "tone": "정중", "noteKo": "정중하게 선을 그어요."}
+      ]
+    }
+  }
+]

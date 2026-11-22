@@ -9,3 +9,14 @@ captures/
 *.apk
 *.aab
 *.litertlm
+
+# PC tools: dependencies and never the Firebase admin key
+tools/node_modules/
+*adminsdk*.json
+*-admin.json
+key/
+
+# Personal Firebase settings: the app config (API key) and the rules with my Gmail and device UIDs.
+# firestore.rules.example is the template to copy.
+app/google-services.json
+firestore.rules

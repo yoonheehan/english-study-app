@@ -1,0 +1,65 @@
+rules_version = '2';
+
+// Template: copy to firestore.rules (kept out of git), put in your Gmail and device UIDs,
+// then paste it into Firebase console > Firestore Database > Rules and press Publish.
+//
+// Phones and tablets (isMyDevice) read, add new words (from a story or a web page), and change
+// study progress on existing words. Editing and deleting words, and editing content, is for the
+// PC (isMyPc) only.
+//
+// A device is allowed when it is signed in with your Google account (단어장 > 구름 버튼 >
+// 구글 계정으로 연결), or when its UID is listed. The Google account keeps working after the app
+// is reinstalled; a listed anonymous UID stops working then, because reinstalling makes a new one.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isMyGoogleAccount() {
+      return request.auth != null
+        && request.auth.token.email_verified == true
+        && request.auth.token.email in ['MY_GMAIL@gmail.com'];
+    }
+
+    function isMyDevice() {
+      return isMyGoogleAccount()
+        || (request.auth != null && request.auth.uid in ['DEVICE_UID_1', 'DEVICE_UID_2']);
+    }
+
+    function isMyPc() {
+      return request.auth != null
+        && request.auth.uid in ['PC_UID_HERE'];
+    }
+
+    // Favorite, remembered and review schedule; must match WordSyncRules.PROGRESS_FIELDS.
+    function onlyProgressChanged() {
+      return request.resource.data.diff(resource.data).affectedKeys().hasOnly([
+        'favorite', 'mastery', 'masteredAt', 'reviewStage', 'nextReviewAt',
+        'wrongCount', 'priority', 'updatedAt', 'syncedAt'
+      ]);
+    }
+
+    match /vaults/main {
+      allow read: if isMyDevice() || isMyPc();
+      allow write: if isMyPc();
+    }
+
+    match /vaults/main/words/{wordId} {
+      allow read: if isMyDevice() || isMyPc();
+      allow update: if isMyDevice() && onlyProgressChanged();
+      // A device may add a card that does not exist yet, never overwrite or delete one.
+      allow create: if isMyDevice()
+        && request.resource.data.word is string && request.resource.data.word.size() > 0
+        && request.resource.data.deleted == false;
+      allow create, update, delete: if isMyPc();
+    }
+
+    // Study records from the "전체 동기화" button: progress/{profile|lessons|days|cards|listening}.
+    match /vaults/main/progress/{kind} {
+      allow read, write: if isMyDevice() || isMyPc();
+    }
+
+    // Lessons and listening tests: content/{level}/{lessons|listeningQr|listeningSets}/{id}
+    match /content/{document=**} {
+      allow read: if isMyDevice() || isMyPc();
+      allow write: if isMyPc();
+    }
+  }
+}

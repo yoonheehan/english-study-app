@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">SpeakDaily</string>
+    <string name="app_name">English Daily</string>
+    <!-- Shown in other apps' text selection menu and share sheet. -->
+    <string name="capture_label">단어 찾기</string>
 </resources>

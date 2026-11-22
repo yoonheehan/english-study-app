@@ -39,7 +39,63 @@
     {"id": "c1-qr-10", "prompt": "This report could use another pair of eyes.", "promptKo": "이 보고서는 누가 한 번 더 봐 주면 좋겠어요.", "answer": 1, "options": [
       {"text": "My eyes are tired.", "ko": "눈이 피곤해요."},
       {"text": "I could take a look this afternoon.", "ko": "오늘 오후에 제가 볼 수 있어요."},
-      {"text": "It's a nice pair of glasses.", "ko": "멋진 안경이네요."}]}
+      {"text": "It's a nice pair of glasses.", "ko": "멋진 안경이네요."}]},
+    {"id": "c1-qr-11", "prompt": "What if enterprise sales take longer than you expect?", "promptKo": "기업 영업이 예상보다 오래 걸리면 어떡하죠?", "answer": 2, "options": [
+      {"text": "Sales were up last quarter.", "ko": "지난 분기에 매출이 올랐어요."},
+      {"text": "I expect so, yes.", "ko": "그럴 것 같아요."},
+      {"text": "Then we fall back on the consumer side while we adjust.", "ko": "그럼 조정하는 동안 소비자 쪽에 의지하면 돼요."}]},
+    {"id": "c1-qr-12", "prompt": "Is something going on that I should know about?", "promptKo": "내가 알아야 할 일이 있나요?", "answer": 0, "options": [
+      {"text": "Actually, yes. Things have been difficult at home.", "ko": "사실 네. 집에 좀 힘든 일이 있어요."},
+      {"text": "It's going on Tuesday.", "ko": "화요일에 진행돼요."},
+      {"text": "I know about it already.", "ko": "이미 알고 있어요."}]},
+    {"id": "c1-qr-13", "prompt": "Sixty-forty is our final offer.", "promptKo": "6대 4가 최종 제안입니다.", "answer": 1, "options": [
+      {"text": "I finally got the offer.", "ko": "드디어 제안을 받았어요."},
+      {"text": "Then I'm afraid we may need to walk away.", "ko": "그럼 유감이지만 협상을 접어야 할 것 같아요."},
+      {"text": "Forty is a good age.", "ko": "마흔은 좋은 나이죠."}]},
+    {"id": "c1-qr-14", "prompt": "Couldn't the causation run the other way?", "promptKo": "인과 관계가 반대일 수도 있지 않나요?", "answer": 2, "options": [
+      {"text": "I'd rather run in the morning.", "ko": "저는 아침에 뛰는 게 좋아요."},
+      {"text": "The other way is closed.", "ko": "다른 길은 막혔어요."},
+      {"text": "It could, which is why we're running a follow-up study.", "ko": "그럴 수 있어요. 그래서 후속 연구를 하고 있어요."}]},
+    {"id": "c1-qr-15", "prompt": "Can I ask what tipped the balance?", "promptKo": "뭐가 결정적이었는지 물어봐도 될까요?", "answer": 0, "options": [
+      {"text": "Mainly the chance to lead my own team.", "ko": "주로 제 팀을 이끌 기회요."},
+      {"text": "The balance is in my account.", "ko": "잔액은 제 계좌에 있어요."},
+      {"text": "I'll leave a tip on the table.", "ko": "팁은 테이블에 둘게요."}]},
+    {"id": "c1-qr-16", "prompt": "Isn't your sample far too small?", "promptKo": "표본이 너무 작지 않나요?", "answer": 1, "options": [
+      {"text": "Small, medium, or large?", "ko": "스몰, 미디엄, 라지 중에요?"},
+      {"text": "It is limited, which is why I called the results preliminary.", "ko": "제한적이에요. 그래서 결과를 예비적이라고 했어요."},
+      {"text": "The samples are free.", "ko": "샘플은 무료예요."}]},
+    {"id": "c1-qr-17", "prompt": "Was it worth the hype?", "promptKo": "소문만큼 좋았어?", "answer": 2, "options": [
+      {"text": "It's worth about fifty dollars.", "ko": "50달러쯤 해."},
+      {"text": "I hyped it up a lot.", "ko": "내가 많이 띄웠지."},
+      {"text": "Partly. The view was, the food wasn't.", "ko": "반반. 경치는 그랬는데 음식은 아니었어."}]},
+    {"id": "c1-qr-18", "prompt": "If you really want it, I'd bid higher.", "promptKo": "정말 원하시면 더 높게 부르시죠.", "answer": 0, "options": [
+      {"text": "We set our limit for a reason.", "ko": "괜히 한도를 정한 게 아니에요."},
+      {"text": "It's higher than the building.", "ko": "건물보다 높아요."},
+      {"text": "I bid you good night.", "ko": "좋은 밤 되세요."}]},
+    {"id": "c1-qr-19", "prompt": "Well, it's certainly a brave idea.", "promptKo": "음, 확실히 용감한 아이디어네요.", "answer": 1, "options": [
+      {"text": "Thanks, I'm not scared of anything.", "ko": "고마워요, 전 아무것도 안 무서워요."},
+      {"text": "Do you see any risks I might have missed?", "ko": "제가 놓친 위험이 보이세요?"},
+      {"text": "Bravery runs in my family.", "ko": "용기는 우리 집안 내력이에요."}]},
+    {"id": "c1-qr-20", "prompt": "I feel like you're not listening to me anymore.", "promptKo": "네가 더 이상 내 말을 안 듣는 것 같아.", "answer": 2, "options": [
+      {"text": "I'm listening to a podcast.", "ko": "팟캐스트 듣고 있어."},
+      {"text": "I can't hear the music.", "ko": "음악이 안 들려."},
+      {"text": "I'm sorry it feels that way. Help me understand.", "ko": "그렇게 느꼈다니 미안해. 이해할 수 있게 말해 줘."}]},
+    {"id": "c1-qr-21", "prompt": "Why should customers trust you after this?", "promptKo": "이 일 이후 고객이 왜 당신들을 믿어야 하죠?", "answer": 0, "options": [
+      {"text": "They shouldn't just take our word. Judge us by what we do next.", "ko": "말만 믿으시면 안 돼요. 앞으로의 행동으로 판단해 주세요."},
+      {"text": "Our customers are mostly young.", "ko": "저희 고객은 대부분 젊어요."},
+      {"text": "Trust me, it's delicious.", "ko": "믿어요, 맛있어요."}]},
+    {"id": "c1-qr-22", "prompt": "Are there going to be more cuts?", "promptKo": "추가 감원이 있을까요?", "answer": 1, "options": [
+      {"text": "I cut my finger yesterday.", "ko": "어제 손가락을 베였어요."},
+      {"text": "None are planned, and I'll tell you the moment that changes.", "ko": "계획된 건 없고, 바뀌면 바로 알려 드릴게요."},
+      {"text": "Short cuts are faster.", "ko": "지름길이 더 빨라요."}]},
+    {"id": "c1-qr-23", "prompt": "I need the redesign live by Friday.", "promptKo": "금요일까지 개편안을 오픈해야 해요.", "answer": 2, "options": [
+      {"text": "I live near the office.", "ko": "회사 근처에 살아요."},
+      {"text": "Friday is my favorite day.", "ko": "금요일이 제일 좋아요."},
+      {"text": "We can, if we pause the mobile work for two weeks.", "ko": "모바일 작업을 2주 멈추면 가능해요."}]},
+    {"id": "c1-qr-24", "prompt": "Would you like to say a few words?", "promptKo": "몇 마디 해 주시겠어요?", "answer": 0, "options": [
+      {"text": "Just briefly. Thank you for everything, Maria.", "ko": "짧게만요. 마리아, 모든 것에 감사해요."},
+      {"text": "I know a few words in French.", "ko": "프랑스어 몇 단어 알아요."},
+      {"text": "The words are on the screen.", "ko": "단어는 화면에 있어요."}]}
   ],
   "sets": [
     {"id": "c1-c-01", "type": "conversation", "titleKo": "공급업체 협상",
@@ -99,6 +155,101 @@
      "questions": [
       {"q": "What did the town's economy depend on?", "qKo": "마을 경제는 무엇에 의존했나요?", "answer": 2, "options": ["Mining", "Tourism", "The river", "Farming"]},
       {"q": "What caused the fish to disappear?", "qKo": "물고기가 사라진 원인은?", "answer": 1, "options": ["A flood", "A dam upstream", "A new highway", "A factory fire"]},
-      {"q": "What is the town known for now?", "qKo": "지금 마을은 무엇으로 알려져 있나요?", "answer": 0, "options": ["Renewable energy research", "Fishing", "Its festivals", "Trade"]}]}
+      {"q": "What is the town known for now?", "qKo": "지금 마을은 무엇으로 알려져 있나요?", "answer": 0, "options": ["Renewable energy research", "Fishing", "Its festivals", "Trade"]}]},
+    {"id": "c1-c-04", "type": "conversation", "titleKo": "위기 대응 회의",
+     "lines": [
+      {"speaker": 0, "text": "The overheating video has spread to the national news, and our share price dropped six percent this morning.", "ko": "과열 영상이 전국 뉴스로 퍼졌고 오늘 아침 주가가 6퍼센트 떨어졌어요."},
+      {"speaker": 1, "text": "Legal still wants us to wait for the lab results, which won't be ready until Thursday.", "ko": "법무팀은 여전히 목요일에나 나오는 실험 결과를 기다리자고 해요."},
+      {"speaker": 0, "text": "Three days of silence would be far more damaging than admitting we don't have all the answers yet.", "ko": "사흘 침묵은 아직 답을 다 모른다고 인정하는 것보다 훨씬 더 큰 타격이에요."},
+      {"speaker": 1, "text": "Agreed. Let's pause sales, offer refunds immediately, and have the CEO speak on camera this afternoon.", "ko": "동의해요. 판매를 멈추고 즉시 환불을 제안하고 오늘 오후 CEO가 카메라 앞에서 말하게 하죠."}],
+     "questions": [
+      {"q": "What happened to the share price?", "qKo": "주가는 어떻게 됐나요?", "answer": 1, "options": ["It rose six percent.", "It fell six percent.", "It stayed the same.", "It fell sixteen percent."]},
+      {"q": "Why does the legal team want to wait?", "qKo": "법무팀이 기다리자는 이유는?", "answer": 3, "options": ["To hire a PR firm", "To talk to investors", "To recall more products", "To get the lab results"]},
+      {"q": "What will the CEO do?", "qKo": "CEO는 무엇을 하나요?", "answer": 0, "options": ["Speak on camera this afternoon", "Resign", "Write a press release", "Wait until Thursday"]}]},
+    {"id": "c1-c-05", "type": "conversation", "titleKo": "제휴 협상",
+     "lines": [
+      {"speaker": 0, "text": "Our platform delivers roughly seventy percent of the traffic, so a sixty-forty split seems more than fair to us.", "ko": "저희 플랫폼이 트래픽의 약 70퍼센트를 가져오니 6대 4는 충분히 공정해 보여요."},
+      {"speaker": 1, "text": "Traffic is one thing, but our content drives the subscriptions, and that's where the real revenue is.", "ko": "트래픽도 중요하지만 구독을 이끄는 건 저희 콘텐츠고, 진짜 매출은 거기서 나와요."},
+      {"speaker": 0, "text": "What if we started at fifty-five forty-five and revisited it after twelve months of data?", "ko": "55대 45로 시작해서 12개월 데이터를 보고 다시 논의하면 어떨까요?"},
+      {"speaker": 1, "text": "That could work, as long as the metrics for the review are defined in the contract now.", "ko": "검토 지표를 지금 계약서에 명시한다면 가능하겠네요."}],
+     "questions": [
+      {"q": "How much traffic does the first company bring?", "qKo": "첫 번째 회사가 가져오는 트래픽은?", "answer": 2, "options": ["About forty percent", "About sixty percent", "About seventy percent", "About half"]},
+      {"q": "What does the second speaker say drives revenue?", "qKo": "두 번째 화자가 말한 매출의 원천은?", "answer": 0, "options": ["Subscriptions from their content", "Advertising", "Traffic", "Merchandise"]},
+      {"q": "What condition is set for the compromise?", "qKo": "절충안의 조건은?", "answer": 3, "options": ["Paying in advance", "A longer contract", "A bigger budget", "Defining review metrics now"]}]},
+    {"id": "c1-c-06", "type": "conversation", "titleKo": "보증금 분쟁",
+     "lines": [
+      {"speaker": 0, "text": "I've deducted six hundred from your deposit for the scratches on the wooden floor.", "ko": "나무 바닥 긁힘 때문에 보증금에서 600을 공제했어요."},
+      {"speaker": 1, "text": "Those scratches were there when I moved in. I listed them on the inspection form you signed.", "ko": "그 긁힘은 입주할 때부터 있었어요. 서명하신 점검표에 적어 뒀어요."},
+      {"speaker": 0, "text": "I don't have a copy of that form anymore.", "ko": "그 점검표 사본이 이제 없어요."},
+      {"speaker": 1, "text": "I do, and I'll email it today. If the deduction isn't reversed within two weeks, I'll take it to the tenancy board.", "ko": "저한테 있어요, 오늘 메일로 보낼게요. 2주 안에 공제가 취소되지 않으면 임대차 위원회에 가져갈게요."}],
+     "questions": [
+      {"q": "Why did the landlord deduct money?", "qKo": "집주인이 돈을 공제한 이유는?", "answer": 1, "options": ["Unpaid rent", "Floor scratches", "A broken window", "Cleaning"]},
+      {"q": "What evidence does the tenant have?", "qKo": "세입자의 증거는?", "answer": 0, "options": ["A signed inspection form", "Photos from a friend", "A video", "A neighbor's statement"]},
+      {"q": "What will the tenant do if nothing changes?", "qKo": "바뀌지 않으면 세입자는?", "answer": 2, "options": ["Pay the money", "Move back in", "Go to the tenancy board", "Post a review"]}]},
+    {"id": "c1-c-07", "type": "conversation", "titleKo": "멘토와의 대화",
+     "lines": [
+      {"speaker": 0, "text": "I've been offered a director role, but it means managing twenty people and almost no hands-on design work.", "ko": "디렉터 자리를 제안받았는데 20명을 관리하고 실무 디자인은 거의 못 하게 돼요."},
+      {"speaker": 1, "text": "What part of your current job gives you the most energy? Be honest with yourself.", "ko": "지금 일에서 어떤 부분이 가장 힘이 나요? 스스로에게 솔직해 봐요."},
+      {"speaker": 0, "text": "Honestly, the moments when I solve a tricky design problem on my own.", "ko": "솔직히 까다로운 디자인 문제를 혼자 풀 때요."},
+      {"speaker": 1, "text": "Then ask whether there's a principal designer track. Plenty of companies pay senior experts as much as directors.", "ko": "그럼 수석 디자이너 트랙이 있는지 물어봐요. 시니어 전문가에게 디렉터만큼 주는 회사가 많아요."}],
+     "questions": [
+      {"q": "What does the new role involve?", "qKo": "새 자리는 어떤 일인가요?", "answer": 3, "options": ["More design work", "Moving abroad", "Working part-time", "Managing twenty people"]},
+      {"q": "What gives the speaker the most energy?", "qKo": "화자에게 가장 힘이 나는 일은?", "answer": 1, "options": ["Leading meetings", "Solving design problems alone", "Presenting to clients", "Hiring people"]},
+      {"q": "What does the mentor suggest?", "qKo": "멘토의 제안은?", "answer": 0, "options": ["Ask about an expert track", "Accept the offer", "Quit the company", "Take a long break"]}]},
+    {"id": "c1-c-08", "type": "conversation", "titleKo": "주택 입찰",
+     "lines": [
+      {"speaker": 0, "text": "There are five offers on the house, and the seller wants to decide by Monday evening.", "ko": "그 집에 제안이 다섯 건이고 매도인은 월요일 저녁까지 결정하고 싶어 해요."},
+      {"speaker": 1, "text": "We really can't go above our budget. Is there anything else that might give us an edge?", "ko": "예산을 넘길 순 없어요. 유리하게 만들 다른 방법이 있을까요?"},
+      {"speaker": 0, "text": "The seller is moving overseas, so a fast, simple closing could matter more to her than a slightly higher price.", "ko": "매도인이 해외로 이주해서 조금 높은 가격보다 빠르고 간단한 잔금이 더 중요할 수 있어요."},
+      {"speaker": 1, "text": "Then let's offer to close in three weeks and drop our request for her to repaint the bedrooms.", "ko": "그럼 3주 내 잔금을 제안하고 침실 재도색 요청은 빼죠."}],
+     "questions": [
+      {"q": "How many offers are there?", "qKo": "제안은 몇 건인가요?", "answer": 2, "options": ["Three", "Four", "Five", "Six"]},
+      {"q": "Why might a fast closing matter to the seller?", "qKo": "빠른 잔금이 중요한 이유는?", "answer": 0, "options": ["She's moving overseas.", "She needs money for a business.", "She's retiring.", "She's buying another house nearby."]},
+      {"q": "What will the buyers drop from their offer?", "qKo": "구매자가 빼는 요청은?", "answer": 3, "options": ["New appliances", "A lower price", "A home inspection", "Repainting the bedrooms"]}]},
+    {"id": "c1-t-04", "type": "talk", "titleKo": "기조연설",
+     "lines": [
+      {"speaker": 0, "text": "Ten years ago, we believed that more data would automatically lead to better decisions. It didn't.", "ko": "10년 전 우리는 데이터가 많을수록 결정이 자동으로 나아진다고 믿었습니다. 그렇지 않았죠."},
+      {"speaker": 0, "text": "What we learned is that data without a clear question simply creates more noise and more meetings.", "ko": "우리가 배운 건, 명확한 질문 없는 데이터는 소음과 회의만 늘린다는 것입니다."},
+      {"speaker": 0, "text": "So my challenge to you this year is simple: before you build another dashboard, write down the decision it's meant to support.", "ko": "올해 제 제안은 간단합니다. 대시보드를 또 만들기 전에, 그것이 도울 결정을 먼저 적어 보세요."}],
+     "questions": [
+      {"q": "What did people believe ten years ago?", "qKo": "10년 전 사람들이 믿었던 것은?", "answer": 1, "options": ["Meetings were useless.", "More data meant better decisions.", "Dashboards were too expensive.", "Data was dangerous."]},
+      {"q": "What does data without a clear question create?", "qKo": "명확한 질문 없는 데이터가 만드는 것은?", "answer": 2, "options": ["Profit", "Better products", "Noise and meetings", "Happy customers"]},
+      {"q": "What is the speaker's challenge?", "qKo": "연사의 제안은?", "answer": 0, "options": ["Write down the decision before building a dashboard", "Stop using data", "Hire more analysts", "Hold fewer meetings"]}]},
+    {"id": "c1-t-05", "type": "talk", "titleKo": "전사 공지",
+     "lines": [
+      {"speaker": 0, "text": "I want to address last month's decision on bonuses directly, because many of you told me it felt imposed rather than discussed.", "ko": "지난달 보너스 결정에 대해 직접 말씀드리고 싶습니다. 많은 분이 논의가 아니라 강요로 느꼈다고 하셨죠."},
+      {"speaker": 0, "text": "You were right. For this year, we're returning to the previous structure, effective immediately.", "ko": "여러분이 옳았습니다. 올해는 즉시 이전 체계로 돌아갑니다."},
+      {"speaker": 0, "text": "Next year's plan will be designed by a working group with one representative from every department.", "ko": "내년 계획은 모든 부서 대표 한 명씩으로 구성된 실무 그룹이 설계합니다."}],
+     "questions": [
+      {"q": "How did employees feel about the decision?", "qKo": "직원들은 결정을 어떻게 느꼈나요?", "answer": 3, "options": ["Excited", "Confused about numbers", "Grateful", "That it was imposed"]},
+      {"q": "What happens this year?", "qKo": "올해는 어떻게 되나요?", "answer": 1, "options": ["Bonuses are canceled.", "The old structure returns.", "Bonuses double.", "Nothing changes."]},
+      {"q": "Who will design next year's plan?", "qKo": "내년 계획은 누가 설계하나요?", "answer": 0, "options": ["A group with a representative from every department", "The CEO alone", "An outside consultant", "HR only"]}]},
+    {"id": "c1-t-06", "type": "talk", "titleKo": "연구 발표 요약",
+     "lines": [
+      {"speaker": 0, "text": "Our study followed twelve hundred teenagers for three years and measured both screen time and reported anxiety.", "ko": "저희 연구는 청소년 1,200명을 3년간 추적하며 화면 시간과 보고된 불안을 모두 측정했습니다."},
+      {"speaker": 0, "text": "Contrary to many headlines, total screen time predicted very little. What mattered was late-night use that cut into sleep.", "ko": "많은 헤드라인과 달리 총 화면 시간은 거의 예측력이 없었습니다. 중요한 건 수면을 갉아먹는 심야 사용이었습니다."},
+      {"speaker": 0, "text": "Our recommendation, therefore, is not to ban phones but to keep them out of bedrooms after ten.", "ko": "따라서 저희 권고는 휴대폰 금지가 아니라 10시 이후 침실에 두지 않는 것입니다."}],
+     "questions": [
+      {"q": "How long did the study last?", "qKo": "연구 기간은?", "answer": 2, "options": ["One year", "Two years", "Three years", "Twelve years"]},
+      {"q": "What mattered most for anxiety?", "qKo": "불안에 가장 중요했던 것은?", "answer": 0, "options": ["Late-night use that cut into sleep", "Total screen time", "Gaming", "Social media likes"]},
+      {"q": "What do the researchers recommend?", "qKo": "연구진의 권고는?", "answer": 1, "options": ["Banning phones", "Keeping phones out of bedrooms after ten", "Using phones only at school", "Limiting games"]}]},
+    {"id": "c1-t-07", "type": "talk", "titleKo": "은퇴 축사",
+     "lines": [
+      {"speaker": 0, "text": "In thirty-one years here, Daniel trained more of us than anyone can count, and he never once took credit for our success.", "ko": "31년 동안 다니엘은 셀 수 없이 많은 우리를 가르쳤고, 우리의 성공을 한 번도 자기 공으로 돌리지 않았습니다."},
+      {"speaker": 0, "text": "He used to say that a good manager makes the team look brilliant and himself look unnecessary.", "ko": "그는 좋은 관리자는 팀을 빛나게 하고 자신은 필요 없어 보이게 만든다고 말하곤 했죠."},
+      {"speaker": 0, "text": "Daniel, you were never unnecessary. Please raise your glasses to a well-earned retirement.", "ko": "다니엘, 당신은 결코 필요 없는 사람이 아니었어요. 마땅히 누릴 은퇴를 위해 잔을 들어 주세요."}],
+     "questions": [
+      {"q": "How long did Daniel work there?", "qKo": "다니엘은 얼마나 일했나요?", "answer": 3, "options": ["Thirteen years", "Twenty years", "Thirty years", "Thirty-one years"]},
+      {"q": "What did Daniel never do?", "qKo": "다니엘이 한 번도 하지 않은 것은?", "answer": 1, "options": ["Train new staff", "Take credit for the team's success", "Miss a meeting", "Raise his voice"]},
+      {"q": "What does the speaker ask everyone to do?", "qKo": "화자가 모두에게 부탁한 것은?", "answer": 2, "options": ["Sign a card", "Stand up", "Raise their glasses", "Give a speech"]}]},
+    {"id": "c1-t-08", "type": "talk", "titleKo": "기후 패널 마무리",
+     "lines": [
+      {"speaker": 0, "text": "To sum up today's discussion, our panelists agreed that individual action and regulation are not rivals but partners.", "ko": "오늘 토론을 정리하면, 패널들은 개인의 행동과 규제가 경쟁자가 아니라 동반자라는 데 동의했습니다."},
+      {"speaker": 0, "text": "Where they disagreed was on speed: some argued for gradual change to protect jobs, others for urgent bans.", "ko": "의견이 갈린 건 속도였습니다. 일부는 일자리를 지키기 위한 점진적 변화를, 다른 이들은 시급한 금지를 주장했죠."},
+      {"speaker": 0, "text": "The full recording will be online tomorrow, along with the reports each panelist mentioned.", "ko": "전체 녹화본은 각 패널이 언급한 보고서와 함께 내일 온라인에 올라갑니다."}],
+     "questions": [
+      {"q": "What did the panelists agree on?", "qKo": "패널들이 동의한 것은?", "answer": 0, "options": ["Individual action and regulation work together", "Bans should happen immediately", "Recycling is useless", "Companies are not responsible"]},
+      {"q": "What did they disagree about?", "qKo": "의견이 갈린 것은?", "answer": 2, "options": ["The cost", "The science", "The speed of change", "Who should pay"]},
+      {"q": "What will be online tomorrow?", "qKo": "내일 온라인에 올라오는 것은?", "answer": 3, "options": ["A survey", "A new panel", "Photos", "The full recording and reports"]}]}
   ]
 }

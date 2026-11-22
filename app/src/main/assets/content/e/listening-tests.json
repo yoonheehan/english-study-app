@@ -1,0 +1,254 @@
+{
+  "qr": [
+    {"id": "e-qr-01", "prompt": "Why do memorable phrases often come in threes?", "promptKo": "기억에 남는 문구는 왜 셋으로 올까요?", "answer": 1, "options": [
+      {"text": "Because three is my lucky number.", "ko": "3이 제 행운의 숫자라서요."},
+      {"text": "Because three feels complete, like a beginning, middle, and end.", "ko": "시작, 중간, 끝처럼 완결된 느낌이라서요."},
+      {"text": "Because they were written at three o'clock.", "ko": "3시에 쓰여서요."}]},
+    {"id": "e-qr-02", "prompt": "Won't repeating the same words sound boring?", "promptKo": "같은 말을 반복하면 지루하지 않아요?", "answer": 0, "options": [
+      {"text": "Only if you overuse it. Save it for the ending.", "ko": "남용할 때만요. 마무리에 아껴 쓰세요."},
+      {"text": "The words are on the board.", "ko": "단어는 칠판에 있어요."},
+      {"text": "I'm never bored at work.", "ko": "저는 일할 때 절대 지루하지 않아요."}]},
+    {"id": "e-qr-03", "prompt": "What's the difference between a statement and a rhetorical question?", "promptKo": "진술과 수사 의문문의 차이는요?", "answer": 2, "options": [
+      {"text": "One is longer than the other.", "ko": "하나가 더 길어요."},
+      {"text": "Questions are always rude.", "ko": "질문은 항상 무례해요."},
+      {"text": "A question lets the audience discover the answer themselves.", "ko": "질문은 청중이 스스로 답을 발견하게 해요."}]},
+    {"id": "e-qr-04", "prompt": "Give me a contrasting sentence about your product.", "promptKo": "제품에 대한 대조 문장을 하나 말해 봐요.", "answer": 1, "options": [
+      {"text": "Our product is blue and green.", "ko": "우리 제품은 파랗고 초록이에요."},
+      {"text": "They promise more features; we promise fewer headaches.", "ko": "그들은 더 많은 기능을, 우리는 더 적은 골칫거리를 약속해요."},
+      {"text": "It's available next week.", "ko": "다음 주에 출시돼요."}]},
+    {"id": "e-qr-05", "prompt": "Explain compound interest without numbers.", "promptKo": "숫자 없이 복리를 설명해 봐요.", "answer": 0, "options": [
+      {"text": "It's like a snowball that grows faster the bigger it gets.", "ko": "커질수록 더 빨리 자라는 눈덩이 같아요."},
+      {"text": "It's about seven percent.", "ko": "7퍼센트쯤이에요."},
+      {"text": "I'm not interested in it.", "ko": "관심 없어요."}]},
+    {"id": "e-qr-06", "prompt": "My talk is full of data but feels flat. What's missing?", "promptKo": "발표에 데이터는 많은데 밋밋해요. 뭐가 빠졌죠?", "answer": 2, "options": [
+      {"text": "More data, probably.", "ko": "아마 데이터가 더 필요하죠."},
+      {"text": "A flatter screen.", "ko": "더 평평한 화면이요."},
+      {"text": "Emotion. Open with one real person's story.", "ko": "감정이요. 실제 인물 한 명의 이야기로 시작해요."}]},
+    {"id": "e-qr-07", "prompt": "Doesn't admitting their point make me look weak?", "promptKo": "상대 논점을 인정하면 약해 보이지 않나요?", "answer": 1, "options": [
+      {"text": "Yes, never admit anything.", "ko": "네, 절대 아무것도 인정하지 마세요."},
+      {"text": "No, it makes your rebuttal sound fair.", "ko": "아니요, 반박이 공정하게 들려요."},
+      {"text": "Your point is on page two.", "ko": "요점은 2쪽에 있어요."}]},
+    {"id": "e-qr-08", "prompt": "How should I end my talk?", "promptKo": "발표를 어떻게 끝내야 할까요?", "answer": 0, "options": [
+      {"text": "With one small action they can take tonight.", "ko": "오늘 밤 할 수 있는 작은 행동 하나로요."},
+      {"text": "By saying 'that's it, thanks'.", "ko": "'끝이에요, 감사합니다'라고요."},
+      {"text": "At five o'clock.", "ko": "5시에요."}]},
+    {"id": "e-qr-09", "prompt": "My boss said my report was 'not without merit'. Good or bad?", "promptKo": "상사가 보고서가 '장점이 없지 않다'고 했어요. 좋은 거예요?", "answer": 2, "options": [
+      {"text": "Definitely excellent.", "ko": "확실히 훌륭하다는 거예요."},
+      {"text": "Merit is a type of tea.", "ko": "메릿은 차 종류예요."},
+      {"text": "Lukewarm praise. There's some good in it, but not much.", "ko": "미지근한 칭찬이에요. 좋은 점이 있긴 한데 많진 않아요."}]},
+    {"id": "e-qr-10", "prompt": "What is Macbeth feeling in the 'tomorrow' speech?", "promptKo": "'내일' 독백에서 맥베스의 감정은?", "answer": 1, "options": [
+      {"text": "Excitement about the future.", "ko": "미래에 대한 설렘이요."},
+      {"text": "Despair. Life suddenly feels meaningless.", "ko": "절망이요. 삶이 갑자기 무의미해졌죠."},
+      {"text": "Hunger, mostly.", "ko": "주로 배고픔이요."}]},
+    {"id": "e-qr-11", "prompt": "What's in a name, anyway?", "promptKo": "이름이 뭐가 중요해?", "answer": 0, "options": [
+      {"text": "Juliet would agree, but the name got her into trouble.", "ko": "줄리엣은 동의하겠지만 이름 때문에 곤경에 빠졌지."},
+      {"text": "My name is on the door.", "ko": "내 이름은 문에 있어."},
+      {"text": "Six letters.", "ko": "여섯 글자."}]},
+    {"id": "e-qr-12", "prompt": "Is an eleven-page summary too long?", "promptKo": "11쪽짜리 요약은 너무 길까요?", "answer": 2, "options": [
+      {"text": "Make it twelve.", "ko": "12쪽으로 해요."},
+      {"text": "Page eleven is missing.", "ko": "11쪽이 없어요."},
+      {"text": "Yes. Brevity is the soul of wit. Aim for one page.", "ko": "네. 간결함이 재치의 영혼이에요. 한 쪽을 목표로 해요."}]},
+    {"id": "e-qr-13", "prompt": "Skipping the party again, Mr. Scrooge?", "promptKo": "또 파티 빠져, 스크루지 씨?", "answer": 1, "options": [
+      {"text": "I'm skipping rope, actually.", "ko": "사실 줄넘기 중이야."},
+      {"text": "Bah, humbug! Fine, I'll come for an hour.", "ko": "쳇, 허튼소리! 좋아, 한 시간만 갈게."},
+      {"text": "Scrooge is my cousin.", "ko": "스크루지는 내 사촌이야."}]},
+    {"id": "e-qr-14", "prompt": "Why did Thoreau go to live in the woods?", "promptKo": "소로는 왜 숲에 살러 갔나요?", "answer": 0, "options": [
+      {"text": "To find out what he actually needed.", "ko": "진짜 필요한 게 뭔지 알아내려고요."},
+      {"text": "Because rent was cheaper.", "ko": "월세가 싸서요."},
+      {"text": "To build a hotel.", "ko": "호텔을 지으려고요."}]},
+    {"id": "e-qr-15", "prompt": "Isn't changing your mind a sign of weakness?", "promptKo": "생각을 바꾸는 건 약하다는 증거 아닌가요?", "answer": 2, "options": [
+      {"text": "My mind is very strong.", "ko": "제 정신력은 아주 강해요."},
+      {"text": "Only on Mondays.", "ko": "월요일에만요."},
+      {"text": "Not with new evidence. A foolish consistency is worse.", "ko": "새 증거가 있으면 아니에요. 어리석은 일관성이 더 나빠요."}]},
+    {"id": "e-qr-16", "prompt": "Did the road less traveled really make all the difference?", "promptKo": "덜 간 길이 정말 모든 차이를 만들었나요?", "answer": 1, "options": [
+      {"text": "The road is closed for repairs.", "ko": "그 길은 공사로 막혔어요."},
+      {"text": "Frost hints both roads were much the same. We tell the story afterwards.", "ko": "프로스트는 두 길이 비슷했다고 암시해요. 이야기는 나중에 만들죠."},
+      {"text": "I travel by train.", "ko": "저는 기차로 다녀요."}]},
+    {"id": "e-qr-17", "prompt": "Why is 'Call me Ishmael' such a strong opening?", "promptKo": "'나를 이슈메일이라 불러 다오'는 왜 강한 첫 문장이죠?", "answer": 0, "options": [
+      {"text": "It raises a question the reader wants answered.", "ko": "독자가 답을 원하는 질문을 던지니까요."},
+      {"text": "Because Ishmael is a common name.", "ko": "이슈메일이 흔한 이름이라서요."},
+      {"text": "It's very long.", "ko": "아주 길어서요."}]},
+    {"id": "e-qr-18", "prompt": "Does anonymity change people online?", "promptKo": "익명성이 온라인에서 사람을 바꿀까요?", "answer": 2, "options": [
+      {"text": "Only their passwords.", "ko": "비밀번호만요."},
+      {"text": "It changes their name to Hyde.", "ko": "이름을 하이드로 바꿔요."},
+      {"text": "It doesn't change them; it reveals them.", "ko": "바꾸는 게 아니라 드러내요."}]},
+    {"id": "e-qr-19", "prompt": "There's a rumor we're shutting down. How do we respond?", "promptKo": "우리가 문 닫는다는 소문이 있어요. 어떻게 대응하죠?", "answer": 1, "options": [
+      {"text": "Shut the door quietly.", "ko": "문을 조용히 닫아요."},
+      {"text": "With humor and one hard fact, not a long denial.", "ko": "긴 부인 말고 유머와 확실한 사실 하나로요."},
+      {"text": "Rumors are usually true.", "ko": "소문은 대개 사실이에요."}]},
+    {"id": "e-qr-20", "prompt": "Why did Roosevelt change 'world history' to 'infamy'?", "promptKo": "루스벨트는 왜 '세계 역사'를 '치욕'으로 바꿨나요?", "answer": 0, "options": [
+      {"text": "Because 'infamy' judges, while 'history' only describes.", "ko": "'치욕'은 판단하고 '역사'는 묘사만 하니까요."},
+      {"text": "Because it was shorter to type.", "ko": "타이핑이 짧아서요."},
+      {"text": "He didn't like history class.", "ko": "역사 수업을 싫어해서요."}]},
+    {"id": "e-qr-21", "prompt": "Either we cut prices by half, or we fail.", "promptKo": "가격을 반으로 내리든지 망하든지야.", "answer": 2, "options": [
+      {"text": "Half of what?", "ko": "뭐의 반?"},
+      {"text": "Failure is not an option.", "ko": "실패는 선택지가 아니야."},
+      {"text": "That's a false dilemma. What about the options in between?", "ko": "그건 거짓 딜레마야. 그 사이 선택지는?"}]},
+    {"id": "e-qr-22", "prompt": "How should I start my op-ed?", "promptKo": "칼럼을 어떻게 시작해야 해요?", "answer": 1, "options": [
+      {"text": "With a long history of the topic.", "ko": "주제의 긴 역사로요."},
+      {"text": "With your argument, in the first two sentences.", "ko": "첫 두 문장에 주장으로요."},
+      {"text": "With your home address.", "ko": "집 주소로요."}]},
+    {"id": "e-qr-23", "prompt": "All I have for the eulogy is a list of his achievements.", "promptKo": "추도사에 쓸 게 업적 목록뿐이야.", "answer": 0, "options": [
+      {"text": "Find one small story that sounds exactly like him.", "ko": "딱 그분 같은 작은 이야기 하나를 찾아봐."},
+      {"text": "Make the list longer.", "ko": "목록을 더 길게 해."},
+      {"text": "Achievements are on the website.", "ko": "업적은 웹사이트에 있어."}]},
+    {"id": "e-qr-24", "prompt": "What's the opposite of a straw man argument?", "promptKo": "허수아비 논증의 반대는 뭐예요?", "answer": 2, "options": [
+      {"text": "A scarecrow.", "ko": "허수아비요."},
+      {"text": "A man made of wood.", "ko": "나무로 만든 사람이요."},
+      {"text": "Steelmanning: stating their view at its strongest.", "ko": "스틸매닝이요. 상대 견해를 가장 강하게 말하기."}]}
+  ],
+  "sets": [
+    {"id": "e-c-01", "type": "conversation", "titleKo": "발표 오프닝 고치기",
+     "lines": [
+      {"speaker": 0, "text": "My talk starts with my name and my job title. It feels safe, but a bit dull.", "ko": "제 발표는 이름과 직함으로 시작해요. 안전하지만 좀 밋밋해요."},
+      {"speaker": 1, "text": "Safe openings are forgotten in seconds. Start with a surprising fact or a tiny story instead.", "ko": "안전한 오프닝은 몇 초 만에 잊혀요. 대신 놀라운 사실이나 짧은 이야기로 시작해요."},
+      {"speaker": 0, "text": "How about: one in three people here slept less than six hours last night, and most don't realize it?", "ko": "이건 어때요: 여기 세 명 중 한 명은 어젯밤 6시간도 못 잤는데 대부분 그걸 모릅니다?"},
+      {"speaker": 1, "text": "Much better. Introduce yourself after that, once you've earned their attention.", "ko": "훨씬 나아요. 그다음에, 관심을 얻은 뒤에 자기소개를 해요."}],
+     "questions": [
+      {"q": "How does the speaker's talk currently begin?", "qKo": "현재 발표는 어떻게 시작하나요?", "answer": 2, "options": ["With a joke", "With a question", "With a name and job title", "With a video"]},
+      {"q": "What does the coach recommend instead?", "qKo": "코치가 대신 권하는 것은?", "answer": 0, "options": ["A surprising fact or tiny story", "A longer introduction", "A list of statistics", "A quote from a famous person"]},
+      {"q": "When should the speaker introduce himself?", "qKo": "자기소개는 언제 하나요?", "answer": 3, "options": ["Never", "At the very start", "At the end", "After earning attention"]}]},
+    {"id": "e-c-02", "type": "conversation", "titleKo": "맥베스 수업",
+     "lines": [
+      {"speaker": 0, "text": "Tomorrow, and tomorrow, and tomorrow. Why does Shakespeare repeat the word three times?", "ko": "내일, 그리고 내일, 그리고 내일. 셰익스피어는 왜 그 단어를 세 번 반복할까요?"},
+      {"speaker": 1, "text": "To make time feel slow and endless, like it's dragging for Macbeth.", "ko": "시간이 느리고 끝없이 느껴지게, 맥베스에게 질질 끌리는 것처럼요."},
+      {"speaker": 0, "text": "Good. And what has just happened to him before this speech?", "ko": "좋아요. 그리고 이 독백 직전에 그에게 무슨 일이 있었죠?"},
+      {"speaker": 1, "text": "He's just learned that his wife has died, so all his ambition suddenly seems pointless.", "ko": "아내가 죽었다는 걸 막 알게 돼서 모든 야망이 갑자기 무의미해 보이는 거예요."}],
+     "questions": [
+      {"q": "Which word is repeated?", "qKo": "반복되는 단어는?", "answer": 1, "options": ["Today", "Tomorrow", "Yesterday", "Forever"]},
+      {"q": "What effect does the repetition have?", "qKo": "반복의 효과는?", "answer": 0, "options": ["Time feels slow and endless", "It sounds cheerful", "It speeds up the scene", "It confuses the audience"]},
+      {"q": "What has Macbeth just learned?", "qKo": "맥베스가 막 알게 된 것은?", "answer": 2, "options": ["He is king", "He has won a battle", "His wife has died", "His friend betrayed him"]}]},
+    {"id": "e-c-03", "type": "conversation", "titleKo": "줄리어스 시저 분석",
+     "lines": [
+      {"speaker": 0, "text": "Antony keeps calling Brutus 'an honourable man'. Is he sincere?", "ko": "안토니우스는 브루투스를 계속 '고결한 사람'이라고 불러요. 진심일까요?"},
+      {"speaker": 1, "text": "Not at all. Each repetition sounds more sarcastic, until the crowd stops believing it.", "ko": "전혀요. 반복할수록 비꼬는 듯 들리다가 결국 군중이 믿지 않게 돼요."},
+      {"speaker": 0, "text": "And he claims he's come to bury Caesar, not to praise him.", "ko": "그리고 시저를 칭찬하러 온 게 아니라 묻으러 왔다고 주장하죠."},
+      {"speaker": 1, "text": "Then spends the whole speech praising him. He never tells them to turn on Brutus, but they do.", "ko": "그러고는 연설 내내 칭찬하죠. 브루투스에게 등 돌리라고 한 번도 말하지 않는데 군중은 그렇게 해요."}],
+     "questions": [
+      {"q": "How does Antony describe Brutus?", "qKo": "안토니우스는 브루투스를 어떻게 부르나요?", "answer": 3, "options": ["A traitor", "A coward", "A friend", "An honourable man"]},
+      {"q": "What happens with each repetition?", "qKo": "반복할수록 어떻게 되나요?", "answer": 1, "options": ["The crowd cheers for Brutus", "It sounds more sarcastic", "Antony gets tired", "Caesar returns"]},
+      {"q": "What does the crowd eventually do?", "qKo": "군중은 결국 어떻게 하나요?", "answer": 0, "options": ["Turn against Brutus", "Go home", "Praise Brutus", "Ignore Antony"]}]},
+    {"id": "e-c-04", "type": "conversation", "titleKo": "가지 않은 길",
+     "lines": [
+      {"speaker": 0, "text": "I'm taking the riskier job. Two roads diverged, and I'm taking the one less traveled.", "ko": "위험한 일을 택할 거야. 두 갈래 길에서 덜 간 길을 택하는 거지."},
+      {"speaker": 1, "text": "Have you read the whole poem? Frost says the two paths were worn about the same.", "ko": "시 전체를 읽어 봤어? 프로스트는 두 길이 거의 비슷하게 닳았다고 해."},
+      {"speaker": 0, "text": "So the famous message is a misreading?", "ko": "그럼 유명한 메시지가 오독이란 거야?"},
+      {"speaker": 1, "text": "Partly. It's more about how we tell the story of our choices later. So choose, then make it the right choice.", "ko": "어느 정도는. 나중에 우리가 선택을 어떻게 이야기하느냐에 더 가까워. 그러니 고르고, 그걸 옳은 선택으로 만들어."}],
+     "questions": [
+      {"q": "What is the woman deciding?", "qKo": "여자가 결정하는 것은?", "answer": 2, "options": ["Where to travel", "Which poem to read", "Whether to take a riskier job", "Which road to drive"]},
+      {"q": "What does Frost actually say about the paths?", "qKo": "프로스트가 실제로 말한 길의 상태는?", "answer": 0, "options": ["They were worn about the same", "One was dangerous", "One was much shorter", "Both were blocked"]},
+      {"q": "What is the friend's advice?", "qKo": "친구의 조언은?", "answer": 3, "options": ["Don't take the job", "Read more poetry", "Ask your parents", "Choose, then make it the right choice"]}]},
+    {"id": "e-c-05", "type": "conversation", "titleKo": "합병 연설 준비",
+     "lines": [
+      {"speaker": 0, "text": "After the merger, half the staff feel they lost. I need an opening that doesn't make it worse.", "ko": "합병 후 직원 절반은 졌다고 느껴요. 상황을 악화시키지 않는 오프닝이 필요해요."},
+      {"speaker": 1, "text": "Look at Lincoln's second inaugural: with malice toward none, with charity for all. He'd just won, yet chose generosity.", "ko": "링컨의 2차 취임 연설을 봐요. 누구에게도 악의 없이, 모두에게 자비를. 막 이겼는데도 관용을 택했죠."},
+      {"speaker": 0, "text": "So I shouldn't celebrate the deal at all?", "ko": "그럼 거래를 전혀 축하하지 말아야 해요?"},
+      {"speaker": 1, "text": "Not yet. Acknowledge what people lost first, then describe what you'll build together.", "ko": "아직은요. 먼저 사람들이 잃은 걸 인정하고, 그다음 함께 만들 걸 말해요."}],
+     "questions": [
+      {"q": "How do half the staff feel?", "qKo": "직원 절반의 감정은?", "answer": 1, "options": ["Excited", "That they lost", "Relieved", "Indifferent"]},
+      {"q": "Whose speech does the adviser mention?", "qKo": "조언자가 언급한 연설은?", "answer": 2, "options": ["Roosevelt's", "Kennedy's", "Lincoln's", "Churchill's"]},
+      {"q": "What should the speaker do first?", "qKo": "화자가 먼저 할 일은?", "answer": 0, "options": ["Acknowledge what people lost", "Celebrate the deal", "Announce bonuses", "Show the new logo"]}]},
+    {"id": "e-c-06", "type": "conversation", "titleKo": "칼럼 편집",
+     "lines": [
+      {"speaker": 0, "text": "Your main argument only appears in paragraph four. Most readers will have stopped by then.", "ko": "핵심 주장이 넷째 문단에서야 나와요. 대부분의 독자는 그 전에 멈출 거예요."},
+      {"speaker": 1, "text": "I wanted to set the scene first so the argument felt earned.", "ko": "주장이 설득력 있게 느껴지도록 먼저 상황을 깔고 싶었어요."},
+      {"speaker": 0, "text": "In an op-ed, the argument comes first. Use the background to support it afterwards.", "ko": "칼럼에선 주장이 먼저예요. 배경은 그 뒤에 뒷받침으로 써요."},
+      {"speaker": 1, "text": "Then my first line will be: our libraries should stay open until midnight.", "ko": "그럼 첫 줄은 이거예요: 우리 도서관은 자정까지 열어야 한다."}],
+     "questions": [
+      {"q": "Where does the argument currently appear?", "qKo": "현재 주장은 어디에 있나요?", "answer": 3, "options": ["In the title", "In the first line", "In paragraph two", "In paragraph four"]},
+      {"q": "What does the editor recommend?", "qKo": "편집자의 권고는?", "answer": 1, "options": ["Add more background", "Put the argument first", "Cut the article", "Change the topic"]},
+      {"q": "What is the writer's argument?", "qKo": "필자의 주장은?", "answer": 2, "options": ["Libraries should close", "Books should be free", "Libraries should stay open until midnight", "Schools need more books"]}]},
+    {"id": "e-c-07", "type": "conversation", "titleKo": "민원 편지",
+     "lines": [
+      {"speaker": 0, "text": "Your letter to the council is very angry. Officials tend to skim letters like this.", "ko": "구청에 보낼 편지가 아주 화가 나 있어요. 공무원들은 이런 편지를 대충 읽는 편이에요."},
+      {"speaker": 1, "text": "But the crossing really is dangerous. How do I show urgency without shouting?", "ko": "그래도 그 횡단 지점은 정말 위험해요. 소리치지 않고 어떻게 급함을 보여 주죠?"},
+      {"speaker": 0, "text": "Use numbers: how many children cross each morning, how many near misses, and one clear request.", "ko": "숫자를 써요. 매일 아침 몇 명이 건너는지, 아찔한 순간이 몇 번인지, 그리고 명확한 요청 하나."},
+      {"speaker": 1, "text": "Two hundred children a day, three near misses this month, and a crossing installed by September.", "ko": "하루 200명, 이번 달 아찔한 순간 세 번, 그리고 9월까지 횡단보도 설치요."}],
+     "questions": [
+      {"q": "What is the problem with the letter?", "qKo": "편지의 문제는?", "answer": 0, "options": ["It's too angry", "It's too short", "It has no address", "It's too polite"]},
+      {"q": "How many near misses were there this month?", "qKo": "이번 달 아찔한 순간은 몇 번?", "answer": 2, "options": ["One", "Two", "Three", "Two hundred"]},
+      {"q": "What is the request?", "qKo": "요청 사항은?", "answer": 1, "options": ["A new school", "A crossing by September", "A lower speed limit", "A police officer"]}]},
+    {"id": "e-c-08", "type": "conversation", "titleKo": "스틸매닝 연습",
+     "lines": [
+      {"speaker": 0, "text": "Before you argue against them, state their view so well that they'd nod and say, 'Exactly'.", "ko": "반박하기 전에 상대가 고개를 끄덕이며 '바로 그거야'라고 할 만큼 그 견해를 잘 말해 봐요."},
+      {"speaker": 1, "text": "That's the opposite of a straw man, where you attack a weaker version of their argument.", "ko": "상대 주장의 약한 버전을 공격하는 허수아비 논증의 반대네요."},
+      {"speaker": 0, "text": "Right. It's called steelmanning, and it makes your rebuttal much harder to dismiss.", "ko": "맞아요. 스틸매닝이라고 하고, 반박을 훨씬 무시하기 어렵게 해요."},
+      {"speaker": 1, "text": "So: they aren't against growth; they're worried we'll lose the quality customers love.", "ko": "그러니까: 그들은 성장에 반대하는 게 아니라 고객이 사랑하는 품질을 잃을까 걱정하는 거예요."}],
+     "questions": [
+      {"q": "What is steelmanning?", "qKo": "스틸매닝이란?", "answer": 3, "options": ["Attacking a weak version", "Avoiding debate", "Repeating your point", "Stating their view at its strongest"]},
+      {"q": "What does steelmanning do to a rebuttal?", "qKo": "스틸매닝은 반박에 어떤 효과를 주나요?", "answer": 0, "options": ["Makes it harder to dismiss", "Makes it shorter", "Makes it louder", "Makes it unnecessary"]},
+      {"q": "According to the speaker, what is the other side worried about?", "qKo": "화자에 따르면 상대의 걱정은?", "answer": 1, "options": ["Growth itself", "Losing quality", "Higher prices", "New competitors"]}]},
+    {"id": "e-t-01", "type": "talk", "titleKo": "설득의 세 요소 강의",
+     "lines": [
+      {"speaker": 0, "text": "Over two thousand years ago, Aristotle identified three ways to persuade: through character, emotion, and logic.", "ko": "2천여 년 전 아리스토텔레스는 설득의 세 방법을 밝혔습니다. 인격, 감정, 논리."},
+      {"speaker": 0, "text": "Most business presentations rely almost entirely on logic, which is why so few people remember them.", "ko": "대부분의 비즈니스 발표는 거의 논리에만 기대고, 그래서 기억하는 사람이 거의 없죠."},
+      {"speaker": 0, "text": "Try this: earn trust in your first minute, tell one human story, and only then show your strongest number.", "ko": "이렇게 해 보세요. 첫 1분에 신뢰를 얻고, 사람 이야기 하나를 하고, 그다음에야 가장 강한 숫자를 보여 주세요."}],
+     "questions": [
+      {"q": "How many ways to persuade did Aristotle identify?", "qKo": "아리스토텔레스가 밝힌 설득 방법은 몇 가지?", "answer": 1, "options": ["Two", "Three", "Four", "Five"]},
+      {"q": "What do most business presentations rely on?", "qKo": "대부분의 비즈니스 발표가 기대는 것은?", "answer": 0, "options": ["Logic", "Humor", "Emotion", "Music"]},
+      {"q": "What should come last?", "qKo": "마지막에 와야 하는 것은?", "answer": 2, "options": ["A joke", "Your name", "Your strongest number", "A question"]}]},
+    {"id": "e-t-02", "type": "talk", "titleKo": "첫 문장 강의",
+     "lines": [
+      {"speaker": 0, "text": "Call me Ishmael. Three words, and the reader already wonders whether that's even his real name.", "ko": "나를 이슈메일이라 불러 다오. 세 단어만으로 독자는 그게 진짜 이름인지부터 궁금해하죠."},
+      {"speaker": 0, "text": "A strong first line doesn't explain; it creates a question the reader needs answered.", "ko": "강한 첫 문장은 설명하지 않습니다. 독자가 답을 알아야만 하는 질문을 만들죠."},
+      {"speaker": 0, "text": "For homework, rewrite the first sentence of your story so that it raises one clear question.", "ko": "숙제로, 자기 이야기의 첫 문장을 분명한 질문 하나를 던지도록 고쳐 쓰세요."}],
+     "questions": [
+      {"q": "How many words is the famous opening?", "qKo": "유명한 첫 문장은 몇 단어인가요?", "answer": 3, "options": ["One", "Five", "Ten", "Three"]},
+      {"q": "What does a strong first line do?", "qKo": "강한 첫 문장의 역할은?", "answer": 1, "options": ["Explains everything", "Creates a question", "Describes the weather", "Introduces all characters"]},
+      {"q": "What is the homework?", "qKo": "숙제는?", "answer": 0, "options": ["Rewrite the first sentence", "Read Moby-Dick", "Write a poem", "Summarize a novel"]}]},
+    {"id": "e-t-03", "type": "talk", "titleKo": "링컨 연설 해설",
+     "lines": [
+      {"speaker": 0, "text": "Lincoln delivered his second inaugural address in March eighteen sixty-five, weeks before the Civil War ended.", "ko": "링컨은 남북전쟁이 끝나기 몇 주 전인 1865년 3월에 2차 취임 연설을 했습니다."},
+      {"speaker": 0, "text": "Instead of celebrating victory, he called for malice toward none and charity for all.", "ko": "승리를 축하하는 대신 누구에게도 악의 없이, 모두에게 자비를 베풀자고 호소했죠."},
+      {"speaker": 0, "text": "The lesson for any leader after a conflict is clear: the way you win shapes the peace that follows.", "ko": "갈등 이후 모든 리더에게 주는 교훈은 분명합니다. 어떻게 이기느냐가 뒤따르는 평화를 만든다는 것."}],
+     "questions": [
+      {"q": "When was the speech delivered?", "qKo": "연설은 언제였나요?", "answer": 2, "options": ["1861", "1863", "1865", "1868"]},
+      {"q": "What did Lincoln call for?", "qKo": "링컨이 호소한 것은?", "answer": 0, "options": ["Malice toward none, charity for all", "Punishing the South", "A new war", "Lower taxes"]},
+      {"q": "What is the lesson for leaders?", "qKo": "리더에게 주는 교훈은?", "answer": 3, "options": ["Always celebrate", "Avoid all conflict", "Speak for a long time", "How you win shapes the peace"]}]},
+    {"id": "e-t-04", "type": "talk", "titleKo": "단어 선택 강의",
+     "lines": [
+      {"speaker": 0, "text": "Roosevelt's draft described December seventh as a date which will live in world history.", "ko": "루스벨트의 초안은 12월 7일을 세계 역사에 남을 날이라고 묘사했습니다."},
+      {"speaker": 0, "text": "He crossed out 'world history' and wrote 'infamy', turning a neutral description into a moral judgment.", "ko": "그는 '세계 역사'를 지우고 '치욕'이라고 써서 중립적 묘사를 도덕적 판단으로 바꿨죠."},
+      {"speaker": 0, "text": "In your own writing, find the vaguest word in your most important sentence and replace it.", "ko": "여러분의 글에서도 가장 중요한 문장의 가장 모호한 단어를 찾아 바꿔 보세요."}],
+     "questions": [
+      {"q": "What date does the speech describe?", "qKo": "연설이 묘사하는 날짜는?", "answer": 1, "options": ["July fourth", "December seventh", "January first", "November eleventh"]},
+      {"q": "What word did Roosevelt add?", "qKo": "루스벨트가 넣은 단어는?", "answer": 2, "options": ["Tragedy", "History", "Infamy", "Victory"]},
+      {"q": "What should students do?", "qKo": "학생들이 할 일은?", "answer": 0, "options": ["Replace the vaguest word in a key sentence", "Write a longer speech", "Memorize the speech", "Remove all adjectives"]}]},
+    {"id": "e-t-05", "type": "talk", "titleKo": "트루스의 연설",
+     "lines": [
+      {"speaker": 0, "text": "In eighteen fifty-one, Sojourner Truth stood up at a women's rights convention in Ohio.", "ko": "1851년 소저너 트루스는 오하이오의 여성 권리 대회에서 일어섰습니다."},
+      {"speaker": 0, "text": "Men had argued that women were too delicate for equal rights, so she described her own years of hard physical labor.", "ko": "남성들은 여성이 평등한 권리를 갖기엔 너무 연약하다고 주장했고, 그녀는 자신의 오랜 고된 노동을 묘사했죠."},
+      {"speaker": 0, "text": "By using her own life as evidence, she left the opposing argument with nothing to stand on.", "ko": "자신의 삶을 증거로 삼아 반대 주장이 설 자리를 없앴습니다."}],
+     "questions": [
+      {"q": "Where did she speak?", "qKo": "어디에서 연설했나요?", "answer": 3, "options": ["In New York", "In London", "In Boston", "In Ohio"]},
+      {"q": "What had the men argued?", "qKo": "남성들의 주장은?", "answer": 0, "options": ["Women were too delicate", "Women should work more", "Women were too loud", "Women didn't want rights"]},
+      {"q": "What did she use as evidence?", "qKo": "그녀가 증거로 쓴 것은?", "answer": 2, "options": ["Statistics", "Newspaper articles", "Her own life", "Laws"]}]},
+    {"id": "e-t-06", "type": "talk", "titleKo": "졸업 축사",
+     "lines": [
+      {"speaker": 0, "text": "Graduates, you've heard 'follow your dreams' many times today, so I'll offer something less comfortable.", "ko": "졸업생 여러분, 오늘 '꿈을 좇으라'는 말을 많이 들었을 테니 저는 덜 편한 걸 드릴게요."},
+      {"speaker": 0, "text": "The job I was most afraid to take turned out to teach me more than any job I chose because it felt safe.", "ko": "가장 두려워했던 일이 안전해서 택한 어떤 일보다 더 많은 걸 가르쳐 줬습니다."},
+      {"speaker": 0, "text": "So when something scares you a little, not a lot, just a little, treat that as a sign to say yes.", "ko": "그러니 무언가가 조금, 많이가 아니라 조금 두렵다면, 그걸 '예'라고 말하라는 신호로 여기세요."}],
+     "questions": [
+      {"q": "What advice does the speaker avoid repeating?", "qKo": "화자가 반복하지 않으려는 조언은?", "answer": 1, "options": ["Work hard", "Follow your dreams", "Save money", "Call your parents"]},
+      {"q": "Which job taught the speaker the most?", "qKo": "화자에게 가장 많이 가르쳐 준 일은?", "answer": 0, "options": ["The one they were most afraid to take", "The safest one", "The best-paid one", "Their first one"]},
+      {"q": "What should a little fear be treated as?", "qKo": "약간의 두려움은 무엇으로 여겨야 하나요?", "answer": 3, "options": ["A warning to stop", "A reason to rest", "A sign of failure", "A sign to say yes"]}]},
+    {"id": "e-t-07", "type": "talk", "titleKo": "토론 입론",
+     "lines": [
+      {"speaker": 0, "text": "The motion before us is that cities should make public transport free, and we are proud to propose it.", "ko": "오늘의 논제는 도시가 대중교통을 무료로 해야 한다는 것이며, 저희는 자랑스럽게 찬성합니다."},
+      {"speaker": 0, "text": "By free, we mean no fares for buses, trams, and the metro, paid for through a small increase in parking charges.", "ko": "무료란 버스, 트램, 지하철 요금이 없다는 뜻이며, 비용은 주차 요금의 소폭 인상으로 충당합니다."},
+      {"speaker": 0, "text": "We'll show it is fairer, cleaner, and, perhaps surprisingly, cheaper for the city in the long run.", "ko": "저희는 그것이 더 공정하고, 더 깨끗하며, 놀랍게도 장기적으로 도시에 더 저렴하다는 걸 보이겠습니다."}],
+     "questions": [
+      {"q": "What is the motion?", "qKo": "논제는?", "answer": 2, "options": ["Ban cars in cities", "Raise bus fares", "Make public transport free", "Build more roads"]},
+      {"q": "How would it be paid for?", "qKo": "비용은 어떻게 충당하나요?", "answer": 0, "options": ["Higher parking charges", "Income tax", "Advertising", "Donations"]},
+      {"q": "Which argument is NOT in the roadmap?", "qKo": "로드맵에 없는 논거는?", "answer": 3, "options": ["Fairer", "Cleaner", "Cheaper", "Faster"]}]},
+    {"id": "e-t-08", "type": "talk", "titleKo": "개업 건배사",
+     "lines": [
+      {"speaker": 0, "text": "Benjamin Franklin once wrote that well done is better than well said, so I'll keep this short.", "ko": "벤저민 프랭클린은 잘 말하는 것보다 잘하는 게 낫다고 썼으니 짧게 하겠습니다."},
+      {"speaker": 0, "text": "Lena never announced she was opening a bakery. She simply got up at four every morning for two years and did it.", "ko": "레나는 빵집을 연다고 발표한 적이 없어요. 2년 동안 매일 새벽 4시에 일어나 그냥 해냈죠."},
+      {"speaker": 0, "text": "So please raise your glasses to Lena, and to a bakery that was well done long before it was well said.", "ko": "그러니 레나를 위해, 그리고 말하기 훨씬 전에 잘 해낸 빵집을 위해 잔을 들어 주세요."}],
+     "questions": [
+      {"q": "Who is quoted?", "qKo": "누구를 인용했나요?", "answer": 1, "options": ["Mark Twain", "Benjamin Franklin", "Oscar Wilde", "Abraham Lincoln"]},
+      {"q": "What time did Lena get up?", "qKo": "레나는 몇 시에 일어났나요?", "answer": 0, "options": ["Four a.m.", "Six a.m.", "Five a.m.", "Seven a.m."]},
+      {"q": "What is being celebrated?", "qKo": "무엇을 축하하나요?", "answer": 2, "options": ["A wedding", "A birthday", "A new bakery", "A retirement"]}]}
+  ]
+}

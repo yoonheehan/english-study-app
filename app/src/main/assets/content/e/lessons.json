@@ -1,0 +1,1242 @@
+[
+  {
+    "id": "e-tricolon",
+    "title": "The power of three",
+    "titleKo": "[수사] 셋의 법칙",
+    "icon": "forum",
+    "settingKo": "연설 코치가 세 가지로 묶어 말하는 기법을 가르칩니다.",
+    "lines": [
+      {"speaker": 0, "text": "Notice how memorable phrases come in threes: veni, vidi, vici, or government of the people, by the people, for the people.", "ko": "기억에 남는 문구는 셋으로 와요. 왔노라 보았노라 이겼노라, 또는 국민의, 국민에 의한, 국민을 위한."},
+      {"speaker": 1, "text": "Is there a reason three works better than two or four?", "ko": "둘이나 넷보다 셋이 더 잘 통하는 이유가 있나요?"},
+      {"speaker": 0, "text": "Two feels like a comparison, four feels like a list, but three feels complete, like a beginning, a middle, and an end.", "ko": "둘은 비교 같고 넷은 목록 같지만 셋은 시작, 중간, 끝처럼 완결된 느낌을 줘요."},
+      {"speaker": 1, "text": "So instead of saying our product is fast, I should say it's fast, simple, and reliable.", "ko": "그럼 제품이 빠르다고만 하지 말고 빠르고, 간단하고, 믿을 수 있다고 해야겠네요."}
+    ],
+    "gist": {"questionKo": "셋이 효과적인 이유는?", "options": ["외우기 쉬운 숫자라서", "시작, 중간, 끝처럼 완결된 느낌이라서", "짧아서"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["five", "story", "boring"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "Three feels complete.", "ko": "셋은 완결된 느낌을 줘요."},
+      {"en": "Fast, simple, and reliable.", "ko": "빠르고, 간단하고, 믿을 수 있는."}
+    ],
+    "response": {
+      "situationKo": "자기 자신이나 팀을 세 단어로 소개해 보세요.",
+      "prompt": "Describe your team in exactly three words, then explain.",
+      "keywords": ["curious", "honest", "fast", "and", "because", "three"],
+      "answers": [
+        {"text": "Curious, honest, and stubborn. We ask questions, say what we think, and don't give up.", "tone": "보통", "noteKo": "세 단어 뒤에 세 가지 설명을 붙였어요."},
+        {"text": "Small, fast, and fearless, because we ship every week and learn from every mistake.", "tone": "보통", "noteKo": "운율 있는 세 단어예요."},
+        {"text": "Thoughtful, reliable, and kind. In that order, and always together.", "tone": "정중", "noteKo": "짧게 마무리해 여운을 줘요."},
+        {"text": "Loud, caffeinated, brilliant. Mostly in that order.", "tone": "친근", "noteKo": "유머로 셋의 법칙을 활용해요."}
+      ]
+    }
+  },
+  {
+    "id": "e-anaphora",
+    "title": "Repeating for rhythm",
+    "titleKo": "[수사] 반복법",
+    "icon": "forum",
+    "settingKo": "같은 말을 문장 처음에 반복하는 기법을 연습합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Repetition at the start of sentences builds momentum. Listen: we will listen, we will learn, we will do better.", "ko": "문장 처음의 반복은 추진력을 만들어요. 들어 봐요: 우리는 듣고, 배우고, 더 잘할 겁니다."},
+      {"speaker": 1, "text": "It sounds powerful, but couldn't it also sound repetitive and boring?", "ko": "힘 있게 들리는데 반복적이고 지루하게 들릴 수도 있지 않나요?"},
+      {"speaker": 0, "text": "Only if you overuse it. Save it for the moment you want the audience to feel something, usually near the end.", "ko": "남용하면 그래요. 청중이 뭔가를 느끼길 원하는 순간, 보통 끝 무렵에 아껴 쓰세요."},
+      {"speaker": 1, "text": "Then I'll use it once, in my closing, and keep the rest of the speech plain.", "ko": "그럼 마무리에서 한 번만 쓰고 나머지는 담백하게 할게요."}
+    ],
+    "gist": {"questionKo": "반복법을 언제 쓰라고 했나요?", "options": ["모든 문장에", "청중이 감정을 느끼길 원하는 마지막 즈음에", "도입부에만"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["twice", "opening", "fancy"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "Repetition builds momentum.", "ko": "반복은 추진력을 만들어요."},
+      {"en": "Save it for the moment.", "ko": "그 순간을 위해 아껴 두세요."}
+    ],
+    "response": {
+      "situationKo": "같은 구절을 세 번 반복하는 짧은 마무리 문장을 만들어 보세요.",
+      "prompt": "Give me a closing line using repetition.",
+      "keywords": ["we will", "every", "because", "for", "together", "not"],
+      "answers": [
+        {"text": "For every customer we lost, for every bug we shipped, for every promise we broke, this year we make it right.", "tone": "정중", "noteKo": "For every를 세 번 반복했어요."},
+        {"text": "We will listen. We will improve. We will earn your trust back.", "tone": "보통", "noteKo": "We will로 결의를 보여 줘요."},
+        {"text": "Not because it's easy, not because it's quick, but because it's right.", "tone": "보통", "noteKo": "Not because 반복 후 but으로 전환해요."},
+        {"text": "Together we started, together we struggled, and together we'll finish.", "tone": "친근", "noteKo": "Together 반복이에요."}
+      ]
+    }
+  },
+  {
+    "id": "e-rhetorical-q",
+    "title": "Questions that aren't questions",
+    "titleKo": "[수사] 수사 의문문",
+    "icon": "forum",
+    "settingKo": "답을 기대하지 않는 질문으로 청중을 사로잡는 법을 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "Instead of saying 'meetings waste time', ask: how many hours did you spend in meetings last week that changed nothing?", "ko": "'회의는 시간 낭비'라고 하지 말고 물어보세요. 지난주 아무것도 바꾸지 못한 회의에 몇 시간을 썼나요?"},
+      {"speaker": 1, "text": "Because the audience answers it silently in their own heads.", "ko": "청중이 머릿속에서 조용히 답하게 되니까요."},
+      {"speaker": 0, "text": "Exactly. A statement asks them to agree; a question invites them to discover it themselves.", "ko": "바로 그거예요. 진술은 동의를 요구하고, 질문은 스스로 발견하도록 초대해요."},
+      {"speaker": 1, "text": "But if I ask too many, I'll sound like a game-show host.", "ko": "그래도 너무 많이 물으면 퀴즈쇼 진행자처럼 들릴 거예요."}
+    ],
+    "gist": {"questionKo": "수사 의문문의 효과는?", "options": ["청중이 대답하게 한다", "청중이 스스로 발견하게 한다", "시간을 번다"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["forces", "listen", "refuse"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "A question invites them to discover it themselves.", "ko": "질문은 스스로 발견하도록 초대해요."},
+      {"en": "They answer it silently.", "ko": "조용히 답하게 돼요."}
+    ],
+    "response": {
+      "situationKo": "주장을 수사 의문문으로 바꿔서 말해 보세요.",
+      "prompt": "Turn 'we should recycle more' into a rhetorical question.",
+      "keywords": ["what if", "how many", "would you", "why do we", "who"],
+      "answers": [
+        {"text": "How many of the bottles you threw away this year are still sitting in a landfill?", "tone": "보통", "noteKo": "구체적 장면을 떠올리게 해요."},
+        {"text": "Would you throw your rubbish into your own garden? Then why into the ocean?", "tone": "보통", "noteKo": "두 질문을 연결해요."},
+        {"text": "What kind of world are we leaving for the children who will clean up after us?", "tone": "정중", "noteKo": "감정에 호소하는 질문이에요."},
+        {"text": "Who actually enjoys paying for more bin bags every week?", "tone": "친근", "noteKo": "일상적이고 가벼운 버전이에요."}
+      ]
+    }
+  },
+  {
+    "id": "e-antithesis",
+    "title": "Opposites side by side",
+    "titleKo": "[수사] 대조법",
+    "icon": "forum",
+    "settingKo": "반대되는 개념을 나란히 놓아 메시지를 선명하게 하는 법을 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "Antithesis places opposites side by side. Neil Armstrong: one small step for man, one giant leap for mankind.", "ko": "대조법은 반대를 나란히 놓아요. 닐 암스트롱: 한 사람에게는 작은 한 걸음, 인류에게는 거대한 도약."},
+      {"speaker": 1, "text": "Small and giant, man and mankind. The contrast makes both halves stronger.", "ko": "작은 것과 거대한 것, 한 사람과 인류. 대조가 양쪽을 더 강하게 만드네요."},
+      {"speaker": 0, "text": "Try it with your pitch. What's the opposite of what your competitors promise?", "ko": "피치에 써 봐요. 경쟁사가 약속하는 것의 반대는 뭐죠?"},
+      {"speaker": 1, "text": "They promise more features; we promise fewer headaches.", "ko": "그들은 더 많은 기능을, 우리는 더 적은 골칫거리를 약속해요."}
+    ],
+    "gist": {"questionKo": "대조법의 효과는?", "options": ["문장을 길게 만든다", "대조로 양쪽을 더 강하게 만든다", "청중을 웃긴다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["better", "problems", "fixes"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "One small step for man, one giant leap for mankind.", "ko": "한 사람에게는 작은 걸음, 인류에게는 거대한 도약."},
+      {"en": "The contrast makes both halves stronger.", "ko": "대조가 양쪽을 더 강하게 만들어요."}
+    ],
+    "response": {
+      "situationKo": "대조법으로 자신의 신념이나 원칙을 한 문장으로 말해 보세요.",
+      "prompt": "Give me your philosophy in one contrasting sentence.",
+      "keywords": ["not", "but", "less", "more", "not about", "it's about"],
+      "answers": [
+        {"text": "Success isn't about working longer, it's about working on the right things.", "tone": "보통", "noteKo": "not about A, it's about B 구조예요."},
+        {"text": "Speak less, listen more.", "tone": "보통", "noteKo": "짧은 대조가 힘이 있어요."},
+        {"text": "We don't sell software; we sell back people's evenings.", "tone": "정중", "noteKo": "무엇을 파는지 재정의해요."},
+        {"text": "Fewer meetings, better decisions. Simple as that.", "tone": "친근", "noteKo": "구호처럼 말해요."}
+      ]
+    }
+  },
+  {
+    "id": "e-analogy",
+    "title": "Explaining with analogies",
+    "titleKo": "[수사] 비유로 설명하기",
+    "icon": "chat",
+    "settingKo": "어려운 개념을 일상적인 비유로 설명하는 연습을 합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Explain compound interest to someone who's never heard of it, without using a single number.", "ko": "숫자 하나 쓰지 말고 복리를 처음 듣는 사람에게 설명해 봐요."},
+      {"speaker": 1, "text": "It's like a snowball rolling downhill: it picks up snow, gets bigger, and the bigger it gets, the faster it grows.", "ko": "언덕을 굴러가는 눈덩이 같아요. 눈을 붙이며 커지고, 커질수록 더 빨리 자라요."},
+      {"speaker": 0, "text": "Excellent. And what's the lesson hidden in your analogy?", "ko": "훌륭해요. 그 비유에 숨은 교훈은 뭐예요?"},
+      {"speaker": 1, "text": "Start the snowball early, because the hill doesn't get any longer.", "ko": "눈덩이를 일찍 굴리기 시작하라는 거죠. 언덕은 더 길어지지 않으니까요."}
+    ],
+    "gist": {"questionKo": "비유 속 교훈은?", "options": ["눈덩이는 위험하다", "일찍 시작하라", "언덕을 피하라"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["late", "steeper", "small"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "It's like a snowball rolling downhill.", "ko": "언덕을 굴러가는 눈덩이 같아요."},
+      {"en": "The hill doesn't get any longer.", "ko": "언덕은 더 길어지지 않아요."}
+    ],
+    "response": {
+      "situationKo": "어려운 개념 하나를 일상적인 비유로 설명해 보세요.",
+      "prompt": "Explain what a firewall does, using an analogy.",
+      "keywords": ["it's like", "imagine", "think of it as", "just as", "a guard", "a bouncer"],
+      "answers": [
+        {"text": "It's like a bouncer at a club door, checking everyone's ID and turning away anyone suspicious.", "tone": "보통", "noteKo": "It's like로 비유를 시작해요."},
+        {"text": "Think of it as the security desk in an office building, deciding who gets in and who doesn't.", "tone": "정중", "noteKo": "Think of it as로 소개해요."},
+        {"text": "Imagine a filter on a tap: water goes through, but the dirt stays out.", "tone": "보통", "noteKo": "Imagine으로 장면을 그려요."},
+        {"text": "Basically, it's your computer's very grumpy doorman.", "tone": "친근", "noteKo": "의인화로 웃음을 줘요."}
+      ]
+    }
+  },
+  {
+    "id": "e-appeals",
+    "title": "Ethos, pathos, logos",
+    "titleKo": "[수사] 설득의 세 요소",
+    "icon": "forum",
+    "settingKo": "아리스토텔레스의 설득 세 요소로 자기 발표를 분석합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Aristotle said persuasion rests on three things: your credibility, the audience's emotions, and logical argument.", "ko": "아리스토텔레스는 설득이 세 가지에 기댄다고 했어요. 신뢰성, 청중의 감정, 논리적 주장."},
+      {"speaker": 1, "text": "My presentation is full of data, so I'm strong on logic, but I suspect it's emotionally flat.", "ko": "제 발표는 데이터로 가득해서 논리는 강한데 감정적으로는 밋밋한 것 같아요."},
+      {"speaker": 0, "text": "Then open with one real customer's story before you show a single chart.", "ko": "그럼 그래프를 하나라도 보여 주기 전에 실제 고객 한 명의 이야기로 시작해요."},
+      {"speaker": 1, "text": "And mention my ten years in the industry early, so they trust the numbers that follow.", "ko": "그리고 업계 10년 경력을 초반에 말해서 뒤에 나오는 숫자를 믿게 하죠."}
+    ],
+    "gist": {"questionKo": "발표의 약점은?", "options": ["논리가 약하다", "감정적으로 밋밋하다", "너무 짧다"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["after", "every", "graph"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "Persuasion rests on three things.", "ko": "설득은 세 가지에 기대요."},
+      {"en": "So they trust the numbers that follow.", "ko": "뒤에 나오는 숫자를 믿게."}
+    ],
+    "response": {
+      "situationKo": "신뢰, 감정, 논리를 모두 담아 짧게 설득해 보세요.",
+      "prompt": "Convince us to fund the after-school reading program.",
+      "keywords": ["as a teacher", "last year", "imagine", "for every", "the data shows", "costs"],
+      "answers": [
+        {"text": "As a teacher for fifteen years, I've seen it work. Last year, Maya read her first full book. And for every dollar, we see a measurable gain in test scores.", "tone": "정중", "noteKo": "신뢰, 감정, 논리를 순서대로 넣었어요."},
+        {"text": "Imagine being ten and unable to read a menu. The data shows our program fixes that in one year, for less than a school trip costs.", "tone": "보통", "noteKo": "감정과 숫자를 결합해요."},
+        {"text": "I've run this program for six years. Here's one story and three numbers.", "tone": "보통", "noteKo": "구조를 예고하는 도입이에요."},
+        {"text": "One kid, one book, one year. That's the pitch, and here's the proof.", "tone": "친근", "noteKo": "셋의 법칙도 함께 썼어요."}
+      ]
+    }
+  },
+  {
+    "id": "e-concession",
+    "title": "Admit, then argue",
+    "titleKo": "[수사] 양보 후 반박",
+    "icon": "forum",
+    "settingKo": "토론에서 상대 논점을 먼저 인정하고 반박하는 법을 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "The strongest debaters concede the opponent's best point before turning it around.", "ko": "가장 강한 토론자는 상대의 최고 논점을 먼저 인정하고 뒤집어요."},
+      {"speaker": 1, "text": "Doesn't admitting their point make me look weaker?", "ko": "상대 논점을 인정하면 제가 약해 보이지 않나요?"},
+      {"speaker": 0, "text": "The opposite. It shows you've listened, and it makes your rebuttal sound fair rather than defensive.", "ko": "반대예요. 들었다는 걸 보여 주고 반박이 방어적이지 않고 공정하게 들리게 해요."},
+      {"speaker": 1, "text": "So: it's true that the policy costs more upfront, but it saves twice as much within five years.", "ko": "그러니까: 그 정책이 초기 비용은 더 드는 게 사실이지만 5년 안에 두 배를 절약한다."}
+    ],
+    "gist": {"questionKo": "양보가 주는 효과는?", "options": ["약해 보인다", "공정해 보이고 경청했음을 보여 준다", "시간을 끈다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["less", "ten", "spends"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "Concede the best point before turning it around.", "ko": "최고 논점을 인정하고 뒤집어요."},
+      {"en": "Fair rather than defensive.", "ko": "방어적이지 않고 공정하게."}
+    ],
+    "response": {
+      "situationKo": "상대의 좋은 논점을 인정한 뒤 반박해 보세요.",
+      "prompt": "Opponent: Remote work isolates people and weakens company culture.",
+      "keywords": ["it's true that", "i'd agree", "however", "but", "that said", "the solution"],
+      "answers": [
+        {"text": "It's true that isolation is a real risk. However, the solution is better rituals, not more commuting.", "tone": "정중", "noteKo": "It's true that ~ However 구조예요."},
+        {"text": "I'd agree culture can suffer. That said, many remote teams report stronger trust because work is judged by results.", "tone": "정중", "noteKo": "That said로 전환해요."},
+        {"text": "Fair point, but offices didn't guarantee culture either. Plenty of people felt invisible at their desks.", "tone": "보통", "noteKo": "반례를 들어 반박해요."},
+        {"text": "Totally, loneliness is real. But so is a two-hour commute.", "tone": "친근", "noteKo": "짧은 대구로 반박해요."}
+      ]
+    }
+  },
+  {
+    "id": "e-hook",
+    "title": "The opening hook",
+    "titleKo": "[수사] 첫 문장으로 사로잡기",
+    "icon": "chat",
+    "settingKo": "발표의 첫 문장을 더 강렬하게 바꾸는 연습을 합니다.",
+    "lines": [
+      {"speaker": 1, "text": "My talk starts with, 'Hello, my name is Min, and today I'll talk about sleep.'", "ko": "제 발표는 '안녕하세요, 저는 민이고 오늘은 잠에 대해 이야기하겠습니다'로 시작해요."},
+      {"speaker": 0, "text": "That's polite, but nobody will remember it. Start with a surprising fact or a tiny story instead.", "ko": "예의 바르지만 아무도 기억 못 해요. 대신 놀라운 사실이나 짧은 이야기로 시작해요."},
+      {"speaker": 1, "text": "How about: 'Last night, a third of this room slept less than six hours, and most of you don't even know it.'", "ko": "이건 어때요: '어젯밤 이 방의 3분의 1은 6시간도 못 잤고 대부분은 그걸 모릅니다.'"},
+      {"speaker": 0, "text": "Much better. Now they're curious, and you can introduce yourself after you've earned their attention.", "ko": "훨씬 나아요. 이제 궁금해하니까 관심을 얻은 뒤에 자기소개를 하면 돼요."}
+    ],
+    "gist": {"questionKo": "코치의 조언은?", "options": ["자기소개로 시작하라", "놀라운 사실이나 이야기로 시작하라", "농담으로 시작하라"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["before", "bored", "lost"]},
+    "shadow": [1,2],
+    "phrases": [
+      {"en": "Nobody will remember it.", "ko": "아무도 기억 못 해요."},
+      {"en": "After you've earned their attention.", "ko": "관심을 얻은 뒤에."}
+    ],
+    "response": {
+      "situationKo": "아래 주제로 청중을 사로잡는 첫 문장을 만들어 보세요.",
+      "prompt": "Your topic is food waste. Give me your first sentence.",
+      "keywords": ["imagine", "right now", "every", "last year", "a third", "did you know"],
+      "answers": [
+        {"text": "Right now, somewhere in this city, a truck is dumping enough good food to feed a school.", "tone": "보통", "noteKo": "생생한 장면으로 시작해요."},
+        {"text": "Imagine buying three bags of groceries, then throwing one in the bin on the way home. That's what we do every week.", "tone": "보통", "noteKo": "청중을 상황 속에 넣어요."},
+        {"text": "Did you know that a third of all food produced in the world is never eaten?", "tone": "정중", "noteKo": "놀라운 통계로 시작해요."},
+        {"text": "Raise your hand if you've ever found something furry in the back of your fridge.", "tone": "친근", "noteKo": "참여형 오프닝이에요."}
+      ]
+    }
+  },
+  {
+    "id": "e-call-to-action",
+    "title": "Ending with a call to action",
+    "titleKo": "[수사] 행동을 이끄는 마무리",
+    "icon": "forum",
+    "settingKo": "발표 마무리를 구체적인 행동 요청으로 바꿉니다.",
+    "lines": [
+      {"speaker": 1, "text": "I end my talk with, 'So, yeah, that's it. Thanks.' It feels a bit weak.", "ko": "발표를 '그래서, 네, 끝이에요. 감사합니다'로 끝내는데 좀 약한 것 같아요."},
+      {"speaker": 0, "text": "It is. Ask for one specific action they can take this week, not a vague hope.", "ko": "약해요. 막연한 바람 말고 이번 주에 할 수 있는 구체적인 행동 하나를 요청해요."},
+      {"speaker": 1, "text": "So instead of 'please sleep more', I could say 'tonight, put your phone outside the bedroom'.", "ko": "그럼 '잠을 더 자세요' 대신 '오늘 밤 휴대폰을 침실 밖에 두세요'라고 하면 되겠네요."},
+      {"speaker": 0, "text": "Exactly. Small, specific, and tonight. That's what people actually remember and do.", "ko": "바로 그거예요. 작고, 구체적이고, 오늘 밤. 사람들이 실제로 기억하고 행동하는 거예요."}
+    ],
+    "gist": {"questionKo": "좋은 마무리의 조건은?", "options": ["길고 감동적인 인용", "작고 구체적인 즉시 행동", "자기소개 반복"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["large", "tomorrow", "forget"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "Ask for one specific action.", "ko": "구체적인 행동 하나를 요청해요."},
+      {"en": "Small, specific, and tonight.", "ko": "작고, 구체적이고, 오늘 밤."}
+    ],
+    "response": {
+      "situationKo": "아래 주제로 구체적인 행동 요청으로 발표를 마무리해 보세요.",
+      "prompt": "Close your talk on saving money.",
+      "keywords": ["tonight", "this week", "before you", "one thing", "open your", "set up"],
+      "answers": [
+        {"text": "Before you leave this room, open your banking app and set up one automatic transfer, however small.", "tone": "정중", "noteKo": "지금 당장 할 행동이에요."},
+        {"text": "This week, cancel one subscription you forgot you had. That's it. Just one.", "tone": "보통", "noteKo": "부담 없는 작은 행동이에요."},
+        {"text": "Tonight, write down every purchase you made today. You'll be surprised.", "tone": "보통", "noteKo": "결과를 예고해 동기를 줘요."},
+        {"text": "One thing: next coffee, make it at home. Your future self will send a thank-you note.", "tone": "친근", "noteKo": "재치 있는 마무리예요."}
+      ]
+    }
+  },
+  {
+    "id": "e-litotes",
+    "title": "Not bad at all",
+    "titleKo": "[수사] 완곡한 부정 표현",
+    "icon": "chat",
+    "settingKo": "부정을 부정해 강조하는 영어식 완곡 표현을 배웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "When an English speaker says 'not bad', they often mean 'pretty good', and 'not unpleasant' can mean 'quite nice'.", "ko": "영어 화자가 'not bad'라고 하면 보통 '꽤 좋다'는 뜻이고, 'not unpleasant'는 '꽤 괜찮다'일 수 있어요."},
+      {"speaker": 1, "text": "Why not just say it directly?", "ko": "왜 그냥 직접 말하지 않아요?"},
+      {"speaker": 0, "text": "It sounds modest and a little dry, especially in British English. 'It was no small achievement' is warmer than 'it was big'.", "ko": "겸손하고 약간 건조하게 들려서요. 특히 영국 영어에서요. '작은 성과가 아니었다'가 '컸다'보다 따뜻해요."},
+      {"speaker": 1, "text": "So when my boss said my report was 'not without merit', was that praise or criticism?", "ko": "그럼 상사가 제 보고서가 '장점이 없지 않다'고 한 건 칭찬이에요, 비판이에요?"}
+    ],
+    "gist": {"questionKo": "'not bad'의 실제 의미는?", "options": ["나쁘다", "꽤 좋다", "모르겠다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["manager", "useful", "praised"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "It was no small achievement.", "ko": "작은 성과가 아니었다."},
+      {"en": "Not without merit.", "ko": "장점이 없지 않다. (애매한 칭찬)"}
+    ],
+    "response": {
+      "situationKo": "완곡한 부정 표현(not bad, no small 등)으로 무언가를 칭찬해 보세요.",
+      "prompt": "So, how was the new restaurant?",
+      "keywords": ["not bad", "not unpleasant", "no small", "not the worst", "not half bad"],
+      "answers": [
+        {"text": "Not bad at all. I'd happily go back.", "tone": "보통", "noteKo": "not bad at all은 꽤 좋다는 뜻이에요."},
+        {"text": "Not half bad, actually. The desserts were a highlight.", "tone": "친근", "noteKo": "not half bad는 '생각보다 꽤 좋다'예요."},
+        {"text": "Getting a table on a Saturday was no small feat, and the food justified it.", "tone": "정중", "noteKo": "no small feat는 대단한 일이라는 뜻이에요."},
+        {"text": "Honestly, not the worst meal I've had this year.", "tone": "친근", "noteKo": "반어적으로 쓰면 미지근한 평가가 돼요."}
+      ]
+    }
+  },
+  {
+    "id": "e-macbeth",
+    "title": "Tomorrow, and tomorrow",
+    "titleKo": "[문학] 맥베스의 독백",
+    "icon": "chat",
+    "settingKo": "영문학 수업에서 맥베스의 유명한 독백을 해석합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Tomorrow, and tomorrow, and tomorrow, creeps in this petty pace from day to day. What's Macbeth feeling here?", "ko": "내일, 그리고 내일, 그리고 내일이 하루하루 이 하찮은 걸음으로 기어간다. 맥베스는 여기서 어떤 감정일까요?"},
+      {"speaker": 1, "text": "Exhaustion, maybe despair. The repetition makes time feel endless and pointless.", "ko": "지침, 어쩌면 절망이요. 반복이 시간을 끝없고 무의미하게 느끼게 해요."},
+      {"speaker": 0, "text": "Good. He's just heard his wife is dead, and suddenly all his ambition looks meaningless.", "ko": "좋아요. 그는 방금 아내의 죽음을 들었고, 갑자기 모든 야망이 의미 없어 보이죠."},
+      {"speaker": 1, "text": "So the slow rhythm of the words actually imitates the slowness he's describing.", "ko": "그럼 단어의 느린 리듬이 그가 묘사하는 느림을 실제로 흉내 내는 거네요."}
+    ],
+    "gist": {"questionKo": "독백 직전 맥베스에게 일어난 일은?", "options": ["왕이 되었다", "아내의 죽음을 들었다", "전쟁에서 이겼다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["fast", "hides", "loud"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "Tomorrow, and tomorrow, and tomorrow.", "ko": "내일, 그리고 내일, 그리고 내일. (셰익스피어 '맥베스')"},
+      {"en": "The rhythm imitates the slowness.", "ko": "리듬이 느림을 흉내 낸다."}
+    ],
+    "response": {
+      "situationKo": "문학 작품의 한 구절이 왜 효과적인지 분석해 보세요.",
+      "prompt": "Why do you think this line has lasted four hundred years?",
+      "keywords": ["because", "the repetition", "everyone has felt", "universal", "the rhythm", "it captures"],
+      "answers": [
+        {"text": "Because everyone has felt that heavy, endless kind of tiredness at some point.", "tone": "보통", "noteKo": "보편적 경험을 근거로 들어요."},
+        {"text": "The repetition does the work. You feel the days dragging before you even understand the words.", "tone": "정중", "noteKo": "형식이 의미를 만든다고 분석해요."},
+        {"text": "It captures a universal feeling in very simple language, which is surprisingly rare.", "tone": "정중", "noteKo": "simple language를 강조해요."},
+        {"text": "Honestly? Mondays. It's basically a poem about Mondays.", "tone": "친근", "noteKo": "현대적 비유로 가볍게 해석해요."}
+      ]
+    }
+  },
+  {
+    "id": "e-romeo",
+    "title": "What's in a name?",
+    "titleKo": "[문학] 로미오와 줄리엣",
+    "icon": "chat",
+    "settingKo": "친구와 줄리엣의 유명한 대사를 브랜드 이름 문제에 빗대어 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "We've spent three weeks arguing about the company name. Honestly, what's in a name?", "ko": "회사 이름 때문에 3주째 싸우고 있어. 솔직히 이름이 뭐가 중요해?"},
+      {"speaker": 1, "text": "That which we call a rose by any other name would smell as sweet. Juliet would agree with you.", "ko": "장미를 다른 이름으로 불러도 똑같이 향기로울 거야. 줄리엣이 네 편이겠네."},
+      {"speaker": 0, "text": "Exactly. The product matters, not the label.", "ko": "바로 그거야. 중요한 건 이름표가 아니라 제품이지."},
+      {"speaker": 1, "text": "Mind you, the name caused her quite a lot of trouble in the end, so maybe it matters more than she thought.", "ko": "그런데 결국 그 이름 때문에 그녀가 꽤 큰 곤경에 빠졌잖아. 생각보다 이름이 중요할지도 몰라."}
+    ],
+    "gist": {"questionKo": "두 번째 사람의 마지막 말의 의미는?", "options": ["이름은 중요하지 않다", "이름이 생각보다 중요할 수 있다", "장미를 좋아한다"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["flower", "sweeter", "disagree"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "What's in a name?", "ko": "이름이 무슨 상관이야? (셰익스피어 '로미오와 줄리엣')"},
+      {"en": "A rose by any other name would smell as sweet.", "ko": "장미는 다른 이름으로 불러도 똑같이 향기롭다."}
+    ],
+    "response": {
+      "situationKo": "이름(브랜드)이 중요한지에 대해 명구절을 활용해 의견을 말해 보세요.",
+      "prompt": "Does a good name really matter for a product?",
+      "keywords": ["juliet", "a rose", "first impressions", "i'd argue", "memorable", "matters"],
+      "answers": [
+        {"text": "Juliet said a rose would smell as sweet, but nobody buys a rose they can't remember the name of.", "tone": "보통", "noteKo": "구절을 비틀어 반박해요."},
+        {"text": "I'd argue it matters for first impressions, but after that, the product does the talking.", "tone": "정중", "noteKo": "시점별로 나눠 답해요."},
+        {"text": "A memorable name gets you through the door. Quality keeps you in the room.", "tone": "정중", "noteKo": "대구로 주장해요."},
+        {"text": "Matters a bit. Call your app 'Sadness Calculator' and see how it goes.", "tone": "친근", "noteKo": "유머 있는 반례예요."}
+      ]
+    }
+  },
+  {
+    "id": "e-caesar",
+    "title": "Friends, Romans, countrymen",
+    "titleKo": "[문학] 안토니우스의 연설",
+    "icon": "forum",
+    "settingKo": "줄리어스 시저의 안토니우스 연설에서 반어적 설득 기법을 분석합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Antony keeps calling Brutus 'an honourable man', but each time, the audience believes it a little less.", "ko": "안토니우스는 브루투스를 계속 '고결한 사람'이라고 부르는데, 매번 청중은 조금씩 덜 믿게 돼요."},
+      {"speaker": 1, "text": "So he's praising Brutus on the surface while destroying him underneath.", "ko": "그러니까 겉으로는 브루투스를 칭찬하면서 속으로는 무너뜨리는 거네요."},
+      {"speaker": 0, "text": "Exactly. He also says 'I come to bury Caesar, not to praise him', and then praises him for the rest of the speech.", "ko": "바로 그거예요. 또 '시저를 칭찬하러 온 게 아니라 묻으러 왔다'고 하고는 연설 내내 칭찬하죠."},
+      {"speaker": 1, "text": "It's brilliant manipulation. He never says 'turn against Brutus', yet that's exactly what the crowd does.", "ko": "탁월한 조종이네요. '브루투스에게 등 돌려라'고 한 번도 말하지 않는데 군중은 정확히 그렇게 하죠."}
+    ],
+    "gist": {"questionKo": "안토니우스가 사용한 기법은?", "options": ["직접적인 비난", "반복을 통한 반어", "조용한 침묵"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["obvious", "Caesar", "always"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "I come to bury Caesar, not to praise him.", "ko": "시저를 칭찬하러 온 게 아니라 묻으러 왔다. (셰익스피어 '줄리어스 시저')"},
+      {"en": "On the surface... underneath.", "ko": "겉으로는... 속으로는."}
+    ],
+    "response": {
+      "situationKo": "말한 것과 실제 의도가 다른(반어적) 표현의 예를 들어 설명해 보세요.",
+      "prompt": "Can you think of a modern example of saying one thing and meaning another?",
+      "keywords": ["for example", "when someone says", "it really means", "with all due respect", "i'm sure"],
+      "answers": [
+        {"text": "When someone says 'with all due respect' in a meeting, it usually means they're about to disagree strongly.", "tone": "보통", "noteKo": "흔한 직장 반어예요."},
+        {"text": "For example, 'I'm sure you had your reasons' often means 'I think you were wrong'.", "tone": "정중", "noteKo": "완곡한 비판의 예예요."},
+        {"text": "A politician saying 'I have great respect for my opponent' right before attacking their record.", "tone": "보통", "noteKo": "안토니우스와 같은 구조예요."},
+        {"text": "My mum saying 'do whatever you want'. It absolutely does not mean that.", "tone": "친근", "noteKo": "일상 속 반어로 웃음을 줘요."}
+      ]
+    }
+  },
+  {
+    "id": "e-brevity",
+    "title": "Brevity is the soul of wit",
+    "titleKo": "[문학] 간결함이 재치의 영혼",
+    "icon": "chat",
+    "settingKo": "장황한 보고서를 쓴 동료에게 햄릿의 대사로 조언합니다.",
+    "lines": [
+      {"speaker": 1, "text": "My summary is eleven pages. Is that too long for the leadership team?", "ko": "제 요약이 11쪽이에요. 경영진한테 너무 길까요?"},
+      {"speaker": 0, "text": "Polonius says brevity is the soul of wit, which is funny, because he's the most long-winded character in Hamlet.", "ko": "폴로니어스가 간결함이 재치의 영혼이라고 하는데, 웃기게도 그가 햄릿에서 가장 장황한 인물이에요."},
+      {"speaker": 1, "text": "So I'm being Polonius. What would you cut?", "ko": "그럼 제가 폴로니어스네요. 뭘 빼시겠어요?"},
+      {"speaker": 0, "text": "Keep one page: the decision you need, the three reasons, and the risk. Put everything else in an appendix.", "ko": "한 쪽만 남겨요. 필요한 결정, 세 가지 이유, 위험. 나머지는 전부 부록으로."}
+    ],
+    "gist": {"questionKo": "조언의 핵심은?", "options": ["더 자세히 써라", "한 쪽으로 줄이고 나머지는 부록으로", "슬라이드로 바꿔라"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["two", "delete", "five"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "Brevity is the soul of wit.", "ko": "간결함이 재치의 영혼이다. (셰익스피어 '햄릿')"},
+      {"en": "Put everything else in an appendix.", "ko": "나머지는 전부 부록으로."}
+    ],
+    "response": {
+      "situationKo": "긴 이야기를 한두 문장으로 요약해 보세요.",
+      "prompt": "In two sentences, what did your team achieve this year?",
+      "keywords": ["we", "which means", "and", "in short", "next year"],
+      "answers": [
+        {"text": "We halved our support response time and doubled customer satisfaction. Next year, we do the same with half the cost.", "tone": "보통", "noteKo": "성과와 다음 목표를 압축해요."},
+        {"text": "In short, we rebuilt the checkout, which means fewer lost sales every single day.", "tone": "정중", "noteKo": "In short로 요약 신호를 줘요."},
+        {"text": "We launched in three countries and didn't break anything important. That's the headline.", "tone": "친근", "noteKo": "헤드라인처럼 말해요."},
+        {"text": "We fixed what customers complained about most, and they noticed.", "tone": "보통", "noteKo": "한 문장으로도 충분해요."}
+      ]
+    }
+  },
+  {
+    "id": "e-scrooge",
+    "title": "Bah, humbug!",
+    "titleKo": "[문학] 크리스마스 캐럴",
+    "icon": "chat",
+    "settingKo": "연말 회식을 싫어하는 동료를 스크루지에 빗대어 농담합니다.",
+    "lines": [
+      {"speaker": 0, "text": "You're skipping the holiday party again? Bah, humbug, is it, Mr. Scrooge?", "ko": "또 연말 파티 빠져? 쳇, 허튼소리라는 거야, 스크루지 씨?"},
+      {"speaker": 1, "text": "Ha. I'm not against joy, I'm against forced games and a two-hour speech from the CEO.", "ko": "하. 난 즐거움에 반대하는 게 아니라 억지 게임이랑 CEO의 두 시간짜리 연설에 반대하는 거야."},
+      {"speaker": 0, "text": "Fair, but remember Scrooge ends up the happiest man in London once he lets people in.", "ko": "그럴 만해. 그래도 스크루지는 사람들에게 마음을 열고 나서 런던에서 가장 행복한 사람이 되잖아."},
+      {"speaker": 1, "text": "Fine. I'll come for one hour, but if anyone hands me a paper hat, I'm leaving.", "ko": "좋아. 한 시간만 갈게. 근데 누가 종이 모자 주면 바로 간다."}
+    ],
+    "gist": {"questionKo": "두 번째 사람이 싫어하는 것은?", "options": ["모든 즐거움", "억지 게임과 긴 연설", "음식"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["two", "crown", "staying"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "Bah, humbug!", "ko": "쳇, 허튼소리! (디킨스 '크리스마스 캐럴')"},
+      {"en": "Once he lets people in.", "ko": "사람들에게 마음을 열고 나서."}
+    ],
+    "response": {
+      "situationKo": "유명한 문학 캐릭터에 빗대어 친구를 가볍게 놀려 보세요.",
+      "prompt": "My roommate refuses to spend a single cent on anything fun.",
+      "keywords": ["scrooge", "like", "a bit of a", "reminds me of", "if he", "character"],
+      "answers": [
+        {"text": "Sounds like a bit of a Scrooge. Maybe he needs three ghosts to visit him.", "tone": "친근", "noteKo": "작품 내용을 활용한 농담이에요."},
+        {"text": "He reminds me of Scrooge before the ghosts. Give him time.", "tone": "보통", "noteKo": "변화의 가능성을 암시해요."},
+        {"text": "Every story needs a Scrooge. Without him, there's no transformation at the end.", "tone": "정중", "noteKo": "문학적으로 재해석해요."},
+        {"text": "If he says 'bah, humbug', you're legally allowed to move out.", "tone": "친근", "noteKo": "과장된 농담이에요."}
+      ]
+    }
+  },
+  {
+    "id": "e-walden",
+    "title": "Lives of quiet desperation",
+    "titleKo": "[문학] 소로의 월든",
+    "icon": "chat",
+    "settingKo": "번아웃을 겪는 친구와 소로의 『월든』 구절을 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Thoreau wrote that the mass of men lead lives of quiet desperation. That line hit me hard this week.", "ko": "소로는 대부분의 사람이 조용한 절망의 삶을 산다고 썼어. 이번 주에 그 구절이 크게 와닿았어."},
+      {"speaker": 1, "text": "He wrote that in the eighteen fifties, and it still sounds like a description of every office I've worked in.", "ko": "1850년대에 쓴 건데 아직도 내가 일한 모든 사무실을 묘사하는 것 같아."},
+      {"speaker": 0, "text": "He went to live in a cabin to find out what he actually needed. I'm not moving to the woods, though.", "ko": "그는 진짜 필요한 게 뭔지 알려고 오두막에서 살았지. 그래도 난 숲으로 이사 가진 않을 거야."},
+      {"speaker": 1, "text": "You don't need the woods. Maybe just one evening a week with no phone and no plans.", "ko": "숲까진 필요 없어. 일주일에 하루 저녁만 휴대폰도 계획도 없이 보내 봐."}
+    ],
+    "gist": {"questionKo": "친구의 제안은?", "options": ["숲으로 이사 가라", "일주일에 하루 저녁 휴대폰과 계획 없이 지내라", "직장을 그만둬라"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["month", "busy", "office"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "The mass of men lead lives of quiet desperation.", "ko": "대부분의 사람은 조용한 절망의 삶을 산다. (소로 '월든')"},
+      {"en": "That line hit me hard.", "ko": "그 구절이 크게 와닿았어."}
+    ],
+    "response": {
+      "situationKo": "현대인의 삶에 대해 명구절을 인용해 의견을 말해 보세요.",
+      "prompt": "Do you think modern life makes people happier or more anxious?",
+      "keywords": ["thoreau", "quiet desperation", "i think", "more choices", "but", "it depends"],
+      "answers": [
+        {"text": "Thoreau talked about quiet desperation, and I think phones just made it louder.", "tone": "보통", "noteKo": "구절을 현대적으로 변형해요."},
+        {"text": "We have more choices than ever, but more choices can mean more ways to feel we've chosen wrong.", "tone": "정중", "noteKo": "역설로 주장해요."},
+        {"text": "It depends on whether you use technology or let it use you.", "tone": "보통", "noteKo": "대구 표현이에요."},
+        {"text": "Happier on paper, more anxious at three a.m.", "tone": "친근", "noteKo": "짧은 대조로 답해요."}
+      ]
+    }
+  },
+  {
+    "id": "e-emerson",
+    "title": "A foolish consistency",
+    "titleKo": "[문학] 에머슨의 자기 신뢰",
+    "icon": "forum",
+    "settingKo": "의견을 바꿨다고 비판받는 동료를 에머슨의 말로 변호합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Jake's being attacked for changing his position on the project. People are calling it a flip-flop.", "ko": "제이크가 프로젝트에 대한 입장을 바꿨다고 공격받고 있어요. 다들 오락가락한다고 해요."},
+      {"speaker": 1, "text": "Emerson wrote that a foolish consistency is the hobgoblin of little minds. Changing your view with new evidence isn't weakness.", "ko": "에머슨은 어리석은 일관성은 좁은 마음의 도깨비라고 했어요. 새 증거로 견해를 바꾸는 건 약함이 아니에요."},
+      {"speaker": 0, "text": "True, but people want leaders who seem certain.", "ko": "맞아요. 그래도 사람들은 확신 있어 보이는 리더를 원해요."},
+      {"speaker": 1, "text": "Then he should explain what changed his mind. Confidence in his reasoning matters more than sticking to his first guess.", "ko": "그럼 무엇이 생각을 바꿨는지 설명해야죠. 첫 추측을 고수하는 것보다 추론에 대한 확신이 더 중요해요."}
+    ],
+    "gist": {"questionKo": "두 번째 사람의 조언은?", "options": ["원래 입장으로 돌아가라", "생각을 바꾼 이유를 설명하라", "침묵하라"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["apologize", "less", "final"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "A foolish consistency is the hobgoblin of little minds.", "ko": "어리석은 일관성은 좁은 마음의 도깨비다. (에머슨)"},
+      {"en": "Explain what changed his mind.", "ko": "무엇이 생각을 바꿨는지 설명하다."}
+    ],
+    "response": {
+      "situationKo": "자신이 의견을 바꾼 이유를 설득력 있게 설명해 보세요.",
+      "prompt": "Last month you were against this plan. Why the change?",
+      "keywords": ["new evidence", "i've since", "what changed", "i was wrong", "in light of", "my reasoning"],
+      "answers": [
+        {"text": "In light of the pilot results, I've changed my mind. The evidence simply outweighed my concerns.", "tone": "정중", "noteKo": "In light of로 근거를 제시해요."},
+        {"text": "What changed was the data. I'd rather update my view than defend a guess.", "tone": "보통", "noteKo": "추측보다 데이터를 우선해요."},
+        {"text": "I've since spoken to customers, and they described a problem I hadn't understood.", "tone": "보통", "noteKo": "새로운 정보를 구체적으로 말해요."},
+        {"text": "Honestly? I was wrong. Emerson would be proud.", "tone": "친근", "noteKo": "솔직함과 유머를 섞어요."}
+      ]
+    }
+  },
+  {
+    "id": "e-road",
+    "title": "The road not taken",
+    "titleKo": "[문학] 프로스트의 가지 않은 길",
+    "icon": "chat",
+    "settingKo": "진로 고민을 하는 친구와 프로스트의 시를 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Two roads diverged in a wood, and I took the one less traveled by. That's my plan: the risky career.", "ko": "숲속에 두 갈래 길이 있었고, 나는 사람들이 덜 간 길을 택했다. 그게 내 계획이야. 위험한 진로."},
+      {"speaker": 1, "text": "People always quote that as brave advice, but read the whole poem. Frost says both paths were worn about the same.", "ko": "다들 그걸 용감한 조언으로 인용하는데 시 전체를 읽어 봐. 프로스트는 두 길이 거의 비슷하게 닳았다고 해."},
+      {"speaker": 0, "text": "Wait, really? So the choice didn't matter?", "ko": "잠깐, 진짜? 그럼 선택이 중요하지 않았다는 거야?"},
+      {"speaker": 1, "text": "More that we tell the story afterwards as if it did. So choose, and then make your choice the right one.", "ko": "그보다는 나중에 중요했던 것처럼 이야기를 만든다는 거지. 그러니 고르고, 그 선택을 옳은 것으로 만들어."}
+    ],
+    "gist": {"questionKo": "시의 숨은 의미는?", "options": ["항상 덜 간 길을 택하라", "선택 후 이야기를 만들어 의미를 부여한다", "숲은 위험하다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["wrong", "before", "regret"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "I took the one less traveled by.", "ko": "나는 사람들이 덜 간 길을 택했다. (프로스트)"},
+      {"en": "Make your choice the right one.", "ko": "그 선택을 옳은 것으로 만들어."}
+    ],
+    "response": {
+      "situationKo": "인생의 갈림길에서 내린 선택을 돌아보며 말해 보세요.",
+      "prompt": "Was there a moment when you chose a road less traveled?",
+      "keywords": ["when i", "most people", "looking back", "i chose", "instead of", "made all the difference"],
+      "answers": [
+        {"text": "When I left engineering for teaching, most people thought I was mad. Looking back, it made all the difference.", "tone": "보통", "noteKo": "시의 마지막 구절을 활용해요."},
+        {"text": "I chose a small company instead of a big brand. I learned three times as fast.", "tone": "보통", "noteKo": "결과를 비교해 말해요."},
+        {"text": "Honestly, my choices were ordinary. But I've learned to tell them as if they were brave.", "tone": "정중", "noteKo": "시의 해석을 자신에게 적용해요."},
+        {"text": "Moving to a city where I knew nobody. Terrifying, then wonderful.", "tone": "친근", "noteKo": "짧은 대조로 감정을 표현해요."}
+      ]
+    }
+  },
+  {
+    "id": "e-hope",
+    "title": "Hope is the thing with feathers",
+    "titleKo": "[문학] 디킨슨의 희망",
+    "icon": "chat",
+    "settingKo": "힘든 시기를 지나는 친구에게 에밀리 디킨슨의 시를 보내며 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "I sent you that poem because the first line reminded me of you: hope is the thing with feathers.", "ko": "첫 줄이 너를 떠올리게 해서 그 시를 보냈어. 희망은 깃털 달린 것."},
+      {"speaker": 1, "text": "I liked how she describes hope as a small bird that sings without ever asking for anything.", "ko": "희망을 아무것도 요구하지 않고 노래하는 작은 새로 묘사한 게 좋았어."},
+      {"speaker": 0, "text": "Exactly. Even in the worst storms, it keeps singing, quietly, in the background.", "ko": "바로 그거야. 최악의 폭풍 속에서도 배경에서 조용히 계속 노래하잖아."},
+      {"speaker": 1, "text": "It's a better image than 'stay positive'. It doesn't pretend the storm isn't there.", "ko": "'긍정적으로 생각해'보다 나은 이미지야. 폭풍이 없는 척하지 않으니까."}
+    ],
+    "gist": {"questionKo": "두 번째 사람이 시를 좋아한 이유는?", "options": ["밝고 신나서", "폭풍이 없는 척하지 않아서", "짧아서"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["worse", "sunshine", "happy"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "Hope is the thing with feathers.", "ko": "희망은 깃털 달린 것. (에밀리 디킨슨)"},
+      {"en": "It doesn't pretend the storm isn't there.", "ko": "폭풍이 없는 척하지 않아."}
+    ],
+    "response": {
+      "situationKo": "추상적인 감정(희망, 두려움 등)을 사물이나 동물로 비유해 표현해 보세요.",
+      "prompt": "If fear were an animal, what would it be?",
+      "keywords": ["fear is", "like", "it", "a", "that", "because"],
+      "answers": [
+        {"text": "Fear is a cat on your chest at night: small, heavy, and very hard to move.", "tone": "보통", "noteKo": "구체적 감각으로 비유해요."},
+        {"text": "A guard dog. It barks at everything, including the postman, but sometimes it's right.", "tone": "보통", "noteKo": "양면성을 표현해요."},
+        {"text": "I'd say a shadow, because it grows bigger the further you are from the light.", "tone": "정중", "noteKo": "시적인 비유예요."},
+        {"text": "A mosquito. Tiny, annoying, and always shows up when you're trying to sleep.", "tone": "친근", "noteKo": "유머 있는 비유예요."}
+      ]
+    }
+  },
+  {
+    "id": "e-earnest",
+    "title": "The importance of being earnest",
+    "titleKo": "[문학] 오스카 와일드의 재치",
+    "icon": "chat",
+    "settingKo": "오스카 와일드의 재치 있는 대사를 현대 상황에 대입해 봅니다.",
+    "lines": [
+      {"speaker": 0, "text": "In The Importance of Being Earnest, Algernon says the truth is rarely pure and never simple.", "ko": "'진지함의 중요성'에서 앨저넌은 진실은 순수한 경우가 드물고 결코 단순하지 않다고 해요."},
+      {"speaker": 1, "text": "That's basically every argument I've had with my sister about what happened at Christmas.", "ko": "그건 크리스마스에 무슨 일이 있었는지를 두고 언니와 했던 모든 말다툼이네요."},
+      {"speaker": 0, "text": "Wilde loved turning clichés inside out. He takes 'the plain truth' and shows it's never plain.", "ko": "와일드는 상투어를 뒤집는 걸 좋아했어요. '있는 그대로의 진실'을 가져와 결코 단순하지 않다는 걸 보여 주죠."},
+      {"speaker": 1, "text": "Which makes him funny and annoyingly wise at the same time.", "ko": "그래서 재밌으면서도 짜증 나게 현명하죠."}
+    ],
+    "gist": {"questionKo": "와일드가 즐겨 쓴 기법은?", "options": ["긴 묘사", "상투어를 뒤집기", "반복"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["boring", "rarely", "different"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "The truth is rarely pure and never simple.", "ko": "진실은 순수한 경우가 드물고 결코 단순하지 않다. (오스카 와일드)"},
+      {"en": "Turning clichés inside out.", "ko": "상투어를 뒤집기."}
+    ],
+    "response": {
+      "situationKo": "흔한 속담이나 상투어를 와일드처럼 비틀어 재치 있게 말해 보세요.",
+      "prompt": "Twist a well-known saying into something witty.",
+      "keywords": ["better late", "early bird", "practice makes", "honesty", "but", "except"],
+      "answers": [
+        {"text": "The early bird catches the worm, but the second mouse gets the cheese.", "tone": "보통", "noteKo": "유명한 속담 비틀기예요."},
+        {"text": "Better late than never, but never late is better.", "tone": "보통", "noteKo": "어순을 바꿔 재치를 줘요."},
+        {"text": "Practice makes perfect, except when you practise the wrong thing perfectly.", "tone": "정중", "noteKo": "except로 반전을 줘요."},
+        {"text": "Honesty is the best policy, unless you're asked about someone's haircut.", "tone": "친근", "noteKo": "일상적 반전으로 웃음을 줘요."}
+      ]
+    }
+  },
+  {
+    "id": "e-ishmael",
+    "title": "Call me Ishmael",
+    "titleKo": "[문학] 모비 딕의 첫 문장",
+    "icon": "chat",
+    "settingKo": "글쓰기 모임에서 유명한 첫 문장들의 힘을 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Call me Ishmael. Three words, and Melville has already made you curious about who this person is.", "ko": "나를 이슈메일이라 불러 다오. 세 단어만으로 멜빌은 이 사람이 누군지 궁금하게 만들어요."},
+      {"speaker": 1, "text": "It's strange, isn't it? 'Call me' suggests that might not even be his real name.", "ko": "이상하죠? '불러 다오'라는 건 그게 진짜 이름이 아닐 수도 있다는 걸 암시해요."},
+      {"speaker": 0, "text": "Exactly. A great first line raises a question the reader needs answered.", "ko": "바로 그거예요. 훌륭한 첫 문장은 독자가 답을 알고 싶어지는 질문을 던져요."},
+      {"speaker": 1, "text": "Then my opening, 'It was a sunny day', probably isn't doing much work.", "ko": "그럼 제 첫 문장 '화창한 날이었다'는 별로 일을 안 하고 있겠네요."}
+    ],
+    "gist": {"questionKo": "훌륭한 첫 문장의 조건은?", "options": ["날씨를 묘사한다", "독자가 답을 원하는 질문을 던진다", "길고 자세하다"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["answers", "writer", "boring"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "Call me Ishmael.", "ko": "나를 이슈메일이라 불러 다오. (멜빌 '모비 딕')"},
+      {"en": "It raises a question the reader needs answered.", "ko": "독자가 답을 알고 싶어지는 질문을 던져요."}
+    ],
+    "response": {
+      "situationKo": "자신의 이야기를 시작하는 궁금증을 자아내는 첫 문장을 만들어 보세요.",
+      "prompt": "Write the first line of your autobiography.",
+      "keywords": ["i was", "nobody", "the day", "never", "until", "everyone"],
+      "answers": [
+        {"text": "Nobody in my family had ever left the village, until the summer I bought a one-way ticket.", "tone": "보통", "noteKo": "until로 반전을 예고해요."},
+        {"text": "I was twenty-six the first time I said no to my father, and it changed everything.", "tone": "정중", "noteKo": "구체적 나이와 사건으로 시작해요."},
+        {"text": "Everyone remembers where they were that night. I was hiding in a cupboard.", "tone": "보통", "noteKo": "의문을 남기는 구조예요."},
+        {"text": "Call me Min. Actually, everyone does, so that's not very mysterious.", "tone": "친근", "noteKo": "패러디로 유머를 줘요."}
+      ]
+    }
+  },
+  {
+    "id": "e-jekyll",
+    "title": "Jekyll and Hyde",
+    "titleKo": "[문학] 지킬과 하이드",
+    "icon": "chat",
+    "settingKo": "온라인과 오프라인에서 전혀 다른 사람을 지킬과 하이드에 빗대어 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "In person he's the gentlest man in the office, but online he picks fights with strangers all night.", "ko": "직접 보면 사무실에서 가장 온화한 사람인데 온라인에선 밤새 모르는 사람이랑 싸워."},
+      {"speaker": 1, "text": "A proper Jekyll and Hyde. Stevenson would have had a field day with social media.", "ko": "완전 지킬과 하이드네. 스티븐슨이 SNS를 봤으면 신나서 썼을 거야."},
+      {"speaker": 0, "text": "What I find interesting is that Jekyll didn't create a new self; the potion just removed his restraint.", "ko": "흥미로운 건 지킬이 새로운 자아를 만든 게 아니라 약이 자제력을 없앤 거라는 점이야."},
+      {"speaker": 1, "text": "Which is exactly what anonymity does. It doesn't change people, it reveals them.", "ko": "익명성이 딱 그렇지. 사람을 바꾸는 게 아니라 드러내는 거야."}
+    ],
+    "gist": {"questionKo": "두 사람의 결론은?", "options": ["익명성은 사람을 바꾼다", "익명성은 사람을 드러낸다", "SNS를 끊어야 한다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["creates", "hides", "always"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "A proper Jekyll and Hyde.", "ko": "완전 지킬과 하이드. (이중인격)"},
+      {"en": "It doesn't change people, it reveals them.", "ko": "사람을 바꾸는 게 아니라 드러내는 거야."}
+    ],
+    "response": {
+      "situationKo": "문학 속 인물을 빗대어 사람이나 상황을 묘사해 보세요.",
+      "prompt": "Describe someone you know using a famous literary character.",
+      "keywords": ["she's a", "he's a real", "like", "a bit of a", "reminds me of", "character"],
+      "answers": [
+        {"text": "My manager is a real Sherlock Holmes. She spots the one mistake on page forty.", "tone": "보통", "noteKo": "탐정 캐릭터로 꼼꼼함을 표현해요."},
+        {"text": "My uncle is a bit of a Peter Pan. Fifty years old and refuses to grow up.", "tone": "친근", "noteKo": "피터 팬은 철들지 않는 사람이에요."},
+        {"text": "She reminds me of Elizabeth Bennet: sharp, proud, and quick to judge, but always fair in the end.", "tone": "정중", "noteKo": "오만과 편견의 주인공이에요."},
+        {"text": "He's like Scrooge with money but a Santa with his time.", "tone": "보통", "noteKo": "두 캐릭터로 대조해요."}
+      ]
+    }
+  },
+  {
+    "id": "e-gatsby",
+    "title": "Boats against the current",
+    "titleKo": "[문학] 위대한 개츠비",
+    "icon": "chat",
+    "settingKo": "과거를 놓지 못하는 친구와 개츠비의 마지막 문장을 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "I keep checking my ex's photos. I know it's pointless, but I can't seem to stop.", "ko": "계속 전 애인 사진을 봐. 의미 없는 거 아는데 멈출 수가 없어."},
+      {"speaker": 1, "text": "So we beat on, boats against the current, borne back ceaselessly into the past. Gatsby had the same problem.", "ko": "그렇게 우리는 물결을 거스르는 배처럼 끊임없이 과거로 떠밀려 가면서도 나아간다. 개츠비도 같은 문제가 있었지."},
+      {"speaker": 0, "text": "And it didn't exactly end well for him.", "ko": "그리고 그에게 결말이 좋진 않았지."},
+      {"speaker": 1, "text": "No. He thought he could repeat the past. You can't, but you can stop rowing backwards.", "ko": "그렇지. 그는 과거를 되풀이할 수 있다고 믿었어. 그건 못 해도 뒤로 노 젓는 건 멈출 수 있어."}
+    ],
+    "gist": {"questionKo": "친구의 조언은?", "options": ["과거를 되찾아라", "뒤로 노 젓는 걸 멈춰라", "개츠비처럼 파티를 열어라"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["forward", "future", "forget"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "Boats against the current.", "ko": "물결을 거스르는 배. (피츠제럴드 '위대한 개츠비')"},
+      {"en": "You can stop rowing backwards.", "ko": "뒤로 노 젓는 건 멈출 수 있어."}
+    ],
+    "response": {
+      "situationKo": "과거에 얽매인 친구를 문학적 비유로 다정하게 격려해 보세요.",
+      "prompt": "I just can't let go of how things used to be.",
+      "keywords": ["the past", "you can't", "but you can", "chapter", "move forward", "remember"],
+      "answers": [
+        {"text": "You can't rewrite the last chapter, but you get to write the next one.", "tone": "보통", "noteKo": "책 비유로 격려해요."},
+        {"text": "The past is worth remembering, just not worth living in.", "tone": "정중", "noteKo": "대조로 핵심을 말해요."},
+        {"text": "Gatsby tried to repeat the past. Let's not make that your story.", "tone": "보통", "noteKo": "작품을 인용해 경고해요."},
+        {"text": "Put the oars down for a bit. Let's go do something new this weekend.", "tone": "친근", "noteKo": "비유를 이어 행동을 제안해요."}
+      ]
+    }
+  },
+  {
+    "id": "e-captain",
+    "title": "O Captain! My Captain!",
+    "titleKo": "[문학] 휘트먼의 애도시",
+    "icon": "feedback",
+    "settingKo": "은퇴하는 은사를 위한 송별사에 휘트먼의 시를 넣을지 의논합니다.",
+    "lines": [
+      {"speaker": 0, "text": "For Mr. Hall's farewell, the students want to stand on their desks and shout 'O Captain! My Captain!'", "ko": "홀 선생님 송별식에 학생들이 책상 위에 서서 '오 캡틴! 마이 캡틴!'을 외치고 싶어 해요."},
+      {"speaker": 1, "text": "It's touching, but Whitman wrote that poem as a lament for Lincoln after his assassination.", "ko": "감동적이지만 휘트먼은 그 시를 링컨 암살 후 애도시로 썼어요."},
+      {"speaker": 0, "text": "So it's technically a poem about a captain who dies just as the ship reaches home.", "ko": "그럼 엄밀히는 배가 집에 닿는 순간 죽는 선장에 대한 시네요."},
+      {"speaker": 1, "text": "Maybe keep the gesture but add a line that makes clear he's very much alive and retiring happily.", "ko": "그 행동은 살리되, 선생님이 멀쩡히 살아 행복하게 은퇴하신다는 걸 분명히 하는 한 줄을 넣으면 어때요."}
+    ],
+    "gist": {"questionKo": "그 시의 원래 맥락은?", "options": ["교사에 대한 존경", "링컨 암살 후 애도", "항해의 기쁨"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["remove", "sadly", "dead"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "O Captain! My Captain!", "ko": "오 캡틴! 마이 캡틴! (휘트먼)"},
+      {"en": "A lament for Lincoln.", "ko": "링컨을 위한 애도."}
+    ],
+    "response": {
+      "situationKo": "고마운 선생님이나 상사에게 짧은 송별사를 해 보세요.",
+      "prompt": "Would you like to say something to Mr. Hall before he goes?",
+      "keywords": ["thank you for", "you taught", "because of you", "we'll miss", "you made"],
+      "answers": [
+        {"text": "Thank you for believing in us before we believed in ourselves.", "tone": "정중", "noteKo": "before we believed로 감동을 줘요."},
+        {"text": "Because of you, I still read poetry, and I never thought I'd say that.", "tone": "보통", "noteKo": "구체적인 변화를 말해요."},
+        {"text": "You taught us grammar, but mostly you taught us to be curious. We'll miss you.", "tone": "보통", "noteKo": "but mostly로 진짜 가르침을 강조해요."},
+        {"text": "Enjoy retirement, Captain. We'll take it from here.", "tone": "친근", "noteKo": "시의 이미지를 가볍게 이어요."}
+      ]
+    }
+  },
+  {
+    "id": "e-twain",
+    "title": "Greatly exaggerated",
+    "titleKo": "[문학] 마크 트웨인의 유머",
+    "icon": "chat",
+    "settingKo": "회사가 망한다는 소문에 대해 대표가 트웨인의 유명한 일화를 인용합니다.",
+    "lines": [
+      {"speaker": 0, "text": "There's a rumor online that we're shutting down next month. Should we respond?", "ko": "다음 달에 문 닫는다는 소문이 온라인에 돌아요. 대응해야 할까요?"},
+      {"speaker": 1, "text": "Mark Twain, when a newspaper printed his obituary, is often quoted as saying the report of his death was an exaggeration.", "ko": "마크 트웨인은 신문에 자기 부고가 실렸을 때 사망 보도가 과장이라고 말한 것으로 자주 인용되죠."},
+      {"speaker": 0, "text": "So we answer with humor rather than panic?", "ko": "그러니까 당황하지 말고 유머로 답하자는 거죠?"},
+      {"speaker": 1, "text": "Humor, plus one hard fact: we just signed our biggest contract ever. Confidence beats a long denial.", "ko": "유머에 확실한 사실 하나를 더하죠. 방금 사상 최대 계약을 맺었다고. 긴 부인보다 자신감이 이겨요."}
+    ],
+    "gist": {"questionKo": "대응 전략은?", "options": ["긴 부인 성명", "유머와 확실한 사실 하나", "무시"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["smallest", "panic", "loses"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "The report of my death was an exaggeration.", "ko": "내 사망 보도는 과장이었다. (마크 트웨인 일화)"},
+      {"en": "Confidence beats a long denial.", "ko": "긴 부인보다 자신감이 이긴다."}
+    ],
+    "response": {
+      "situationKo": "자신에 대한 잘못된 소문을 유머와 사실로 재치 있게 부정해 보세요.",
+      "prompt": "I heard you're quitting to become a farmer!",
+      "keywords": ["rumors of", "greatly exaggerated", "actually", "i wish", "the truth is"],
+      "answers": [
+        {"text": "Rumors of my farming career have been greatly exaggerated. I can't even keep a cactus alive.", "tone": "친근", "noteKo": "트웨인 구절 패러디예요."},
+        {"text": "Actually, I just signed up for a pottery class. Somehow that became a farm.", "tone": "보통", "noteKo": "사실을 밝히며 웃음을 줘요."},
+        {"text": "The truth is less exciting: I'm moving teams, not leaving.", "tone": "정중", "noteKo": "간결하게 정정해요."},
+        {"text": "I wish! Who's spreading this, and can they find me a farm?", "tone": "친근", "noteKo": "유머로 받아넘겨요."}
+      ]
+    }
+  },
+  {
+    "id": "e-malice",
+    "title": "With malice toward none",
+    "titleKo": "[연설] 링컨 2차 취임 연설",
+    "icon": "forum",
+    "settingKo": "합병 후 갈등이 큰 두 팀을 하나로 모으는 연설을 준비합니다.",
+    "lines": [
+      {"speaker": 0, "text": "After the merger, half the room will feel they lost. How do I open without making it worse?", "ko": "합병 후 절반은 졌다고 느낄 거예요. 상황을 악화시키지 않고 어떻게 시작하죠?"},
+      {"speaker": 1, "text": "Look at Lincoln's second inaugural, at the end of the Civil War: with malice toward none, with charity for all.", "ko": "남북전쟁 끝무렵 링컨의 2차 취임 연설을 봐요. 누구에게도 악의 없이, 모두에게 자비를."},
+      {"speaker": 0, "text": "He'd just won, and he chose generosity instead of victory.", "ko": "막 이겼는데 승리 대신 관용을 택했네요."},
+      {"speaker": 1, "text": "Exactly. Don't celebrate the deal. Acknowledge what people lost, then describe what you'll build together.", "ko": "바로 그거예요. 거래를 축하하지 말고 사람들이 잃은 걸 인정한 뒤 함께 만들 걸 말해요."}
+    ],
+    "gist": {"questionKo": "조언의 핵심은?", "options": ["합병 성공을 축하하라", "잃은 것을 인정하고 함께 만들 것을 말하라", "숫자부터 보여 줘라"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["ignore", "alone", "first"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "With malice toward none, with charity for all.", "ko": "누구에게도 악의 없이, 모두에게 자비를. (링컨, 1865)"},
+      {"en": "Acknowledge what people lost.", "ko": "사람들이 잃은 걸 인정하세요."}
+    ],
+    "response": {
+      "situationKo": "갈등 후 두 집단을 하나로 모으는 연설의 첫마디를 해 보세요.",
+      "prompt": "You're addressing both teams for the first time. Begin.",
+      "keywords": ["i know", "some of you", "lost", "together", "both", "what we build"],
+      "answers": [
+        {"text": "I know some of you feel you lost something this month, and you're right to feel that.", "tone": "정중", "noteKo": "감정을 먼저 인정해요."},
+        {"text": "Both teams built something worth being proud of. Our job now is to build the next thing together.", "tone": "정중", "noteKo": "양쪽을 존중해요."},
+        {"text": "Nobody in this room won or lost. What we build next is what will be remembered.", "tone": "보통", "noteKo": "승패 프레임을 없애요."},
+        {"text": "Let's be honest: this is awkward. So let's start by getting to know each other properly.", "tone": "친근", "noteKo": "솔직함으로 긴장을 풀어요."}
+      ]
+    }
+  },
+  {
+    "id": "e-infamy",
+    "title": "A date which will live in infamy",
+    "titleKo": "[연설] 루스벨트의 진주만 연설",
+    "icon": "forum",
+    "settingKo": "역사 수업에서 루스벨트의 연설 초안 수정 과정을 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Roosevelt's first draft said 'a date which will live in world history'. He crossed it out and wrote 'infamy'.", "ko": "루스벨트의 초안은 '세계 역사에 남을 날'이었는데 그걸 지우고 '치욕'이라고 썼어요."},
+      {"speaker": 1, "text": "One word changed the whole emotional tone, from neutral to outraged.", "ko": "한 단어가 감정의 톤을 통째로 바꿨네요. 중립에서 분노로."},
+      {"speaker": 0, "text": "Exactly. 'History' describes; 'infamy' judges. And it's the word everyone remembers.", "ko": "바로 그거예요. '역사'는 묘사하고 '치욕'은 판단하죠. 그리고 다들 그 단어를 기억해요."},
+      {"speaker": 1, "text": "So in my own writing, I should hunt for the one vague word that's doing too little.", "ko": "그럼 제 글에서도 일을 너무 적게 하는 모호한 단어 하나를 찾아내야겠네요."}
+    ],
+    "gist": {"questionKo": "단어 수정의 효과는?", "options": ["문장이 짧아졌다", "톤이 중립에서 분노로 바뀌었다", "의미가 사라졌다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["remove", "every", "strong"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "A date which will live in infamy.", "ko": "치욕의 날로 기억될 날. (루스벨트, 1941)"},
+      {"en": "'History' describes; 'infamy' judges.", "ko": "'역사'는 묘사하고 '치욕'은 판단한다."}
+    ],
+    "response": {
+      "situationKo": "밋밋한 문장의 단어 하나를 바꿔 더 강하게 만들어 보세요.",
+      "prompt": "Improve this: 'The new policy had an effect on morale.'",
+      "keywords": ["crushed", "lifted", "transformed", "instead of", "the word", "stronger"],
+      "answers": [
+        {"text": "'The new policy crushed morale.' 'Crushed' tells you exactly how it felt.", "tone": "보통", "noteKo": "동사 하나로 감정을 전해요."},
+        {"text": "If it was positive: 'The new policy lifted morale overnight.'", "tone": "보통", "noteKo": "lifted와 overnight으로 생생하게 해요."},
+        {"text": "Instead of 'had an effect on', try 'transformed'. It's specific and active.", "tone": "정중", "noteKo": "약한 표현을 능동 동사로 바꿔요."},
+        {"text": "'The policy landed like a wet sock.' Maybe too much for a report, though.", "tone": "친근", "noteKo": "비유로 과장해 웃음을 줘요."}
+      ]
+    }
+  },
+  {
+    "id": "e-liberty",
+    "title": "Give me liberty",
+    "titleKo": "[연설] 패트릭 헨리",
+    "icon": "forum",
+    "settingKo": "토론 동아리에서 극적인 양자택일 표현의 효과와 위험을 논합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Patrick Henry's line, 'Give me liberty, or give me death', frames the choice as all or nothing.", "ko": "패트릭 헨리의 '자유가 아니면 죽음을'은 선택을 전부 아니면 전무로 짜요."},
+      {"speaker": 1, "text": "That's powerful in a revolution, but in an office debate it would sound ridiculous.", "ko": "혁명에선 강력하지만 회사 토론에서 쓰면 우스꽝스럽게 들릴 거예요."},
+      {"speaker": 0, "text": "Right. It's called a false dilemma when people use it to hide other options.", "ko": "맞아요. 다른 선택지를 숨기려고 쓰면 그걸 거짓 딜레마라고 해요."},
+      {"speaker": 1, "text": "So I should watch for 'either we do this, or we fail' in arguments and ask what's in between.", "ko": "그럼 논쟁에서 '이걸 하든지 망하든지'를 주의하고 그 사이에 뭐가 있는지 물어야겠네요."}
+    ],
+    "gist": {"questionKo": "거짓 딜레마란?", "options": ["두 가지가 모두 좋은 선택", "다른 선택지를 숨기는 양자택일", "질문을 피하는 것"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["succeed", "after", "accept"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "Give me liberty, or give me death.", "ko": "자유가 아니면 죽음을. (패트릭 헨리, 1775)"},
+      {"en": "A false dilemma.", "ko": "거짓 딜레마."}
+    ],
+    "response": {
+      "situationKo": "상대가 거짓 딜레마로 몰아붙입니다. 다른 선택지를 제시해 보세요.",
+      "prompt": "Either we cut prices by half, or we lose all our customers.",
+      "keywords": ["are those really", "the only options", "what about", "in between", "alternatively", "false"],
+      "answers": [
+        {"text": "Are those really the only options? What about improving service so price matters less?", "tone": "정중", "noteKo": "다른 선택지를 물어요."},
+        {"text": "That's a bit of a false choice. We could cut prices for new customers only.", "tone": "보통", "noteKo": "중간 대안을 제시해요."},
+        {"text": "There's a lot of ground in between. Alternatively, we could bundle features at the same price.", "tone": "정중", "noteKo": "a lot of ground in between은 중간 지대예요."},
+        {"text": "Half or nothing? Very dramatic. Let's look at the actual numbers first.", "tone": "친근", "noteKo": "과장을 짚어요."}
+      ]
+    }
+  },
+  {
+    "id": "e-truth",
+    "title": "Ain't I a woman?",
+    "titleKo": "[연설] 소저너 트루스",
+    "icon": "forum",
+    "settingKo": "평등에 관한 토론 수업에서 소저너 트루스의 연설 기법을 분석합니다.",
+    "lines": [
+      {"speaker": 0, "text": "In eighteen fifty-one, Sojourner Truth answered men who said women were too delicate for equal rights.", "ko": "1851년 소저너 트루스는 여성이 평등한 권리를 갖기엔 너무 연약하다고 말한 남성들에게 답했어요."},
+      {"speaker": 1, "text": "She described her own hard labor, then asked again and again: and ain't I a woman?", "ko": "그녀는 자신의 고된 노동을 묘사하고 거듭 물었죠. 그런데 나는 여자가 아니란 말인가?"},
+      {"speaker": 0, "text": "She used her own life as evidence, which left their argument with nothing to stand on.", "ko": "자기 삶을 증거로 써서 그들의 주장이 설 자리를 없앴어요."},
+      {"speaker": 1, "text": "Personal experience can be more powerful than statistics when the other side is talking in abstractions.", "ko": "상대가 추상적으로 말할 땐 개인의 경험이 통계보다 더 강력할 수 있네요."}
+    ],
+    "gist": {"questionKo": "트루스가 증거로 쓴 것은?", "options": ["통계", "자신의 삶과 노동", "법 조항"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["weaker", "always", "facts"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "And ain't I a woman?", "ko": "그런데 나는 여자가 아니란 말인가? (소저너 트루스, 1851)"},
+      {"en": "Nothing to stand on.", "ko": "설 자리가 없다."}
+    ],
+    "response": {
+      "situationKo": "추상적인 주장에 자신의 구체적인 경험으로 반박해 보세요.",
+      "prompt": "People over fifty just can't learn new technology.",
+      "keywords": ["my mother", "at", "i've seen", "in my experience", "last year", "learned"],
+      "answers": [
+        {"text": "My mother learned to code at fifty-eight and now builds websites for her friends.", "tone": "보통", "noteKo": "구체적 사례 하나로 반박해요."},
+        {"text": "In my experience, our oldest colleague was the first to master the new system.", "tone": "정중", "noteKo": "직접 본 경험을 근거로 들어요."},
+        {"text": "I've seen teenagers struggle and grandparents thrive. It's curiosity, not age.", "tone": "보통", "noteKo": "대조 후 결론을 내려요."},
+        {"text": "Tell that to my grandad. He's better at TikTok than I am.", "tone": "친근", "noteKo": "유머 있는 반례예요."}
+      ]
+    }
+  },
+  {
+    "id": "e-douglass",
+    "title": "What to the slave is the Fourth of July?",
+    "titleKo": "[연설] 프레더릭 더글러스",
+    "icon": "forum",
+    "settingKo": "역사 수업에서 더글러스의 독립기념일 연설이 왜 강력한지 분석합니다.",
+    "lines": [
+      {"speaker": 0, "text": "In eighteen fifty-two, Frederick Douglass was invited to speak at a Fourth of July celebration.", "ko": "1852년 프레더릭 더글러스는 독립기념일 축하 행사에 연사로 초대받았어요."},
+      {"speaker": 1, "text": "And instead of praising the holiday, he asked what it could possibly mean to a person who was enslaved.", "ko": "그런데 그는 축일을 칭송하는 대신 노예가 된 사람에게 그게 무슨 의미일 수 있냐고 물었죠."},
+      {"speaker": 0, "text": "He used the audience's own values, liberty and independence, to expose their hypocrisy.", "ko": "청중 자신의 가치인 자유와 독립을 이용해 그들의 위선을 드러냈어요."},
+      {"speaker": 1, "text": "That's why it's so uncomfortable to read, even now. He holds up a mirror instead of a sign.", "ko": "그래서 지금도 읽기가 불편하죠. 그는 팻말 대신 거울을 들어 보였어요."}
+    ],
+    "gist": {"questionKo": "더글러스가 사용한 설득 방식은?", "options": ["청중을 칭찬", "청중의 가치로 위선을 드러냄", "농담"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["comfortable", "never", "flag"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "He used the audience's own values.", "ko": "청중 자신의 가치를 이용했어요."},
+      {"en": "He holds up a mirror instead of a sign.", "ko": "팻말 대신 거울을 들어 보였어요."}
+    ],
+    "response": {
+      "situationKo": "상대가 중요하게 여기는 가치로 그 행동의 모순을 정중하게 짚어 보세요.",
+      "prompt": "Our company values say we put customers first.",
+      "keywords": ["if we truly", "then why", "our own values", "how does", "consistent", "say"],
+      "answers": [
+        {"text": "If we truly put customers first, then why does it take three weeks to get a refund?", "tone": "보통", "noteKo": "상대 가치로 질문해요."},
+        {"text": "By our own values, shouldn't support be open on weekends, when most customers need it?", "tone": "정중", "noteKo": "가치와 현실을 비교해요."},
+        {"text": "How does charging a cancellation fee fit with customers first? I'd like us to be consistent.", "tone": "정중", "noteKo": "consistent로 일관성을 요구해요."},
+        {"text": "Lovely slogan. Now let's make the phone menu shorter than nine options.", "tone": "친근", "noteKo": "반어적 유머로 지적해요."}
+      ]
+    }
+  },
+  {
+    "id": "e-debate-open",
+    "title": "Opening a debate",
+    "titleKo": "[실전] 토론 입론",
+    "icon": "forum",
+    "settingKo": "토론 대회에서 찬성 측 첫 발언을 준비합니다.",
+    "lines": [
+      {"speaker": 0, "text": "The motion is that cities should make public transport free. You have two minutes to open.", "ko": "논제는 도시가 대중교통을 무료로 해야 한다는 거예요. 2분 안에 입론하세요."},
+      {"speaker": 1, "text": "Should I start with the environmental argument, since that's the most obvious one?", "ko": "가장 당연한 환경 논거부터 시작할까요?"},
+      {"speaker": 0, "text": "Start by defining the motion on your terms, then give a roadmap: three arguments, in the order you'll make them.", "ko": "먼저 논제를 당신 방식으로 정의하고 로드맵을 주세요. 세 가지 논거를 말할 순서대로요."},
+      {"speaker": 1, "text": "So: we'll show this is fairer, cleaner, and, surprisingly, cheaper for the city in the long run.", "ko": "그러니까: 이게 더 공정하고, 더 깨끗하고, 놀랍게도 장기적으로 도시에 더 싸다는 걸 보여 드리겠습니다."}
+    ],
+    "gist": {"questionKo": "입론을 시작하는 방법은?", "options": ["가장 강한 감정으로", "논제 정의와 로드맵 제시", "상대 반박부터"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["expensive", "faster", "short"]},
+    "shadow": [2,3],
+    "phrases": [
+      {"en": "Define the motion on your terms.", "ko": "논제를 당신 방식으로 정의하세요."},
+      {"en": "Give a roadmap.", "ko": "로드맵을 주세요."}
+    ],
+    "response": {
+      "situationKo": "아래 논제로 토론 입론의 첫 30초를 말해 보세요.",
+      "prompt": "Motion: Homework should be banned in primary schools. Opening speaker, go.",
+      "keywords": ["today we'll show", "by homework we mean", "first", "second", "finally", "three"],
+      "answers": [
+        {"text": "By homework, we mean compulsory work at home. Today we'll show three things: it doesn't improve learning, it widens inequality, and it steals childhood.", "tone": "정중", "noteKo": "정의와 로드맵을 함께 줘요."},
+        {"text": "First, the evidence. Second, fairness. Finally, what children lose. Let's begin with the evidence.", "tone": "보통", "noteKo": "순서를 분명히 예고해요."},
+        {"text": "Ladies and gentlemen, a nine-year-old's evening should belong to play, family, and sleep. Here's why.", "tone": "정중", "noteKo": "감정적 도입 후 논리로 이어요."},
+        {"text": "Three reasons, two minutes, one simple idea: let kids be kids.", "tone": "친근", "noteKo": "숫자 리듬으로 인상을 남겨요."}
+      ]
+    }
+  },
+  {
+    "id": "e-closing",
+    "title": "A closing argument",
+    "titleKo": "[실전] 최종 변론",
+    "icon": "forum",
+    "settingKo": "모의 재판에서 최종 변론을 연습합니다.",
+    "lines": [
+      {"speaker": 0, "text": "In your closing, don't repeat every fact. Tell the jury the story they should remember.", "ko": "최종 변론에서 모든 사실을 반복하지 마세요. 배심원이 기억해야 할 이야기를 말해요."},
+      {"speaker": 1, "text": "So I focus on the one moment that matters: the camera footage showing my client at home.", "ko": "그럼 중요한 한 순간에 집중할게요. 의뢰인이 집에 있는 걸 보여 주는 카메라 영상이요."},
+      {"speaker": 0, "text": "Yes, and then turn it into a question the prosecution can't answer.", "ko": "네, 그리고 그걸 검찰이 답할 수 없는 질문으로 바꿔요."},
+      {"speaker": 1, "text": "If he was home at nine, as the footage shows, how could he have been across town at nine?", "ko": "영상대로 9시에 집에 있었다면 어떻게 9시에 도시 반대편에 있을 수 있었겠습니까?"}
+    ],
+    "gist": {"questionKo": "최종 변론의 핵심 전략은?", "options": ["모든 사실 반복", "핵심 한 순간을 답할 수 없는 질문으로", "감정적 호소만"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["witness", "every", "office"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "Tell them the story they should remember.", "ko": "기억해야 할 이야기를 말하세요."},
+      {"en": "A question they can't answer.", "ko": "답할 수 없는 질문."}
+    ],
+    "response": {
+      "situationKo": "회의에서 자신의 제안을 마지막으로 정리하며 설득해 보세요.",
+      "prompt": "We're almost out of time. Any final words before we vote?",
+      "keywords": ["in the end", "ask yourselves", "the question is", "one thing", "remember", "simply"],
+      "answers": [
+        {"text": "In the end, the question is simple: do we want to be first, or do we want to be safe?", "tone": "보통", "noteKo": "선택을 단순하게 정리해요."},
+        {"text": "Ask yourselves which option you'd defend in a year, when the results are in.", "tone": "정중", "noteKo": "청중의 미래 시점에서 생각하게 해요."},
+        {"text": "Remember one thing: every customer we spoke to asked for exactly this.", "tone": "정중", "noteKo": "가장 강한 근거 하나만 남겨요."},
+        {"text": "Simply put: it's cheaper, faster, and customers want it. Let's vote.", "tone": "친근", "noteKo": "세 가지로 요약해요."}
+      ]
+    }
+  },
+  {
+    "id": "e-story-pitch",
+    "title": "Pitching with a story",
+    "titleKo": "[실전] 이야기로 설득하기",
+    "icon": "money",
+    "settingKo": "데이터만 가득한 피치를 이야기 중심으로 바꿉니다.",
+    "lines": [
+      {"speaker": 0, "text": "Your slides are accurate, but nobody will feel anything. Who's one real person who needs this product?", "ko": "슬라이드는 정확한데 아무도 아무것도 못 느낄 거예요. 이 제품이 필요한 실제 인물 한 명은 누구죠?"},
+      {"speaker": 1, "text": "Rosa runs a bakery alone. She loses about two hours every night doing paperwork.", "ko": "로사는 혼자 빵집을 해요. 매일 밤 서류 작업에 두 시간쯤 써요."},
+      {"speaker": 0, "text": "Start with Rosa at eleven p.m., flour on her hands, filling in a tax form. Then show the numbers.", "ko": "밤 11시, 손에 밀가루가 묻은 채 세금 서류를 채우는 로사로 시작하세요. 숫자는 그다음이에요."},
+      {"speaker": 1, "text": "And end with Rosa going home at nine instead, because that's the outcome we're actually selling.", "ko": "그리고 대신 9시에 퇴근하는 로사로 끝내죠. 그게 우리가 실제로 파는 결과니까요."}
+    ],
+    "gist": {"questionKo": "피치를 어떻게 바꾸라고 했나요?", "options": ["숫자를 더 넣어라", "실제 인물 이야기로 시작하고 끝내라", "슬라이드를 줄여라"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["eleven", "earlier", "product"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "Nobody will feel anything.", "ko": "아무도 아무것도 못 느낄 거예요."},
+      {"en": "That's the outcome we're actually selling.", "ko": "그게 우리가 실제로 파는 결과예요."}
+    ],
+    "response": {
+      "situationKo": "한 사람의 이야기로 제품이나 아이디어를 소개해 보세요.",
+      "prompt": "Pitch your app in one short story.",
+      "keywords": ["meet", "every morning", "used to", "now", "because of", "she", "he"],
+      "answers": [
+        {"text": "Meet Daniel. He used to spend forty minutes finding parking every morning. Now he books a spot before he leaves home.", "tone": "보통", "noteKo": "Meet으로 인물을 소개해요."},
+        {"text": "Every evening, Ana's grandmother forgot her medication. Now a gentle reminder, and a call to Ana if she misses it.", "tone": "정중", "noteKo": "전후 변화를 보여 줘요."},
+        {"text": "Last winter, a student told me she studied in a café just for the Wi-Fi. That's why we built free study rooms.", "tone": "보통", "noteKo": "탄생 계기를 이야기해요."},
+        {"text": "Picture your worst Monday. Now picture it with no inbox. That's us.", "tone": "친근", "noteKo": "청중을 이야기 속에 넣어요."}
+      ]
+    }
+  },
+  {
+    "id": "e-op-ed",
+    "title": "Writing an op-ed",
+    "titleKo": "[실전] 칼럼 쓰기",
+    "icon": "feedback",
+    "settingKo": "신문 칼럼 초안을 편집자와 다듬습니다.",
+    "lines": [
+      {"speaker": 0, "text": "Your argument doesn't appear until the fourth paragraph. Readers will have left by then.", "ko": "주장이 넷째 문단에서야 나와요. 그때쯤이면 독자는 떠났을 거예요."},
+      {"speaker": 1, "text": "I wanted to build up the context first, so the argument feels earned.", "ko": "주장이 설득력 있게 느껴지도록 먼저 배경을 쌓고 싶었어요."},
+      {"speaker": 0, "text": "In an op-ed, the argument goes in the first two sentences. Context supports it afterwards.", "ko": "칼럼에선 주장이 첫 두 문장에 와요. 배경은 그 뒤에 뒷받침하고요."},
+      {"speaker": 1, "text": "Then I'll open with 'Our city's libraries should stay open until midnight', and justify it after.", "ko": "그럼 '우리 도시 도서관은 자정까지 열어야 한다'로 시작하고 근거는 뒤에 댈게요."}
+    ],
+    "gist": {"questionKo": "칼럼에서 주장은 어디에 두라고 했나요?", "options": ["마지막 문단", "첫 두 문장", "제목에만"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["last", "replaces", "before"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "Readers will have left by then.", "ko": "그때쯤이면 독자는 떠났을 거예요."},
+      {"en": "So the argument feels earned.", "ko": "주장이 설득력 있게 느껴지도록."}
+    ],
+    "response": {
+      "situationKo": "아래 주제로 칼럼의 첫 두 문장을 말해 보세요.",
+      "prompt": "Topic: four-day school weeks. Give me your opening.",
+      "keywords": ["should", "it's time", "we must", "because", "the evidence", "here's why"],
+      "answers": [
+        {"text": "It's time to give our schools a four-day week. Teachers are leaving faster than we can hire them, and this is the cheapest way to keep them.", "tone": "정중", "noteKo": "It's time to로 주장을 시작해요."},
+        {"text": "A four-day school week sounds radical. The evidence says it isn't, and here's why.", "tone": "보통", "noteKo": "예상 반응을 먼저 꺼내요."},
+        {"text": "We must stop pretending that more hours in a classroom means more learning.", "tone": "정중", "noteKo": "통념을 반박하며 시작해요."},
+        {"text": "Kids are tired, teachers are tired, and Fridays are already half-empty. Let's make it official.", "tone": "친근", "noteKo": "셋의 리듬으로 시작해요."}
+      ]
+    }
+  },
+  {
+    "id": "e-eulogy",
+    "title": "Writing a eulogy",
+    "titleKo": "[실전] 추도사 쓰기",
+    "icon": "feedback",
+    "settingKo": "할아버지의 추도사를 준비하며 친구에게 조언을 구합니다.",
+    "lines": [
+      {"speaker": 1, "text": "I'm giving my grandfather's eulogy, and all I have is a list of his achievements.", "ko": "할아버지 추도사를 하는데 가진 거라곤 업적 목록뿐이야."},
+      {"speaker": 0, "text": "People won't remember the list. They'll remember one small story that sounds exactly like him.", "ko": "사람들은 목록을 기억 못 해. 딱 할아버지 같은 작은 이야기 하나를 기억할 거야."},
+      {"speaker": 1, "text": "He used to hide sweets in his coat pockets for the grandchildren, even when the doctor told him not to.", "ko": "의사가 하지 말라고 해도 손주들을 위해 코트 주머니에 사탕을 숨기곤 하셨어."},
+      {"speaker": 0, "text": "That's it. Start there, let people smile, and the sadness will come naturally afterwards.", "ko": "그거야. 거기서 시작해서 사람들이 미소 짓게 하면 슬픔은 자연스럽게 따라올 거야."}
+    ],
+    "gist": {"questionKo": "추도사에 대한 조언은?", "options": ["업적을 모두 나열하라", "그분다운 작은 이야기로 시작하라", "짧은 시를 읽어라"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["cry", "end", "before"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "One small story that sounds exactly like him.", "ko": "딱 그분 같은 작은 이야기 하나."},
+      {"en": "The sadness will come naturally.", "ko": "슬픔은 자연스럽게 따라올 거야."}
+    ],
+    "response": {
+      "situationKo": "소중한 사람을 작은 일화 하나로 소개하는 문장을 만들어 보세요.",
+      "prompt": "Tell me about someone important to you, through one small story.",
+      "keywords": ["she always", "he used to", "every", "i remember", "that was", "it was"],
+      "answers": [
+        {"text": "My mother always left the porch light on, even after we'd all moved out. That was her way of saying come home.", "tone": "정중", "noteKo": "작은 행동에 의미를 담아요."},
+        {"text": "I remember my first boss staying late to help me fix a mistake, then never mentioning it again.", "tone": "보통", "noteKo": "구체적 장면 하나로 인물을 그려요."},
+        {"text": "He used to fold every receipt into a tiny paper crane. His wallet was basically an aviary.", "tone": "친근", "noteKo": "유쾌한 일화로 기억을 그려요."},
+        {"text": "Every Sunday, she phoned each of her five children, in order of age, without fail.", "tone": "보통", "noteKo": "습관으로 성격을 보여 줘요."}
+      ]
+    }
+  },
+  {
+    "id": "e-commencement",
+    "title": "A graduation speech",
+    "titleKo": "[실전] 졸업 연설",
+    "icon": "calendar",
+    "settingKo": "졸업식 축사 초안을 다듬습니다.",
+    "lines": [
+      {"speaker": 0, "text": "Your draft says 'follow your dreams' three times. Every graduation speech says that.", "ko": "초안에 '꿈을 좇아라'가 세 번 나와요. 모든 졸업 연설이 그렇게 말해요."},
+      {"speaker": 1, "text": "What would you replace it with?", "ko": "그럼 뭘로 바꾸시겠어요?"},
+      {"speaker": 0, "text": "Something only you could say. What's a piece of advice you learned the hard way?", "ko": "당신만 할 수 있는 말이요. 힘들게 배운 조언이 뭐예요?"},
+      {"speaker": 1, "text": "That the job I was most afraid to take turned out to be the one that taught me the most.", "ko": "가장 두려워했던 일이 가장 많이 가르쳐 준 일이었다는 거요."}
+    ],
+    "gist": {"questionKo": "코치가 원하는 조언은?", "options": ["모두가 하는 말", "직접 힘들게 배운 고유한 조언", "유명인의 명언"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["everyone", "easy", "remember"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "Something only you could say.", "ko": "당신만 할 수 있는 말."},
+      {"en": "Learned the hard way.", "ko": "힘들게 배운."}
+    ],
+    "response": {
+      "situationKo": "졸업생들에게 자신만의 경험에서 나온 조언 한마디를 해 보세요.",
+      "prompt": "Give the graduates one piece of advice, in your own words.",
+      "keywords": ["when i was", "i learned", "the hard way", "don't", "you'll", "ask"],
+      "answers": [
+        {"text": "When I was your age, I thought asking for help looked weak. I learned the hard way that it's the fastest way to grow.", "tone": "정중", "noteKo": "자기 경험으로 조언해요."},
+        {"text": "Say yes to the thing that scares you a little. Not a lot, a little.", "tone": "보통", "noteKo": "짧고 구체적인 조언이에요."},
+        {"text": "You'll be tempted to compare your chapter two with someone's chapter twenty. Don't.", "tone": "보통", "noteKo": "책 비유로 조언해요."},
+        {"text": "Call your parents. Wear sunscreen. Never reply to work emails at midnight.", "tone": "친근", "noteKo": "가벼운 셋의 리듬이에요."}
+      ]
+    }
+  },
+  {
+    "id": "e-toast-quote",
+    "title": "A toast with a quote",
+    "titleKo": "[실전] 명언으로 건배하기",
+    "icon": "calendar",
+    "settingKo": "친구의 개업식에서 명언을 인용한 건배사를 합니다.",
+    "lines": [
+      {"speaker": 1, "text": "I want to use a quote in my toast for Lena's new bakery, but not something cheesy.", "ko": "레나의 빵집 개업 건배사에 명언을 쓰고 싶은데 오글거리지 않는 걸로."},
+      {"speaker": 0, "text": "How about Franklin: well done is better than well said. It suits someone who works rather than talks.", "ko": "프랭클린 어때? 잘 말하는 것보다 잘하는 게 낫다. 말보다 일하는 사람한테 어울려."},
+      {"speaker": 1, "text": "Perfect, because Lena never talked about opening a bakery. She just quietly did it.", "ko": "완벽해. 레나는 빵집 연다고 말한 적이 없어. 그냥 조용히 해냈거든."},
+      {"speaker": 0, "text": "Then say that, add the quote, and raise your glass. Thirty seconds, no more.", "ko": "그럼 그 얘길 하고 명언을 붙이고 잔을 들어. 30초, 그 이상은 안 돼."}
+    ],
+    "gist": {"questionKo": "그 명언이 레나에게 어울리는 이유는?", "options": ["말을 잘해서", "말없이 조용히 해냈기 때문에", "프랭클린을 좋아해서"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["minute", "longer", "speech"]},
+    "shadow": [1,2],
+    "phrases": [
+      {"en": "Well done is better than well said.", "ko": "잘 말하는 것보다 잘하는 게 낫다. (프랭클린)"},
+      {"en": "She just quietly did it.", "ko": "그냥 조용히 해냈어."}
+    ],
+    "response": {
+      "situationKo": "명언 하나를 넣어 짧은 건배사를 해 보세요.",
+      "prompt": "Raise a glass for our team's first year!",
+      "keywords": ["as franklin said", "they say", "here's to", "to", "cheers", "well done"],
+      "answers": [
+        {"text": "As Franklin said, well done is better than well said. So I'll keep this short: here's to a year of well done!", "tone": "보통", "noteKo": "명언과 짧은 마무리예요."},
+        {"text": "They say a smooth sea never made a skilled sailor. This year, we became excellent sailors. To us!", "tone": "정중", "noteKo": "속담으로 고생을 칭찬해요."},
+        {"text": "To the people who said yes when it would've been easier to say no. Cheers!", "tone": "보통", "noteKo": "명언 대신 대조를 써요."},
+        {"text": "Here's to year two, with fewer fires and more cake. Cheers!", "tone": "친근", "noteKo": "가벼운 유머예요."}
+      ]
+    }
+  },
+  {
+    "id": "e-council-letter",
+    "title": "A persuasive letter",
+    "titleKo": "[실전] 설득하는 편지",
+    "icon": "feedback",
+    "settingKo": "구청에 횡단보도 설치를 요청하는 편지를 다듬습니다.",
+    "lines": [
+      {"speaker": 0, "text": "Your letter is angry, which is understandable, but officials skim angry letters.", "ko": "편지가 화가 나 있는데 이해는 되지만 공무원들은 화난 편지를 대충 읽어요."},
+      {"speaker": 1, "text": "Then how do I show it's urgent without sounding furious?", "ko": "그럼 화나 보이지 않으면서 급하다는 걸 어떻게 보여 주죠?"},
+      {"speaker": 0, "text": "Use specifics: how many children cross there each morning, how many near misses, and what exactly you're asking for.", "ko": "구체적으로 쓰세요. 매일 아침 몇 명의 아이가 건너는지, 아찔한 순간이 몇 번인지, 정확히 무엇을 요청하는지."},
+      {"speaker": 1, "text": "So: two hundred children a day, three near misses this month, and one request, a crossing by September.", "ko": "그러니까: 하루 200명, 이번 달 아찔한 순간 세 번, 그리고 요청 하나, 9월까지 횡단보도."}
+    ],
+    "gist": {"questionKo": "설득력을 높이는 방법은?", "options": ["더 강하게 화내기", "구체적인 숫자와 명확한 요청", "여러 번 보내기"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["hundreds", "week", "several"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "Officials skim angry letters.", "ko": "공무원들은 화난 편지를 대충 읽어요."},
+      {"en": "What exactly you're asking for.", "ko": "정확히 무엇을 요청하는지."}
+    ],
+    "response": {
+      "situationKo": "구체적인 근거와 명확한 요청으로 짧은 민원을 말해 보세요.",
+      "prompt": "Please state your request for the record.",
+      "keywords": ["i'm writing to request", "every day", "in the last", "specifically", "by", "i'd be grateful"],
+      "answers": [
+        {"text": "I'm writing to request a speed bump on Park Lane. In the last month, residents recorded twelve cars over fifty in a thirty zone.", "tone": "정중", "noteKo": "요청과 근거를 바로 말해요."},
+        {"text": "Every day, over a hundred commuters wait at a bus stop with no shelter. Specifically, we're asking for one by winter.", "tone": "정중", "noteKo": "숫자와 기한을 넣어요."},
+        {"text": "I'd be grateful if the broken streetlight on Elm Street could be repaired by the end of the month.", "tone": "정중", "noteKo": "부드럽지만 명확한 요청이에요."},
+        {"text": "One crossing, one deadline, two hundred kids. That's the whole request.", "tone": "보통", "noteKo": "핵심만 압축해요."}
+      ]
+    }
+  },
+  {
+    "id": "e-book-review",
+    "title": "Reviewing a book",
+    "titleKo": "[실전] 서평 쓰기",
+    "icon": "chat",
+    "settingKo": "독서 모임 소식지에 실을 서평을 친구와 다듬습니다.",
+    "lines": [
+      {"speaker": 0, "text": "Your review mostly summarizes the plot. Readers want to know whether they should read it, and why.", "ko": "서평이 대부분 줄거리 요약이야. 독자는 읽어야 할지, 왜인지 알고 싶어 해."},
+      {"speaker": 1, "text": "I didn't want to give too much away.", "ko": "너무 많이 누설하고 싶지 않았어."},
+      {"speaker": 0, "text": "Then summarize in two lines and spend the rest on your judgment: what works, what doesn't, and who it's for.", "ko": "그럼 두 줄로 요약하고 나머지는 네 판단에 써. 뭐가 좋고 뭐가 아쉬운지, 누구를 위한 책인지."},
+      {"speaker": 1, "text": "Got it: gripping first half, slow middle, and perfect for anyone who loved The Secret Garden as a child.", "ko": "알겠어. 몰입되는 전반부, 느린 중반, 어릴 때 '비밀의 화원'을 좋아했던 사람에게 딱."}
+    ],
+    "gist": {"questionKo": "좋은 서평의 구성은?", "options": ["줄거리 상세 요약", "짧은 요약과 판단, 대상 독자", "작가 소개"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["boring", "adult", "ending"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "Who it's for.", "ko": "누구를 위한 책인지."},
+      {"en": "Without giving too much away.", "ko": "너무 많이 누설하지 않고."}
+    ],
+    "response": {
+      "situationKo": "최근 읽거나 본 작품을 짧게 평가하고 누구에게 추천하는지 말해 보세요.",
+      "prompt": "Review something you read or watched recently, in thirty seconds.",
+      "keywords": ["it's about", "what works", "what doesn't", "perfect for", "if you liked", "i'd recommend"],
+      "answers": [
+        {"text": "It's about a lighthouse keeper's last year. What works is the atmosphere; what doesn't is the rushed ending. Perfect for a rainy weekend.", "tone": "보통", "noteKo": "구성대로 짧게 평가해요."},
+        {"text": "If you liked Sherlock Holmes, you'll enjoy it, though the twist is easy to guess.", "tone": "보통", "noteKo": "비교로 대상을 알려 줘요."},
+        {"text": "I'd recommend it to anyone starting a new job. It's funny, honest, and surprisingly practical.", "tone": "정중", "noteKo": "대상과 이유를 함께 말해요."},
+        {"text": "Two words: unputdownable, then disappointing. Still worth it for the first half.", "tone": "친근", "noteKo": "unputdownable은 손을 뗄 수 없는이에요."}
+      ]
+    }
+  },
+  {
+    "id": "e-steelman",
+    "title": "Steelmanning",
+    "titleKo": "[실전] 상대 논리를 가장 강하게 말하기",
+    "icon": "forum",
+    "settingKo": "토론 전에 상대 주장을 가장 강한 형태로 정리하는 연습을 합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Before you argue against them, state their position so well that they'd say, 'Yes, that's exactly what I mean.'", "ko": "반박하기 전에 상대 입장을 아주 잘 정리해서 '맞아, 딱 그 뜻이야'라고 말하게 해요."},
+      {"speaker": 1, "text": "That's the opposite of a straw man, where you attack a weaker version.", "ko": "약한 버전을 공격하는 허수아비 논증의 반대네요."},
+      {"speaker": 0, "text": "Exactly. It's called steelmanning, and it makes your rebuttal much harder to dismiss.", "ko": "바로 그거예요. 스틸매닝이라고 하고, 반박을 훨씬 무시하기 어렵게 만들어요."},
+      {"speaker": 1, "text": "Let me try: they're not against growth, they're worried we'll lose the quality that made customers loyal.", "ko": "해 볼게요: 그들은 성장에 반대하는 게 아니라 고객을 충성하게 만든 품질을 잃을까 걱정하는 거예요."}
+    ],
+    "gist": {"questionKo": "스틸매닝이란?", "options": ["상대 주장을 약하게 만들기", "상대 주장을 가장 강한 형태로 정리하기", "토론을 피하기"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["support", "price", "speed"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "That's exactly what I mean.", "ko": "딱 그 뜻이야."},
+      {"en": "Much harder to dismiss.", "ko": "무시하기 훨씬 어려워요."}
+    ],
+    "response": {
+      "situationKo": "반대 의견을 가장 강한 형태로 먼저 말한 뒤 자신의 입장을 말해 보세요.",
+      "prompt": "Some people say we shouldn't use AI in schools. What's your view?",
+      "keywords": ["the strongest argument", "if i understand", "fair concern", "they're worried", "even so", "i'd still"],
+      "answers": [
+        {"text": "The strongest argument against it is that students may skip the struggle that actually builds understanding. Even so, I'd still use it, with clear rules.", "tone": "정중", "noteKo": "상대 논리를 강하게 정리 후 입장을 밝혀요."},
+        {"text": "If I understand the critics, they're worried about thinking, not technology. That's a fair concern, and it shapes how I'd use it.", "tone": "정중", "noteKo": "상대의 진짜 우려를 짚어요."},
+        {"text": "They're right that copying answers is easier now. My answer is to change the homework, not ban the tool.", "tone": "보통", "noteKo": "인정 후 대안을 제시해요."},
+        {"text": "Honestly, their best point is a good one. I just think banning it is a losing battle.", "tone": "친근", "noteKo": "솔직하게 인정해요."}
+      ]
+    }
+  }
+]

@@ -12,13 +12,9 @@
       {"speaker": 1, "text": "Of course. What time is breakfast?", "ko": "물론이죠. 아침 식사는 몇 시인가요?"},
       {"speaker": 0, "text": "It's from seven to ten in the main restaurant.", "ko": "7시부터 10시까지 메인 레스토랑에서 드실 수 있어요."}
     ],
-    "gist": {
-      "questionKo": "손님이 호텔 직원에게 물어본 것은?",
-      "options": ["체크아웃 시간", "아침 식사 시간", "수영장 위치"],
-      "answer": 1
-    },
+    "gist": {"questionKo": "손님이 호텔 직원에게 물어본 것은?", "options": ["체크아웃 시간", "아침 식사 시간", "수영장 위치"], "answer": 1},
     "dictation": {"line": 1, "distractors": ["three", "paid", "days"]},
-    "shadow": [1, 3],
+    "shadow": [1,3],
     "phrases": [
       {"en": "I booked a room for two nights.", "ko": "2박으로 방을 예약했어요."},
       {"en": "What time is breakfast?", "ko": "아침 식사는 몇 시인가요?"}
@@ -48,13 +44,9 @@
       {"speaker": 1, "text": "That sounds fun! What time are you leaving?", "ko": "재밌겠다! 몇 시에 출발해?"},
       {"speaker": 0, "text": "Around eight. I can pick you up.", "ko": "8시쯤. 내가 데리러 갈 수 있어."}
     ],
-    "gist": {
-      "questionKo": "두 사람은 토요일에 무엇을 할 가능성이 큰가요?",
-      "options": ["집에서 쉰다", "함께 등산을 간다", "영화를 본다"],
-      "answer": 1
-    },
+    "gist": {"questionKo": "두 사람은 토요일에 무엇을 할 가능성이 큰가요?", "options": ["집에서 쉰다", "함께 등산을 간다", "영화를 본다"], "answer": 1},
     "dictation": {"line": 3, "distractors": ["where", "going", "funny"]},
-    "shadow": [1, 3],
+    "shadow": [1,3],
     "phrases": [
       {"en": "Do you have any plans for the weekend?", "ko": "주말에 무슨 계획 있어?"},
       {"en": "That sounds fun!", "ko": "재밌겠다!"}
@@ -84,13 +76,9 @@
       {"speaker": 0, "text": "Let me check. I'm sorry, we only have it in blue now.", "ko": "확인해 볼게요. 죄송하지만 지금은 파란색만 있어요."},
       {"speaker": 1, "text": "Blue is fine. Thanks for your help.", "ko": "파란색도 괜찮아요. 도와주셔서 감사합니다."}
     ],
-    "gist": {
-      "questionKo": "손님은 결국 어떻게 하기로 했나요?",
-      "options": ["환불받는다", "파란색 라지로 교환한다", "다른 가게로 간다"],
-      "answer": 1
-    },
+    "gist": {"questionKo": "손님은 결국 어떻게 하기로 했나요?", "options": ["환불받는다", "파란색 라지로 교환한다", "다른 가게로 간다"], "answer": 1},
     "dictation": {"line": 2, "distractors": ["small", "return", "could"]},
-    "shadow": [0, 2],
+    "shadow": [0,2],
     "phrases": [
       {"en": "It's too small.", "ko": "너무 작아요."},
       {"en": "Can I exchange it for a large?", "ko": "라지로 교환할 수 있나요?"}
@@ -104,6 +92,1160 @@
         {"text": "I'd like to return this because it was damaged.", "tone": "정중", "noteKo": "damaged는 파손됐다는 뜻으로 자주 써요."},
         {"text": "My order came broken. I want my money back.", "tone": "친근", "noteKo": "직접적이어서 상황에 따라 강하게 들릴 수 있어요."},
         {"text": "I'm calling about a damaged item. What should I do?", "tone": "정중", "noteKo": "I'm calling about은 전화 첫 문장으로 좋아요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-viewing",
+    "title": "Looking at an apartment",
+    "titleKo": "집 보러 가기",
+    "icon": "home",
+    "settingKo": "월세 집을 보러 가서 집주인에게 조건을 묻습니다.",
+    "lines": [
+      {"speaker": 0, "text": "So this is the living room. It gets a lot of sun.", "ko": "여기가 거실이에요. 햇빛이 많이 들어와요."},
+      {"speaker": 1, "text": "It's really nice. How much is the rent?", "ko": "정말 좋네요. 월세가 얼마예요?"},
+      {"speaker": 0, "text": "It's nine hundred a month, and the internet is included.", "ko": "한 달에 900이고 인터넷이 포함이에요."},
+      {"speaker": 1, "text": "Are pets allowed? I have a small cat.", "ko": "반려동물 키워도 되나요? 작은 고양이가 있어요."},
+      {"speaker": 0, "text": "A cat is fine, but no dogs, sorry.", "ko": "고양이는 괜찮은데 개는 안 돼요, 죄송해요."}
+    ],
+    "gist": {"questionKo": "이 집에 대해 맞는 것은?", "options": ["인터넷 요금이 따로 든다", "고양이는 키울 수 있다", "개도 키울 수 있다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["dog", "big", "rent"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "How much is the rent?", "ko": "월세가 얼마예요?"},
+      {"en": "Are pets allowed?", "ko": "반려동물 키워도 되나요?"}
+    ],
+    "response": {
+      "situationKo": "집주인이 궁금한 게 있는지 묻습니다. 조건 하나를 물어보세요.",
+      "prompt": "Do you have any other questions about the place?",
+      "keywords": ["is", "included", "when can i", "how long", "deposit", "utilities", "move in"],
+      "answers": [
+        {"text": "Yes, are utilities included in the rent?", "tone": "보통", "noteKo": "utilities는 전기, 수도, 가스 요금이에요."},
+        {"text": "When can I move in?", "tone": "보통", "noteKo": "move in은 '입주하다'예요."},
+        {"text": "Could you tell me how much the deposit is?", "tone": "정중", "noteKo": "deposit은 보증금이에요."},
+        {"text": "Just one. Is there a washing machine?", "tone": "친근", "noteKo": "Just one으로 질문을 하나만 한다고 알려요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-package",
+    "title": "Where's my package?",
+    "titleKo": "택배가 안 왔어요",
+    "icon": "home",
+    "settingKo": "온라인으로 산 물건이 오지 않아 고객센터에 연락합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Hi, thanks for calling. How can I help you today?", "ko": "안녕하세요, 전화 주셔서 감사합니다. 무엇을 도와드릴까요?"},
+      {"speaker": 1, "text": "My package says delivered, but I didn't get it.", "ko": "배송 완료라고 나오는데 저는 못 받았어요."},
+      {"speaker": 0, "text": "I'm sorry about that. Can I have your order number?", "ko": "죄송합니다. 주문 번호를 알려 주시겠어요?"},
+      {"speaker": 1, "text": "Sure, it's four five two eight nine.", "ko": "네, 45289예요."},
+      {"speaker": 0, "text": "Thanks. We'll send a new one tomorrow.", "ko": "감사합니다. 내일 새로 보내 드릴게요."}
+    ],
+    "gist": {"questionKo": "회사는 어떻게 해 주기로 했나요?", "options": ["환불해 준다", "새 물건을 보낸다", "택배 기사에게 연락한다"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["sent", "lost", "box"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "My package says delivered, but I didn't get it.", "ko": "배송 완료라고 나오는데 못 받았어요."},
+      {"en": "Can I have your order number?", "ko": "주문 번호를 알려 주시겠어요?"}
+    ],
+    "response": {
+      "situationKo": "주문한 물건이 망가져서 왔어요. 고객센터에 말해 보세요.",
+      "prompt": "Hello, what seems to be the problem?",
+      "keywords": ["broken", "damaged", "my order", "arrived", "refund", "replace"],
+      "answers": [
+        {"text": "My order arrived broken. Can I get a refund?", "tone": "보통", "noteKo": "arrived broken은 '깨져서 왔다'예요."},
+        {"text": "Hi, the item I got is damaged. Could you replace it, please?", "tone": "정중", "noteKo": "replace는 '교환해 주다'예요."},
+        {"text": "Hey, my headphones came broken. What can I do?", "tone": "친근", "noteKo": "came broken도 같은 뜻이에요."},
+        {"text": "The box was damaged and the cup inside is broken.", "tone": "보통", "noteKo": "상태를 구체적으로 말하면 처리가 빨라요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-allergy",
+    "title": "I'm allergic to nuts",
+    "titleKo": "음식 알레르기 말하기",
+    "icon": "coffee",
+    "settingKo": "식당에서 주문하면서 알레르기를 알립니다.",
+    "lines": [
+      {"speaker": 0, "text": "Are you ready to order, or do you need a minute?", "ko": "주문하시겠어요, 아니면 조금 더 보시겠어요?"},
+      {"speaker": 1, "text": "I'm ready. Does the salad have any nuts in it?", "ko": "주문할게요. 샐러드에 견과류 들어가나요?"},
+      {"speaker": 0, "text": "Yes, it comes with walnuts. Are you allergic?", "ko": "네, 호두가 들어가요. 알레르기 있으세요?"},
+      {"speaker": 1, "text": "Yes. Can I have it without the walnuts?", "ko": "네. 호두 빼고 주실 수 있나요?"},
+      {"speaker": 0, "text": "No problem. I'll tell the kitchen.", "ko": "문제없어요. 주방에 말해 둘게요."}
+    ],
+    "gist": {"questionKo": "손님이 부탁한 것은?", "options": ["샐러드를 크게", "호두를 빼 달라", "다른 메뉴로 바꿔 달라"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["with", "nuts", "salad"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "Does it have any nuts in it?", "ko": "견과류 들어가나요?"},
+      {"en": "Can I have it without the walnuts?", "ko": "호두 빼고 주실 수 있나요?"}
+    ],
+    "response": {
+      "situationKo": "직원이 못 먹는 음식이 있는지 묻습니다. 대답해 보세요.",
+      "prompt": "Do you have any food allergies we should know about?",
+      "keywords": ["allergic", "i can't eat", "no", "allergy", "i don't eat"],
+      "answers": [
+        {"text": "Yes, I'm allergic to shrimp.", "tone": "보통", "noteKo": "allergic to + 음식이에요."},
+        {"text": "No, I can eat everything. Thanks for asking.", "tone": "정중", "noteKo": "물어봐 준 것에 감사를 표해요."},
+        {"text": "I don't eat meat. I'm vegetarian.", "tone": "보통", "noteKo": "vegetarian은 채식주의자예요."},
+        {"text": "Just no peanuts for me, please. I have an allergy.", "tone": "친근", "noteKo": "no + 음식 + for me로 간단히 말해요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-dentist",
+    "title": "My tooth hurts",
+    "titleKo": "치과에서",
+    "icon": "health",
+    "settingKo": "치과에서 아픈 이를 설명합니다.",
+    "lines": [
+      {"speaker": 0, "text": "So, what brings you in today?", "ko": "오늘은 어떻게 오셨어요?"},
+      {"speaker": 1, "text": "My back tooth hurts when I drink something cold.", "ko": "차가운 걸 마시면 어금니가 아파요."},
+      {"speaker": 0, "text": "How long has it been hurting?", "ko": "아픈 지 얼마나 됐어요?"},
+      {"speaker": 1, "text": "About a week. It's getting worse.", "ko": "일주일쯤이요. 점점 심해져요."},
+      {"speaker": 0, "text": "OK, let's take an X-ray first.", "ko": "네, 먼저 엑스레이를 찍어 볼게요."}
+    ],
+    "gist": {"questionKo": "이가 언제 아픈가요?", "options": ["딱딱한 걸 씹을 때", "차가운 걸 마실 때", "아침에 일어날 때"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["better", "month", "day"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "My tooth hurts when I drink something cold.", "ko": "차가운 걸 마시면 이가 아파요."},
+      {"en": "It's getting worse.", "ko": "점점 심해져요."}
+    ],
+    "response": {
+      "situationKo": "의사가 얼마나 아픈지 묻습니다. 대답해 보세요.",
+      "prompt": "On a scale of one to ten, how bad is the pain?",
+      "keywords": ["about", "maybe", "it's", "seven", "five", "really bad", "not too bad"],
+      "answers": [
+        {"text": "Maybe a seven. It's pretty bad.", "tone": "보통", "noteKo": "pretty bad는 '꽤 심해요'예요."},
+        {"text": "About a five. It's not too bad.", "tone": "보통", "noteKo": "not too bad는 '견딜 만해요'예요."},
+        {"text": "I'd say it's around an eight, especially at night.", "tone": "정중", "noteKo": "I'd say는 '제 생각엔'이라는 부드러운 시작이에요."},
+        {"text": "Honestly, a nine! It really hurts.", "tone": "친근", "noteKo": "Honestly로 솔직한 느낌을 줘요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-train-delay",
+    "title": "The train is delayed",
+    "titleKo": "기차 지연",
+    "icon": "clock",
+    "settingKo": "기차가 늦어져서 역무원에게 묻습니다.",
+    "lines": [
+      {"speaker": 1, "text": "Excuse me, is the train to Boston delayed?", "ko": "실례합니다, 보스턴행 기차가 늦어지나요?"},
+      {"speaker": 0, "text": "Yes, it's about forty minutes late because of the snow.", "ko": "네, 눈 때문에 40분쯤 늦어요."},
+      {"speaker": 1, "text": "Oh no. I have a meeting at two.", "ko": "이런. 2시에 회의가 있는데요."},
+      {"speaker": 0, "text": "There's a bus at twelve thirty. It might be faster.", "ko": "12시 30분에 버스가 있어요. 그게 더 빠를 수도 있어요."}
+    ],
+    "gist": {"questionKo": "기차가 늦는 이유는?", "options": ["사고", "눈", "공사"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["rain", "twenty", "early"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "Is the train delayed?", "ko": "기차가 늦어지나요?"},
+      {"en": "It might be faster.", "ko": "그게 더 빠를 수도 있어요."}
+    ],
+    "response": {
+      "situationKo": "친구에게 기차가 늦어서 약속에 늦는다고 문자로 말해 보세요.",
+      "prompt": "Hey, are you still coming at three?",
+      "keywords": ["late", "delayed", "sorry", "train", "minutes"],
+      "answers": [
+        {"text": "Sorry, my train is delayed. I'll be thirty minutes late.", "tone": "보통", "noteKo": "이유와 시간을 함께 말해요."},
+        {"text": "Yes, but I'm running a bit late. The train is slow.", "tone": "친근", "noteKo": "a bit late는 '조금 늦어'예요."},
+        {"text": "I'm so sorry, the train has been delayed. Could we meet at three thirty instead?", "tone": "정중", "noteKo": "instead로 새 시간을 제안해요."},
+        {"text": "Ugh, train's delayed! See you around three thirty?", "tone": "친근", "noteKo": "문자에서는 주어를 빼기도 해요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-rental-car",
+    "title": "Renting a car",
+    "titleKo": "렌터카 빌리기",
+    "icon": "map",
+    "settingKo": "여행지에서 차를 빌립니다.",
+    "lines": [
+      {"speaker": 0, "text": "Hi, do you have a reservation with us?", "ko": "안녕하세요, 예약하셨나요?"},
+      {"speaker": 1, "text": "Yes, a small car for three days.", "ko": "네, 소형차로 3일이요."},
+      {"speaker": 0, "text": "Great. Do you want full insurance? It's fifteen dollars a day.", "ko": "좋아요. 완전 보험 드실래요? 하루에 15달러예요."},
+      {"speaker": 1, "text": "Yes, please. And do I need to return it with a full tank?", "ko": "네, 그걸로요. 그리고 기름을 가득 채워서 반납해야 하나요?"},
+      {"speaker": 0, "text": "Yes, or we charge you for the gas.", "ko": "네, 아니면 기름값을 청구해요."}
+    ],
+    "gist": {"questionKo": "차를 반납할 때 해야 할 것은?", "options": ["세차하기", "기름 가득 채우기", "보험 서류 내기"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["big", "week", "two"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "Do I need to return it with a full tank?", "ko": "기름을 가득 채워서 반납해야 하나요?"},
+      {"en": "A small car for three days.", "ko": "소형차로 3일이요."}
+    ],
+    "response": {
+      "situationKo": "직원이 차를 어디서 반납할지 묻습니다.",
+      "prompt": "Will you return the car here, or at the airport?",
+      "keywords": ["here", "airport", "return", "i'll", "can i"],
+      "answers": [
+        {"text": "I'll return it here, on Friday.", "tone": "보통", "noteKo": "요일까지 말하면 확실해요."},
+        {"text": "Can I return it at the airport?", "tone": "보통", "noteKo": "다른 곳 반납이 되는지 물어요."},
+        {"text": "At the airport, please, if that's possible.", "tone": "정중", "noteKo": "if that's possible로 부드럽게 말해요."},
+        {"text": "The airport works better for me.", "tone": "친근", "noteKo": "works better for me는 '저한테 더 편해요'예요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-airbnb",
+    "title": "Messaging the host",
+    "titleKo": "숙소 호스트와 연락",
+    "icon": "bed",
+    "settingKo": "숙소 호스트에게 체크인 방법을 묻습니다.",
+    "lines": [
+      {"speaker": 1, "text": "Hi, we're arriving around ten tonight. Is that OK?", "ko": "안녕하세요, 오늘 밤 10시쯤 도착해요. 괜찮을까요?"},
+      {"speaker": 0, "text": "No problem. It's self check-in.", "ko": "괜찮아요. 셀프 체크인이에요."},
+      {"speaker": 0, "text": "The key is in a lock box. The code is two four six one.", "ko": "열쇠는 보관함에 있어요. 비밀번호는 2461이에요."},
+      {"speaker": 1, "text": "Perfect. Where can we park the car?", "ko": "좋아요. 차는 어디에 세우면 돼요?"},
+      {"speaker": 0, "text": "There's free parking behind the building.", "ko": "건물 뒤에 무료 주차장이 있어요."}
+    ],
+    "gist": {"questionKo": "열쇠는 어디에 있나요?", "options": ["호스트가 직접 준다", "보관함 안", "건물 관리실"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["stop", "bus", "here"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "We're arriving around ten tonight.", "ko": "오늘 밤 10시쯤 도착해요."},
+      {"en": "Where can we park the car?", "ko": "차는 어디에 세우면 돼요?"}
+    ],
+    "response": {
+      "situationKo": "호스트가 숙소에 필요한 게 있는지 묻습니다. 하나 부탁해 보세요.",
+      "prompt": "Is there anything else you need for your stay?",
+      "keywords": ["could we", "can we", "extra", "towels", "late check-out", "please", "no"],
+      "answers": [
+        {"text": "Could we have some extra towels, please?", "tone": "정중", "noteKo": "extra는 '여분의'예요."},
+        {"text": "Can we check out a little late on Sunday?", "tone": "보통", "noteKo": "check out late는 늦은 퇴실이에요."},
+        {"text": "No, we're all good. Thanks!", "tone": "친근", "noteKo": "all good은 '다 괜찮아요'예요."},
+        {"text": "Is there a hair dryer? I can't find one.", "tone": "보통", "noteKo": "can't find one으로 못 찾았다고 말해요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-lost-phone",
+    "title": "I lost my phone",
+    "titleKo": "휴대폰 분실",
+    "icon": "bag",
+    "settingKo": "카페에 두고 온 휴대폰을 찾으러 갑니다.",
+    "lines": [
+      {"speaker": 1, "text": "Hi, I think I left my phone here about an hour ago.", "ko": "안녕하세요, 한 시간쯤 전에 여기 휴대폰을 두고 간 것 같아요."},
+      {"speaker": 0, "text": "What does it look like?", "ko": "어떻게 생겼어요?"},
+      {"speaker": 1, "text": "It's black with a green case.", "ko": "검은색에 초록색 케이스예요."},
+      {"speaker": 0, "text": "Is this it? Someone found it on the table.", "ko": "이거예요? 누가 테이블에서 발견했어요."},
+      {"speaker": 1, "text": "Yes! Thank you so much. I was so worried.", "ko": "네! 정말 감사해요. 너무 걱정했어요."}
+    ],
+    "gist": {"questionKo": "휴대폰은 어디에서 발견되었나요?", "options": ["화장실", "테이블 위", "계산대"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["blue", "white", "bag"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "I think I left my phone here.", "ko": "여기 휴대폰을 두고 간 것 같아요."},
+      {"en": "It's black with a green case.", "ko": "검은색에 초록색 케이스예요."}
+    ],
+    "response": {
+      "situationKo": "분실물 센터 직원이 무엇을 잃어버렸는지 묻습니다.",
+      "prompt": "What did you lose, and where?",
+      "keywords": ["i lost", "i left", "my", "wallet", "bag", "on the", "at the"],
+      "answers": [
+        {"text": "I lost my wallet on the subway this morning.", "tone": "보통", "noteKo": "물건, 장소, 때를 차례로 말해요."},
+        {"text": "I left my backpack at the bus stop. It's blue.", "tone": "보통", "noteKo": "색깔을 덧붙이면 찾기 쉬워요."},
+        {"text": "I'm afraid I lost my laptop bag somewhere in the station.", "tone": "정중", "noteKo": "I'm afraid는 안 좋은 소식을 말할 때 써요."},
+        {"text": "My AirPods! I think I left them on the train.", "tone": "친근", "noteKo": "물건 이름부터 말해도 자연스러워요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-bank-card",
+    "title": "My card isn't working",
+    "titleKo": "카드가 안 돼요",
+    "icon": "money",
+    "settingKo": "해외에서 카드가 결제되지 않아 은행에 전화합니다.",
+    "lines": [
+      {"speaker": 1, "text": "Hi, my card isn't working. I'm traveling in Japan.", "ko": "안녕하세요, 카드가 안 돼요. 일본 여행 중이에요."},
+      {"speaker": 0, "text": "I see. For security, we blocked it. Did you buy something big?", "ko": "그렇군요. 보안 때문에 정지됐어요. 큰 금액을 결제하셨나요?"},
+      {"speaker": 1, "text": "Yes, I paid for a hotel yesterday.", "ko": "네, 어제 호텔비를 냈어요."},
+      {"speaker": 0, "text": "OK, I unblocked it. You can use it now.", "ko": "네, 정지를 풀었어요. 이제 쓰실 수 있어요."}
+    ],
+    "gist": {"questionKo": "카드가 정지된 이유는?", "options": ["카드가 만료되어서", "보안을 위해", "잔액이 부족해서"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["bought", "today", "flight"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "My card isn't working.", "ko": "카드가 안 돼요."},
+      {"en": "I'm traveling in Japan.", "ko": "일본 여행 중이에요."}
+    ],
+    "response": {
+      "situationKo": "가게에서 카드가 거절됐어요. 다른 방법으로 내겠다고 말해 보세요.",
+      "prompt": "Sorry, your card was declined.",
+      "keywords": ["try", "again", "cash", "another card", "can i", "pay"],
+      "answers": [
+        {"text": "Oh, can you try again, please?", "tone": "보통", "noteKo": "다시 시도해 달라고 할 때 써요."},
+        {"text": "That's strange. Can I pay with cash?", "tone": "보통", "noteKo": "strange는 '이상하다'예요."},
+        {"text": "I'm sorry about that. Let me try another card.", "tone": "정중", "noteKo": "Let me try는 '제가 해 볼게요'예요."},
+        {"text": "Ugh, really? OK, I'll use Apple Pay.", "tone": "친근", "noteKo": "결제 앱 이름을 넣어서 말해요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-esim",
+    "title": "Getting a SIM card",
+    "titleKo": "유심, 이심 사기",
+    "icon": "money",
+    "settingKo": "공항 통신사 매장에서 데이터 요금제를 고릅니다.",
+    "lines": [
+      {"speaker": 1, "text": "Hi, I need a data plan for two weeks.", "ko": "안녕하세요, 2주짜리 데이터 요금제가 필요해요."},
+      {"speaker": 0, "text": "We have ten gigs for twenty dollars, or unlimited for thirty-five.", "ko": "10기가에 20달러, 무제한은 35달러예요."},
+      {"speaker": 1, "text": "I'll take unlimited. Can I get an eSIM?", "ko": "무제한으로 할게요. 이심으로 될까요?"},
+      {"speaker": 0, "text": "Sure. Just scan this QR code with your phone.", "ko": "네. 휴대폰으로 이 QR 코드만 찍으시면 돼요."}
+    ],
+    "gist": {"questionKo": "손님이 고른 요금제는?", "options": ["10기가", "무제한", "통화 전용"], "answer": 1},
+    "dictation": {"line": 0, "distractors": ["want", "week", "call"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "I need a data plan for two weeks.", "ko": "2주짜리 데이터 요금제가 필요해요."},
+      {"en": "Can I get an eSIM?", "ko": "이심으로 될까요?"}
+    ],
+    "response": {
+      "situationKo": "직원이 휴대폰 기종을 묻습니다. 대답하고 하나 더 물어보세요.",
+      "prompt": "What phone do you have?",
+      "keywords": ["i have", "it's", "an iphone", "a samsung", "does it work", "galaxy"],
+      "answers": [
+        {"text": "I have an iPhone fifteen. Does it work with eSIM?", "tone": "보통", "noteKo": "Does it work with ~?는 호환을 물어요."},
+        {"text": "It's a Samsung Galaxy.", "tone": "보통", "noteKo": "기종만 짧게 답해도 돼요."},
+        {"text": "I have a Galaxy S twenty-four. Will it work here?", "tone": "정중", "noteKo": "Will it work here?로 사용 가능한지 물어요."},
+        {"text": "Just an old iPhone, haha. Is that OK?", "tone": "친근", "noteKo": "가볍게 웃으며 말해도 좋아요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-team-lunch",
+    "title": "Lunch with coworkers",
+    "titleKo": "동료와 점심",
+    "icon": "work",
+    "settingKo": "동료가 점심을 같이 먹자고 합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Hey, a few of us are getting lunch. Want to join?", "ko": "우리 몇 명 점심 먹으러 가는데, 같이 갈래?"},
+      {"speaker": 1, "text": "Sure! Where are you going?", "ko": "좋아! 어디 가?"},
+      {"speaker": 0, "text": "There's a new ramen place around the corner.", "ko": "모퉁이에 새로 생긴 라멘집이 있어."},
+      {"speaker": 1, "text": "Sounds great. Give me five minutes to finish this email.", "ko": "좋다. 이 메일만 마무리하게 5분만 줘."}
+    ],
+    "gist": {"questionKo": "두 번째 사람이 5분을 달라는 이유는?", "options": ["전화를 해야 해서", "메일을 마무리하려고", "지갑을 찾으려고"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["ten", "call", "report"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "Want to join?", "ko": "같이 갈래?"},
+      {"en": "Give me five minutes.", "ko": "5분만 줘."}
+    ],
+    "response": {
+      "situationKo": "동료가 점심 같이 먹자는데 오늘은 못 가요. 거절해 보세요.",
+      "prompt": "We're going for tacos. You coming?",
+      "keywords": ["sorry", "i can't", "next time", "i brought", "busy", "rain check"],
+      "answers": [
+        {"text": "Sorry, I can't today. Next time!", "tone": "보통", "noteKo": "Next time으로 다음을 약속해요."},
+        {"text": "I brought lunch today, but thanks for asking.", "tone": "정중", "noteKo": "도시락을 싸 왔다고 이유를 말해요."},
+        {"text": "Ah, I'm too busy. Can I take a rain check?", "tone": "친근", "noteKo": "rain check는 '다음에 할게'예요."},
+        {"text": "I'd love to, but I have a meeting at twelve.", "tone": "보통", "noteKo": "I'd love to, but으로 부드럽게 거절해요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-first-day",
+    "title": "My first day",
+    "titleKo": "첫 출근",
+    "icon": "work",
+    "settingKo": "첫 출근 날 팀장이 하루 일정을 설명합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Welcome to the team! Let me show you around.", "ko": "팀에 온 걸 환영해요! 회사를 안내해 줄게요."},
+      {"speaker": 0, "text": "This morning you'll get your laptop and set up your email.", "ko": "오전에는 노트북을 받고 이메일을 설정할 거예요."},
+      {"speaker": 1, "text": "Great. Is there a team meeting today?", "ko": "좋아요. 오늘 팀 회의가 있나요?"},
+      {"speaker": 0, "text": "Yes, at three. You can say hi to everyone.", "ko": "네, 3시에요. 다들 인사할 수 있을 거예요."}
+    ],
+    "gist": {"questionKo": "오전에 할 일은?", "options": ["팀 회의", "노트북 받고 이메일 설정", "점심 회식"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["tomorrow", "call", "boss"]},
+    "shadow": [2,3],
+    "phrases": [
+      {"en": "Let me show you around.", "ko": "안내해 줄게요."},
+      {"en": "Is there a team meeting today?", "ko": "오늘 팀 회의가 있나요?"}
+    ],
+    "response": {
+      "situationKo": "팀 회의에서 자기소개를 해 보세요.",
+      "prompt": "Everyone, this is our new teammate. Would you like to introduce yourself?",
+      "keywords": ["i'm", "my name", "i'll be working", "nice to meet", "happy to be", "excited"],
+      "answers": [
+        {"text": "Hi, I'm Min. I'm the new designer. Nice to meet you all.", "tone": "보통", "noteKo": "이름, 역할, 인사 순서예요."},
+        {"text": "Hello everyone. My name is Min, and I'm happy to be here.", "tone": "정중", "noteKo": "happy to be here는 '함께하게 돼 기뻐요'예요."},
+        {"text": "Hey all! I'm Min. I'll be working on the app. Excited to meet you!", "tone": "친근", "noteKo": "I'll be working on으로 맡을 일을 말해요."},
+        {"text": "Hi, I'm Min from Seoul. I'm excited to work with you.", "tone": "보통", "noteKo": "출신을 덧붙이면 대화가 이어져요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-sick-day",
+    "title": "Calling in sick",
+    "titleKo": "병가 내기",
+    "icon": "health",
+    "settingKo": "아파서 출근하지 못한다고 팀장에게 연락합니다.",
+    "lines": [
+      {"speaker": 1, "text": "Hi Sarah, I'm sorry, but I can't come in today.", "ko": "사라, 미안한데 오늘 출근을 못 할 것 같아요."},
+      {"speaker": 0, "text": "Oh no, are you OK?", "ko": "어머, 괜찮아요?"},
+      {"speaker": 1, "text": "I have a high fever. I'm going to see a doctor.", "ko": "열이 많이 나요. 병원에 가 보려고요."},
+      {"speaker": 0, "text": "Take care of yourself. Don't worry about work.", "ko": "몸 잘 챙겨요. 일은 걱정하지 말고요."}
+    ],
+    "gist": {"questionKo": "출근하지 못하는 이유는?", "options": ["가족 일", "열이 나서", "차가 고장 나서"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["cold", "hospital", "small"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "I can't come in today.", "ko": "오늘 출근을 못 할 것 같아요."},
+      {"en": "Take care of yourself.", "ko": "몸 잘 챙겨요."}
+    ],
+    "response": {
+      "situationKo": "몸이 안 좋아서 내일 쉬겠다고 팀장에게 말해 보세요.",
+      "prompt": "Hi, is everything OK? You sounded tired earlier.",
+      "keywords": ["i'm not feeling well", "sick", "take a day off", "tomorrow", "rest"],
+      "answers": [
+        {"text": "Actually, I'm not feeling well. Can I take tomorrow off?", "tone": "보통", "noteKo": "take ~ off는 '쉬다'예요."},
+        {"text": "I'm a bit sick. I think I need to rest tomorrow.", "tone": "친근", "noteKo": "I think로 부드럽게 말해요."},
+        {"text": "I'm sorry, I'm not feeling well. Would it be OK if I took a sick day tomorrow?", "tone": "정중", "noteKo": "sick day는 병가예요."},
+        {"text": "Not really. I caught a cold, so I'd like to take a day off.", "tone": "보통", "noteKo": "caught a cold는 '감기에 걸렸다'예요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-first-date",
+    "title": "Coffee date",
+    "titleKo": "앱으로 만난 첫 만남",
+    "icon": "chat",
+    "settingKo": "데이팅 앱으로 만난 사람과 카페에서 처음 만납니다.",
+    "lines": [
+      {"speaker": 0, "text": "Hi, you must be Jun. It's nice to finally meet you.", "ko": "안녕하세요, 준 씨죠? 드디어 만나서 반가워요."},
+      {"speaker": 1, "text": "You too! You look just like your pictures.", "ko": "저도요! 사진이랑 똑같으시네요."},
+      {"speaker": 0, "text": "Haha, thanks. So, what do you do on weekends?", "ko": "하하, 고마워요. 주말에는 보통 뭐 해요?"},
+      {"speaker": 1, "text": "I usually go climbing. Have you ever tried it?", "ko": "보통 클라이밍해요. 해 본 적 있어요?"}
+    ],
+    "gist": {"questionKo": "준의 주말 취미는?", "options": ["요리", "클라이밍", "사진 찍기"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["sometimes", "swimming", "liked"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "It's nice to finally meet you.", "ko": "드디어 만나서 반가워요."},
+      {"en": "Have you ever tried it?", "ko": "해 본 적 있어요?"}
+    ],
+    "response": {
+      "situationKo": "상대가 해 본 적 있는지 묻습니다. 경험을 말해 보세요.",
+      "prompt": "Have you ever been to a music festival?",
+      "keywords": ["yes", "no", "i have", "i haven't", "never", "once", "i went"],
+      "answers": [
+        {"text": "Yes, I went to one last summer. It was amazing.", "tone": "보통", "noteKo": "경험은 과거형으로 이어 말해요."},
+        {"text": "No, I haven't, but I really want to.", "tone": "보통", "noteKo": "I haven't, but으로 바람을 말해요."},
+        {"text": "Never! Do you want to go together sometime?", "tone": "친근", "noteKo": "sometime은 '언젠가'예요."},
+        {"text": "Yes, I have, once in Seoul. Have you?", "tone": "정중", "noteKo": "Have you?로 다시 물어 대화를 이어 가요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-group-chat",
+    "title": "Planning in the group chat",
+    "titleKo": "단톡방에서 약속 잡기",
+    "icon": "forum",
+    "settingKo": "친구들과 단톡방에서 모임 날짜를 정합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Hey guys, are we still on for dinner this Friday?", "ko": "얘들아, 이번 금요일 저녁 아직 유효하지?"},
+      {"speaker": 1, "text": "Friday doesn't work for me anymore. How about Saturday?", "ko": "나 금요일 이제 안 돼. 토요일은 어때?"},
+      {"speaker": 0, "text": "Saturday works. Let's say seven at the usual place?", "ko": "토요일 좋아. 늘 가던 데서 7시 어때?"},
+      {"speaker": 1, "text": "Perfect. I'll book a table.", "ko": "좋아. 내가 자리 예약할게."}
+    ],
+    "gist": {"questionKo": "모임은 언제로 바뀌었나요?", "options": ["금요일 7시", "토요일 7시", "일요일 점심"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["Sunday", "today", "good"]},
+    "shadow": [0,1],
+    "phrases": [
+      {"en": "Are we still on for Friday?", "ko": "금요일 약속 아직 유효하지?"},
+      {"en": "Friday doesn't work for me.", "ko": "나 금요일 안 돼."}
+    ],
+    "response": {
+      "situationKo": "친구가 새 날짜를 제안합니다. 되는지 안 되는지 답해 보세요.",
+      "prompt": "Does next Sunday work for everyone?",
+      "keywords": ["works for me", "sunday", "can't", "i'm in", "doesn't work", "sorry"],
+      "answers": [
+        {"text": "Sunday works for me!", "tone": "친근", "noteKo": "works for me는 '나는 좋아'예요."},
+        {"text": "Sorry, I can't on Sunday. Can we do Saturday?", "tone": "보통", "noteKo": "안 될 때는 대안을 같이 말해요."},
+        {"text": "I'm in. What time?", "tone": "친근", "noteKo": "I'm in은 '나 낄게'예요."},
+        {"text": "Unfortunately, Sunday doesn't work for me. Would Monday evening be OK?", "tone": "정중", "noteKo": "Unfortunately로 아쉬움을 표현해요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-recommend",
+    "title": "Any recommendations?",
+    "titleKo": "맛집 추천받기",
+    "icon": "coffee",
+    "settingKo": "현지인 동료에게 맛집을 추천받습니다.",
+    "lines": [
+      {"speaker": 1, "text": "Do you know any good places to eat around here?", "ko": "이 근처에 맛있는 데 알아요?"},
+      {"speaker": 0, "text": "What kind of food do you like?", "ko": "어떤 음식 좋아해요?"},
+      {"speaker": 1, "text": "Anything, but I really want to try local food.", "ko": "다 좋은데 현지 음식을 꼭 먹어 보고 싶어요."},
+      {"speaker": 0, "text": "Then go to Rosa's. Their tacos are the best in town.", "ko": "그럼 로사네 가 봐요. 거기 타코가 동네 최고예요."}
+    ],
+    "gist": {"questionKo": "추천받은 곳의 대표 메뉴는?", "options": ["피자", "타코", "버거"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["eat", "spicy", "fast"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "Do you know any good places to eat around here?", "ko": "이 근처에 맛있는 데 알아요?"},
+      {"en": "It's the best in town.", "ko": "동네 최고예요."}
+    ],
+    "response": {
+      "situationKo": "여행 온 친구가 서울 맛집을 묻습니다. 하나 추천해 보세요.",
+      "prompt": "I'm visiting Seoul next month. Where should I eat?",
+      "keywords": ["you should", "try", "go to", "i recommend", "my favorite"],
+      "answers": [
+        {"text": "You should try Korean barbecue in Mapo.", "tone": "보통", "noteKo": "You should try로 추천해요."},
+        {"text": "Go to Gwangjang Market! The food is amazing.", "tone": "친근", "noteKo": "명령형으로 강하게 추천해도 돼요."},
+        {"text": "I recommend a place called Hadongkwan. Their beef soup is famous.", "tone": "정중", "noteKo": "a place called ~는 '~라는 곳'이에요."},
+        {"text": "My favorite is a small noodle shop near my office.", "tone": "보통", "noteKo": "개인적인 추천이라 더 와닿아요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-wrong-order",
+    "title": "This isn't what I ordered",
+    "titleKo": "주문이 잘못 나왔어요",
+    "icon": "coffee",
+    "settingKo": "식당에서 주문과 다른 음식이 나왔습니다.",
+    "lines": [
+      {"speaker": 1, "text": "Excuse me, I think this isn't what I ordered.", "ko": "실례합니다, 이건 제가 주문한 게 아닌 것 같아요."},
+      {"speaker": 0, "text": "Oh, I'm sorry. What did you order?", "ko": "아, 죄송해요. 무엇을 주문하셨죠?"},
+      {"speaker": 1, "text": "I ordered the chicken pasta, not the beef.", "ko": "소고기가 아니라 치킨 파스타를 시켰어요."},
+      {"speaker": 0, "text": "My mistake. I'll bring the right one right away.", "ko": "제 실수예요. 바로 맞는 걸로 가져올게요."}
+    ],
+    "gist": {"questionKo": "손님이 원래 주문한 것은?", "options": ["소고기 파스타", "치킨 파스타", "치킨 샐러드"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["fish", "salad", "wanted"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "This isn't what I ordered.", "ko": "이건 제가 주문한 게 아니에요."},
+      {"en": "I'll bring the right one right away.", "ko": "바로 맞는 걸로 가져올게요."}
+    ],
+    "response": {
+      "situationKo": "음식이 너무 오래 안 나와요. 직원에게 물어보세요.",
+      "prompt": "Is everything OK here?",
+      "keywords": ["waiting", "how long", "our food", "still", "minutes", "check"],
+      "answers": [
+        {"text": "We've been waiting for thirty minutes. Is our food coming?", "tone": "보통", "noteKo": "have been waiting은 '계속 기다리는 중'이에요."},
+        {"text": "Could you check on our order, please? It's been a while.", "tone": "정중", "noteKo": "check on은 '확인해 보다'예요."},
+        {"text": "Our food still isn't here. How long will it be?", "tone": "보통", "noteKo": "How long will it be?는 '얼마나 걸려요?'예요."},
+        {"text": "Hey, any news on our pizza? We're starving!", "tone": "친근", "noteKo": "any news on ~?는 '~ 어떻게 됐어요?'예요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-class-booking",
+    "title": "Booking a yoga class",
+    "titleKo": "운동 수업 예약",
+    "icon": "calendar",
+    "settingKo": "요가 스튜디오에 전화해서 수업을 예약합니다.",
+    "lines": [
+      {"speaker": 1, "text": "Hi, I'd like to book a beginner class for this week.", "ko": "안녕하세요, 이번 주 초급 수업을 예약하고 싶어요."},
+      {"speaker": 0, "text": "We have one on Tuesday at seven and Thursday at six.", "ko": "화요일 7시와 목요일 6시에 있어요."},
+      {"speaker": 1, "text": "Thursday is better. Do I need to bring a mat?", "ko": "목요일이 좋아요. 매트를 가져가야 하나요?"},
+      {"speaker": 0, "text": "No, you can borrow one here for free.", "ko": "아니요, 여기서 무료로 빌릴 수 있어요."}
+    ],
+    "gist": {"questionKo": "매트는 어떻게 하나요?", "options": ["가져가야 한다", "무료로 빌린다", "돈을 내고 산다"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["Tuesday", "towel", "buy"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "I'd like to book a beginner class.", "ko": "초급 수업을 예약하고 싶어요."},
+      {"en": "Do I need to bring a mat?", "ko": "매트를 가져가야 하나요?"}
+    ],
+    "response": {
+      "situationKo": "강사가 운동 경험을 묻습니다. 대답해 보세요.",
+      "prompt": "Have you done yoga before?",
+      "keywords": ["never", "a little", "yes", "first time", "i've done", "beginner"],
+      "answers": [
+        {"text": "No, this is my first time.", "tone": "보통", "noteKo": "first time은 '처음'이에요."},
+        {"text": "A little, but I'm still a beginner.", "tone": "보통", "noteKo": "still a beginner는 '아직 초보'예요."},
+        {"text": "Yes, I've done it a few times, but not for a while.", "tone": "정중", "noteKo": "not for a while은 '한동안 안 했다'예요."},
+        {"text": "Never! Please go easy on me.", "tone": "친근", "noteKo": "go easy on me는 '살살 해 주세요'예요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-neighbor",
+    "title": "A little too loud",
+    "titleKo": "층간 소음 이야기하기",
+    "icon": "home",
+    "settingKo": "밤마다 시끄러운 위층 이웃에게 정중하게 말합니다.",
+    "lines": [
+      {"speaker": 1, "text": "Hi, I live downstairs. Sorry to bother you.", "ko": "안녕하세요, 아래층 사는 사람이에요. 귀찮게 해서 죄송해요."},
+      {"speaker": 0, "text": "Oh, hi. Is something wrong?", "ko": "아, 안녕하세요. 무슨 일 있으세요?"},
+      {"speaker": 1, "text": "The music is a bit loud at night. I can't sleep.", "ko": "밤에 음악 소리가 좀 커서 잠을 못 자요."},
+      {"speaker": 0, "text": "I'm so sorry. I'll keep it down after ten.", "ko": "정말 죄송해요. 10시 이후엔 조용히 할게요."}
+    ],
+    "gist": {"questionKo": "위층 이웃은 어떻게 하기로 했나요?", "options": ["이사를 간다", "10시 이후 조용히 한다", "음악을 안 듣는다"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["TV", "morning", "work"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "Sorry to bother you.", "ko": "귀찮게 해서 죄송해요."},
+      {"en": "I'll keep it down.", "ko": "조용히 할게요."}
+    ],
+    "response": {
+      "situationKo": "이웃이 당신 강아지가 짖는다고 말합니다. 사과해 보세요.",
+      "prompt": "Hi, um, your dog barks a lot when you're out.",
+      "keywords": ["sorry", "i didn't know", "i'll", "thank you for telling"],
+      "answers": [
+        {"text": "Oh, I'm so sorry. I didn't know.", "tone": "보통", "noteKo": "I didn't know로 몰랐다고 말해요."},
+        {"text": "I'm really sorry about that. I'll find a dog sitter.", "tone": "정중", "noteKo": "해결책을 함께 말하면 좋아요."},
+        {"text": "Oh no, sorry! I'll try some training.", "tone": "친근", "noteKo": "try some training은 '훈련을 좀 해 볼게요'예요."},
+        {"text": "Thank you for telling me. I'll fix it.", "tone": "보통", "noteKo": "알려 줘서 고맙다고 하면 분위기가 부드러워요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-borrow",
+    "title": "Can I borrow your charger?",
+    "titleKo": "충전기 빌리기",
+    "icon": "chat",
+    "settingKo": "도서관에서 옆자리 사람에게 충전기를 빌립니다.",
+    "lines": [
+      {"speaker": 1, "text": "Sorry, can I borrow your charger for a few minutes?", "ko": "죄송한데, 충전기 몇 분만 빌려도 될까요?"},
+      {"speaker": 0, "text": "Sure. Is it a USB-C phone?", "ko": "그럼요. USB-C 쓰는 폰이에요?"},
+      {"speaker": 1, "text": "Yes. My battery is at two percent.", "ko": "네. 배터리가 2퍼센트예요."},
+      {"speaker": 0, "text": "Oh, keep it as long as you need.", "ko": "아, 필요한 만큼 쓰세요."}
+    ],
+    "gist": {"questionKo": "충전기를 빌리는 이유는?", "options": ["충전기를 잃어버려서", "배터리가 거의 없어서", "선이 고장 나서"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["phone", "ten", "low"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "Can I borrow your charger?", "ko": "충전기 빌려도 될까요?"},
+      {"en": "Keep it as long as you need.", "ko": "필요한 만큼 쓰세요."}
+    ],
+    "response": {
+      "situationKo": "누군가 당신에게 펜을 빌려 달라고 합니다. 대답해 보세요.",
+      "prompt": "Excuse me, do you have a pen I could use?",
+      "keywords": ["sure", "here you go", "sorry", "i don't", "of course", "keep it"],
+      "answers": [
+        {"text": "Sure, here you go.", "tone": "보통", "noteKo": "건네줄 때 가장 흔한 표현이에요."},
+        {"text": "Of course. You can keep it.", "tone": "정중", "noteKo": "keep it은 '가지셔도 돼요'예요."},
+        {"text": "Sorry, I don't have one.", "tone": "보통", "noteKo": "없을 때 이렇게 말해요."},
+        {"text": "Yeah, take this one!", "tone": "친근", "noteKo": "take this one은 '이거 써'예요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-rain-plan",
+    "title": "Change of plans",
+    "titleKo": "비 와서 계획 바꾸기",
+    "icon": "calendar",
+    "settingKo": "피크닉 날 비 예보가 있어 친구와 계획을 바꿉니다.",
+    "lines": [
+      {"speaker": 0, "text": "Did you see the weather? It's going to rain all day tomorrow.", "ko": "날씨 봤어? 내일 하루 종일 비 온대."},
+      {"speaker": 1, "text": "Oh no. So no picnic in the park?", "ko": "이런. 그럼 공원 피크닉은 안 되겠네?"},
+      {"speaker": 0, "text": "We could go to a museum instead.", "ko": "대신 박물관에 가도 되고."},
+      {"speaker": 1, "text": "Good idea. Let's meet at the entrance at eleven.", "ko": "좋은 생각이야. 11시에 입구에서 보자."}
+    ],
+    "gist": {"questionKo": "새 계획은?", "options": ["공원 피크닉", "박물관", "영화관"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["movie", "park", "later"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "It's going to rain all day.", "ko": "하루 종일 비 온대."},
+      {"en": "We could go to a museum instead.", "ko": "대신 박물관에 가도 되고."}
+    ],
+    "response": {
+      "situationKo": "친구가 비가 오니 계획을 바꾸자고 합니다. 다른 걸 제안해 보세요.",
+      "prompt": "It's raining. What should we do instead?",
+      "keywords": ["we could", "how about", "let's", "maybe", "instead"],
+      "answers": [
+        {"text": "How about a movie?", "tone": "보통", "noteKo": "How about ~?은 제안할 때 써요."},
+        {"text": "We could stay in and play board games.", "tone": "보통", "noteKo": "stay in은 '집에 있다'예요."},
+        {"text": "Let's go to that new café instead!", "tone": "친근", "noteKo": "instead는 '대신에'예요."},
+        {"text": "Maybe we could visit the art gallery. What do you think?", "tone": "정중", "noteKo": "What do you think?로 의견을 물어요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-tickets",
+    "title": "Concert tickets",
+    "titleKo": "콘서트 티켓 구하기",
+    "icon": "calendar",
+    "settingKo": "친구와 콘서트 티켓 예매 이야기를 합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Did you get tickets for the concert? They sold out in ten minutes!", "ko": "콘서트 표 구했어? 10분 만에 매진됐대!"},
+      {"speaker": 1, "text": "Yes! I got two. Do you want to come with me?", "ko": "응! 두 장 구했어. 같이 갈래?"},
+      {"speaker": 0, "text": "Are you serious? Of course! How much do I owe you?", "ko": "진짜? 당연하지! 내가 얼마 주면 돼?"},
+      {"speaker": 1, "text": "Eighty dollars. Just send it whenever.", "ko": "80달러. 아무 때나 보내."}
+    ],
+    "gist": {"questionKo": "표는 얼마나 빨리 매진되었나요?", "options": ["1분", "10분", "하루"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["three", "one", "go"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "They sold out in ten minutes.", "ko": "10분 만에 매진됐대."},
+      {"en": "How much do I owe you?", "ko": "내가 얼마 주면 돼?"}
+    ],
+    "response": {
+      "situationKo": "친구가 남는 표가 있다며 같이 가자고 합니다. 반응해 보세요.",
+      "prompt": "I have an extra ticket for Saturday's show. Want it?",
+      "keywords": ["no way", "really", "yes", "i'd love", "thank", "how much"],
+      "answers": [
+        {"text": "No way! Yes, I'd love to go.", "tone": "친근", "noteKo": "No way!는 '말도 안 돼!' 같은 놀람이에요."},
+        {"text": "Really? Thank you! How much was it?", "tone": "보통", "noteKo": "표값을 먼저 물어보는 게 예의예요."},
+        {"text": "That's so kind of you. I'd love to come.", "tone": "정중", "noteKo": "kind of you로 고마움을 표해요."},
+        {"text": "Yes, please! I wanted to go so badly.", "tone": "친근", "noteKo": "so badly는 '너무너무'예요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-trip-story",
+    "title": "How was your trip?",
+    "titleKo": "여행 이야기",
+    "icon": "plane",
+    "settingKo": "동료가 다녀온 여행에 대해 묻습니다.",
+    "lines": [
+      {"speaker": 0, "text": "Welcome back! How was Vietnam?", "ko": "돌아왔네요! 베트남 어땠어요?"},
+      {"speaker": 1, "text": "It was amazing. The food was so cheap and delicious.", "ko": "최고였어요. 음식이 정말 싸고 맛있었어요."},
+      {"speaker": 0, "text": "Where did you go?", "ko": "어디 갔었어요?"},
+      {"speaker": 1, "text": "Hanoi and Da Nang. The beach in Da Nang was beautiful.", "ko": "하노이랑 다낭이요. 다낭 해변이 정말 예뻤어요."}
+    ],
+    "gist": {"questionKo": "다낭에서 특히 좋았던 것은?", "options": ["시장", "해변", "박물관"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["expensive", "spicy", "hotel"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "Welcome back!", "ko": "돌아왔네요!"},
+      {"en": "The food was so cheap and delicious.", "ko": "음식이 정말 싸고 맛있었어요."}
+    ],
+    "response": {
+      "situationKo": "친구가 최근 여행에 대해 묻습니다. 어땠는지 말해 보세요.",
+      "prompt": "You went to Japan, right? How was it?",
+      "keywords": ["it was", "amazing", "great", "the food", "i loved", "we went"],
+      "answers": [
+        {"text": "It was great! I loved the food in Osaka.", "tone": "보통", "noteKo": "전체 느낌 + 구체적인 하나를 말해요."},
+        {"text": "Amazing, but it was really crowded.", "tone": "친근", "noteKo": "but으로 아쉬운 점도 말해요."},
+        {"text": "It was wonderful. We went to Kyoto and saw many temples.", "tone": "정중", "noteKo": "wonderful은 차분한 칭찬이에요."},
+        {"text": "So good! I want to go back already.", "tone": "친근", "noteKo": "go back already는 '벌써 또 가고 싶어'예요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-tourist-help",
+    "title": "Helping a tourist",
+    "titleKo": "관광객에게 길 알려 주기",
+    "icon": "map",
+    "settingKo": "길을 묻는 관광객에게 길을 알려 줍니다.",
+    "lines": [
+      {"speaker": 0, "text": "Excuse me, how do I get to the palace from here?", "ko": "실례합니다, 여기서 궁에 어떻게 가요?"},
+      {"speaker": 1, "text": "Take the subway, Line Three, and get off at Anguk.", "ko": "지하철 3호선을 타고 안국역에서 내리세요."},
+      {"speaker": 0, "text": "Is it far from the station?", "ko": "역에서 멀어요?"},
+      {"speaker": 1, "text": "No, it's just five minutes from exit one.", "ko": "아니요, 1번 출구에서 5분이면 돼요."}
+    ],
+    "gist": {"questionKo": "몇 번 출구로 나가야 하나요?", "options": ["1번", "3번", "5번"], "answer": 0},
+    "dictation": {"line": 3, "distractors": ["ten", "far", "three"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "How do I get to the palace?", "ko": "궁에 어떻게 가요?"},
+      {"en": "Get off at Anguk.", "ko": "안국역에서 내리세요."}
+    ],
+    "response": {
+      "situationKo": "관광객이 가장 가까운 편의점을 묻습니다. 알려 주세요.",
+      "prompt": "Is there a convenience store near here?",
+      "keywords": ["yes", "go straight", "turn", "it's", "around the corner", "across"],
+      "answers": [
+        {"text": "Yes, there's one around the corner.", "tone": "보통", "noteKo": "around the corner는 '바로 근처'예요."},
+        {"text": "Go straight and it's on your left.", "tone": "보통", "noteKo": "on your left는 '왼쪽에'예요."},
+        {"text": "Yes, it's just across the street, next to the bank.", "tone": "정중", "noteKo": "across the street은 '길 건너'예요."},
+        {"text": "Yep! Turn right, it's right there.", "tone": "친근", "noteKo": "right there는 '바로 거기'예요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-prescription",
+    "title": "Picking up medicine",
+    "titleKo": "처방약 받기",
+    "icon": "health",
+    "settingKo": "약국에서 처방약을 받고 복용법을 듣습니다.",
+    "lines": [
+      {"speaker": 1, "text": "Hi, I'm here to pick up my prescription.", "ko": "안녕하세요, 처방약 받으러 왔어요."},
+      {"speaker": 0, "text": "What's your name and date of birth?", "ko": "성함과 생년월일이 어떻게 되세요?"},
+      {"speaker": 1, "text": "Min Lee, March third, nineteen ninety-five.", "ko": "이민이요, 1995년 3월 3일이에요."},
+      {"speaker": 0, "text": "Take one pill after each meal. Don't drink alcohol with it.", "ko": "식후에 한 알씩 드세요. 술과 함께 드시면 안 돼요."}
+    ],
+    "gist": {"questionKo": "약을 먹을 때 주의할 점은?", "options": ["빈속에 먹지 않기", "술 마시지 않기", "운전하지 않기"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["two", "before", "water"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "I'm here to pick up my prescription.", "ko": "처방약 받으러 왔어요."},
+      {"en": "Take one pill after each meal.", "ko": "식후에 한 알씩 드세요."}
+    ],
+    "response": {
+      "situationKo": "약사에게 약에 대해 하나 물어보세요.",
+      "prompt": "Do you have any questions about this medicine?",
+      "keywords": ["can i", "should i", "how many", "side effects", "make me sleepy", "with food"],
+      "answers": [
+        {"text": "Will it make me sleepy?", "tone": "보통", "noteKo": "졸린지 묻는 흔한 질문이에요."},
+        {"text": "How many times a day should I take it?", "tone": "보통", "noteKo": "times a day는 '하루에 몇 번'이에요."},
+        {"text": "Are there any side effects I should know about?", "tone": "정중", "noteKo": "side effects는 부작용이에요."},
+        {"text": "Can I take it with coffee?", "tone": "친근", "noteKo": "생활 속 궁금증을 물어도 돼요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-laundry",
+    "title": "Hotel laundry",
+    "titleKo": "호텔 세탁 서비스",
+    "icon": "bed",
+    "settingKo": "호텔 프런트에 세탁 서비스를 묻습니다.",
+    "lines": [
+      {"speaker": 1, "text": "Hi, do you have a laundry service?", "ko": "안녕하세요, 세탁 서비스 있나요?"},
+      {"speaker": 0, "text": "Yes. Put your clothes in the bag in your closet.", "ko": "네. 옷장 안 가방에 옷을 넣어 주세요."},
+      {"speaker": 1, "text": "When will it be ready?", "ko": "언제 다 되나요?"},
+      {"speaker": 0, "text": "If you leave it before nine, you'll get it back tonight.", "ko": "9시 전에 맡기시면 오늘 밤에 받으실 수 있어요."}
+    ],
+    "gist": {"questionKo": "오늘 밤에 받으려면?", "options": ["9시 전에 맡긴다", "직접 세탁실에 간다", "추가 요금을 낸다"], "answer": 0},
+    "dictation": {"line": 2, "distractors": ["done", "time", "how"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "Do you have a laundry service?", "ko": "세탁 서비스 있나요?"},
+      {"en": "When will it be ready?", "ko": "언제 다 되나요?"}
+    ],
+    "response": {
+      "situationKo": "호텔 직원이 도울 일이 있는지 묻습니다. 하나 부탁해 보세요.",
+      "prompt": "Front desk, how may I help you?",
+      "keywords": ["could i", "can i", "wake-up call", "extra", "please", "late check-out"],
+      "answers": [
+        {"text": "Could I get a wake-up call at six, please?", "tone": "정중", "noteKo": "wake-up call은 모닝콜이에요."},
+        {"text": "Hi, can I have an extra pillow?", "tone": "보통", "noteKo": "extra pillow는 베개 하나 더예요."},
+        {"text": "Can I check out a bit later tomorrow?", "tone": "보통", "noteKo": "a bit later는 '조금 늦게'예요."},
+        {"text": "Hey, the TV remote isn't working. Can someone bring a new one?", "tone": "친근", "noteKo": "문제와 부탁을 같이 말해요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-online-class",
+    "title": "Joining an online class",
+    "titleKo": "온라인 수업 듣기",
+    "icon": "work",
+    "settingKo": "온라인 수업 시작 전 강사와 짧게 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Hi everyone, can you all see my screen?", "ko": "여러분 안녕하세요, 제 화면 다 보이나요?"},
+      {"speaker": 1, "text": "Yes, I can see it. Will the class be recorded?", "ko": "네, 보여요. 수업 녹화되나요?"},
+      {"speaker": 0, "text": "Yes, I'll share the recording after class.", "ko": "네, 수업 끝나고 녹화본을 공유할게요."},
+      {"speaker": 1, "text": "Great, thanks. I have to leave a little early today.", "ko": "좋아요, 감사합니다. 오늘 조금 일찍 나가야 해서요."}
+    ],
+    "gist": {"questionKo": "강사는 수업 후 무엇을 하나요?", "options": ["숙제를 낸다", "녹화본을 공유한다", "시험을 본다"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["send", "before", "video"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "Can you all see my screen?", "ko": "제 화면 다 보이나요?"},
+      {"en": "Will the class be recorded?", "ko": "수업 녹화되나요?"}
+    ],
+    "response": {
+      "situationKo": "수업 중 이해가 안 되는 부분이 있어요. 질문해 보세요.",
+      "prompt": "OK, any questions so far?",
+      "keywords": ["could you", "explain", "again", "i didn't understand", "what does", "mean"],
+      "answers": [
+        {"text": "Could you explain the last part again?", "tone": "정중", "noteKo": "the last part는 '마지막 부분'이에요."},
+        {"text": "Yes, what does 'deadline' mean?", "tone": "보통", "noteKo": "What does ~ mean?은 뜻을 물어요."},
+        {"text": "Sorry, I didn't understand the example.", "tone": "보통", "noteKo": "솔직하게 모른다고 말해도 괜찮아요."},
+        {"text": "Can you go a little slower, please?", "tone": "친근", "noteKo": "go slower는 '천천히 해 주세요'예요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-language-exchange",
+    "title": "Language exchange",
+    "titleKo": "언어 교환 모임",
+    "icon": "forum",
+    "settingKo": "언어 교환 모임에서 처음 만난 사람과 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Hi! Is this your first time at the language exchange?", "ko": "안녕하세요! 언어 교환 모임 처음이세요?"},
+      {"speaker": 1, "text": "Yes. I want to practice speaking English.", "ko": "네. 영어 말하기를 연습하고 싶어요."},
+      {"speaker": 0, "text": "Cool. I'm learning Korean, so we can help each other.", "ko": "좋아요. 저는 한국어를 배우니까 서로 도울 수 있겠네요."},
+      {"speaker": 1, "text": "Perfect. Let's speak English first, then Korean.", "ko": "좋아요. 영어 먼저 하고, 그다음에 한국어로 해요."}
+    ],
+    "gist": {"questionKo": "두 사람은 어떻게 하기로 했나요?", "options": ["한국어만 쓴다", "영어 먼저, 그다음 한국어", "선생님을 부른다"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["writing", "learn", "Korean"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "I want to practice speaking English.", "ko": "영어 말하기를 연습하고 싶어요."},
+      {"en": "We can help each other.", "ko": "서로 도울 수 있겠네요."}
+    ],
+    "response": {
+      "situationKo": "상대가 영어를 왜 배우는지 묻습니다. 이유를 말해 보세요.",
+      "prompt": "So why are you learning English?",
+      "keywords": ["for", "because", "i want to", "work", "travel", "my job"],
+      "answers": [
+        {"text": "For my job. I have meetings in English.", "tone": "보통", "noteKo": "For + 이유로 짧게 말해요."},
+        {"text": "Because I want to travel and make friends.", "tone": "보통", "noteKo": "Because로 이유를 말해요."},
+        {"text": "I'd like to work abroad someday, so I'm practicing hard.", "tone": "정중", "noteKo": "work abroad는 해외 취업이에요."},
+        {"text": "Honestly, I just want to watch Netflix without subtitles!", "tone": "친근", "noteKo": "without subtitles는 '자막 없이'예요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-gift-shopping",
+    "title": "Looking for a gift",
+    "titleKo": "선물 고르기",
+    "icon": "bag",
+    "settingKo": "가게 직원에게 엄마 생신 선물을 추천받습니다.",
+    "lines": [
+      {"speaker": 0, "text": "Hi there. Are you looking for anything special?", "ko": "안녕하세요. 특별히 찾으시는 거 있으세요?"},
+      {"speaker": 1, "text": "Yes, a birthday gift for my mom. She loves gardening.", "ko": "네, 엄마 생신 선물이요. 정원 가꾸기를 좋아하세요."},
+      {"speaker": 0, "text": "How about these gloves? They're our best seller.", "ko": "이 장갑 어떠세요? 제일 잘 팔리는 거예요."},
+      {"speaker": 1, "text": "They're nice. Could you gift wrap them, please?", "ko": "좋네요. 선물 포장 해 주실 수 있나요?"}
+    ],
+    "gist": {"questionKo": "손님이 마지막에 부탁한 것은?", "options": ["할인", "선물 포장", "다른 색"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["box", "cheap", "send"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "I'm looking for a birthday gift for my mom.", "ko": "엄마 생신 선물을 찾고 있어요."},
+      {"en": "Could you gift wrap it?", "ko": "선물 포장 해 주실 수 있나요?"}
+    ],
+    "response": {
+      "situationKo": "직원이 예산을 묻습니다. 대답해 보세요.",
+      "prompt": "What's your budget?",
+      "keywords": ["around", "under", "about", "dollars", "not more than", "up to"],
+      "answers": [
+        {"text": "Around fifty dollars.", "tone": "보통", "noteKo": "around는 '정도'예요."},
+        {"text": "Under a hundred, if possible.", "tone": "보통", "noteKo": "under는 '~ 이하'예요."},
+        {"text": "Not more than thirty dollars, please.", "tone": "정중", "noteKo": "not more than은 '최대'라는 뜻이에요."},
+        {"text": "Honestly, up to forty bucks.", "tone": "친근", "noteKo": "bucks는 dollars의 편한 말이에요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-cooking",
+    "title": "Cooking together",
+    "titleKo": "같이 요리하기",
+    "icon": "home",
+    "settingKo": "친구 집에서 같이 파스타를 만듭니다.",
+    "lines": [
+      {"speaker": 0, "text": "Can you cut the onions while I boil the water?", "ko": "내가 물 끓이는 동안 양파 좀 썰어 줄래?"},
+      {"speaker": 1, "text": "Sure. How small should I cut them?", "ko": "그래. 얼마나 작게 썰까?"},
+      {"speaker": 0, "text": "Really small, please. My kids don't like big pieces.", "ko": "아주 작게. 우리 애들이 큰 건 싫어해."},
+      {"speaker": 1, "text": "Got it. Do you have another knife?", "ko": "알았어. 칼 하나 더 있어?"}
+    ],
+    "gist": {"questionKo": "양파를 작게 써는 이유는?", "options": ["빨리 익히려고", "아이들이 큰 조각을 싫어해서", "소스에 넣으려고"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["big", "onions", "slice"]},
+    "shadow": [0,1],
+    "phrases": [
+      {"en": "Can you cut the onions?", "ko": "양파 좀 썰어 줄래?"},
+      {"en": "How small should I cut them?", "ko": "얼마나 작게 썰까?"}
+    ],
+    "response": {
+      "situationKo": "친구가 요리를 도와 달라고 합니다. 할 일을 물어보세요.",
+      "prompt": "Dinner is in thirty minutes. Can you help me?",
+      "keywords": ["sure", "what can i", "should i", "i can", "of course"],
+      "answers": [
+        {"text": "Sure! What can I do?", "tone": "보통", "noteKo": "도울 일을 묻는 기본 표현이에요."},
+        {"text": "Of course. Should I wash the vegetables?", "tone": "정중", "noteKo": "Should I ~?로 할 일을 제안해요."},
+        {"text": "Yeah, I can set the table.", "tone": "친근", "noteKo": "set the table은 '상 차리다'예요."},
+        {"text": "Sure, but I'm not a good cook, haha.", "tone": "친근", "noteKo": "농담을 섞어도 좋아요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-left-in-car",
+    "title": "I left my bag in the car",
+    "titleKo": "택시에 두고 내린 가방",
+    "icon": "map",
+    "settingKo": "앱으로 탄 차에 가방을 두고 내려 기사에게 연락합니다.",
+    "lines": [
+      {"speaker": 1, "text": "Hi, you just drove me to the airport. I think I left my bag in your car.", "ko": "안녕하세요, 방금 공항까지 태워 주셨는데요. 차에 가방을 두고 내린 것 같아요."},
+      {"speaker": 0, "text": "Let me check. Is it a small black backpack?", "ko": "확인해 볼게요. 작은 검은 백팩이에요?"},
+      {"speaker": 1, "text": "Yes, that's it! Can you bring it back?", "ko": "네, 그거예요! 다시 가져다주실 수 있나요?"},
+      {"speaker": 0, "text": "Sure, I'll be back at gate three in ten minutes.", "ko": "그럼요, 10분 뒤에 3번 게이트로 갈게요."}
+    ],
+    "gist": {"questionKo": "어디에서 가방을 받기로 했나요?", "options": ["호텔 앞", "3번 게이트", "택시 승강장"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["send", "mine", "here"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "I think I left my bag in your car.", "ko": "차에 가방을 두고 내린 것 같아요."},
+      {"en": "Can you bring it back?", "ko": "다시 가져다주실 수 있나요?"}
+    ],
+    "response": {
+      "situationKo": "기사님이 가방을 가져다주셨어요. 고마움을 표현해 보세요.",
+      "prompt": "Here's your bag. Have a safe flight!",
+      "keywords": ["thank you", "thanks", "lifesaver", "so much", "appreciate"],
+      "answers": [
+        {"text": "Thank you so much! You're a lifesaver.", "tone": "친근", "noteKo": "lifesaver는 '구세주'예요."},
+        {"text": "Thank you. I really appreciate it.", "tone": "정중", "noteKo": "appreciate는 깊은 감사예요."},
+        {"text": "Thanks a lot! Can I give you a tip?", "tone": "보통", "noteKo": "tip은 팁(사례금)이에요."},
+        {"text": "Oh, thank you! I was so worried.", "tone": "보통", "noteKo": "걱정했던 마음을 함께 말해요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-hiking",
+    "title": "Going hiking",
+    "titleKo": "등산 약속",
+    "icon": "map",
+    "settingKo": "주말 등산 계획을 친구와 세웁니다.",
+    "lines": [
+      {"speaker": 0, "text": "Do you want to go hiking on Sunday morning?", "ko": "일요일 아침에 등산 갈래?"},
+      {"speaker": 1, "text": "Sure, but not a hard trail. I'm out of shape.", "ko": "좋아, 근데 힘든 코스는 말고. 나 체력이 안 좋아."},
+      {"speaker": 0, "text": "There's an easy one. It takes about two hours.", "ko": "쉬운 코스 있어. 2시간쯤 걸려."},
+      {"speaker": 1, "text": "OK. I'll bring snacks and water.", "ko": "좋아. 내가 간식이랑 물 챙길게."}
+    ],
+    "gist": {"questionKo": "두 번째 사람이 챙길 것은?", "options": ["등산 지도", "간식과 물", "모자"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["lunch", "buy", "coffee"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "I'm out of shape.", "ko": "나 체력이 안 좋아."},
+      {"en": "It takes about two hours.", "ko": "2시간쯤 걸려."}
+    ],
+    "response": {
+      "situationKo": "친구가 등산할 때 무엇을 가져가야 하는지 묻습니다.",
+      "prompt": "What should I bring for the hike?",
+      "keywords": ["bring", "water", "comfortable shoes", "snacks", "a jacket", "you should"],
+      "answers": [
+        {"text": "Bring water and comfortable shoes.", "tone": "보통", "noteKo": "Bring + 물건으로 간단히 말해요."},
+        {"text": "You should bring a jacket. It gets cold at the top.", "tone": "정중", "noteKo": "이유를 덧붙여 조언해요."},
+        {"text": "Just snacks and good shoes!", "tone": "친근", "noteKo": "Just로 간단함을 강조해요."},
+        {"text": "Water, sunscreen, and a hat.", "tone": "보통", "noteKo": "목록은 쉼표와 and로 이어요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-movie-review",
+    "title": "Did you like the movie?",
+    "titleKo": "영화 본 소감",
+    "icon": "chat",
+    "settingKo": "영화를 보고 나와서 친구와 소감을 나눕니다.",
+    "lines": [
+      {"speaker": 0, "text": "So, what did you think of the movie?", "ko": "그래서, 영화 어땠어?"},
+      {"speaker": 1, "text": "I loved it, but the ending was a little sad.", "ko": "너무 좋았어. 근데 결말이 좀 슬펐어."},
+      {"speaker": 0, "text": "Really? I thought the ending was perfect.", "ko": "진짜? 나는 결말이 완벽했다고 생각했는데."},
+      {"speaker": 1, "text": "Maybe. The music was amazing, though.", "ko": "그럴 수도. 그래도 음악은 정말 좋았어."}
+    ],
+    "gist": {"questionKo": "두 사람이 모두 좋다고 한 것은?", "options": ["결말", "음악", "배우"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["happy", "hated", "story"]},
+    "shadow": [0,1],
+    "phrases": [
+      {"en": "What did you think of the movie?", "ko": "영화 어땠어?"},
+      {"en": "The ending was a little sad.", "ko": "결말이 좀 슬펐어."}
+    ],
+    "response": {
+      "situationKo": "친구가 최근에 본 드라마를 추천해 달라고 합니다.",
+      "prompt": "Have you watched anything good lately?",
+      "keywords": ["yes", "i watched", "you should", "it's about", "check out", "really good"],
+      "answers": [
+        {"text": "Yes, I watched a great Korean drama. You should try it.", "tone": "보통", "noteKo": "You should try it으로 추천해요."},
+        {"text": "Check out the new season of my favorite show. It's so good!", "tone": "친근", "noteKo": "Check out은 '한번 봐 봐'예요."},
+        {"text": "I recently watched a documentary about the ocean. It was really interesting.", "tone": "정중", "noteKo": "recently는 '최근에'예요."},
+        {"text": "Yes! It's about a chef in Paris. Really good.", "tone": "보통", "noteKo": "It's about으로 내용을 소개해요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-pet-sitting",
+    "title": "Can you watch my cat?",
+    "titleKo": "고양이 돌봐 주기",
+    "icon": "home",
+    "settingKo": "여행 가는 동안 이웃에게 고양이를 부탁합니다.",
+    "lines": [
+      {"speaker": 1, "text": "I'm going away this weekend. Could you feed my cat?", "ko": "이번 주말에 어디 가는데, 고양이 밥 좀 줄 수 있어?"},
+      {"speaker": 0, "text": "Of course. How often does she eat?", "ko": "물론이지. 하루에 몇 번 먹어?"},
+      {"speaker": 1, "text": "Twice a day, morning and evening. The food is in the kitchen.", "ko": "하루 두 번, 아침이랑 저녁. 사료는 부엌에 있어."},
+      {"speaker": 0, "text": "No problem. Just leave me your key.", "ko": "걱정 마. 열쇠만 맡겨 줘."}
+    ],
+    "gist": {"questionKo": "고양이는 하루에 몇 번 먹나요?", "options": ["한 번", "두 번", "세 번"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["door", "phone", "give"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "Could you feed my cat?", "ko": "고양이 밥 좀 줄 수 있어?"},
+      {"en": "How often does she eat?", "ko": "하루에 몇 번 먹어?"}
+    ],
+    "response": {
+      "situationKo": "친구가 집을 비우는 동안 화분에 물을 줘 달라고 합니다.",
+      "prompt": "Could you water my plants while I'm away?",
+      "keywords": ["sure", "of course", "how often", "no problem", "happy to"],
+      "answers": [
+        {"text": "Sure. How often should I water them?", "tone": "보통", "noteKo": "How often으로 빈도를 물어요."},
+        {"text": "Of course, I'd be happy to.", "tone": "정중", "noteKo": "happy to는 '기꺼이'예요."},
+        {"text": "No problem! Just text me the details.", "tone": "친근", "noteKo": "the details는 자세한 내용이에요."},
+        {"text": "Sure, but I'm away on Sunday. Is that OK?", "tone": "보통", "noteKo": "안 되는 날을 미리 말해요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-goals",
+    "title": "New year goals",
+    "titleKo": "새해 목표",
+    "icon": "chat",
+    "settingKo": "친구와 새해 목표를 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Do you have any goals for this year?", "ko": "올해 목표 있어?"},
+      {"speaker": 1, "text": "I want to read one book a month and spend less time on my phone.", "ko": "한 달에 책 한 권 읽고 휴대폰 보는 시간을 줄이고 싶어."},
+      {"speaker": 0, "text": "Good luck with the phone one. That's hard!", "ko": "휴대폰은 행운을 빌게. 그거 어렵잖아!"},
+      {"speaker": 1, "text": "I know. I already deleted TikTok.", "ko": "알아. 벌써 틱톡 지웠어."}
+    ],
+    "gist": {"questionKo": "두 번째 사람이 이미 한 일은?", "options": ["책을 샀다", "틱톡을 지웠다", "헬스장에 등록했다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["downloaded", "Instagram", "still"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "Do you have any goals for this year?", "ko": "올해 목표 있어?"},
+      {"en": "I want to spend less time on my phone.", "ko": "휴대폰 보는 시간을 줄이고 싶어."}
+    ],
+    "response": {
+      "situationKo": "친구가 올해 목표를 묻습니다. 하나 말해 보세요.",
+      "prompt": "What's one thing you want to do this year?",
+      "keywords": ["i want to", "i'd like to", "my goal", "i'm going to", "learn", "start"],
+      "answers": [
+        {"text": "I want to learn how to swim.", "tone": "보통", "noteKo": "learn how to + 동사예요."},
+        {"text": "My goal is to save money for a trip.", "tone": "보통", "noteKo": "My goal is to로 말해요."},
+        {"text": "I'd like to get better at English, so I'm practicing every day.", "tone": "정중", "noteKo": "get better at은 '~를 더 잘하게 되다'예요."},
+        {"text": "Honestly? Sleep more. I'm always tired.", "tone": "친근", "noteKo": "짧고 솔직하게 말해도 좋아요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-it-help",
+    "title": "My laptop won't turn on",
+    "titleKo": "IT팀에 도움 요청",
+    "icon": "work",
+    "settingKo": "회사 노트북이 켜지지 않아 IT팀에 연락합니다.",
+    "lines": [
+      {"speaker": 1, "text": "Hi, my laptop won't turn on. I have a meeting in an hour.", "ko": "안녕하세요, 노트북이 안 켜져요. 한 시간 뒤에 회의가 있어요."},
+      {"speaker": 0, "text": "Did you try charging it?", "ko": "충전은 해 보셨어요?"},
+      {"speaker": 1, "text": "Yes, it's plugged in, but nothing happens.", "ko": "네, 꽂혀 있는데 아무 반응이 없어요."},
+      {"speaker": 0, "text": "Bring it to the fourth floor. I'll give you a spare one.", "ko": "4층으로 가져오세요. 여분 노트북을 드릴게요."}
+    ],
+    "gist": {"questionKo": "IT팀은 어떻게 해 주기로 했나요?", "options": ["원격으로 고친다", "여분 노트북을 준다", "내일 수리한다"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["works", "battery", "off"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "My laptop won't turn on.", "ko": "노트북이 안 켜져요."},
+      {"en": "Nothing happens.", "ko": "아무 반응이 없어요."}
+    ],
+    "response": {
+      "situationKo": "IT 담당자가 어떤 문제인지 묻습니다. 설명해 보세요.",
+      "prompt": "Hi, what's the issue?",
+      "keywords": ["my", "isn't working", "won't", "can't", "keeps", "error"],
+      "answers": [
+        {"text": "My email isn't working. I can't send anything.", "tone": "보통", "noteKo": "무엇이 안 되는지 구체적으로 말해요."},
+        {"text": "The Wi-Fi keeps disconnecting.", "tone": "보통", "noteKo": "keeps + -ing는 '계속 ~해요'예요."},
+        {"text": "I'm sorry to bother you, but I can't log in to my account.", "tone": "정중", "noteKo": "log in은 로그인이에요."},
+        {"text": "My screen is frozen and I get an error message.", "tone": "친근", "noteKo": "frozen은 화면이 멈췄다는 뜻이에요."}
+      ]
+    }
+  },
+  {
+    "id": "a2-farewell",
+    "title": "Farewell party",
+    "titleKo": "송별회",
+    "icon": "forum",
+    "settingKo": "회사를 떠나는 동료의 송별회에서 인사합니다.",
+    "lines": [
+      {"speaker": 0, "text": "I can't believe it's your last day!", "ko": "오늘이 마지막 날이라니 믿기지가 않아요!"},
+      {"speaker": 1, "text": "I know. I'm going to miss working with you.", "ko": "그러게요. 같이 일하던 게 그리울 거예요."},
+      {"speaker": 0, "text": "Let's keep in touch. Good luck at your new job!", "ko": "연락하고 지내요. 새 직장에서 잘되길 바라요!"},
+      {"speaker": 1, "text": "Thanks. Let's grab dinner next month.", "ko": "고마워요. 다음 달에 저녁 같이 먹어요."}
+    ],
+    "gist": {"questionKo": "두 사람은 다음 달에 무엇을 하기로 했나요?", "options": ["같이 여행 간다", "저녁을 먹는다", "같은 회사로 옮긴다"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["stay", "leaving", "team"]},
+    "shadow": [1,2],
+    "phrases": [
+      {"en": "Let's keep in touch.", "ko": "연락하고 지내요."},
+      {"en": "I'm going to miss working with you.", "ko": "같이 일하던 게 그리울 거예요."}
+    ],
+    "response": {
+      "situationKo": "떠나는 동료에게 작별 인사를 해 보세요.",
+      "prompt": "Well, this is goodbye for now!",
+      "keywords": ["good luck", "keep in touch", "miss you", "thank you", "take care"],
+      "answers": [
+        {"text": "Good luck! Let's keep in touch.", "tone": "보통", "noteKo": "작별할 때 가장 흔한 두 표현이에요."},
+        {"text": "I'll miss you! Take care.", "tone": "친근", "noteKo": "I'll miss you로 아쉬움을 말해요."},
+        {"text": "Thank you for everything. I learned so much from you.", "tone": "정중", "noteKo": "learned so much from you는 진심이 담긴 인사예요."},
+        {"text": "Good luck with everything. Don't forget us!", "tone": "친근", "noteKo": "Don't forget us는 가벼운 농담처럼 써요."}
       ]
     }
   }

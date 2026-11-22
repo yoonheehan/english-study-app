@@ -1,0 +1,13 @@
+{
+  "name": "englishstudy-tools",
+  "private": true,
+  "type": "module",
+  "description": "PC-side tools that write to Firestore: content upload (and later the word editor).",
+  "scripts": {
+    "upload-content": "node upload-content.mjs",
+    "dedupe-words": "node dedupe-words.mjs"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.10.0"
+  }
+}

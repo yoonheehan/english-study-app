@@ -1,0 +1,254 @@
+{
+  "qr": [
+    {"id": "f-qr-01", "prompt": "Best burger in town, no cap.", "promptKo": "이 동네 최고의 버거야, 진짜로.", "answer": 2, "options": [
+      {"text": "I'm not wearing a cap.", "ko": "나 모자 안 썼어."},
+      {"text": "The town is very small.", "ko": "동네가 아주 작아."},
+      {"text": "Okay, I believe you. Let's go.", "ko": "알았어, 믿을게. 가자."}]},
+    {"id": "f-qr-02", "prompt": "That outfit? It's giving rock star.", "promptKo": "그 옷? 록스타 느낌이다.", "answer": 0, "options": [
+      {"text": "Thanks! That's exactly the vibe I wanted.", "ko": "고마워! 딱 원하던 분위기야."},
+      {"text": "I'm not giving anything away.", "ko": "나 아무것도 안 줘."},
+      {"text": "The concert is tomorrow.", "ko": "콘서트는 내일이야."}]},
+    {"id": "f-qr-03", "prompt": "I'm lowkey nervous about tomorrow.", "promptKo": "내일 일 은근히 긴장돼.", "answer": 1, "options": [
+      {"text": "Turn the volume up, then.", "ko": "그럼 볼륨을 높여."},
+      {"text": "Totally normal. You'll be fine.", "ko": "완전 정상이야. 괜찮을 거야."},
+      {"text": "The key is under the mat.", "ko": "열쇠는 매트 밑에 있어."}]},
+    {"id": "f-qr-04", "prompt": "I've been gaming for twelve hours straight.", "promptKo": "12시간 연속 게임했어.", "answer": 2, "options": [
+      {"text": "Straight to the left.", "ko": "왼쪽으로 쭉."},
+      {"text": "Twelve is my favorite number.", "ko": "12는 내가 좋아하는 숫자야."},
+      {"text": "Bro, go touch grass.", "ko": "야, 밖에 좀 나가."}]},
+    {"id": "f-qr-05", "prompt": "He clapped when the plane landed.", "promptKo": "비행기 착륙할 때 박수 치더라.", "answer": 0, "options": [
+      {"text": "Oof, that's an instant ick.", "ko": "으, 바로 정떨어지네."},
+      {"text": "Was it a smooth landing?", "ko": "착륙 부드러웠어?"},
+      {"text": "I love planes.", "ko": "나 비행기 좋아해."}]},
+    {"id": "f-qr-06", "prompt": "Text: ngl that movie was mid", "promptKo": "문자: 솔직히 그 영화 그저 그랬어", "answer": 1, "options": [
+      {"text": "It ended at midnight?", "ko": "자정에 끝났어?"},
+      {"text": "fr, the ending was so bad", "ko": "진짜, 결말 너무 별로였어"},
+      {"text": "Who's Ngl?", "ko": "엔지엘이 누구야?"}]},
+    {"id": "f-qr-07", "prompt": "She replied 'k.' with a full stop. Is she mad?", "promptKo": "마침표 찍은 'k.'로 답했어. 화났나?", "answer": 2, "options": [
+      {"text": "K is a letter.", "ko": "K는 알파벳이야."},
+      {"text": "She's probably asleep.", "ko": "아마 자고 있을 거야."},
+      {"text": "Yeah, that sounds a bit passive-aggressive.", "ko": "응, 좀 돌려서 화난 것 같아."}]},
+    {"id": "f-qr-08", "prompt": "Okay, you've been grinning all day. Spill the tea.", "promptKo": "좋아, 하루 종일 웃고 있네. 썰 풀어 봐.", "answer": 0, "options": [
+      {"text": "Fine! I got the job.", "ko": "알았어! 나 합격했어."},
+      {"text": "I didn't spill anything.", "ko": "나 아무것도 안 엎질렀어."},
+      {"text": "I prefer coffee.", "ko": "난 커피가 좋아."}]},
+    {"id": "f-qr-09", "prompt": "My show is tonight. I'm terrified.", "promptKo": "오늘 밤 공연이야. 너무 무서워.", "answer": 1, "options": [
+      {"text": "Be careful not to fall.", "ko": "넘어지지 않게 조심해."},
+      {"text": "You've got this. Break a leg!", "ko": "넌 할 수 있어. 행운을 빌어!"},
+      {"text": "What time does it start?", "ko": "몇 시에 시작해?"}]},
+    {"id": "f-qr-10", "prompt": "Still on for drinks tonight?", "promptKo": "오늘 밤 한잔 여전히 유효해?", "answer": 2, "options": [
+      {"text": "The drinks are on the table.", "ko": "음료는 테이블 위에 있어."},
+      {"text": "It's on tonight's news.", "ko": "오늘 밤 뉴스에 나와."},
+      {"text": "I'm a bit under the weather. Rain check?", "ko": "몸이 좀 안 좋아. 다음에 할까?"}]},
+    {"id": "f-qr-11", "prompt": "Did you like the jazz night?", "promptKo": "재즈의 밤 좋았어?", "answer": 0, "options": [
+      {"text": "Not really my cup of tea, but the venue was great.", "ko": "내 취향은 아니었는데 공연장은 좋았어."},
+      {"text": "I drank a cup of tea.", "ko": "차 한 잔 마셨어."},
+      {"text": "It was at night.", "ko": "밤이었어."}]},
+    {"id": "f-qr-12", "prompt": "Are you getting the new phone?", "promptKo": "새 폰 살 거야?", "answer": 1, "options": [
+      {"text": "I'm sitting on the fence in the garden.", "ko": "정원 울타리에 앉아 있어."},
+      {"text": "Still on the fence, honestly.", "ko": "솔직히 아직 고민 중이야."},
+      {"text": "My phone is new.", "ko": "내 폰은 새 거야."}]},
+    {"id": "f-qr-13", "prompt": "It's one a.m. One more episode?", "promptKo": "새벽 1시야. 한 편만 더?", "answer": 2, "options": [
+      {"text": "The episode is an hour long.", "ko": "그 편은 한 시간짜리야."},
+      {"text": "One is a good number.", "ko": "1은 좋은 숫자야."},
+      {"text": "Nope, I'm hitting the sack.", "ko": "아니, 나 자러 갈래."}]},
+    {"id": "f-qr-14", "prompt": "Oh great, another meeting. I just love meetings.", "promptKo": "오 좋다, 또 회의야. 나 회의 정말 좋아해.", "answer": 0, "options": [
+      {"text": "Ha, same. My favorite thing.", "ko": "하, 나도. 제일 좋아하는 거지."},
+      {"text": "Really? I didn't know you enjoyed them so much.", "ko": "정말? 그렇게 좋아하는 줄 몰랐네."},
+      {"text": "The meeting room is booked.", "ko": "회의실은 예약됐어."}]},
+    {"id": "f-qr-15", "prompt": "Wanna grab a coffee this arvo? I'll shout.", "promptKo": "오늘 오후에 커피 할래? 내가 쏠게.", "answer": 1, "options": [
+      {"text": "Why are you shouting?", "ko": "왜 소리 질러?"},
+      {"text": "Cheers, mate! Three o'clock?", "ko": "고마워, 친구! 3시 어때?"},
+      {"text": "I don't know Arvo.", "ko": "아르보 몰라."}]},
+    {"id": "f-qr-16", "prompt": "We lost in the last minute. I'm gutted.", "promptKo": "마지막 1분에 졌어. 완전 속상해.", "answer": 2, "options": [
+      {"text": "Did you eat too much?", "ko": "너무 많이 먹었어?"},
+      {"text": "Congratulations!", "ko": "축하해!"},
+      {"text": "Oh no, that's rough. Fancy a cuppa?", "ko": "이런, 힘들겠다. 차 한잔할래?"}]},
+    {"id": "f-qr-17", "prompt": "Y'all want some sweet tea?", "promptKo": "다들 스위트티 마실래?", "answer": 0, "options": [
+      {"text": "Sure thing, thanks!", "ko": "물론이지, 고마워!"},
+      {"text": "Who is Yall?", "ko": "얄이 누구야?"},
+      {"text": "Tea is not sweet.", "ko": "차는 안 달아."}]},
+    {"id": "f-qr-18", "prompt": "What's the craic?", "promptKo": "별일 없어?", "answer": 1, "options": [
+      {"text": "There's a crack in the wall.", "ko": "벽에 금이 갔어."},
+      {"text": "Grand, thanks. Yourself?", "ko": "좋아, 고마워. 너는?"},
+      {"text": "I don't take drugs.", "ko": "나 약 안 해."}]},
+    {"id": "f-qr-19", "prompt": "Whaddya wanna do tonight?", "promptKo": "오늘 밤 뭐 할래?", "answer": 2, "options": [
+      {"text": "Who is Whaddya?", "ko": "와댜가 누구야?"},
+      {"text": "I did it last night.", "ko": "어젯밤에 했어."},
+      {"text": "Movie and pizza?", "ko": "영화랑 피자?"}]},
+    {"id": "f-qr-20", "prompt": "What time are you coming? Seven?", "promptKo": "몇 시에 와? 7시?", "answer": 0, "options": [
+      {"text": "Seven-ish. Kinda stuck at work.", "ko": "7시쯤. 일에 좀 묶여 있어."},
+      {"text": "Seven people are coming.", "ko": "일곱 명 와."},
+      {"text": "I'm coming from home.", "ko": "집에서 가."}]},
+    {"id": "f-qr-21", "prompt": "Hi there, how are you today?", "promptKo": "안녕하세요, 오늘 어떠세요?", "answer": 1, "options": [
+      {"text": "Well, my back hurts and my landlord is awful...", "ko": "음, 허리가 아프고 집주인은 최악이고..."},
+      {"text": "Good, thanks! You?", "ko": "좋아요, 고마워요! 당신은요?"},
+      {"text": "I am today.", "ko": "저는 오늘이에요."}]},
+    {"id": "f-qr-22", "prompt": "We should hang out sometime!", "promptKo": "언젠가 만나자!", "answer": 2, "options": [
+      {"text": "Sometime is a nice word.", "ko": "'언젠가'는 좋은 단어야."},
+      {"text": "I'm hanging my coat.", "ko": "코트 거는 중이야."},
+      {"text": "Definitely! Free on Thursday?", "ko": "당연하지! 목요일 시간 돼?"}]},
+    {"id": "f-qr-23", "prompt": "Can I get you another drink?", "promptKo": "음료 한 잔 더 드릴까요?", "answer": 0, "options": [
+      {"text": "I'm good, thanks.", "ko": "괜찮아요, 고마워요."},
+      {"text": "I'm a good person.", "ko": "저는 좋은 사람이에요."},
+      {"text": "Another day, another dollar.", "ko": "또 하루, 또 일당."}]},
+    {"id": "f-qr-24", "prompt": "Hey, you took my coffee!", "promptKo": "야, 내 커피 가져갔어!", "answer": 1, "options": [
+      {"text": "Coffee is bad for you.", "ko": "커피는 몸에 안 좋아."},
+      {"text": "Oh, my bad! Here you go.", "ko": "아, 내 실수! 여기."},
+      {"text": "I took the bus.", "ko": "나 버스 탔어."}]}
+  ],
+  "sets": [
+    {"id": "f-c-01", "type": "conversation", "titleKo": "슬랭 해독",
+     "lines": [
+      {"speaker": 0, "text": "That taco place was elite, no cap. Lowkey the best meal I've had all year.", "ko": "그 타코집 최고였어, 진짜로. 은근히 올해 먹은 것 중 최고야."},
+      {"speaker": 1, "text": "Wait, slow down. 'No cap' means you're serious, and 'lowkey' means kind of?", "ko": "잠깐, 천천히. 'no cap'은 진심이고 'lowkey'는 좀 그렇다는 거지?"},
+      {"speaker": 0, "text": "Exactly. And 'elite' just means really, really good.", "ko": "정확해. 그리고 'elite'는 그냥 엄청 좋다는 뜻이야."},
+      {"speaker": 1, "text": "Okay, then I'm highkey jealous. Take me there on Friday.", "ko": "좋아, 그럼 대놓고 부럽다. 금요일에 나 데려가."}],
+     "questions": [
+      {"q": "What does 'elite' mean here?", "qKo": "여기서 'elite'의 뜻은?", "answer": 2, "options": ["Expensive", "Exclusive", "Really, really good", "Too spicy"]},
+      {"q": "How does the second speaker feel?", "qKo": "두 번째 화자의 감정은?", "answer": 0, "options": ["Very jealous", "Bored", "Angry", "Confused"]},
+      {"q": "When do they plan to go?", "qKo": "언제 가기로 하나요?", "answer": 3, "options": ["Tonight", "Tomorrow", "Next month", "On Friday"]}]},
+    {"id": "f-c-02", "type": "conversation", "titleKo": "문자 오해",
+     "lines": [
+      {"speaker": 0, "text": "I told my sister I couldn't come to dinner, and she just replied 'k.' Is that bad?", "ko": "언니한테 저녁 못 간다고 했더니 'k.'만 왔어. 안 좋은 거야?"},
+      {"speaker": 1, "text": "With a full stop? That's cold. She's definitely annoyed.", "ko": "마침표까지? 차갑네. 확실히 짜증 났어."},
+      {"speaker": 0, "text": "Ugh. If she'd written 'okay!' with an exclamation mark, I'd be fine, right?", "ko": "으. 느낌표 붙여서 'okay!'라고 했으면 괜찮은 거지?"},
+      {"speaker": 1, "text": "Totally fine. Call her instead of texting. Tone is easier on the phone.", "ko": "완전 괜찮지. 문자 말고 전화해. 전화가 톤 전달이 쉬워."}],
+     "questions": [
+      {"q": "What did the sister reply?", "qKo": "언니의 답장은?", "answer": 1, "options": ["Okay!", "k.", "No worries", "Fine by me"]},
+      {"q": "What does the friend think the reply means?", "qKo": "친구가 생각한 답장의 의미는?", "answer": 3, "options": ["She's happy", "She's busy", "She's asleep", "She's annoyed"]},
+      {"q": "What does the friend suggest?", "qKo": "친구의 제안은?", "answer": 0, "options": ["Call her", "Send an emoji", "Ignore it", "Go to dinner anyway"]}]},
+    {"id": "f-c-03", "type": "conversation", "titleKo": "호주 동료",
+     "lines": [
+      {"speaker": 0, "text": "Fancy a barbie this arvo, mate? I'll shout the snags.", "ko": "오늘 오후 바비큐 어때, 친구? 소시지는 내가 쏠게."},
+      {"speaker": 1, "text": "Barbie is barbecue, arvo is afternoon, and snags are sausages. Did I get that right?", "ko": "barbie는 바비큐, arvo는 오후, snags는 소시지. 맞게 이해했어?"},
+      {"speaker": 0, "text": "Spot on! You're basically a local now.", "ko": "정확해! 이제 거의 현지인이네."},
+      {"speaker": 1, "text": "Heaps good. I'll bring the drinks. No worries.", "ko": "완전 좋아. 음료는 내가 가져갈게. 걱정 마."}],
+     "questions": [
+      {"q": "What does 'snags' mean?", "qKo": "'snags'의 뜻은?", "answer": 2, "options": ["Problems", "Drinks", "Sausages", "Friends"]},
+      {"q": "When is the barbecue?", "qKo": "바비큐는 언제인가요?", "answer": 0, "options": ["This afternoon", "Tonight", "Tomorrow morning", "On the weekend"]},
+      {"q": "What will the second speaker bring?", "qKo": "두 번째 화자가 가져갈 것은?", "answer": 1, "options": ["Sausages", "Drinks", "Chairs", "Dessert"]}]},
+    {"id": "f-c-04", "type": "conversation", "titleKo": "정떨어진 데이트",
+     "lines": [
+      {"speaker": 0, "text": "So how was the date? You were so excited.", "ko": "그래서 데이트 어땠어? 엄청 기대했잖아."},
+      {"speaker": 1, "text": "Great until he sent his soup back three times. I got the ick.", "ko": "수프를 세 번이나 돌려보내기 전까진 좋았어. 정떨어졌어."},
+      {"speaker": 0, "text": "Three times? That's not tiny. That's a red flag.", "ko": "세 번? 그건 사소한 게 아니지. 위험 신호야."},
+      {"speaker": 1, "text": "Exactly. I'm not seeing him again, but the dessert was amazing.", "ko": "그러니까. 다시 안 만날 건데 디저트는 끝내줬어."}],
+     "questions": [
+      {"q": "What did he do?", "qKo": "그가 한 행동은?", "answer": 3, "options": ["Arrived late", "Forgot his wallet", "Talked about his ex", "Sent his soup back three times"]},
+      {"q": "What does 'a red flag' mean?", "qKo": "'red flag'의 뜻은?", "answer": 1, "options": ["A celebration", "A warning sign", "A sports team", "A good sign"]},
+      {"q": "What was good about the date?", "qKo": "데이트의 좋은 점은?", "answer": 0, "options": ["The dessert", "The music", "The soup", "The conversation"]}]},
+    {"id": "f-c-05", "type": "conversation", "titleKo": "'yeah, no'의 뜻",
+     "lines": [
+      {"speaker": 0, "text": "I asked Liam if he'd cover my shift, and he said 'yeah, no'. Is that a yes?", "ko": "리엄한테 내 근무 대신해 줄 수 있냐고 물었더니 'yeah, no'래. 그거 '응'이야?"},
+      {"speaker": 1, "text": "That's a no. The 'yeah' just means he heard you.", "ko": "그건 '아니'야. 'yeah'는 그냥 들었다는 뜻이야."},
+      {"speaker": 0, "text": "And if he'd said 'no, yeah'?", "ko": "그럼 'no, yeah'라고 했으면?"},
+      {"speaker": 1, "text": "Then it'd be a yes. Always listen to the last word.", "ko": "그럼 '응'이지. 항상 마지막 단어를 들어."}],
+     "questions": [
+      {"q": "What did the man ask Liam?", "qKo": "남자가 리엄에게 부탁한 것은?", "answer": 2, "options": ["To lend money", "To give him a lift", "To cover his shift", "To come to a party"]},
+      {"q": "What does 'yeah, no' mean?", "qKo": "'yeah, no'의 의미는?", "answer": 1, "options": ["Yes", "No", "Maybe", "Later"]},
+      {"q": "Which word gives the real answer?", "qKo": "진짜 대답은 어떤 단어인가요?", "answer": 3, "options": ["The first word", "The loudest word", "The middle word", "The last word"]}]},
+    {"id": "f-c-06", "type": "conversation", "titleKo": "영국식 하루",
+     "lines": [
+      {"speaker": 0, "text": "You look knackered. Rough day?", "ko": "녹초 같아 보여. 힘든 하루였어?"},
+      {"speaker": 1, "text": "Absolutely rubbish. My train was cancelled and I missed the meeting. Gutted.", "ko": "완전 최악이었어. 기차 취소돼서 회의 놓쳤어. 속상해."},
+      {"speaker": 0, "text": "Fancy a cuppa and a biscuit? That fixes most things.", "ko": "차 한잔에 비스킷 어때? 그거면 웬만한 건 해결돼."},
+      {"speaker": 1, "text": "Cheers. You're a lifesaver.", "ko": "고마워. 넌 구세주야."}],
+     "questions": [
+      {"q": "Why did the woman miss the meeting?", "qKo": "여자가 회의를 놓친 이유는?", "answer": 0, "options": ["Her train was cancelled", "She overslept", "She was sick", "She forgot"]},
+      {"q": "What does 'knackered' mean?", "qKo": "'knackered'의 뜻은?", "answer": 2, "options": ["Angry", "Hungry", "Very tired", "Late"]},
+      {"q": "What does the man offer?", "qKo": "남자가 제안한 것은?", "answer": 1, "options": ["A lift home", "Tea and a biscuit", "A new train ticket", "Dinner"]}]},
+    {"id": "f-c-07", "type": "conversation", "titleKo": "언젠가 만나자",
+     "lines": [
+      {"speaker": 0, "text": "My new coworker said we should totally hang out sometime. Do you think she meant it?", "ko": "새 동료가 언젠가 꼭 놀자고 했어. 진심이었을까?"},
+      {"speaker": 1, "text": "Maybe, maybe not. 'Sometime' is often just a polite way to end a conversation.", "ko": "그럴 수도, 아닐 수도. '언젠가'는 대화를 끝내는 예의 바른 말일 때가 많아."},
+      {"speaker": 0, "text": "So how do I find out?", "ko": "그럼 어떻게 알아내?"},
+      {"speaker": 1, "text": "Suggest something specific, like lunch on Wednesday. Her answer will tell you everything.", "ko": "수요일 점심처럼 구체적으로 제안해 봐. 대답이 모든 걸 말해 줄 거야."}],
+     "questions": [
+      {"q": "Who said 'we should hang out sometime'?", "qKo": "누가 '언젠가 놀자'고 했나요?", "answer": 3, "options": ["A neighbor", "An old friend", "A teacher", "A new coworker"]},
+      {"q": "What is 'sometime' often?", "qKo": "'언젠가'는 종종 무엇인가요?", "answer": 0, "options": ["A polite way to end a conversation", "A real plan", "A rude comment", "A date"]},
+      {"q": "What does the friend suggest?", "qKo": "친구의 제안은?", "answer": 2, "options": ["Wait for her", "Ignore it", "Suggest lunch on Wednesday", "Send a gift"]}]},
+    {"id": "f-c-08", "type": "conversation", "titleKo": "곤란한 질문",
+     "lines": [
+      {"speaker": 0, "text": "So, how much did your new car cost? Must have been loads.", "ko": "그래서 새 차 얼마였어? 엄청 비쌌겠다."},
+      {"speaker": 1, "text": "Ha, less than my coffee habit, probably. How's your garden coming along?", "ko": "하, 아마 내 커피값보다 덜할걸. 너네 정원은 어떻게 돼 가?"},
+      {"speaker": 0, "text": "Oh, don't get me started. The tomatoes are a disaster.", "ko": "아, 말도 마. 토마토가 엉망이야."},
+      {"speaker": 1, "text": "No! Tell me everything.", "ko": "말도 안 돼! 다 얘기해 봐."}],
+     "questions": [
+      {"q": "What did the first speaker ask about?", "qKo": "첫 화자가 물어본 것은?", "answer": 1, "options": ["The car's color", "The car's price", "The garden", "Coffee"]},
+      {"q": "How did the second speaker respond?", "qKo": "두 번째 화자의 대응은?", "answer": 3, "options": ["Gave the exact price", "Got angry", "Left", "Joked and changed the subject"]},
+      {"q": "What is going badly in the garden?", "qKo": "정원에서 잘 안 되는 것은?", "answer": 0, "options": ["The tomatoes", "The roses", "The grass", "The fence"]}]},
+    {"id": "f-t-01", "type": "talk", "titleKo": "슬랭 사전 팟캐스트",
+     "lines": [
+      {"speaker": 0, "text": "Welcome back to Say What, the podcast that explains the slang your younger coworkers use.", "ko": "젊은 동료들이 쓰는 슬랭을 설명하는 팟캐스트 '세이 왓'에 다시 오신 걸 환영해요."},
+      {"speaker": 0, "text": "Today's words are 'mid', which means average, and 'the ick', a sudden feeling of disgust over something small.", "ko": "오늘의 단어는 평범하다는 뜻의 'mid'와 사소한 일로 갑자기 정떨어지는 느낌인 'the ick'이에요."},
+      {"speaker": 0, "text": "Use them carefully at work. Calling your boss's presentation mid is not a career move.", "ko": "회사에선 조심해서 쓰세요. 상사 발표를 mid라고 하는 건 커리어에 도움이 안 돼요."}],
+     "questions": [
+      {"q": "What is the podcast about?", "qKo": "팟캐스트의 주제는?", "answer": 2, "options": ["Cooking", "Careers", "Slang", "Music"]},
+      {"q": "What does 'mid' mean?", "qKo": "'mid'의 뜻은?", "answer": 0, "options": ["Average", "Excellent", "Middle-aged", "Midnight"]},
+      {"q": "What is the speaker's warning?", "qKo": "화자의 경고는?", "answer": 3, "options": ["Don't listen to podcasts", "Learn more slang", "Avoid texting", "Be careful using slang at work"]}]},
+    {"id": "f-t-02", "type": "talk", "titleKo": "문자 예절 강의",
+     "lines": [
+      {"speaker": 0, "text": "In text messages, punctuation works like tone of voice.", "ko": "문자에서 문장 부호는 목소리 톤처럼 작동해요."},
+      {"speaker": 0, "text": "A single 'k' with a full stop can feel cold, while 'okay!' with an exclamation mark feels warm and friendly.", "ko": "마침표 찍은 'k' 하나는 차갑게, 느낌표 붙은 'okay!'는 따뜻하고 친근하게 느껴져요."},
+      {"speaker": 0, "text": "If a conversation is getting tense, switch to a phone call. It's much harder to misunderstand someone's voice.", "ko": "대화가 긴장되면 전화로 바꾸세요. 목소리는 오해하기가 훨씬 어려워요."}],
+     "questions": [
+      {"q": "What does punctuation work like in texts?", "qKo": "문자에서 문장 부호는 무엇처럼 작동하나요?", "answer": 1, "options": ["Grammar rules", "Tone of voice", "A signature", "A timestamp"]},
+      {"q": "How can 'k.' feel?", "qKo": "'k.'는 어떻게 느껴질 수 있나요?", "answer": 2, "options": ["Warm", "Funny", "Cold", "Excited"]},
+      {"q": "What should you do if a conversation gets tense?", "qKo": "대화가 긴장되면?", "answer": 0, "options": ["Switch to a phone call", "Send more emojis", "Stop replying", "Write longer messages"]}]},
+    {"id": "f-t-03", "type": "talk", "titleKo": "영국 영어 안내",
+     "lines": [
+      {"speaker": 0, "text": "Moving to the UK? Here are three words you'll hear every day.", "ko": "영국으로 이사 가세요? 매일 듣게 될 세 단어를 알려 드릴게요."},
+      {"speaker": 0, "text": "'Cheers' means thanks as often as it means a toast, 'knackered' means exhausted, and 'gutted' means bitterly disappointed.", "ko": "'cheers'는 건배만큼 자주 '고마워'를 뜻하고, 'knackered'는 녹초, 'gutted'는 몹시 실망했다는 뜻이에요."},
+      {"speaker": 0, "text": "And if someone offers you a cuppa, they mean a cup of tea, and saying no is rarely an option.", "ko": "그리고 누가 cuppa를 권하면 차 한 잔이고, 거절은 거의 불가능해요."}],
+     "questions": [
+      {"q": "Besides a toast, what does 'cheers' often mean?", "qKo": "건배 외에 'cheers'의 뜻은?", "answer": 3, "options": ["Goodbye", "Sorry", "Hello", "Thanks"]},
+      {"q": "What does 'gutted' mean?", "qKo": "'gutted'의 뜻은?", "answer": 1, "options": ["Very hungry", "Bitterly disappointed", "Very tired", "Excited"]},
+      {"q": "What is a cuppa?", "qKo": "cuppa란?", "answer": 0, "options": ["A cup of tea", "A small cake", "A coffee shop", "A football cup"]}]},
+    {"id": "f-t-04", "type": "talk", "titleKo": "미국 지역 표현",
+     "lines": [
+      {"speaker": 0, "text": "American English changes a lot from region to region.", "ko": "미국 영어는 지역마다 많이 달라요."},
+      {"speaker": 0, "text": "In the South you'll hear 'y'all' for 'you all' and 'fixin' to' for 'about to', while many New Yorkers stand 'on line' instead of 'in line'.", "ko": "남부에선 'you all' 대신 'y'all', '막 ~하려던 참' 대신 'fixin' to'를 듣고, 뉴요커들은 'in line' 대신 'on line'에 서요."},
+      {"speaker": 0, "text": "None of these are mistakes. They're local habits, and using them well will make people smile.", "ko": "이건 실수가 아니라 지역 습관이고, 잘 쓰면 사람들이 미소 지을 거예요."}],
+     "questions": [
+      {"q": "What does 'fixin' to' mean?", "qKo": "'fixin' to'의 뜻은?", "answer": 2, "options": ["Repairing", "Finished", "About to", "Tired of"]},
+      {"q": "Where do people stand 'on line'?", "qKo": "'on line'에 서는 곳은?", "answer": 0, "options": ["New York", "Texas", "California", "Canada"]},
+      {"q": "How does the speaker describe these expressions?", "qKo": "화자는 이 표현들을 어떻게 설명하나요?", "answer": 1, "options": ["Common mistakes", "Local habits", "Old-fashioned slang", "Rude words"]}]},
+    {"id": "f-t-05", "type": "talk", "titleKo": "빠른 구어 듣기",
+     "lines": [
+      {"speaker": 0, "text": "When native speakers talk fast, 'going to' becomes 'gonna', 'want to' becomes 'wanna', and 'what do you' becomes 'whaddya'.", "ko": "원어민이 빨리 말하면 'going to'는 'gonna', 'want to'는 'wanna', 'what do you'는 'whaddya'가 돼요."},
+      {"speaker": 0, "text": "That's why you might understand films with subtitles but struggle in real conversations.", "ko": "그래서 자막 있는 영화는 알아들어도 실제 대화에선 힘들 수 있어요."},
+      {"speaker": 0, "text": "Try shadowing short clips daily, copying the rhythm rather than each word.", "ko": "매일 짧은 영상을 따라 말해 보세요. 단어 하나하나보다 리듬을 따라 하세요."}],
+     "questions": [
+      {"q": "What does 'what do you' become in fast speech?", "qKo": "빠른 말에서 'what do you'는?", "answer": 3, "options": ["Gonna", "Wanna", "Gotta", "Whaddya"]},
+      {"q": "Why might real conversations be hard?", "qKo": "실제 대화가 어려운 이유는?", "answer": 0, "options": ["Words blur together when spoken fast", "Films use different words", "People speak too quietly", "There are no subtitles in books"]},
+      {"q": "What does the speaker recommend copying?", "qKo": "화자가 따라 하라고 한 것은?", "answer": 2, "options": ["Each word", "The subtitles", "The rhythm", "The grammar"]}]},
+    {"id": "f-t-06", "type": "talk", "titleKo": "숨은 뜻 강의",
+     "lines": [
+      {"speaker": 0, "text": "Not everything people say is meant literally.", "ko": "사람들이 하는 말이 모두 문자 그대로는 아니에요."},
+      {"speaker": 0, "text": "'How are you?' in a shop is just hello, 'we should hang out sometime' may only be polite, and 'I'll think about it' often means no.", "ko": "가게에서 'How are you?'는 그냥 인사이고, '언젠가 놀자'는 예의일 수 있고, '생각해 볼게'는 종종 거절이에요."},
+      {"speaker": 0, "text": "The trick is to look for follow-up: real interest comes with questions, dates, and next steps.", "ko": "요령은 후속 행동을 보는 거예요. 진짜 관심엔 질문, 날짜, 다음 단계가 따라와요."}],
+     "questions": [
+      {"q": "What does 'How are you?' in a shop usually mean?", "qKo": "가게에서 'How are you?'는 보통?", "answer": 1, "options": ["Are you sick?", "Hello", "Can I help you?", "Goodbye"]},
+      {"q": "What does 'I'll think about it' often mean?", "qKo": "'생각해 볼게'의 흔한 의미는?", "answer": 0, "options": ["No", "Yes", "Tomorrow", "Definitely"]},
+      {"q": "What shows real interest?", "qKo": "진짜 관심의 신호는?", "answer": 3, "options": ["Smiling", "Saying 'sometime'", "A short reply", "Questions, dates, and next steps"]}]},
+    {"id": "f-t-07", "type": "talk", "titleKo": "관용구 수업",
+     "lines": [
+      {"speaker": 0, "text": "Today's idioms are all about decisions.", "ko": "오늘의 관용구는 모두 결정에 관한 거예요."},
+      {"speaker": 0, "text": "If you're 'on the fence', you haven't decided. If you 'bite the bullet', you do something unpleasant you've been avoiding.", "ko": "'on the fence'면 아직 결정 못 한 거고, 'bite the bullet'은 피해 온 싫은 일을 해내는 거예요."},
+      {"speaker": 0, "text": "And when 'the ball's in your court', it's your turn to act, so stop waiting for someone else.", "ko": "그리고 'the ball's in your court'면 당신이 행동할 차례니까 다른 사람을 기다리지 마세요."}],
+     "questions": [
+      {"q": "What are today's idioms about?", "qKo": "오늘 관용구의 주제는?", "answer": 2, "options": ["Food", "Weather", "Decisions", "Sports"]},
+      {"q": "What does 'bite the bullet' mean?", "qKo": "'bite the bullet'의 뜻은?", "answer": 0, "options": ["Do something unpleasant you've avoided", "Eat quickly", "Give up", "Start a fight"]},
+      {"q": "What should you do when the ball's in your court?", "qKo": "공이 당신 코트에 있으면?", "answer": 1, "options": ["Wait patiently", "Act", "Ask for help", "Play tennis"]}]},
+    {"id": "f-t-08", "type": "talk", "titleKo": "캐나다 겨울 안내",
+     "lines": [
+      {"speaker": 0, "text": "Welcome to Canada in January. Temperatures can drop to minus thirty, so dress in layers.", "ko": "1월의 캐나다에 오신 걸 환영해요. 기온이 영하 30도까지 떨어질 수 있으니 겹쳐 입으세요."},
+      {"speaker": 0, "text": "You'll need a toque, which is a warm knitted hat, and you'll probably be offered a double-double, a coffee with two creams and two sugars.", "ko": "따뜻한 털모자인 toque가 필요하고, 크림 둘 설탕 둘 커피인 더블더블을 권유받을 거예요."},
+      {"speaker": 0, "text": "And yes, people really do say 'eh' at the end of sentences. It's friendly, eh?", "ko": "그리고 네, 사람들은 정말로 문장 끝에 'eh'를 붙여요. 친근하죠, eh?"}],
+     "questions": [
+      {"q": "How cold can it get?", "qKo": "얼마나 추워질 수 있나요?", "answer": 3, "options": ["Minus ten", "Minus five", "Minus twenty", "Minus thirty"]},
+      {"q": "What is a toque?", "qKo": "toque란?", "answer": 1, "options": ["A scarf", "A warm knitted hat", "A coffee", "A pair of gloves"]},
+      {"q": "What is in a double-double?", "qKo": "더블더블에 들어가는 것은?", "answer": 0, "options": ["Two creams and two sugars", "Two shots of espresso", "Two donuts", "Double milk"]}]}
+  ]
+}

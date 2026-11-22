@@ -13,13 +13,9 @@
       {"speaker": 0, "text": "That's impressive. How did your team react to the changes?", "ko": "인상적이네요. 팀원들은 변화에 어떻게 반응했나요?"},
       {"speaker": 1, "text": "There was some pushback at first, but they came around once they saw the results.", "ko": "처음엔 반발이 좀 있었지만 결과를 보고 받아들였습니다."}
     ],
-    "gist": {
-      "questionKo": "지원자가 든 사례의 핵심 성과는?",
-      "options": ["매출을 두 배로 늘렸다", "대기 시간을 절반으로 줄였다", "팀 인원을 절반으로 줄였다"],
-      "answer": 1
-    },
+    "gist": {"questionKo": "지원자가 든 사례의 핵심 성과는?", "options": ["매출을 두 배로 늘렸다", "대기 시간을 절반으로 줄였다", "팀 인원을 절반으로 줄였다"], "answer": 1},
     "dictation": {"line": 5, "distractors": ["never", "complained", "changes"]},
-    "shadow": [1, 5],
+    "shadow": [1,5],
     "phrases": [
       {"en": "I'm ready to take on a leadership role.", "ko": "리더 역할을 맡을 준비가 됐습니다."},
       {"en": "They came around once they saw the results.", "ko": "결과를 보고 받아들였어요."}
@@ -49,13 +45,9 @@
       {"speaker": 0, "text": "You're right to be concerned. I'll find someone else who can come by this Friday.", "ko": "걱정하실 만해요. 이번 금요일에 올 수 있는 다른 사람을 찾을게요."},
       {"speaker": 1, "text": "Thank you. Could you confirm that by email so we both have it in writing?", "ko": "감사합니다. 서로 기록이 남게 이메일로 확인해 주시겠어요?"}
     ],
-    "gist": {
-      "questionKo": "세입자가 마지막에 요청한 것은?",
-      "options": ["월세 감액", "이메일로 일정 확인", "배관공 연락처"],
-      "answer": 1
-    },
+    "gist": {"questionKo": "세입자가 마지막에 요청한 것은?", "options": ["월세 감액", "이메일로 일정 확인", "배관공 연락처"], "answer": 1},
     "dictation": {"line": 2, "distractors": ["floor", "angry", "paint"]},
-    "shadow": [0, 4],
+    "shadow": [0,4],
     "phrases": [
       {"en": "It's been three weeks since I first reported it.", "ko": "처음 알린 지 3주가 됐어요."},
       {"en": "Could you confirm that by email?", "ko": "이메일로 확인해 주시겠어요?"}
@@ -85,13 +77,9 @@
       {"speaker": 1, "text": "Another week should do it, or we could launch on time with fewer features.", "ko": "일주일이면 될 것 같아요. 아니면 기능을 줄여 제때 출시할 수도 있고요."},
       {"speaker": 0, "text": "Let me talk to the client and see which option they'd prefer.", "ko": "고객과 얘기해서 어느 쪽을 선호하는지 알아볼게요."}
     ],
-    "gist": {
-      "questionKo": "담당자가 제시한 두 가지 선택지는?",
-      "options": ["일주일 연기 또는 기능 축소", "인력 충원 또는 프로젝트 취소", "테스트 생략 또는 비용 증액"],
-      "answer": 0
-    },
+    "gist": {"questionKo": "담당자가 제시한 두 가지 선택지는?", "options": ["일주일 연기 또는 기능 축소", "인력 충원 또는 프로젝트 취소", "테스트 생략 또는 비용 증액"], "answer": 0},
     "dictation": {"line": 1, "distractors": ["finished", "shorter", "planned"]},
-    "shadow": [1, 3],
+    "shadow": [1,3],
     "phrases": [
       {"en": "It's looking tight.", "ko": "빠듯해 보여요."},
       {"en": "Another week should do it.", "ko": "일주일이면 될 것 같아요."}
@@ -105,6 +93,1153 @@
         {"text": "I'll do my best, but I may need until Monday to get it right.", "tone": "보통", "noteKo": "품질을 이유로 드는 표현이에요."},
         {"text": "Honestly, I don't think that's realistic with everything else I've got on.", "tone": "보통", "noteKo": "솔직하지만 관계에 따라 대안을 덧붙이세요."},
         {"text": "That's a bit of a stretch. What's the most important part to have by then?", "tone": "친근", "noteKo": "우선순위를 되묻는 노련한 답변이에요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-review",
+    "title": "Performance review",
+    "titleKo": "인사 평가 면담",
+    "icon": "feedback",
+    "settingKo": "연말 평가 면담에서 상사와 성과와 목표를 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Overall, you've had a strong year. The client dashboard project was a real highlight.", "ko": "전반적으로 좋은 한 해였어요. 고객 대시보드 프로젝트가 특히 돋보였어요."},
+      {"speaker": 1, "text": "Thank you. I learned a lot, especially about managing tight deadlines.", "ko": "감사합니다. 특히 빠듯한 마감 관리에 대해 많이 배웠어요."},
+      {"speaker": 0, "text": "One area to work on is speaking up more in meetings. Your ideas are good, but we rarely hear them.", "ko": "개선할 점은 회의에서 더 의견을 내는 거예요. 아이디어는 좋은데 잘 안 들려요."},
+      {"speaker": 1, "text": "That's fair. I tend to wait until I'm completely sure, and then the moment passes.", "ko": "맞는 말씀이에요. 완전히 확신할 때까지 기다리다가 타이밍을 놓치곤 해요."}
+    ],
+    "gist": {"questionKo": "개선할 점으로 나온 것은?", "options": ["마감 관리", "회의에서 의견 내기", "고객 응대"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["projects", "loose", "clients"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "One area to work on is speaking up more.", "ko": "개선할 점은 더 의견을 내는 거예요."},
+      {"en": "I tend to wait until I'm completely sure.", "ko": "완전히 확신할 때까지 기다리는 편이에요."}
+    ],
+    "response": {
+      "situationKo": "상사가 내년 목표를 묻습니다. 구체적으로 말해 보세요.",
+      "prompt": "What would you like to focus on next year?",
+      "keywords": ["i'd like to", "focus on", "my goal", "i want to", "take on", "improve"],
+      "answers": [
+        {"text": "I'd like to take on more client-facing work and improve my presentation skills.", "tone": "보통", "noteKo": "client-facing은 고객을 직접 상대하는 일이에요."},
+        {"text": "My goal is to lead a small project from start to finish.", "tone": "보통", "noteKo": "from start to finish는 '처음부터 끝까지'예요."},
+        {"text": "I'd really like to focus on mentoring the new hires, if there's an opportunity.", "tone": "정중", "noteKo": "if there's an opportunity로 겸손하게 말해요."},
+        {"text": "Honestly, I want to get better at saying no, so I can focus on the important stuff.", "tone": "친근", "noteKo": "saying no는 거절하는 능력이에요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-pitch",
+    "title": "Pitching to a client",
+    "titleKo": "고객사 제안 발표",
+    "icon": "work",
+    "settingKo": "고객사 담당자에게 새 마케팅 계획을 제안합니다.",
+    "lines": [
+      {"speaker": 1, "text": "Based on your data, most of your new customers come from short videos, not search ads.", "ko": "데이터를 보면 신규 고객 대부분이 검색 광고가 아니라 짧은 영상에서 와요."},
+      {"speaker": 0, "text": "Interesting. So you're suggesting we move part of the budget to video?", "ko": "흥미롭네요. 그럼 예산 일부를 영상으로 옮기자는 거죠?"},
+      {"speaker": 1, "text": "Exactly. We'd start with twenty percent and measure results after three months.", "ko": "맞아요. 20퍼센트로 시작해서 3개월 후에 결과를 측정하려고요."},
+      {"speaker": 0, "text": "That sounds reasonable, but I'll need to run it by our finance team first.", "ko": "합리적으로 들리네요. 다만 먼저 재무팀에 확인을 받아야 해요."}
+    ],
+    "gist": {"questionKo": "제안의 핵심은?", "options": ["검색 광고 예산을 늘린다", "예산 일부를 영상으로 옮긴다", "광고를 모두 중단한다"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["thirty", "weeks", "begin"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "So you're suggesting we move part of the budget?", "ko": "그럼 예산 일부를 옮기자는 거죠?"},
+      {"en": "I'll need to run it by our finance team.", "ko": "재무팀에 확인을 받아야 해요."}
+    ],
+    "response": {
+      "situationKo": "고객이 비용이 걱정된다고 합니다. 설득해 보세요.",
+      "prompt": "It's a good idea, but I'm worried about the cost.",
+      "keywords": ["i understand", "that's why", "start small", "in the long run", "pilot", "return"],
+      "answers": [
+        {"text": "I understand. That's why we suggest starting small with a three-month pilot.", "tone": "정중", "noteKo": "pilot은 시범 운영이에요."},
+        {"text": "It's a fair concern, but in the long run it should lower your cost per customer.", "tone": "보통", "noteKo": "in the long run은 '장기적으로'예요."},
+        {"text": "We can start small and only scale up if the numbers look good.", "tone": "보통", "noteKo": "scale up은 확대하다예요."},
+        {"text": "Totally get it. Let's set a clear budget limit so there are no surprises.", "tone": "친근", "noteKo": "no surprises는 '예상 밖 일이 없게'예요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-vendor",
+    "title": "Negotiating a better price",
+    "titleKo": "거래처와 가격 협상",
+    "icon": "money",
+    "settingKo": "거래처 영업 담당자와 계약 가격을 협상합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Our price for next year will go up by eight percent because of rising material costs.", "ko": "원자재 비용 상승으로 내년 가격이 8퍼센트 오를 예정입니다."},
+      {"speaker": 1, "text": "I understand costs are rising, but eight percent is more than our budget allows.", "ko": "비용이 오르는 건 이해하지만 8퍼센트는 저희 예산을 넘어요."},
+      {"speaker": 1, "text": "If we sign a two-year contract, could you keep the increase to four percent?", "ko": "2년 계약을 맺으면 인상을 4퍼센트로 맞춰 주실 수 있나요?"},
+      {"speaker": 0, "text": "I'd have to check with my manager, but I think five percent might be possible.", "ko": "팀장님께 확인해야겠지만 5퍼센트는 가능할 것 같아요."}
+    ],
+    "gist": {"questionKo": "구매자가 제안한 조건은?", "options": ["주문량을 줄인다", "2년 계약 대신 인상 폭을 줄인다", "다른 업체로 바꾼다"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["three", "agree", "five"]},
+    "shadow": [1,2],
+    "phrases": [
+      {"en": "That's more than our budget allows.", "ko": "저희 예산을 넘어요."},
+      {"en": "Could you keep the increase to four percent?", "ko": "인상을 4퍼센트로 맞춰 주실 수 있나요?"}
+    ],
+    "response": {
+      "situationKo": "거래처가 납기를 늦추겠다고 합니다. 조건을 협상해 보세요.",
+      "prompt": "We can deliver, but it'll be two weeks later than planned.",
+      "keywords": ["if", "could you", "in that case", "partial", "at least", "discount"],
+      "answers": [
+        {"text": "In that case, could you send a partial shipment first?", "tone": "정중", "noteKo": "partial shipment는 부분 배송이에요."},
+        {"text": "If it's going to be late, we'd expect a small discount.", "tone": "보통", "noteKo": "we'd expect는 정중하지만 분명한 요구예요."},
+        {"text": "Two weeks is too long for us. Can you do one week at least?", "tone": "보통", "noteKo": "at least로 최소 조건을 말해요."},
+        {"text": "Hmm, that puts us in a tough spot. What can you do to help us out?", "tone": "친근", "noteKo": "tough spot은 곤란한 상황이에요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-mediate",
+    "title": "Two teammates disagree",
+    "titleKo": "팀원 갈등 중재",
+    "icon": "forum",
+    "settingKo": "의견이 부딪힌 두 팀원 사이에서 팀장이 중재합니다.",
+    "lines": [
+      {"speaker": 0, "text": "I feel like Jay keeps changing the design without telling anyone, and it's frustrating.", "ko": "제이가 아무한테도 말 안 하고 디자인을 계속 바꿔서 답답해요."},
+      {"speaker": 1, "text": "Thanks for being honest. I'll talk to Jay as well, so I can hear both sides.", "ko": "솔직하게 말해 줘서 고마워요. 양쪽 얘기를 듣게 제이와도 얘기해 볼게요."},
+      {"speaker": 1, "text": "Maybe we need a simple rule, like posting every design change in the team channel.", "ko": "디자인 변경은 전부 팀 채널에 올리는 것 같은 간단한 규칙이 필요할지도요."},
+      {"speaker": 0, "text": "That would help a lot. I just want to stop finding out at the last minute.", "ko": "그럼 많이 도움이 될 거예요. 마지막 순간에 알게 되는 게 싫을 뿐이에요."}
+    ],
+    "gist": {"questionKo": "팀장이 제안한 규칙은?", "options": ["디자인 변경 금지", "변경 사항을 팀 채널에 공유", "매일 회의하기"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["agree", "first", "listen"]},
+    "shadow": [1,2],
+    "phrases": [
+      {"en": "I can hear both sides.", "ko": "양쪽 얘기를 들을 수 있어요."},
+      {"en": "I just want to stop finding out at the last minute.", "ko": "마지막 순간에 알게 되는 게 싫을 뿐이에요."}
+    ],
+    "response": {
+      "situationKo": "동료가 다른 팀원 때문에 불만이 많습니다. 듣고 제안해 보세요.",
+      "prompt": "Honestly, I'm tired of doing most of the work on this project.",
+      "keywords": ["that sounds", "have you", "maybe", "talk to", "how about", "i hear you"],
+      "answers": [
+        {"text": "That sounds really frustrating. Have you told them how you feel?", "tone": "보통", "noteKo": "감정에 공감하고 대화를 권해요."},
+        {"text": "I hear you. Maybe we could divide the tasks more clearly at the next meeting.", "tone": "보통", "noteKo": "I hear you는 '네 말 이해해'예요."},
+        {"text": "I'm sorry you're dealing with that. Would it help if I raised it with the manager?", "tone": "정중", "noteKo": "raise it with는 '~에게 문제를 제기하다'예요."},
+        {"text": "Ugh, that's not fair. How about we make a task list with names on it?", "tone": "친근", "noteKo": "이름이 적힌 업무 목록을 제안해요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-hybrid",
+    "title": "Back to the office?",
+    "titleKo": "출근 정책 토론",
+    "icon": "forum",
+    "settingKo": "회사의 주 4일 출근 방침에 대해 동료들과 의견을 나눕니다.",
+    "lines": [
+      {"speaker": 0, "text": "Did you see the email? Starting in March, we have to be in the office four days a week.", "ko": "메일 봤어요? 3월부터 일주일에 4일 출근해야 한대요."},
+      {"speaker": 1, "text": "I get why they want more collaboration, but my commute is over an hour each way.", "ko": "협업을 늘리고 싶은 건 이해하지만 제 출퇴근이 편도로 한 시간이 넘어요."},
+      {"speaker": 0, "text": "Same here. I'm actually more productive at home because there are fewer interruptions.", "ko": "저도요. 방해가 적어서 오히려 집에서 더 생산적이에요."},
+      {"speaker": 1, "text": "Maybe we should suggest three days and share some data on our output.", "ko": "3일로 하자고 제안하고 우리 성과 데이터를 공유해 보는 건 어때요?"}
+    ],
+    "gist": {"questionKo": "두 사람이 하려는 것은?", "options": ["회사를 그만둔다", "주 3일을 제안한다", "이사를 간다"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["office", "less", "meetings"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "I get why they want more collaboration.", "ko": "협업을 늘리고 싶은 건 이해해요."},
+      {"en": "There are fewer interruptions at home.", "ko": "집에선 방해가 적어요."}
+    ],
+    "response": {
+      "situationKo": "재택근무와 사무실 출근 중 어느 쪽이 좋은지 의견을 말해 보세요.",
+      "prompt": "What's your take on working from home versus the office?",
+      "keywords": ["personally", "i think", "i prefer", "on the other hand", "depends", "a mix"],
+      "answers": [
+        {"text": "Personally, I prefer a mix. Office days for meetings, home days for focused work.", "tone": "보통", "noteKo": "Personally로 개인 의견을 말해요."},
+        {"text": "I think it depends on the job. Some roles really need people in person.", "tone": "보통", "noteKo": "it depends on은 '~에 따라 달라요'예요."},
+        {"text": "Working from home saves time, but on the other hand, I sometimes feel isolated.", "tone": "정중", "noteKo": "on the other hand로 반대 측면을 말해요."},
+        {"text": "Home, all the way. No commute, no noise, more sleep!", "tone": "친근", "noteKo": "all the way는 '무조건'이에요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-quitting",
+    "title": "Should I quit?",
+    "titleKo": "퇴사 고민",
+    "icon": "chat",
+    "settingKo": "회사를 그만둘지 고민하는 친구와 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "I've been thinking about quitting. I'm not learning anything anymore, and the hours are crazy.", "ko": "퇴사를 생각 중이야. 더 배우는 것도 없고 근무 시간도 말이 안 돼."},
+      {"speaker": 1, "text": "Do you have something else lined up, or would you take a break first?", "ko": "다른 자리를 구해 놨어, 아니면 먼저 좀 쉴 거야?"},
+      {"speaker": 0, "text": "Nothing yet. I have enough savings for about six months, though.", "ko": "아직 없어. 그래도 6개월 정도 버틸 저축은 있어."},
+      {"speaker": 1, "text": "It might be smarter to start applying now, so you're not under pressure later.", "ko": "지금부터 지원을 시작하는 게 나을지도 몰라. 나중에 쫓기지 않게."}
+    ],
+    "gist": {"questionKo": "친구의 조언은?", "options": ["당장 그만둬라", "지금부터 지원을 시작해라", "참고 계속 다녀라"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["money", "year", "already"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "Do you have something else lined up?", "ko": "다른 자리를 구해 놨어?"},
+      {"en": "So you're not under pressure later.", "ko": "나중에 쫓기지 않게."}
+    ],
+    "response": {
+      "situationKo": "친구가 이직 제안을 받았는데 고민합니다. 조언해 보세요.",
+      "prompt": "They offered me more money, but I'd have to move cities. What would you do?",
+      "keywords": ["if i were you", "i'd", "it depends", "think about", "what matters", "pros and cons"],
+      "answers": [
+        {"text": "If I were you, I'd think about whether the job itself excites you, not just the money.", "tone": "보통", "noteKo": "If I were you, I'd는 조언의 기본 틀이에요."},
+        {"text": "It depends on what matters most to you right now. Is it career or being near family?", "tone": "정중", "noteKo": "What matters most로 우선순위를 묻어요."},
+        {"text": "Make a list of pros and cons. Sometimes it makes the answer obvious.", "tone": "보통", "noteKo": "pros and cons는 장단점이에요."},
+        {"text": "Honestly? I'd go for it. You can always move back.", "tone": "친근", "noteKo": "go for it은 '해 봐'예요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-career-change",
+    "title": "Starting over",
+    "titleKo": "진로 전환",
+    "icon": "chat",
+    "settingKo": "회계사에서 개발자로 진로를 바꾼 사람과 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "So you were an accountant for eight years? What made you switch to coding?", "ko": "8년 동안 회계사였다고요? 왜 개발로 바꿨어요?"},
+      {"speaker": 1, "text": "I started automating my spreadsheets, and I realized I enjoyed that more than the actual job.", "ko": "스프레드시트를 자동화하다가 본업보다 그게 더 재밌다는 걸 깨달았어요."},
+      {"speaker": 0, "text": "Wasn't it scary to start from the bottom again?", "ko": "다시 바닥부터 시작하는 게 무섭지 않았어요?"},
+      {"speaker": 1, "text": "Definitely, but my finance background turned out to be a huge advantage.", "ko": "물론이죠. 그런데 재무 경력이 엄청난 장점이 되더라고요."}
+    ],
+    "gist": {"questionKo": "진로를 바꾼 계기는?", "options": ["회사가 문을 닫아서", "스프레드시트 자동화가 더 재밌어서", "친구가 권해서"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["problem", "small", "never"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "What made you switch?", "ko": "왜 바꿨어요?"},
+      {"en": "It turned out to be a huge advantage.", "ko": "엄청난 장점이 되더라고요."}
+    ],
+    "response": {
+      "situationKo": "누군가 지금 일을 왜 선택했는지 묻습니다. 계기를 말해 보세요.",
+      "prompt": "How did you end up in your current job?",
+      "keywords": ["i started", "i realized", "by accident", "i always", "after", "ended up"],
+      "answers": [
+        {"text": "Kind of by accident. I took a part-time job in college, and they offered me a full-time role.", "tone": "보통", "noteKo": "by accident는 '우연히'예요."},
+        {"text": "I always loved design, so after graduation I applied to agencies.", "tone": "보통", "noteKo": "after graduation은 졸업 후예요."},
+        {"text": "I realized I wanted a job where I could help people directly.", "tone": "정중", "noteKo": "I realized로 깨달음을 말해요."},
+        {"text": "Long story! I studied biology but ended up in marketing.", "tone": "친근", "noteKo": "ended up은 '결국 ~하게 되다'예요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-networking",
+    "title": "Small talk at an event",
+    "titleKo": "네트워킹 행사",
+    "icon": "chat",
+    "settingKo": "업계 행사에서 처음 만난 사람과 대화를 이어 갑니다.",
+    "lines": [
+      {"speaker": 0, "text": "Hi, I don't think we've met. I'm Laura, I work in product at a fintech startup.", "ko": "안녕하세요, 처음 뵙는 것 같네요. 로라예요, 핀테크 스타트업에서 프로덕트 일을 해요."},
+      {"speaker": 1, "text": "Nice to meet you, Laura. I'm Min, a data analyst. What did you think of the keynote?", "ko": "반가워요, 로라. 저는 데이터 분석가 민이에요. 기조연설 어떠셨어요?"},
+      {"speaker": 0, "text": "I liked the part about AI in customer service, but it felt a bit like a sales pitch.", "ko": "고객 서비스 AI 부분은 좋았는데 좀 영업 발표 같았어요."},
+      {"speaker": 1, "text": "Ha, I thought the same. Let's connect on LinkedIn and keep the conversation going.", "ko": "하, 저도 같은 생각이었어요. 링크드인으로 연결해서 대화 이어 가요."}
+    ],
+    "gist": {"questionKo": "두 사람이 기조연설에 대해 느낀 점은?", "options": ["완벽했다", "좋았지만 영업 같았다", "너무 어려웠다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["Instagram", "email", "different"]},
+    "shadow": [0,1],
+    "phrases": [
+      {"en": "I don't think we've met.", "ko": "처음 뵙는 것 같네요."},
+      {"en": "Let's keep the conversation going.", "ko": "대화 이어 가요."}
+    ],
+    "response": {
+      "situationKo": "행사에서 대화를 마무리하고 연락처를 주고받아 보세요.",
+      "prompt": "It was great chatting. I should probably go say hi to my boss.",
+      "keywords": ["great to meet", "let's", "keep in touch", "connect", "card", "email"],
+      "answers": [
+        {"text": "Great to meet you too. Here's my card. Let's keep in touch.", "tone": "정중", "noteKo": "명함을 건네며 마무리해요."},
+        {"text": "Of course! Let's connect on LinkedIn. I'll send you a request.", "tone": "보통", "noteKo": "send you a request는 친구 신청이에요."},
+        {"text": "No worries! Mind if I email you about that project you mentioned?", "tone": "친근", "noteKo": "Mind if I ~?는 '~해도 될까요?'예요."},
+        {"text": "Thanks for the chat. I'd love to grab coffee sometime and hear more.", "tone": "보통", "noteKo": "grab coffee는 커피 한잔하다예요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-reference",
+    "title": "A reference call",
+    "titleKo": "평판 조회 전화",
+    "icon": "work",
+    "settingKo": "예전 부하 직원에 대한 평판 조회 전화를 받습니다.",
+    "lines": [
+      {"speaker": 0, "text": "Thanks for taking the time. How would you describe Ellie's strengths?", "ko": "시간 내 주셔서 감사합니다. 엘리의 강점을 어떻게 설명하시겠어요?"},
+      {"speaker": 1, "text": "She's incredibly organized, and clients trust her because she always follows through.", "ko": "아주 꼼꼼하고, 항상 끝까지 해내서 고객들이 신뢰해요."},
+      {"speaker": 0, "text": "Is there any area where she could improve?", "ko": "개선할 부분이 있다면요?"},
+      {"speaker": 1, "text": "She sometimes takes on too much herself instead of delegating, but she's aware of it.", "ko": "가끔 위임하지 않고 혼자 너무 많이 떠안는데, 본인도 알고 있어요."}
+    ],
+    "gist": {"questionKo": "엘리의 개선점은?", "options": ["지각이 잦다", "일을 너무 혼자 떠안는다", "고객과 자주 다툰다"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["rarely", "friendly", "never"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "She always follows through.", "ko": "항상 끝까지 해내요."},
+      {"en": "She's aware of it.", "ko": "본인도 알고 있어요."}
+    ],
+    "response": {
+      "situationKo": "면접관이 당신의 약점을 묻습니다. 솔직하지만 긍정적으로 답해 보세요.",
+      "prompt": "What would you say is your biggest weakness?",
+      "keywords": ["i tend to", "i used to", "i'm working on", "sometimes", "but", "learned"],
+      "answers": [
+        {"text": "I tend to be a perfectionist, so I'm learning to set clear time limits.", "tone": "정중", "noteKo": "약점과 개선 노력을 함께 말해요."},
+        {"text": "I used to avoid public speaking, but I joined a club and it's getting better.", "tone": "보통", "noteKo": "used to는 '예전엔 ~했어요'예요."},
+        {"text": "Sometimes I say yes to too many things. I'm working on prioritizing better.", "tone": "보통", "noteKo": "prioritizing은 우선순위 정하기예요."},
+        {"text": "Honestly, delegating. I like doing things myself, but I've learned to trust my team.", "tone": "친근", "noteKo": "trust my team은 팀을 믿는 거예요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-test-results",
+    "title": "Talking about test results",
+    "titleKo": "검사 결과 듣기",
+    "icon": "health",
+    "settingKo": "건강 검진 결과를 의사에게 듣습니다.",
+    "lines": [
+      {"speaker": 0, "text": "Your results are mostly fine, but your cholesterol is a little higher than last year.", "ko": "결과는 대부분 괜찮은데 콜레스테롤이 작년보다 조금 높아요."},
+      {"speaker": 1, "text": "Is it something I should be worried about, or can I fix it with my diet?", "ko": "걱정해야 할 정도인가요, 아니면 식단으로 고칠 수 있나요?"},
+      {"speaker": 0, "text": "At this level, diet and exercise are usually enough. Let's check again in six months.", "ko": "이 정도면 보통 식단과 운동으로 충분해요. 6개월 뒤에 다시 확인해요."},
+      {"speaker": 1, "text": "Got it. Are there any foods I should cut back on?", "ko": "알겠습니다. 줄여야 할 음식이 있을까요?"}
+    ],
+    "gist": {"questionKo": "의사의 권고는?", "options": ["바로 약을 먹는다", "식단과 운동, 6개월 후 재검사", "다른 병원에 간다"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["medicine", "weeks", "never"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "Is it something I should be worried about?", "ko": "걱정해야 할 정도인가요?"},
+      {"en": "Are there any foods I should cut back on?", "ko": "줄여야 할 음식이 있을까요?"}
+    ],
+    "response": {
+      "situationKo": "의사가 약을 처방하려고 합니다. 궁금한 점을 물어보세요.",
+      "prompt": "I'd like to start you on a low dose of medication.",
+      "keywords": ["how long", "side effects", "is there", "do i have to", "alternative", "what happens"],
+      "answers": [
+        {"text": "How long would I need to take it?", "tone": "보통", "noteKo": "복용 기간을 물어요."},
+        {"text": "Are there any common side effects I should watch out for?", "tone": "정중", "noteKo": "watch out for는 '주의하다'예요."},
+        {"text": "Is there an alternative, like changing my lifestyle first?", "tone": "보통", "noteKo": "alternative는 대안이에요."},
+        {"text": "Do I have to take it forever, or just for now?", "tone": "친근", "noteKo": "forever는 '평생'이에요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-insurance",
+    "title": "Making an insurance claim",
+    "titleKo": "보험 청구하기",
+    "icon": "money",
+    "settingKo": "여행 중 도난당한 노트북에 대해 보험사에 청구합니다.",
+    "lines": [
+      {"speaker": 1, "text": "Hi, my laptop was stolen from my hotel room in Rome, and I'd like to make a claim.", "ko": "안녕하세요, 로마 호텔 방에서 노트북을 도난당해서 보험 청구를 하고 싶어요."},
+      {"speaker": 0, "text": "I'm sorry to hear that. Did you file a report with the local police?", "ko": "안타깝네요. 현지 경찰에 신고하셨나요?"},
+      {"speaker": 1, "text": "Yes, I have the police report and the original receipt for the laptop.", "ko": "네, 경찰 신고서와 노트북 원본 영수증이 있어요."},
+      {"speaker": 0, "text": "Great. Upload both through the app, and we'll usually process it within ten business days.", "ko": "좋아요. 둘 다 앱으로 올려 주시면 보통 영업일 10일 안에 처리돼요."}
+    ],
+    "gist": {"questionKo": "청구에 필요한 서류는?", "options": ["호텔 영수증과 여권", "경찰 신고서와 노트북 영수증", "항공권과 사진"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["photos", "copy", "phone"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "I'd like to make a claim.", "ko": "보험 청구를 하고 싶어요."},
+      {"en": "Did you file a report with the police?", "ko": "경찰에 신고하셨나요?"}
+    ],
+    "response": {
+      "situationKo": "보험사가 청구 처리가 늦어진다고 합니다. 진행 상황을 물어보세요.",
+      "prompt": "Your claim is still under review.",
+      "keywords": ["it's been", "could you", "when", "how long", "what's", "status"],
+      "answers": [
+        {"text": "It's been three weeks already. Could you tell me what's causing the delay?", "tone": "정중", "noteKo": "what's causing the delay는 지연 이유를 물어요."},
+        {"text": "When can I expect a decision?", "tone": "보통", "noteKo": "expect a decision은 결과를 기대하다예요."},
+        {"text": "Is there anything else you need from me to speed things up?", "tone": "보통", "noteKo": "speed things up은 '빨리 진행하다'예요."},
+        {"text": "Still? Can you at least give me a rough timeline?", "tone": "친근", "noteKo": "rough timeline은 대략적인 일정이에요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-rent-increase",
+    "title": "The rent is going up",
+    "titleKo": "월세 인상 협상",
+    "icon": "home",
+    "settingKo": "집주인이 월세를 올리겠다고 해서 협상합니다.",
+    "lines": [
+      {"speaker": 0, "text": "I wanted to let you know that I'm raising the rent by a hundred and fifty from next month.", "ko": "다음 달부터 월세를 150 올린다고 알려 드리려고요."},
+      {"speaker": 1, "text": "That's quite a big jump. I've always paid on time and taken good care of the place.", "ko": "꽤 큰 인상이네요. 저는 항상 제때 내고 집도 잘 관리해 왔어요."},
+      {"speaker": 1, "text": "Would you consider fifty if I sign another two-year lease?", "ko": "2년 더 계약하면 50으로 해 주실 수 있을까요?"},
+      {"speaker": 0, "text": "You've been a great tenant. Let's meet in the middle at a hundred.", "ko": "정말 좋은 세입자셨죠. 중간인 100으로 하죠."}
+    ],
+    "gist": {"questionKo": "합의된 인상 금액은?", "options": ["50", "100", "150"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["one", "accept", "rent"]},
+    "shadow": [1,2],
+    "phrases": [
+      {"en": "That's quite a big jump.", "ko": "꽤 큰 인상이네요."},
+      {"en": "Let's meet in the middle.", "ko": "중간으로 하죠."}
+    ],
+    "response": {
+      "situationKo": "집주인이 계약 갱신을 묻습니다. 조건을 붙여 답해 보세요.",
+      "prompt": "Are you planning to renew your lease next year?",
+      "keywords": ["i'd like to", "if", "as long as", "would you", "only if", "renew"],
+      "answers": [
+        {"text": "I'd like to, as long as the rent stays the same.", "tone": "보통", "noteKo": "as long as는 '~하는 한'이에요."},
+        {"text": "Yes, if you could fix the bathroom window before then.", "tone": "보통", "noteKo": "조건으로 수리를 요청해요."},
+        {"text": "I'd be happy to renew. Would you consider a small discount for a longer lease?", "tone": "정중", "noteKo": "longer lease는 장기 계약이에요."},
+        {"text": "Probably! I really like it here. Can we chat about the terms first?", "tone": "친근", "noteKo": "terms는 계약 조건이에요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-flight-refund",
+    "title": "My flight was canceled",
+    "titleKo": "항공권 환불 요구",
+    "icon": "plane",
+    "settingKo": "결항된 항공편의 환불을 상담원에게 요구합니다.",
+    "lines": [
+      {"speaker": 0, "text": "We can offer you a travel credit for the full amount, valid for one year.", "ko": "전액을 1년간 쓸 수 있는 여행 크레딧으로 드릴 수 있어요."},
+      {"speaker": 1, "text": "I'd prefer a refund. The airline canceled the flight, not me.", "ko": "환불을 원해요. 결항은 항공사가 했지 제가 한 게 아니잖아요."},
+      {"speaker": 0, "text": "I understand. Let me check your fare type to see if a cash refund is possible.", "ko": "이해합니다. 현금 환불이 가능한지 요금 유형을 확인해 볼게요."},
+      {"speaker": 0, "text": "Yes, you're eligible. It'll go back to your card in five to seven days.", "ko": "네, 해당되세요. 5~7일 안에 카드로 들어갈 거예요."}
+    ],
+    "gist": {"questionKo": "결과적으로 손님은 무엇을 받나요?", "options": ["여행 크레딧", "카드로 환불", "다른 날 항공권"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["voucher", "hotel", "delayed"]},
+    "shadow": [1,2],
+    "phrases": [
+      {"en": "I'd prefer a refund.", "ko": "환불을 원해요."},
+      {"en": "You're eligible.", "ko": "해당되세요."}
+    ],
+    "response": {
+      "situationKo": "상담원이 규정상 환불이 안 된다고 합니다. 단호하지만 예의 있게 요구해 보세요.",
+      "prompt": "I'm sorry, but our policy doesn't allow refunds for this ticket.",
+      "keywords": ["i understand", "however", "could i speak", "supervisor", "according to", "i'd like"],
+      "answers": [
+        {"text": "I understand the policy. However, the cancellation was your decision, so I'd like a refund.", "tone": "정중", "noteKo": "However로 반론을 정중하게 펼쳐요."},
+        {"text": "Could I speak to a supervisor, please?", "tone": "정중", "noteKo": "supervisor는 상급 책임자예요."},
+        {"text": "According to consumer law, I'm entitled to a refund when the airline cancels.", "tone": "보통", "noteKo": "entitled to는 '~할 권리가 있다'예요."},
+        {"text": "That doesn't seem fair. Is there really nothing you can do?", "tone": "친근", "noteKo": "부드럽게 다시 한번 부탁해요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-car-repair",
+    "title": "That's a lot for a repair",
+    "titleKo": "자동차 수리 견적",
+    "icon": "map",
+    "settingKo": "정비소에서 생각보다 비싼 수리 견적을 받습니다.",
+    "lines": [
+      {"speaker": 0, "text": "The brakes need replacing, and there's an oil leak. All together, it's about nine hundred.", "ko": "브레이크를 교체해야 하고 오일이 새요. 다 합치면 900 정도예요."},
+      {"speaker": 1, "text": "Wow, that's more than I expected. Which of these is actually urgent?", "ko": "와, 생각보다 많네요. 이 중에 정말 급한 게 뭐예요?"},
+      {"speaker": 0, "text": "The brakes, definitely. The leak is small, so it can wait a month or two.", "ko": "브레이크는 확실히요. 누유는 작아서 한두 달 기다려도 돼요."},
+      {"speaker": 1, "text": "OK, let's just do the brakes today, and I'll book the leak for next month.", "ko": "좋아요, 오늘은 브레이크만 하고 누유는 다음 달로 예약할게요."}
+    ],
+    "gist": {"questionKo": "오늘 수리하기로 한 것은?", "options": ["오일 누유", "브레이크", "둘 다"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["big", "year", "tires"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "Which of these is actually urgent?", "ko": "이 중에 정말 급한 게 뭐예요?"},
+      {"en": "It can wait a month or two.", "ko": "한두 달 기다려도 돼요."}
+    ],
+    "response": {
+      "situationKo": "정비사가 큰 수리비를 말합니다. 견적을 더 자세히 요청해 보세요.",
+      "prompt": "It's going to be around twelve hundred to fix everything.",
+      "keywords": ["could you", "break down", "itemized", "written", "why", "second opinion"],
+      "answers": [
+        {"text": "Could you break that down for me? I'd like to see the parts and labor separately.", "tone": "정중", "noteKo": "break down은 항목별로 나누다예요."},
+        {"text": "Can I get an itemized quote in writing?", "tone": "보통", "noteKo": "itemized quote는 상세 견적서예요."},
+        {"text": "That's a lot. I think I'll get a second opinion first.", "tone": "보통", "noteKo": "second opinion은 다른 곳 의견이에요."},
+        {"text": "Ouch. Which parts can wait, and which can't?", "tone": "친근", "noteKo": "Ouch는 '아이고'예요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-buying-car",
+    "title": "Buying a used car",
+    "titleKo": "중고차 구매",
+    "icon": "money",
+    "settingKo": "중고차 딜러에게 차에 대해 꼼꼼히 묻습니다.",
+    "lines": [
+      {"speaker": 1, "text": "It looks good, but has it ever been in an accident?", "ko": "괜찮아 보이는데 사고 난 적 있나요?"},
+      {"speaker": 0, "text": "Just a minor one three years ago. The full history report is right here.", "ko": "3년 전에 가벼운 사고 한 번이요. 전체 이력 보고서가 여기 있어요."},
+      {"speaker": 1, "text": "Would you mind if my mechanic checked it before I make a decision?", "ko": "결정하기 전에 제 정비사가 점검해 봐도 될까요?"},
+      {"speaker": 0, "text": "Not at all. Bring it back by five and let me know what you think.", "ko": "물론이죠. 5시까지 가져오시고 어떤지 알려 주세요."}
+    ],
+    "gist": {"questionKo": "손님이 요청한 것은?", "options": ["가격 할인", "자기 정비사의 점검", "시승 연장"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["friend", "buy", "drove"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "Has it ever been in an accident?", "ko": "사고 난 적 있나요?"},
+      {"en": "Would you mind if my mechanic checked it?", "ko": "제 정비사가 점검해 봐도 될까요?"}
+    ],
+    "response": {
+      "situationKo": "딜러가 오늘 계약하면 할인해 준다고 서두릅니다. 시간을 달라고 해 보세요.",
+      "prompt": "If you sign today, I can take five hundred off.",
+      "keywords": ["i need", "think about it", "sleep on it", "not today", "i'll let you know", "tomorrow"],
+      "answers": [
+        {"text": "Thanks, but I need some time to think about it.", "tone": "보통", "noteKo": "결정을 미루는 기본 표현이에요."},
+        {"text": "I'd like to sleep on it. Will the offer still be there tomorrow?", "tone": "정중", "noteKo": "sleep on it은 '하룻밤 생각해 보다'예요."},
+        {"text": "I never make big decisions on the spot. I'll let you know by Friday.", "tone": "보통", "noteKo": "on the spot은 '그 자리에서'예요."},
+        {"text": "Tempting, but not today. I'll call you.", "tone": "친근", "noteKo": "Tempting은 '끌리긴 하는데'예요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-saving",
+    "title": "Trying to save more",
+    "titleKo": "돈 모으기 대화",
+    "icon": "money",
+    "settingKo": "친구와 저축하는 방법에 대해 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "How do you manage to save so much? We earn about the same.", "ko": "어떻게 그렇게 많이 모아? 우리 버는 건 비슷하잖아."},
+      {"speaker": 1, "text": "I set up an automatic transfer on payday, so I never see that money.", "ko": "월급날 자동이체를 걸어 둬서 그 돈은 아예 안 보여."},
+      {"speaker": 0, "text": "That's smart. I always plan to save whatever is left, but nothing is ever left.", "ko": "똑똑하네. 나는 남는 걸 모으려고 하는데 남는 게 없어."},
+      {"speaker": 1, "text": "Exactly. Pay yourself first, then live on the rest.", "ko": "그러니까. 나한테 먼저 주고 나머지로 사는 거지."}
+    ],
+    "gist": {"questionKo": "친구의 저축 비결은?", "options": ["외식을 끊었다", "월급날 자동이체", "부업을 한다"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["weekly", "spend", "account"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "How do you manage to save so much?", "ko": "어떻게 그렇게 많이 모아?"},
+      {"en": "Pay yourself first.", "ko": "나한테 먼저 줘."}
+    ],
+    "response": {
+      "situationKo": "친구가 돈을 아끼는 방법을 묻습니다. 자신만의 방법을 말해 보세요.",
+      "prompt": "Any tips for spending less?",
+      "keywords": ["i try to", "i stopped", "i always", "what works for me", "budget", "i track"],
+      "answers": [
+        {"text": "I track everything in an app, so I can see where the money goes.", "tone": "보통", "noteKo": "track은 기록하다예요."},
+        {"text": "What works for me is a weekly budget for food and fun.", "tone": "보통", "noteKo": "What works for me로 경험을 공유해요."},
+        {"text": "I stopped buying things online late at night. That alone saved me a lot.", "tone": "친근", "noteKo": "That alone은 '그것만으로도'예요."},
+        {"text": "I try to wait forty-eight hours before buying anything non-essential.", "tone": "정중", "noteKo": "non-essential은 필수가 아닌 물건이에요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-ai-at-work",
+    "title": "AI at work",
+    "titleKo": "회사에서 AI 쓰기",
+    "icon": "chat",
+    "settingKo": "동료와 업무에서 AI를 어떻게 쓰는지 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Are you using AI tools for your reports now? Your summaries have been really fast.", "ko": "요즘 보고서에 AI 툴 써요? 요약이 엄청 빨라졌던데."},
+      {"speaker": 1, "text": "For first drafts, yes. But I always check the numbers myself, because it makes mistakes.", "ko": "초안에는요. 근데 틀릴 때가 있어서 숫자는 항상 직접 확인해요."},
+      {"speaker": 0, "text": "Our team is worried it'll replace junior roles eventually.", "ko": "우리 팀은 결국 신입 자리를 대체할까 봐 걱정해요."},
+      {"speaker": 1, "text": "Maybe some tasks, but I think people who use it well will be in demand.", "ko": "일부 업무는요. 그래도 잘 쓰는 사람은 더 찾게 될 거라고 생각해요."}
+    ],
+    "gist": {"questionKo": "두 번째 사람이 직접 확인하는 것은?", "options": ["문법", "숫자", "디자인"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["never", "trust", "final"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "It makes mistakes.", "ko": "틀릴 때가 있어요."},
+      {"en": "They'll be in demand.", "ko": "더 찾게 될 거예요."}
+    ],
+    "response": {
+      "situationKo": "AI가 우리 일에 미칠 영향에 대해 의견을 말해 보세요.",
+      "prompt": "Do you think AI will change your job a lot?",
+      "keywords": ["i think", "probably", "in my opinion", "already", "but", "some parts"],
+      "answers": [
+        {"text": "I think it'll change some parts, like writing emails, but not the decisions.", "tone": "보통", "noteKo": "some parts로 범위를 정해요."},
+        {"text": "It already has. I spend less time on routine tasks and more on planning.", "tone": "보통", "noteKo": "routine tasks는 반복 업무예요."},
+        {"text": "In my opinion, it'll make good workers faster rather than replace them.", "tone": "정중", "noteKo": "rather than은 '~라기보다'예요."},
+        {"text": "Probably! Honestly, I'm a bit nervous about it.", "tone": "친근", "noteKo": "감정을 솔직하게 말해요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-detox",
+    "title": "A week without social media",
+    "titleKo": "SNS 끊기 도전",
+    "icon": "chat",
+    "settingKo": "일주일 동안 SNS를 끊어 본 친구의 이야기를 듣습니다.",
+    "lines": [
+      {"speaker": 0, "text": "So how was your week without social media? Did you survive?", "ko": "SNS 없는 일주일 어땠어? 살아남았어?"},
+      {"speaker": 1, "text": "The first two days were hard. I kept reaching for my phone without thinking.", "ko": "처음 이틀은 힘들었어. 생각 없이 계속 휴대폰에 손이 갔어."},
+      {"speaker": 1, "text": "But by the weekend, I was sleeping better and I actually finished a book.", "ko": "그런데 주말쯤엔 잠도 잘 자고 책도 한 권 다 읽었어."},
+      {"speaker": 0, "text": "Impressive. Are you going back to it now?", "ko": "대단하다. 이제 다시 할 거야?"}
+    ],
+    "gist": {"questionKo": "주말쯤 달라진 점은?", "options": ["더 불안해졌다", "잠을 잘 자고 책을 읽었다", "친구를 더 만났다"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["month", "worse", "movie"]},
+    "shadow": [1,2],
+    "phrases": [
+      {"en": "I kept reaching for my phone without thinking.", "ko": "생각 없이 계속 휴대폰에 손이 갔어."},
+      {"en": "By the weekend, I was sleeping better.", "ko": "주말쯤엔 잠을 더 잘 잤어."}
+    ],
+    "response": {
+      "situationKo": "친구가 SNS에 시간을 얼마나 쓰는지 묻습니다. 솔직하게 답해 보세요.",
+      "prompt": "How much time do you spend on your phone every day, honestly?",
+      "keywords": ["probably", "about", "too much", "hours", "i try to", "embarrassing"],
+      "answers": [
+        {"text": "Probably about four hours, which is way too much.", "tone": "보통", "noteKo": "which is로 평가를 덧붙여요."},
+        {"text": "Honestly, it's embarrassing. My screen time says six hours.", "tone": "친근", "noteKo": "screen time은 사용 시간 기록이에요."},
+        {"text": "I try to keep it under two hours, but it's harder on weekends.", "tone": "정중", "noteKo": "keep it under는 '~ 이하로 유지하다'예요."},
+        {"text": "Too much! Mostly short videos before bed.", "tone": "친근", "noteKo": "언제 쓰는지 덧붙여요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-housing",
+    "title": "Can anyone afford a home?",
+    "titleKo": "집값 이야기",
+    "icon": "forum",
+    "settingKo": "친구들과 높은 집값에 대해 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Housing prices went up again this year. I honestly don't know how anyone our age can buy a place.", "ko": "올해 집값이 또 올랐어. 솔직히 우리 나이에 어떻게 집을 사는지 모르겠어."},
+      {"speaker": 1, "text": "Most people I know either get help from their parents or move further from the city.", "ko": "내 주변은 부모님 도움을 받거나 도시에서 더 멀리 이사 가더라."},
+      {"speaker": 0, "text": "Moving further out sounds fine until you add two hours of commuting every day.", "ko": "멀리 가는 것도 매일 출퇴근 두 시간을 더하면 얘기가 달라지지."},
+      {"speaker": 1, "text": "True. I think the government needs to build a lot more affordable housing.", "ko": "맞아. 정부가 저렴한 주택을 훨씬 더 지어야 한다고 생각해."}
+    ],
+    "gist": {"questionKo": "두 번째 사람의 의견은?", "options": ["지금이 살 때다", "정부가 저렴한 주택을 더 지어야 한다", "월세가 낫다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["cheaper", "sell", "should"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "I don't know how anyone can buy a place.", "ko": "어떻게 집을 사는지 모르겠어."},
+      {"en": "That sounds fine until you add the commute.", "ko": "출퇴근을 더하면 얘기가 달라지지."}
+    ],
+    "response": {
+      "situationKo": "집을 사는 것과 월세로 사는 것 중 어느 쪽이 나은지 의견을 말해 보세요.",
+      "prompt": "Would you rather rent or buy, if you could choose?",
+      "keywords": ["i'd rather", "renting", "buying", "because", "it depends", "flexibility"],
+      "answers": [
+        {"text": "I'd rather rent for now because I want the flexibility to move.", "tone": "보통", "noteKo": "flexibility는 유연성이에요."},
+        {"text": "Buying, eventually. Rent feels like throwing money away.", "tone": "친근", "noteKo": "throwing money away는 돈을 버리는 느낌이에요."},
+        {"text": "It depends on the city. In some places, renting makes more financial sense.", "tone": "정중", "noteKo": "makes more sense는 '더 합리적이다'예요."},
+        {"text": "Buying, because I want a place I can actually decorate.", "tone": "보통", "noteKo": "개인적인 이유를 말해요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-book-club",
+    "title": "Book club",
+    "titleKo": "독서 모임",
+    "icon": "forum",
+    "settingKo": "독서 모임에서 이번 달 책에 대한 의견을 나눕니다.",
+    "lines": [
+      {"speaker": 0, "text": "So what did everyone think? I couldn't put it down for the first half.", "ko": "다들 어땠어요? 저는 전반부는 손을 뗄 수가 없었어요."},
+      {"speaker": 1, "text": "Same, but the ending felt rushed, like the author ran out of ideas.", "ko": "저도요. 그런데 결말이 급하게 끝나서 작가가 아이디어가 바닥난 것 같았어요."},
+      {"speaker": 0, "text": "Really? I thought leaving it open was the whole point.", "ko": "그래요? 저는 열린 결말이 핵심이라고 생각했는데요."},
+      {"speaker": 1, "text": "Maybe, but I wanted at least a hint about what happened to the sister.", "ko": "그럴 수도요. 그래도 언니가 어떻게 됐는지 힌트 정도는 원했어요."}
+    ],
+    "gist": {"questionKo": "두 번째 사람이 아쉬워한 점은?", "options": ["시작이 지루했다", "결말이 급했다", "등장인물이 많았다"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["slow", "perfect", "reader"]},
+    "shadow": [0,1],
+    "phrases": [
+      {"en": "I couldn't put it down.", "ko": "손을 뗄 수가 없었어요."},
+      {"en": "That was the whole point.", "ko": "그게 핵심이었어요."}
+    ],
+    "response": {
+      "situationKo": "모임에서 최근 읽은 책이나 본 작품에 대한 의견을 말해 보세요.",
+      "prompt": "What did you think of it overall?",
+      "keywords": ["i loved", "i thought", "the ending", "the characters", "overall", "but"],
+      "answers": [
+        {"text": "Overall I loved it, but the middle part dragged a bit.", "tone": "보통", "noteKo": "dragged는 '늘어졌다'예요."},
+        {"text": "I thought the characters were really well written, especially the mother.", "tone": "정중", "noteKo": "well written은 '잘 그려진'이에요."},
+        {"text": "Honestly, the ending made me cry. No spoilers, though!", "tone": "친근", "noteKo": "No spoilers는 스포일러 금지예요."},
+        {"text": "It started slow, but the second half was brilliant.", "tone": "보통", "noteKo": "brilliant는 '훌륭한'이에요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-parent-teacher",
+    "title": "Parent-teacher meeting",
+    "titleKo": "학부모 상담",
+    "icon": "home",
+    "settingKo": "아이의 담임 선생님과 상담을 합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Leo is doing well in math, but he's been a bit distracted in class lately.", "ko": "레오는 수학은 잘하는데 요즘 수업 시간에 좀 산만해요."},
+      {"speaker": 1, "text": "I've noticed that at home too. He's been staying up late playing games.", "ko": "집에서도 그런 걸 느꼈어요. 게임하느라 늦게까지 안 자요."},
+      {"speaker": 0, "text": "That would explain it. Maybe a set bedtime would help.", "ko": "그래서 그렇군요. 정해진 취침 시간이 도움이 될 것 같아요."},
+      {"speaker": 1, "text": "We'll try that. Could you let me know in a couple of weeks if things improve?", "ko": "그렇게 해 볼게요. 2주쯤 뒤에 나아졌는지 알려 주실 수 있나요?"}
+    ],
+    "gist": {"questionKo": "아이가 산만한 원인으로 보이는 것은?", "options": ["친구 문제", "늦게까지 게임", "수학이 어려워서"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["early", "reading", "school"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "That would explain it.", "ko": "그래서 그렇군요."},
+      {"en": "Let me know if things improve.", "ko": "나아졌는지 알려 주세요."}
+    ],
+    "response": {
+      "situationKo": "선생님께 아이가 학교생활을 어떻게 하는지 물어보세요.",
+      "prompt": "Thanks for coming in. Is there anything you'd like to ask?",
+      "keywords": ["how is", "does she", "does he", "get along", "is there anything", "at home"],
+      "answers": [
+        {"text": "How is she getting along with the other kids?", "tone": "보통", "noteKo": "get along with는 '잘 지내다'예요."},
+        {"text": "Does he participate in class, or is he quiet?", "tone": "보통", "noteKo": "participate는 참여하다예요."},
+        {"text": "Is there anything we can do at home to support her reading?", "tone": "정중", "noteKo": "support는 '도와주다'예요."},
+        {"text": "Honestly, is he behaving himself?", "tone": "친근", "noteKo": "behave himself는 '말을 잘 듣다'예요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-best-man",
+    "title": "Writing a wedding speech",
+    "titleKo": "결혼식 축사 준비",
+    "icon": "calendar",
+    "settingKo": "친구 결혼식 축사를 준비하며 다른 친구에게 조언을 구합니다.",
+    "lines": [
+      {"speaker": 1, "text": "I'm giving the speech at Dan's wedding, and I'm freaking out a little.", "ko": "댄 결혼식 축사를 하는데 좀 떨려 죽겠어."},
+      {"speaker": 0, "text": "Keep it under five minutes. One funny story, one sweet story, then raise a glass.", "ko": "5분 안으로 해. 웃긴 얘기 하나, 감동적인 얘기 하나, 그리고 건배."},
+      {"speaker": 1, "text": "Should I mention the time he got lost in Tokyo for six hours?", "ko": "도쿄에서 여섯 시간 길 잃었던 얘기 해도 될까?"},
+      {"speaker": 0, "text": "Only if his new wife already knows that story. No surprises at weddings.", "ko": "신부가 이미 아는 얘기면. 결혼식에서 깜짝 폭로는 안 돼."}
+    ],
+    "gist": {"questionKo": "친구의 조언이 아닌 것은?", "options": ["5분 이내로", "웃긴 얘기와 감동적인 얘기", "모든 비밀을 공개하기"], "answer": 2},
+    "dictation": {"line": 1, "distractors": ["ten", "sad", "drink"]},
+    "shadow": [0,1],
+    "phrases": [
+      {"en": "I'm freaking out a little.", "ko": "좀 떨려 죽겠어."},
+      {"en": "Raise a glass.", "ko": "건배해."}
+    ],
+    "response": {
+      "situationKo": "친구 결혼식에서 짧게 축하 인사를 해 보세요.",
+      "prompt": "And now, a few words from a close friend!",
+      "keywords": ["congratulations", "i've known", "please raise", "to the", "happy", "wish"],
+      "answers": [
+        {"text": "I've known Dan for fifteen years, and I've never seen him this happy. Congratulations!", "tone": "보통", "noteKo": "오래 알았다는 말로 시작해요."},
+        {"text": "Please raise your glasses to the happy couple!", "tone": "정중", "noteKo": "건배를 제안하는 표현이에요."},
+        {"text": "Sarah, thank you for making my best friend so happy. We wish you both the best.", "tone": "정중", "noteKo": "wish you both the best는 두 분의 행복을 빈다는 말이에요."},
+        {"text": "Dan, you finally found someone who laughs at your jokes. Don't let her go!", "tone": "친근", "noteKo": "가벼운 농담으로 분위기를 띄워요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-bad-news",
+    "title": "Sharing bad news",
+    "titleKo": "팀에 나쁜 소식 전하기",
+    "icon": "work",
+    "settingKo": "팀장이 프로젝트 취소 소식을 팀에 전합니다.",
+    "lines": [
+      {"speaker": 0, "text": "I wanted to tell you all in person. The client has decided to cancel the project.", "ko": "직접 말하고 싶었어요. 고객사가 프로젝트를 취소하기로 했어요."},
+      {"speaker": 1, "text": "Wow. After four months of work? Does this affect our jobs?", "ko": "와. 넉 달이나 했는데요? 저희 일자리에 영향이 있나요?"},
+      {"speaker": 0, "text": "No one is losing their job. We'll move to the new retail project next week.", "ko": "아무도 일자리를 잃지 않아요. 다음 주부터 새 리테일 프로젝트로 옮겨요."},
+      {"speaker": 0, "text": "I know it's disappointing, and I'm proud of what we built.", "ko": "실망스러운 거 알아요. 그래도 우리가 만든 것이 자랑스러워요."}
+    ],
+    "gist": {"questionKo": "팀원들은 어떻게 되나요?", "options": ["일부 해고된다", "새 프로젝트로 옮긴다", "휴가를 간다"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["month", "office", "fired"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "I wanted to tell you all in person.", "ko": "직접 말하고 싶었어요."},
+      {"en": "I know it's disappointing.", "ko": "실망스러운 거 알아요."}
+    ],
+    "response": {
+      "situationKo": "팀장으로서 일정이 늦어진다는 소식을 팀에 알려 보세요.",
+      "prompt": "Team, what's the latest on the launch date?",
+      "keywords": ["unfortunately", "i'm afraid", "we'll need to", "delayed", "push", "because"],
+      "answers": [
+        {"text": "Unfortunately, the launch will be delayed by two weeks because of a security issue.", "tone": "정중", "noteKo": "Unfortunately로 나쁜 소식을 시작해요."},
+        {"text": "I'm afraid we'll need to push the launch to next month.", "tone": "정중", "noteKo": "push는 '미루다'예요."},
+        {"text": "Bad news, guys. We're pushing it back, but it gives us time to fix the bugs.", "tone": "친근", "noteKo": "좋은 면도 함께 말해요."},
+        {"text": "The date has moved. Here's the new plan, and I'll answer any questions.", "tone": "보통", "noteKo": "새 계획을 바로 보여 줘요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-client-apology",
+    "title": "We made a mistake",
+    "titleKo": "고객사에 실수 사과",
+    "icon": "work",
+    "settingKo": "잘못된 견적서를 보낸 일로 고객사에 사과 전화를 합니다.",
+    "lines": [
+      {"speaker": 1, "text": "I'm calling to apologize. The invoice we sent yesterday had the wrong amount.", "ko": "사과드리려고 전화했어요. 어제 보낸 청구서 금액이 잘못됐어요."},
+      {"speaker": 0, "text": "I noticed that. It was almost double what we agreed on.", "ko": "저도 봤어요. 합의한 금액의 거의 두 배였어요."},
+      {"speaker": 1, "text": "That's completely our fault. I've sent the corrected version, and we've added a check so it won't happen again.", "ko": "전적으로 저희 잘못이에요. 수정본을 보냈고 다시는 안 생기도록 확인 절차를 추가했어요."},
+      {"speaker": 0, "text": "Thanks for calling so quickly. I appreciate that.", "ko": "빨리 연락 주셔서 감사해요."}
+    ],
+    "gist": {"questionKo": "회사는 재발 방지를 위해 무엇을 했나요?", "options": ["담당자를 바꿨다", "확인 절차를 추가했다", "할인을 해 줬다"], "answer": 1},
+    "dictation": {"line": 0, "distractors": ["emailing", "explain", "price"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "That's completely our fault.", "ko": "전적으로 저희 잘못이에요."},
+      {"en": "It won't happen again.", "ko": "다시는 안 생길 거예요."}
+    ],
+    "response": {
+      "situationKo": "내가 실수로 회의 자료를 늦게 보냈어요. 동료에게 사과하고 대책을 말해 보세요.",
+      "prompt": "We didn't get your slides until after the meeting started.",
+      "keywords": ["i'm sorry", "my fault", "i should have", "next time", "i'll make sure", "apologize"],
+      "answers": [
+        {"text": "I'm really sorry. That was my fault. Next time I'll send them the day before.", "tone": "보통", "noteKo": "사과, 책임, 대책 순서예요."},
+        {"text": "I apologize. I should have checked the time. I'll make sure it doesn't happen again.", "tone": "정중", "noteKo": "should have는 '~했어야 했는데'예요."},
+        {"text": "Ugh, my bad. I'll set a reminder from now on.", "tone": "친근", "noteKo": "my bad는 '내 실수'의 편한 말이에요."},
+        {"text": "Sorry about that. Is there anything I can do to make up for it?", "tone": "보통", "noteKo": "make up for는 만회하다예요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-culture",
+    "title": "A cultural misunderstanding",
+    "titleKo": "문화 차이 오해",
+    "icon": "chat",
+    "settingKo": "외국 동료와 문화 차이로 생긴 오해를 풉니다.",
+    "lines": [
+      {"speaker": 0, "text": "Can I ask you something? In the meeting, did I offend you when I disagreed with you?", "ko": "하나 물어봐도 돼요? 회의에서 제가 반대했을 때 기분 나빴어요?"},
+      {"speaker": 1, "text": "A little, to be honest. Where I'm from, people usually don't disagree so directly in front of others.", "ko": "솔직히 조금요. 제 나라에선 보통 사람들 앞에서 그렇게 직접적으로 반대하지 않거든요."},
+      {"speaker": 0, "text": "I'm sorry. For us, it's normal and not personal at all.", "ko": "미안해요. 우리에겐 그게 평범하고 전혀 개인적인 게 아니에요."},
+      {"speaker": 1, "text": "I get that now. Thanks for asking. It means a lot.", "ko": "이제 이해해요. 물어봐 줘서 고마워요. 큰 의미가 있어요."}
+    ],
+    "gist": {"questionKo": "오해가 생긴 이유는?", "options": ["언어 실수", "공개적으로 직접 반대하는 문화 차이", "회의에 늦어서"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["strange", "rude", "always"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "It's not personal at all.", "ko": "전혀 개인적인 게 아니에요."},
+      {"en": "It means a lot.", "ko": "큰 의미가 있어요."}
+    ],
+    "response": {
+      "situationKo": "외국인 친구가 한국 문화에서 헷갈리는 점을 묻습니다. 설명해 보세요.",
+      "prompt": "Why does everyone ask my age when they first meet me?",
+      "keywords": ["it's because", "in korea", "we use", "it helps", "polite", "don't worry"],
+      "answers": [
+        {"text": "It's because in Korea we speak differently to older and younger people.", "tone": "보통", "noteKo": "이유를 It's because로 설명해요."},
+        {"text": "It helps people decide how polite to be. It's not meant to be rude.", "tone": "정중", "noteKo": "not meant to be rude는 '무례하려는 게 아니에요'예요."},
+        {"text": "Haha, don't worry! It's just so we know whether to use formal language.", "tone": "친근", "noteKo": "formal language는 존댓말이에요."},
+        {"text": "In Korea, age affects how we talk to each other, so it's a natural first question.", "tone": "보통", "noteKo": "affects는 영향을 준다는 뜻이에요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-event",
+    "title": "Organizing a company event",
+    "titleKo": "회사 행사 준비",
+    "icon": "calendar",
+    "settingKo": "회사 송년회 준비를 동료와 의논합니다.",
+    "lines": [
+      {"speaker": 0, "text": "We have about sixty people coming, and the budget is three thousand. Where do we start?", "ko": "60명 정도 오고 예산은 3천이에요. 어디서부터 할까요?"},
+      {"speaker": 1, "text": "The venue, definitely. Good places get booked up months in advance this time of year.", "ko": "무조건 장소요. 이맘때 좋은 곳은 몇 달 전에 예약이 차요."},
+      {"speaker": 0, "text": "Should we do a sit-down dinner or something more casual with finger food?", "ko": "앉아서 먹는 저녁으로 할까요, 핑거푸드로 좀 편하게 할까요?"},
+      {"speaker": 1, "text": "Casual is better. People can move around and talk to other teams.", "ko": "편한 게 좋아요. 사람들이 돌아다니며 다른 팀과 이야기할 수 있으니까요."}
+    ],
+    "gist": {"questionKo": "가장 먼저 정하자고 한 것은?", "options": ["메뉴", "장소", "초대 명단"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["formal", "sit", "managers"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "Where do we start?", "ko": "어디서부터 할까요?"},
+      {"en": "Places get booked up months in advance.", "ko": "몇 달 전에 예약이 차요."}
+    ],
+    "response": {
+      "situationKo": "팀 행사 아이디어를 제안해 보세요.",
+      "prompt": "Any ideas for this year's team outing?",
+      "keywords": ["how about", "we could", "what if", "maybe", "i was thinking"],
+      "answers": [
+        {"text": "How about a cooking class? Everyone works together and we eat what we make.", "tone": "보통", "noteKo": "How about으로 제안하고 장점을 말해요."},
+        {"text": "We could rent a room at an escape game place. It's great for teamwork.", "tone": "보통", "noteKo": "escape game은 방탈출이에요."},
+        {"text": "I was thinking we could do a volunteer day instead of a party.", "tone": "정중", "noteKo": "I was thinking은 부드러운 제안이에요."},
+        {"text": "What if we just go bowling and get pizza? Simple but fun.", "tone": "친근", "noteKo": "What if로 가볍게 제안해요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-startup",
+    "title": "I have an idea for an app",
+    "titleKo": "창업 아이디어",
+    "icon": "work",
+    "settingKo": "친구에게 창업 아이디어를 설명하고 의견을 듣습니다.",
+    "lines": [
+      {"speaker": 1, "text": "It's an app that matches people who want to practice languages with nearby cafés that host meetups.", "ko": "언어 연습하고 싶은 사람들을 모임을 여는 근처 카페와 연결해 주는 앱이야."},
+      {"speaker": 0, "text": "Interesting. How would you make money, though? Users hate paying for apps.", "ko": "흥미롭다. 근데 돈은 어떻게 벌어? 사용자들은 앱에 돈 내는 걸 싫어하잖아."},
+      {"speaker": 1, "text": "The cafés would pay a small fee, because the meetups bring them customers on slow nights.", "ko": "카페가 작은 수수료를 내는 거지. 한산한 밤에 손님을 데려다주니까."},
+      {"speaker": 0, "text": "That's clever. Have you talked to any café owners yet?", "ko": "똑똑하네. 카페 사장님들이랑 얘기해 봤어?"}
+    ],
+    "gist": {"questionKo": "수익은 어디서 나오나요?", "options": ["사용자 구독료", "카페가 내는 수수료", "광고"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["users", "busy", "large"]},
+    "shadow": [1,2],
+    "phrases": [
+      {"en": "How would you make money, though?", "ko": "근데 돈은 어떻게 벌어?"},
+      {"en": "That's clever.", "ko": "똑똑하네."}
+    ],
+    "response": {
+      "situationKo": "친구가 아이디어를 말해 줍니다. 좋은 점과 걱정되는 점을 말해 보세요.",
+      "prompt": "So, what do you honestly think of my idea?",
+      "keywords": ["i like", "my only concern", "have you thought about", "but", "what about", "worried"],
+      "answers": [
+        {"text": "I like it a lot. My only concern is how you'll get the first users.", "tone": "보통", "noteKo": "My only concern으로 걱정을 하나로 좁혀요."},
+        {"text": "It's a great idea, but have you thought about the competition?", "tone": "정중", "noteKo": "competition은 경쟁자예요."},
+        {"text": "Love it! What about testing it with a few friends first?", "tone": "친근", "noteKo": "작은 테스트를 제안해요."},
+        {"text": "I'm a little worried it's hard to make money at first, but the concept is strong.", "tone": "보통", "noteKo": "concept은 기본 아이디어예요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-bills",
+    "title": "Splitting the bills fairly",
+    "titleKo": "공과금 나누기 갈등",
+    "icon": "money",
+    "settingKo": "룸메이트와 공과금을 공정하게 나누는 문제를 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "The electricity bill is almost double this month. I think it's the heater in your room.", "ko": "이번 달 전기 요금이 거의 두 배야. 네 방 히터 때문인 것 같아."},
+      {"speaker": 1, "text": "You might be right. I work from home now, so it's on all day.", "ko": "그럴 수도 있겠다. 요즘 재택이라 하루 종일 켜 두거든."},
+      {"speaker": 0, "text": "Would it be fair if you paid sixty percent of electricity in the winter?", "ko": "겨울엔 네가 전기 요금 60퍼센트 내는 거 어때, 공평할까?"},
+      {"speaker": 1, "text": "That's fair. I'll also try turning it down when I'm out.", "ko": "공평하네. 나갈 땐 온도도 낮춰 볼게."}
+    ],
+    "gist": {"questionKo": "합의 내용은?", "options": ["반반 낸다", "겨울엔 60퍼센트를 낸다", "히터를 버린다"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["office", "night", "wrong"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "You might be right.", "ko": "그럴 수도 있겠다."},
+      {"en": "Would it be fair if you paid sixty percent?", "ko": "네가 60퍼센트 내는 거 공평할까?"}
+    ],
+    "response": {
+      "situationKo": "여럿이 여행 경비를 나누는데 한 명이 덜 썼어요. 공평한 방법을 제안해 보세요.",
+      "prompt": "Should we just split everything evenly?",
+      "keywords": ["maybe", "it would be fairer", "since", "how about", "each person", "what you"],
+      "answers": [
+        {"text": "Maybe not. Since Jin didn't drink, it would be fairer to split the bar bill without him.", "tone": "정중", "noteKo": "it would be fairer는 '~가 더 공평해요'예요."},
+        {"text": "How about we split the hotel evenly, and everyone pays for their own food?", "tone": "보통", "noteKo": "항목별로 나눠요."},
+        {"text": "Let's use an app that tracks who paid what.", "tone": "친근", "noteKo": "정산 앱을 제안해요."},
+        {"text": "Evenly is easiest, but each person could pay for their own activities.", "tone": "보통", "noteKo": "easiest와 공평함을 비교해요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-trainer",
+    "title": "Setting fitness goals",
+    "titleKo": "트레이너와 목표 정하기",
+    "icon": "health",
+    "settingKo": "개인 트레이너와 첫 상담에서 운동 목표를 정합니다.",
+    "lines": [
+      {"speaker": 0, "text": "So what are you hoping to get out of training? Weight loss, strength, something else?", "ko": "운동으로 무엇을 얻고 싶으세요? 감량, 근력, 아니면 다른 거요?"},
+      {"speaker": 1, "text": "Mainly I want more energy. I get tired just climbing the stairs to my office.", "ko": "주로 체력을 늘리고 싶어요. 사무실 계단만 올라도 지쳐요."},
+      {"speaker": 0, "text": "Then we'll focus on cardio and basic strength, three times a week to start.", "ko": "그럼 유산소와 기본 근력에 집중하고 처음엔 주 3회로 해요."},
+      {"speaker": 1, "text": "Sounds good, as long as you go easy on me the first week.", "ko": "좋아요, 첫 주만 살살 해 주신다면요."}
+    ],
+    "gist": {"questionKo": "손님의 주된 목표는?", "options": ["체중 감량", "체력 향상", "근육 키우기"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["twice", "yoga", "month"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "What are you hoping to get out of it?", "ko": "무엇을 얻고 싶으세요?"},
+      {"en": "Go easy on me.", "ko": "살살 해 주세요."}
+    ],
+    "response": {
+      "situationKo": "트레이너가 운동이 힘들었는지 묻습니다. 솔직하게 답해 보세요.",
+      "prompt": "How did you feel after yesterday's session?",
+      "keywords": ["honestly", "i'm sore", "it was", "tough", "i could", "a bit"],
+      "answers": [
+        {"text": "Honestly, I'm really sore today, especially my legs.", "tone": "보통", "noteKo": "sore는 근육이 뻐근한 거예요."},
+        {"text": "It was tough, but I felt great afterwards.", "tone": "보통", "noteKo": "afterwards는 '끝나고 나서'예요."},
+        {"text": "I think it was a bit too intense. Could we slow down a little?", "tone": "정중", "noteKo": "intense는 강도가 높다는 뜻이에요."},
+        {"text": "I could barely walk down the stairs this morning, haha.", "tone": "친근", "noteKo": "could barely는 '겨우 ~했다'예요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-stress",
+    "title": "Talking about stress",
+    "titleKo": "스트레스 상담",
+    "icon": "health",
+    "settingKo": "회사 상담 프로그램에서 상담사와 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "You mentioned you've been having trouble sleeping. When did that start?", "ko": "잠을 잘 못 잔다고 하셨죠. 언제부터 그랬어요?"},
+      {"speaker": 1, "text": "Around the time I got promoted. I keep checking emails late at night.", "ko": "승진했을 때쯤이요. 밤늦게까지 계속 메일을 확인해요."},
+      {"speaker": 0, "text": "That's very common. What would happen if you stopped checking after nine?", "ko": "아주 흔한 일이에요. 9시 이후에 확인을 멈추면 어떻게 될까요?"},
+      {"speaker": 1, "text": "Probably nothing, honestly. I just feel like I have to be available.", "ko": "솔직히 아무 일도 없을 거예요. 그냥 연락이 돼야 할 것 같은 기분이에요."}
+    ],
+    "gist": {"questionKo": "잠을 못 자는 원인으로 보이는 것은?", "options": ["카페인", "밤늦게 메일 확인", "이웃 소음"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["fired", "morning", "phone"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "I've been having trouble sleeping.", "ko": "잠을 잘 못 자요."},
+      {"en": "I feel like I have to be available.", "ko": "연락이 돼야 할 것 같은 기분이에요."}
+    ],
+    "response": {
+      "situationKo": "친구가 스트레스를 어떻게 푸는지 묻습니다.",
+      "prompt": "What do you do when you're really stressed?",
+      "keywords": ["i usually", "i try to", "it helps", "i go", "walk", "talk to"],
+      "answers": [
+        {"text": "I usually go for a long walk without my phone. It clears my head.", "tone": "보통", "noteKo": "clears my head는 머리를 비워 준다는 뜻이에요."},
+        {"text": "I try to write down everything that's bothering me. It helps a lot.", "tone": "정중", "noteKo": "write down은 적다예요."},
+        {"text": "Honestly? I cook something complicated. It keeps my mind busy.", "tone": "친근", "noteKo": "keeps my mind busy는 '딴생각을 안 하게 해'예요."},
+        {"text": "I talk to my sister. She always puts things in perspective.", "tone": "보통", "noteKo": "puts things in perspective는 상황을 객관적으로 보게 해 준다는 뜻이에요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-certificate",
+    "title": "Is the course worth it?",
+    "titleKo": "자격증 과정 고민",
+    "icon": "work",
+    "settingKo": "동료와 비싼 온라인 자격증 과정에 대해 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "I'm thinking about doing that project management certificate, but it's two thousand dollars.", "ko": "그 프로젝트 관리 자격증을 딸까 생각 중인데 2천 달러야."},
+      {"speaker": 1, "text": "Have you asked HR? The company covers training costs if it's related to your role.", "ko": "인사팀에 물어봤어? 업무와 관련 있으면 회사가 교육비를 내줘."},
+      {"speaker": 0, "text": "Really? I had no idea. Is there a catch?", "ko": "진짜? 전혀 몰랐어. 조건이 있어?"},
+      {"speaker": 1, "text": "You have to stay for at least a year after finishing, or you pay it back.", "ko": "끝난 후 최소 1년은 다녀야 해. 아니면 돌려줘야 하고."}
+    ],
+    "gist": {"questionKo": "회사 지원의 조건은?", "options": ["시험에 합격해야 한다", "수료 후 1년 이상 근무", "주말에만 들어야 한다"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["months", "leave", "free"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "Is there a catch?", "ko": "조건이 있어?"},
+      {"en": "I had no idea.", "ko": "전혀 몰랐어."}
+    ],
+    "response": {
+      "situationKo": "상사에게 교육 지원을 요청해 보세요.",
+      "prompt": "You wanted to talk to me about something?",
+      "keywords": ["i'd like to", "would the company", "support", "it would help", "related to", "course"],
+      "answers": [
+        {"text": "Yes, I'd like to take a data analysis course. Would the company support it?", "tone": "정중", "noteKo": "support는 지원하다예요."},
+        {"text": "I found a course that's directly related to my role. It would help me with our reporting.", "tone": "보통", "noteKo": "업무 연관성을 강조해요."},
+        {"text": "Quick ask: could I take two afternoons a month for a class?", "tone": "친근", "noteKo": "Quick ask는 짧은 부탁이라는 뜻이에요."},
+        {"text": "I'd like to develop my leadership skills. Is there any training budget for that?", "tone": "정중", "noteKo": "training budget은 교육 예산이에요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-abroad",
+    "title": "Moving abroad",
+    "titleKo": "해외 이주 고민",
+    "icon": "plane",
+    "settingKo": "해외 지사 근무 제안을 받고 가족과 의논합니다.",
+    "lines": [
+      {"speaker": 0, "text": "The company offered me a two-year position in Singapore. I need to answer by Friday.", "ko": "회사에서 싱가포르 2년 근무를 제안했어. 금요일까지 답해야 해."},
+      {"speaker": 1, "text": "That's huge! How do you feel about it? You've always wanted to live abroad.", "ko": "대단하다! 기분이 어때? 늘 해외에 살고 싶어 했잖아."},
+      {"speaker": 0, "text": "Excited, but nervous about leaving Mom alone, especially after her surgery.", "ko": "설레는데 엄마를 혼자 두는 게 걱정돼. 특히 수술 후라서."},
+      {"speaker": 1, "text": "I'm only twenty minutes away. I can check on her every week.", "ko": "나는 20분 거리야. 매주 들러 볼 수 있어."}
+    ],
+    "gist": {"questionKo": "말하는 사람이 걱정하는 것은?", "options": ["언어", "어머니를 혼자 두는 것", "월급"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["hour", "month", "visit"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "I need to answer by Friday.", "ko": "금요일까지 답해야 해."},
+      {"en": "I can check on her every week.", "ko": "매주 들러 볼 수 있어."}
+    ],
+    "response": {
+      "situationKo": "외국에서 살아 보고 싶은지, 왜 그런지 말해 보세요.",
+      "prompt": "Would you ever want to live in another country?",
+      "keywords": ["i'd love to", "maybe", "i don't think", "because", "for a few years", "i'd miss"],
+      "answers": [
+        {"text": "I'd love to, maybe for a few years, just to experience a different culture.", "tone": "보통", "noteKo": "for a few years로 기간을 정해요."},
+        {"text": "I don't think so. I'd miss my family and the food too much.", "tone": "보통", "noteKo": "I'd miss로 아쉬울 것을 말해요."},
+        {"text": "Definitely! Somewhere warm, like Spain. Who wouldn't?", "tone": "친근", "noteKo": "Who wouldn't?는 '누군들 안 그러겠어?'예요."},
+        {"text": "Perhaps one day, if I could find a job that allowed me to work remotely.", "tone": "정중", "noteKo": "work remotely는 원격 근무예요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-eco-home",
+    "title": "Living a bit greener",
+    "titleKo": "친환경 생활",
+    "icon": "home",
+    "settingKo": "친구와 집에서 실천하는 환경 습관을 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "I've started bringing my own containers when I get takeout. It cuts down on so much plastic.", "ko": "포장할 때 내 용기를 가져가기 시작했어. 플라스틱이 엄청 줄어."},
+      {"speaker": 1, "text": "Don't restaurants find that weird?", "ko": "식당에서 이상하게 보지 않아?"},
+      {"speaker": 0, "text": "Some did at first, but now my regular place even gives me a small discount.", "ko": "처음엔 몇 곳이 그랬는데 이제 단골집은 할인까지 해 줘."},
+      {"speaker": 1, "text": "Nice. I've been trying to buy secondhand clothes instead of fast fashion.", "ko": "좋다. 나는 패스트 패션 대신 중고 옷을 사려고 하고 있어."}
+    ],
+    "gist": {"questionKo": "단골 식당이 해 주는 것은?", "options": ["무료 음료", "작은 할인", "배달 무료"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["free", "drink", "never"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "It cuts down on so much plastic.", "ko": "플라스틱이 엄청 줄어."},
+      {"en": "I've been trying to buy secondhand.", "ko": "중고로 사려고 하고 있어."}
+    ],
+    "response": {
+      "situationKo": "환경을 위해 하는 작은 습관이 있는지 말해 보세요.",
+      "prompt": "Do you do anything to be more eco-friendly?",
+      "keywords": ["i try to", "i always", "i've started", "i don't", "reusable", "instead of"],
+      "answers": [
+        {"text": "I always carry a reusable bottle and a tote bag.", "tone": "보통", "noteKo": "reusable은 재사용 가능한이에요."},
+        {"text": "I've started taking the bike to work instead of driving.", "tone": "보통", "noteKo": "instead of로 바꾼 습관을 말해요."},
+        {"text": "Not as much as I should, honestly. I do recycle carefully, though.", "tone": "친근", "noteKo": "솔직하게 인정하고 하는 일을 말해요."},
+        {"text": "I try to buy less in general and repair things before replacing them.", "tone": "정중", "noteKo": "repair before replacing은 버리기 전에 고치기예요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-escalate",
+    "title": "Can I speak to a manager?",
+    "titleKo": "상위 담당자 연결 요청",
+    "icon": "forum",
+    "settingKo": "인터넷 고장이 몇 주째 해결되지 않아 상위 담당자를 요청합니다.",
+    "lines": [
+      {"speaker": 1, "text": "This is the fourth time I've called about the same problem. My internet drops every evening.", "ko": "같은 문제로 네 번째 전화예요. 매일 저녁 인터넷이 끊겨요."},
+      {"speaker": 0, "text": "I'm sorry. Let's try restarting the router one more time.", "ko": "죄송합니다. 공유기를 한 번 더 재시작해 볼게요."},
+      {"speaker": 1, "text": "I've done that every time. I'd like to speak to someone who can send a technician.", "ko": "매번 했어요. 기사를 보낼 수 있는 분과 통화하고 싶어요."},
+      {"speaker": 0, "text": "Understood. I'll transfer you to our technical team and mark it as urgent.", "ko": "알겠습니다. 기술팀으로 연결하고 긴급으로 표시할게요."}
+    ],
+    "gist": {"questionKo": "고객이 원하는 것은?", "options": ["요금 할인", "기사 방문", "새 공유기 구매"], "answer": 1},
+    "dictation": {"line": 2, "distractors": ["manager", "call", "once"]},
+    "shadow": [0,2],
+    "phrases": [
+      {"en": "This is the fourth time I've called.", "ko": "네 번째 전화예요."},
+      {"en": "I'll mark it as urgent.", "ko": "긴급으로 표시할게요."}
+    ],
+    "response": {
+      "situationKo": "상담원이 같은 해결책만 반복합니다. 다음 단계를 요구해 보세요.",
+      "prompt": "Have you tried turning it off and on again?",
+      "keywords": ["i've already", "several times", "i'd like", "next step", "escalate", "someone else"],
+      "answers": [
+        {"text": "Yes, I've already tried that several times. What's the next step?", "tone": "보통", "noteKo": "next step으로 진전을 요구해요."},
+        {"text": "I have. Could you please escalate this to a supervisor?", "tone": "정중", "noteKo": "escalate는 상부로 올리다예요."},
+        {"text": "I really appreciate your help, but I'd like to speak with someone from the technical team.", "tone": "정중", "noteKo": "감사 표현 후 요구해요."},
+        {"text": "Yep, a hundred times! Is there someone else I can talk to?", "tone": "친근", "noteKo": "과장으로 답답함을 표현해요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-promotion",
+    "title": "Congrats on the promotion",
+    "titleKo": "승진 축하",
+    "icon": "feedback",
+    "settingKo": "같이 지원했던 동료가 승진해서 축하하며 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Hey, I just heard. Congratulations on the promotion, you really earned it.", "ko": "방금 들었어요. 승진 축하해요, 정말 받을 만했어요."},
+      {"speaker": 1, "text": "Thanks. Honestly, it feels a bit awkward, since we both applied.", "ko": "고마워요. 솔직히 우리 둘 다 지원했으니 좀 어색하네요."},
+      {"speaker": 0, "text": "I was disappointed at first, but you were the better fit for this role.", "ko": "처음엔 실망했지만 이 자리엔 당신이 더 잘 맞았어요."},
+      {"speaker": 1, "text": "That means a lot. And I'd really like your help leading the next project.", "ko": "그 말 정말 고마워요. 다음 프로젝트 이끄는 데 꼭 도와줬으면 해요."}
+    ],
+    "gist": {"questionKo": "승진한 사람이 부탁한 것은?", "options": ["비밀 유지", "다음 프로젝트를 함께 이끌기", "팀을 옮기기"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["great", "won", "team"]},
+    "shadow": [0,3],
+    "phrases": [
+      {"en": "You really earned it.", "ko": "정말 받을 만했어요."},
+      {"en": "You were the better fit.", "ko": "당신이 더 잘 맞았어요."}
+    ],
+    "response": {
+      "situationKo": "친구가 좋은 소식을 전합니다. 진심으로 축하해 보세요.",
+      "prompt": "Guess what? I got into the master's program!",
+      "keywords": ["congratulations", "that's amazing", "i'm so happy", "you deserve", "proud", "celebrate"],
+      "answers": [
+        {"text": "Congratulations! You deserve it after all that hard work.", "tone": "보통", "noteKo": "You deserve it은 '넌 그럴 자격이 있어'예요."},
+        {"text": "That's amazing! We have to celebrate this weekend.", "tone": "친근", "noteKo": "축하 자리를 제안해요."},
+        {"text": "I'm so proud of you. Which school did you choose?", "tone": "보통", "noteKo": "질문으로 관심을 보여요."},
+        {"text": "What wonderful news. I'm truly happy for you.", "tone": "정중", "noteKo": "truly happy for you는 진심 어린 축하예요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-neighborhood",
+    "title": "The neighborhood is changing",
+    "titleKo": "동네가 변하고 있어",
+    "icon": "forum",
+    "settingKo": "오래 산 동네의 변화에 대해 이웃과 이야기합니다.",
+    "lines": [
+      {"speaker": 0, "text": "Did you notice the old bakery closed? It's going to be another expensive coffee shop.", "ko": "오래된 빵집 문 닫은 거 봤어요? 또 비싼 커피숍이 들어온대요."},
+      {"speaker": 1, "text": "I know. It's nice that the area is safer now, but rents have gone through the roof.", "ko": "알아요. 동네가 안전해진 건 좋은데 월세가 천정부지로 올랐어요."},
+      {"speaker": 0, "text": "A lot of the families who've lived here for decades can't afford it anymore.", "ko": "수십 년 산 가족들이 이제 감당을 못 하고 있어요."},
+      {"speaker": 1, "text": "It's a shame. The neighborhood is losing its character.", "ko": "안타까워요. 동네가 자기 색깔을 잃고 있어요."}
+    ],
+    "gist": {"questionKo": "두 사람이 아쉬워하는 것은?", "options": ["치안이 나빠졌다", "월세가 올라 오랜 주민이 떠난다", "가게가 없어졌다"], "answer": 1},
+    "dictation": {"line": 1, "distractors": ["cheaper", "quiet", "prices"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "Rents have gone through the roof.", "ko": "월세가 천정부지로 올랐어요."},
+      {"en": "It's losing its character.", "ko": "자기 색깔을 잃고 있어요."}
+    ],
+    "response": {
+      "situationKo": "살고 있는 동네의 장단점을 말해 보세요.",
+      "prompt": "What's your neighborhood like?",
+      "keywords": ["it's", "the best part", "the downside", "but", "quiet", "convenient"],
+      "answers": [
+        {"text": "It's quiet and green. The downside is that it's far from the subway.", "tone": "보통", "noteKo": "the downside는 단점이에요."},
+        {"text": "The best part is the food. There are amazing restaurants on every corner.", "tone": "친근", "noteKo": "the best part로 장점을 강조해요."},
+        {"text": "It's very convenient, but it can get noisy on weekends.", "tone": "보통", "noteKo": "can get noisy는 '시끄러워질 때가 있다'예요."},
+        {"text": "It's a family-friendly area with good schools, although parking is difficult.", "tone": "정중", "noteKo": "family-friendly는 가족이 살기 좋은이에요."}
+      ]
+    }
+  },
+  {
+    "id": "b2-job-offer",
+    "title": "Accepting an offer",
+    "titleKo": "입사 제안 조율",
+    "icon": "work",
+    "settingKo": "입사 제안을 받고 시작 날짜와 조건을 조율합니다.",
+    "lines": [
+      {"speaker": 0, "text": "We'd love to have you join us. Can you start on the first of next month?", "ko": "함께해 주시면 좋겠어요. 다음 달 1일에 시작할 수 있나요?"},
+      {"speaker": 1, "text": "I'm excited to accept. I do need to give my current employer four weeks' notice, though.", "ko": "기쁘게 수락할게요. 다만 현 직장에 4주 전 통보를 해야 해요."},
+      {"speaker": 0, "text": "That's fine. Shall we say the fifteenth instead?", "ko": "괜찮아요. 그럼 15일로 할까요?"},
+      {"speaker": 1, "text": "Perfect. Could I also confirm that I can work from home on Fridays?", "ko": "좋아요. 금요일 재택근무가 가능한 것도 확인할 수 있을까요?"}
+    ],
+    "gist": {"questionKo": "입사일은 언제로 정해졌나요?", "options": ["다음 달 1일", "다음 달 15일", "4주 뒤 월요일"], "answer": 1},
+    "dictation": {"line": 3, "distractors": ["Mondays", "office", "ask"]},
+    "shadow": [1,3],
+    "phrases": [
+      {"en": "I need to give four weeks' notice.", "ko": "4주 전 통보를 해야 해요."},
+      {"en": "Shall we say the fifteenth instead?", "ko": "그럼 15일로 할까요?"}
+    ],
+    "response": {
+      "situationKo": "회사가 입사 제안을 했는데 생각할 시간이 필요해요. 정중하게 요청해 보세요.",
+      "prompt": "So, what do you think? Can we expect your answer today?",
+      "keywords": ["thank you", "i'd like", "a few days", "by", "carefully", "consider"],
+      "answers": [
+        {"text": "Thank you so much for the offer. Could I have a few days to consider it?", "tone": "정중", "noteKo": "consider는 숙고하다예요."},
+        {"text": "I'm very excited, but I'd like to discuss it with my family. Can I let you know by Monday?", "tone": "보통", "noteKo": "기한을 내가 먼저 제안해요."},
+        {"text": "I appreciate it. I just want to think it through carefully before I commit.", "tone": "정중", "noteKo": "think it through는 끝까지 생각해 보다예요."},
+        {"text": "Love it so far! Just give me the weekend to sleep on it?", "tone": "친근", "noteKo": "sleep on it은 '하룻밤 생각하다'예요."}
       ]
     }
   }

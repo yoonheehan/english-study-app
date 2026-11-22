@@ -1,0 +1,165 @@
+{
+ "source": "Public-domain texts from Project Gutenberg (www.gutenberg.org), with the Project Gutenberg header and license removed.",
+ "stories": [
+  {
+   "id": "aesop-1",
+   "title": "Aesop's Fables I",
+   "titleKo": "이솝 우화 1",
+   "author": "Aesop (tr. G. F. Townsend)",
+   "year": 1867,
+   "level": "EASY",
+   "words": 601,
+   "note": "짧은 이야기마다 마지막 한 줄이 교훈이에요."
+  },
+  {
+   "id": "grimm-elves",
+   "title": "The Elves and the Shoemaker",
+   "titleKo": "요정과 구두장이",
+   "author": "Brothers Grimm (tr. Edgar Taylor & Marian Edwardes)",
+   "year": 1812,
+   "level": "EASY",
+   "words": 743,
+   "note": ""
+  },
+  {
+   "id": "aesop-2",
+   "title": "Aesop's Fables II",
+   "titleKo": "이솝 우화 2",
+   "author": "Aesop (tr. G. F. Townsend)",
+   "year": 1867,
+   "level": "EASY",
+   "words": 944,
+   "note": "짧은 이야기마다 마지막 한 줄이 교훈이에요."
+  },
+  {
+   "id": "grimm-rumpel",
+   "title": "Rumpelstiltskin",
+   "titleKo": "룸펠슈틸츠헨",
+   "author": "Brothers Grimm (tr. Edgar Taylor & Marian Edwardes)",
+   "year": 1812,
+   "level": "EASY",
+   "words": 1138,
+   "note": ""
+  },
+  {
+   "id": "grimm-frog",
+   "title": "The Frog-Prince",
+   "titleKo": "개구리 왕자",
+   "author": "Brothers Grimm (tr. Edgar Taylor & Marian Edwardes)",
+   "year": 1812,
+   "level": "EASY",
+   "words": 1192,
+   "note": ""
+  },
+  {
+   "id": "wilde-selfish-giant",
+   "title": "The Selfish Giant",
+   "titleKo": "욕심쟁이 거인",
+   "author": "Oscar Wilde",
+   "year": 1888,
+   "level": "MEDIUM",
+   "words": 1652,
+   "note": ""
+  },
+  {
+   "id": "alice-3",
+   "title": "Alice in Wonderland 3: A Caucus-Race and a Long Tale",
+   "titleKo": "이상한 나라의 앨리스 3장 · 코커스 경주와 긴 이야기",
+   "author": "Lewis Carroll",
+   "year": 1865,
+   "level": "MEDIUM",
+   "words": 1694,
+   "note": ""
+  },
+  {
+   "id": "henry-magi",
+   "title": "The Gift of the Magi",
+   "titleKo": "크리스마스 선물",
+   "author": "O. Henry",
+   "year": 1905,
+   "level": "MEDIUM",
+   "words": 2057,
+   "note": "마지막 반전이 유명한 단편이에요."
+  },
+  {
+   "id": "alice-2",
+   "title": "Alice in Wonderland 2: The Pool of Tears",
+   "titleKo": "이상한 나라의 앨리스 2장 · 눈물 웅덩이",
+   "author": "Lewis Carroll",
+   "year": 1865,
+   "level": "MEDIUM",
+   "words": 2093,
+   "note": ""
+  },
+  {
+   "id": "alice-1",
+   "title": "Alice in Wonderland 1: Down the Rabbit-Hole",
+   "titleKo": "이상한 나라의 앨리스 1장 · 토끼 굴 아래로",
+   "author": "Lewis Carroll",
+   "year": 1865,
+   "level": "MEDIUM",
+   "words": 2141,
+   "note": ""
+  },
+  {
+   "id": "wilde-nightingale",
+   "title": "The Nightingale and the Rose",
+   "titleKo": "나이팅게일과 장미",
+   "author": "Oscar Wilde",
+   "year": 1888,
+   "level": "MEDIUM",
+   "words": 2323,
+   "note": ""
+  },
+  {
+   "id": "grimm-hansel",
+   "title": "Hansel and Gretel",
+   "titleKo": "헨젤과 그레텔",
+   "author": "Brothers Grimm (tr. Edgar Taylor & Marian Edwardes)",
+   "year": 1812,
+   "level": "MEDIUM",
+   "words": 2929,
+   "note": ""
+  },
+  {
+   "id": "wilde-happy-prince",
+   "title": "The Happy Prince",
+   "titleKo": "행복한 왕자",
+   "author": "Oscar Wilde",
+   "year": 1888,
+   "level": "MEDIUM",
+   "words": 3471,
+   "note": ""
+  },
+  {
+   "id": "wilde-devoted-friend",
+   "title": "The Devoted Friend",
+   "titleKo": "헌신적인 친구",
+   "author": "Oscar Wilde",
+   "year": 1888,
+   "level": "MEDIUM",
+   "words": 4323,
+   "note": ""
+  },
+  {
+   "id": "holmes-scandal",
+   "title": "A Scandal in Bohemia",
+   "titleKo": "보헤미아 왕국의 스캔들",
+   "author": "Arthur Conan Doyle",
+   "year": 1891,
+   "level": "HARD",
+   "words": 8518,
+   "note": "셜록 홈즈 첫 단편. 길어서 읽은 곳을 기억해 둬요."
+  },
+  {
+   "id": "holmes-league",
+   "title": "The Red-Headed League",
+   "titleKo": "빨간 머리 연맹",
+   "author": "Arthur Conan Doyle",
+   "year": 1891,
+   "level": "HARD",
+   "words": 9105,
+   "note": ""
+  }
+ ]
+}

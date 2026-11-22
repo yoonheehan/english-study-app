@@ -39,7 +39,63 @@
     {"id": "a2-qr-10", "prompt": "Isn't the meeting at two?", "promptKo": "회의 2시 아니에요?", "answer": 1, "options": [
       {"text": "Two people are coming.", "ko": "두 명이 와요."},
       {"text": "No, it moved to three.", "ko": "아니요, 3시로 바뀌었어요."},
-      {"text": "I met him yesterday.", "ko": "어제 그를 만났어요."}]}
+      {"text": "I met him yesterday.", "ko": "어제 그를 만났어요."}]},
+    {"id": "a2-qr-11", "prompt": "Are pets allowed in the apartment?", "promptKo": "이 아파트는 반려동물 키워도 되나요?", "answer": 1, "options": [
+      {"text": "I have two brothers.", "ko": "형제가 둘 있어요."},
+      {"text": "Cats are OK, but no dogs.", "ko": "고양이는 되는데 개는 안 돼요."},
+      {"text": "The rent is due on Monday.", "ko": "월세는 월요일까지예요."}]},
+    {"id": "a2-qr-12", "prompt": "Do you have any food allergies?", "promptKo": "음식 알레르기 있으세요?", "answer": 0, "options": [
+      {"text": "Yes, I can't eat shellfish.", "ko": "네, 조개류를 못 먹어요."},
+      {"text": "I'd like a table by the window.", "ko": "창가 자리로 주세요."},
+      {"text": "No, I paid already.", "ko": "아니요, 이미 냈어요."}]},
+    {"id": "a2-qr-13", "prompt": "How long have you had this pain?", "promptKo": "이 통증은 얼마나 됐어요?", "answer": 2, "options": [
+      {"text": "It's very long.", "ko": "아주 길어요."},
+      {"text": "I'll have the soup.", "ko": "수프로 할게요."},
+      {"text": "Since last Tuesday.", "ko": "지난 화요일부터요."}]},
+    {"id": "a2-qr-14", "prompt": "Is the train to Busan on time?", "promptKo": "부산행 기차 제시간에 와요?", "answer": 1, "options": [
+      {"text": "It's time for lunch.", "ko": "점심시간이에요."},
+      {"text": "No, it's twenty minutes late.", "ko": "아니요, 20분 늦어요."},
+      {"text": "I trained all morning.", "ko": "오전 내내 훈련했어요."}]},
+    {"id": "a2-qr-15", "prompt": "Can I get a refund for this?", "promptKo": "이거 환불받을 수 있나요?", "answer": 0, "options": [
+      {"text": "Sure, do you have the receipt?", "ko": "그럼요, 영수증 있으세요?"},
+      {"text": "It fits you well.", "ko": "잘 어울리네요."},
+      {"text": "I found it online.", "ko": "온라인에서 찾았어요."}]},
+    {"id": "a2-qr-16", "prompt": "Want to join us for lunch?", "promptKo": "점심 같이 먹을래요?", "answer": 2, "options": [
+      {"text": "I joined last year.", "ko": "작년에 가입했어요."},
+      {"text": "Lunch was great.", "ko": "점심 맛있었어요."},
+      {"text": "I'd love to. Where are you going?", "ko": "좋아요. 어디 가요?"}]},
+    {"id": "a2-qr-17", "prompt": "Does Friday still work for you?", "promptKo": "금요일 아직 괜찮아?", "answer": 1, "options": [
+      {"text": "I work in a bank.", "ko": "은행에서 일해요."},
+      {"text": "Actually, can we do Saturday?", "ko": "사실 토요일로 해도 될까?"},
+      {"text": "It's still raining.", "ko": "아직 비가 와."}]},
+    {"id": "a2-qr-18", "prompt": "What did you think of the movie?", "promptKo": "영화 어땠어?", "answer": 0, "options": [
+      {"text": "It was better than I expected.", "ko": "생각보다 좋았어."},
+      {"text": "I think it's at seven.", "ko": "7시인 것 같아."},
+      {"text": "I'll buy the popcorn.", "ko": "팝콘은 내가 살게."}]},
+    {"id": "a2-qr-19", "prompt": "Could you feed my cat this weekend?", "promptKo": "이번 주말에 고양이 밥 좀 줄래?", "answer": 2, "options": [
+      {"text": "I'm full, thanks.", "ko": "배불러, 고마워."},
+      {"text": "My cat is black.", "ko": "우리 고양이는 까만색이야."},
+      {"text": "Sure, just leave me the key.", "ko": "그래, 열쇠만 줘."}]},
+    {"id": "a2-qr-20", "prompt": "Why are you learning English?", "promptKo": "영어는 왜 배워요?", "answer": 1, "options": [
+      {"text": "Since I was ten.", "ko": "열 살 때부터요."},
+      {"text": "Mainly for my job.", "ko": "주로 일 때문에요."},
+      {"text": "At a language school.", "ko": "어학원에서요."}]},
+    {"id": "a2-qr-21", "prompt": "Is breakfast included?", "promptKo": "아침 식사 포함인가요?", "answer": 0, "options": [
+      {"text": "Yes, it's from seven to ten.", "ko": "네, 7시부터 10시까지예요."},
+      {"text": "I usually skip breakfast.", "ko": "저는 보통 아침을 걸러요."},
+      {"text": "It's in the lobby.", "ko": "로비에 있어요."}]},
+    {"id": "a2-qr-22", "prompt": "Can you all see my screen?", "promptKo": "제 화면 다 보이세요?", "answer": 2, "options": [
+      {"text": "I need a new phone screen.", "ko": "휴대폰 액정을 새로 해야 해요."},
+      {"text": "We can meet at noon.", "ko": "정오에 만날 수 있어요."},
+      {"text": "Yes, it's clear now.", "ko": "네, 이제 잘 보여요."}]},
+    {"id": "a2-qr-23", "prompt": "How do I get to the museum?", "promptKo": "박물관에 어떻게 가요?", "answer": 1, "options": [
+      {"text": "It opens at nine.", "ko": "9시에 열어요."},
+      {"text": "Take bus twelve and get off at the park.", "ko": "12번 버스 타고 공원에서 내리세요."},
+      {"text": "I got it at the gift shop.", "ko": "기념품 가게에서 샀어요."}]},
+    {"id": "a2-qr-24", "prompt": "I'm going to miss you!", "promptKo": "보고 싶을 거야!", "answer": 0, "options": [
+      {"text": "Me too. Let's keep in touch.", "ko": "나도. 연락하고 지내자."},
+      {"text": "I missed the bus.", "ko": "버스 놓쳤어."},
+      {"text": "You're going the wrong way.", "ko": "길 잘못 가고 있어."}]}
   ],
   "sets": [
     {"id": "a2-c-01", "type": "conversation", "titleKo": "병원 예약 전화",
@@ -100,6 +156,101 @@
      "questions": [
       {"q": "How long is the tour?", "qKo": "투어는 얼마나 걸리나요?", "answer": 1, "options": ["One hour", "Two hours", "Three hours", "All day"]},
       {"q": "Where will they have lunch?", "qKo": "점심은 어디서 먹나요?", "answer": 2, "options": ["At the castle", "At the hotel", "By the river", "On the bus"]},
-      {"q": "What should people not forget?", "qKo": "잊지 말아야 할 것은?", "answer": 0, "options": ["Their ticket", "Their camera", "Their passport", "Their water"]}]}
+      {"q": "What should people not forget?", "qKo": "잊지 말아야 할 것은?", "answer": 0, "options": ["Their ticket", "Their camera", "Their passport", "Their water"]}]},
+    {"id": "a2-c-04", "type": "conversation", "titleKo": "집 보러 가기",
+     "lines": [
+      {"speaker": 0, "text": "This is the bedroom. It's small, but it has a big closet.", "ko": "여기가 침실이에요. 작지만 붙박이장이 커요."},
+      {"speaker": 1, "text": "I like it. Is the rent eight hundred a month?", "ko": "마음에 들어요. 월세 800 맞죠?"},
+      {"speaker": 0, "text": "Yes, plus fifty for electricity and water.", "ko": "네, 전기와 수도로 50이 더 있어요."},
+      {"speaker": 1, "text": "OK. Can I move in on the first of next month?", "ko": "알겠어요. 다음 달 1일에 입주해도 될까요?"}],
+     "questions": [
+      {"q": "What is good about the bedroom?", "qKo": "침실의 좋은 점은?", "answer": 2, "options": ["It's very big.", "It has a window.", "It has a big closet.", "It's quiet."]},
+      {"q": "How much does the woman pay for electricity and water?", "qKo": "전기와 수도 요금은?", "answer": 0, "options": ["$50", "$80", "$15", "$800"]},
+      {"q": "When does she want to move in?", "qKo": "언제 입주하고 싶어 하나요?", "answer": 3, "options": ["Today", "Next week", "At the end of the month", "On the first of next month"]}]},
+    {"id": "a2-c-05", "type": "conversation", "titleKo": "택배 문의",
+     "lines": [
+      {"speaker": 0, "text": "Thanks for calling. What's the problem with your order?", "ko": "전화 주셔서 감사합니다. 주문에 무슨 문제가 있나요?"},
+      {"speaker": 1, "text": "I ordered a blue jacket, but you sent a red one.", "ko": "파란 재킷을 주문했는데 빨간 걸 보내셨어요."},
+      {"speaker": 0, "text": "I'm sorry. We'll send the blue one today and pick up the red one.", "ko": "죄송합니다. 오늘 파란 걸 보내고 빨간 건 회수할게요."},
+      {"speaker": 1, "text": "Great. Will it arrive before Friday?", "ko": "좋아요. 금요일 전에 도착할까요?"}],
+     "questions": [
+      {"q": "What did the man order?", "qKo": "남자가 주문한 것은?", "answer": 1, "options": ["A red jacket", "A blue jacket", "Blue shoes", "A red bag"]},
+      {"q": "What will the company do?", "qKo": "회사는 무엇을 하나요?", "answer": 3, "options": ["Give a refund", "Call him later", "Give a discount", "Send the right jacket"]},
+      {"q": "What does the man want to know?", "qKo": "남자가 알고 싶은 것은?", "answer": 0, "options": ["If it arrives before Friday", "The price", "The store hours", "His order number"]}]},
+    {"id": "a2-c-06", "type": "conversation", "titleKo": "병가 연락",
+     "lines": [
+      {"speaker": 0, "text": "Hi Tom, it's Amy. I'm sorry, but I'm sick today.", "ko": "톰, 에이미예요. 미안한데 오늘 아파요."},
+      {"speaker": 1, "text": "Oh no. Do you have the flu?", "ko": "이런. 독감이에요?"},
+      {"speaker": 0, "text": "I think so. I'm going to the clinic this morning.", "ko": "그런 것 같아요. 오늘 오전에 병원에 가 보려고요."},
+      {"speaker": 1, "text": "Get some rest. I'll move your meeting to Thursday.", "ko": "푹 쉬어요. 회의는 목요일로 옮길게요."}],
+     "questions": [
+      {"q": "Why is Amy calling?", "qKo": "에이미가 전화한 이유는?", "answer": 2, "options": ["She is late.", "She lost her key.", "She is sick.", "She needs a ride."]},
+      {"q": "Where is Amy going this morning?", "qKo": "에이미는 오전에 어디에 가나요?", "answer": 0, "options": ["To a clinic", "To the office", "To a pharmacy", "To the airport"]},
+      {"q": "What will Tom do?", "qKo": "톰은 무엇을 하나요?", "answer": 1, "options": ["Visit Amy", "Move her meeting", "Call a doctor", "Cancel the project"]}]},
+    {"id": "a2-c-07", "type": "conversation", "titleKo": "렌터카 반납",
+     "lines": [
+      {"speaker": 0, "text": "Hi, I'm returning the car. Here are the keys.", "ko": "안녕하세요, 차 반납하러 왔어요. 여기 열쇠요."},
+      {"speaker": 1, "text": "Thanks. Did you fill the tank?", "ko": "감사합니다. 기름 채우셨어요?"},
+      {"speaker": 0, "text": "Yes, I filled it at the gas station near the airport.", "ko": "네, 공항 근처 주유소에서 채웠어요."},
+      {"speaker": 1, "text": "Perfect. Everything looks fine. Have a good flight.", "ko": "좋습니다. 다 괜찮네요. 좋은 비행 되세요."}],
+     "questions": [
+      {"q": "What is the woman doing?", "qKo": "여자는 무엇을 하고 있나요?", "answer": 3, "options": ["Renting a car", "Buying gas", "Checking in", "Returning a car"]},
+      {"q": "Where did she get gas?", "qKo": "어디서 기름을 넣었나요?", "answer": 1, "options": ["At the hotel", "Near the airport", "Downtown", "She didn't"]},
+      {"q": "Where is she going next?", "qKo": "다음에 어디로 가나요?", "answer": 2, "options": ["To a hotel", "To a meeting", "On a flight", "To the beach"]}]},
+    {"id": "a2-c-08", "type": "conversation", "titleKo": "언어 교환",
+     "lines": [
+      {"speaker": 0, "text": "How long have you been learning Korean?", "ko": "한국어 배운 지 얼마나 됐어요?"},
+      {"speaker": 1, "text": "About a year. I started because of K-dramas.", "ko": "1년쯤이요. 한국 드라마 때문에 시작했어요."},
+      {"speaker": 0, "text": "Your Korean is really good! Do you take classes?", "ko": "한국어 정말 잘하시네요! 수업 들어요?"},
+      {"speaker": 1, "text": "No, I just use apps and watch shows every night.", "ko": "아니요, 그냥 앱 쓰고 매일 밤 드라마 봐요."}],
+     "questions": [
+      {"q": "How long has the man been learning Korean?", "qKo": "남자는 한국어를 얼마나 배웠나요?", "answer": 0, "options": ["About a year", "Six months", "Two years", "Ten years"]},
+      {"q": "Why did he start?", "qKo": "왜 시작했나요?", "answer": 2, "options": ["For work", "For school", "Because of K-dramas", "Because of a friend"]},
+      {"q": "How does he study?", "qKo": "어떻게 공부하나요?", "answer": 3, "options": ["With a teacher", "At a school", "With books", "With apps and shows"]}]},
+    {"id": "a2-t-04", "type": "talk", "titleKo": "기차역 안내방송",
+     "lines": [
+      {"speaker": 0, "text": "Attention, please. The ten fifteen train to Chicago is delayed by thirty minutes.", "ko": "안내 말씀드립니다. 10시 15분 시카고행 열차가 30분 지연됩니다."},
+      {"speaker": 0, "text": "It will now leave from platform six, not platform two.", "ko": "열차는 2번이 아닌 6번 승강장에서 출발합니다."},
+      {"speaker": 0, "text": "We're sorry for the delay. Free coffee is available at the café.", "ko": "지연에 사과드립니다. 카페에서 무료 커피를 드립니다."}],
+     "questions": [
+      {"q": "How late is the train?", "qKo": "열차는 얼마나 늦나요?", "answer": 1, "options": ["Fifteen minutes", "Thirty minutes", "One hour", "Ten minutes"]},
+      {"q": "Which platform will it leave from?", "qKo": "몇 번 승강장에서 출발하나요?", "answer": 3, "options": ["Platform two", "Platform ten", "Platform one", "Platform six"]},
+      {"q": "What can passengers get for free?", "qKo": "승객이 무료로 받을 수 있는 것은?", "answer": 0, "options": ["Coffee", "A meal", "A new ticket", "A newspaper"]}]},
+    {"id": "a2-t-05", "type": "talk", "titleKo": "호텔 음성 안내",
+     "lines": [
+      {"speaker": 0, "text": "Thank you for staying with us. Breakfast is served from six thirty to ten on the first floor.", "ko": "저희 호텔에 묵어 주셔서 감사합니다. 아침 식사는 1층에서 6시 30분부터 10시까지 제공됩니다."},
+      {"speaker": 0, "text": "The pool and gym are open until eleven at night.", "ko": "수영장과 헬스장은 밤 11시까지 엽니다."},
+      {"speaker": 0, "text": "Check-out is at noon. Please call the front desk for a late check-out.", "ko": "체크아웃은 정오입니다. 늦은 체크아웃은 프런트에 전화해 주세요."}],
+     "questions": [
+      {"q": "Where is breakfast served?", "qKo": "아침 식사는 어디에서 하나요?", "answer": 2, "options": ["In the room", "By the pool", "On the first floor", "On the roof"]},
+      {"q": "When does the gym close?", "qKo": "헬스장은 언제 닫나요?", "answer": 0, "options": ["At eleven at night", "At ten in the morning", "At noon", "At six thirty"]},
+      {"q": "What should guests do for a late check-out?", "qKo": "늦은 체크아웃을 원하면?", "answer": 1, "options": ["Send an email", "Call the front desk", "Pay online", "Ask the driver"]}]},
+    {"id": "a2-t-06", "type": "talk", "titleKo": "회사 공지",
+     "lines": [
+      {"speaker": 0, "text": "Hi team, quick update. The office will be closed next Monday for a holiday.", "ko": "팀 여러분, 짧게 공지할게요. 다음 주 월요일은 휴일이라 사무실이 문을 닫아요."},
+      {"speaker": 0, "text": "Our weekly meeting will move to Tuesday at ten.", "ko": "주간 회의는 화요일 10시로 옮겨요."},
+      {"speaker": 0, "text": "Also, please send me your vacation plans by Friday.", "ko": "그리고 금요일까지 휴가 계획을 보내 주세요."}],
+     "questions": [
+      {"q": "Why is the office closed on Monday?", "qKo": "월요일에 문을 닫는 이유는?", "answer": 3, "options": ["Cleaning", "A party", "Bad weather", "A holiday"]},
+      {"q": "When is the weekly meeting now?", "qKo": "주간 회의는 언제로 바뀌었나요?", "answer": 1, "options": ["Monday at ten", "Tuesday at ten", "Friday at ten", "Tuesday at two"]},
+      {"q": "What should people send by Friday?", "qKo": "금요일까지 보내야 하는 것은?", "answer": 2, "options": ["A report", "Their address", "Their vacation plans", "A photo"]}]},
+    {"id": "a2-t-07", "type": "talk", "titleKo": "등산로 안내",
+     "lines": [
+      {"speaker": 0, "text": "Welcome to Green Mountain Park. The red trail is easy and takes about one hour.", "ko": "그린 마운틴 공원에 오신 걸 환영합니다. 빨간 코스는 쉽고 1시간쯤 걸려요."},
+      {"speaker": 0, "text": "The blue trail is harder and takes three hours, but the view is amazing.", "ko": "파란 코스는 더 어렵고 3시간 걸리지만 경치가 정말 좋아요."},
+      {"speaker": 0, "text": "Please stay on the trails and take your trash with you.", "ko": "코스를 벗어나지 말고 쓰레기는 가져가 주세요."}],
+     "questions": [
+      {"q": "Which trail is easy?", "qKo": "쉬운 코스는?", "answer": 0, "options": ["The red trail", "The blue trail", "The green trail", "The yellow trail"]},
+      {"q": "How long is the blue trail?", "qKo": "파란 코스는 얼마나 걸리나요?", "answer": 2, "options": ["One hour", "Two hours", "Three hours", "Four hours"]},
+      {"q": "What should visitors do with their trash?", "qKo": "쓰레기는 어떻게 하나요?", "answer": 3, "options": ["Leave it by the trail", "Burn it", "Give it to staff", "Take it with them"]}]},
+    {"id": "a2-t-08", "type": "talk", "titleKo": "온라인 수업 안내",
+     "lines": [
+      {"speaker": 0, "text": "Hello everyone, and welcome to week two of the photography course.", "ko": "여러분 안녕하세요, 사진 강좌 2주 차에 오신 걸 환영해요."},
+      {"speaker": 0, "text": "Today we'll learn how to take photos at night with your phone.", "ko": "오늘은 휴대폰으로 밤 사진 찍는 법을 배울 거예요."},
+      {"speaker": 0, "text": "For homework, please upload three night photos before next class.", "ko": "숙제로 다음 수업 전까지 밤 사진 세 장을 올려 주세요."}],
+     "questions": [
+      {"q": "What is the course about?", "qKo": "무슨 강좌인가요?", "answer": 1, "options": ["Cooking", "Photography", "Music", "English"]},
+      {"q": "What will they learn today?", "qKo": "오늘 배울 것은?", "answer": 0, "options": ["Taking photos at night", "Editing videos", "Buying a camera", "Drawing"]},
+      {"q": "What is the homework?", "qKo": "숙제는 무엇인가요?", "answer": 2, "options": ["Read a book", "Write a report", "Upload three photos", "Watch a video"]}]}
   ]
 }

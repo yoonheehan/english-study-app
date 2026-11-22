@@ -39,7 +39,63 @@
     {"id": "b2-qr-10", "prompt": "Would you mind covering my shift on Saturday?", "promptKo": "토요일 제 근무 좀 대신해 줄 수 있어요?", "answer": 1, "options": [
       {"text": "I don't mind the cold.", "ko": "추위는 상관없어요."},
       {"text": "Sorry, I'm away that weekend.", "ko": "미안해요, 그 주말엔 멀리 가 있어요."},
-      {"text": "The shift key is broken.", "ko": "시프트 키가 고장 났어요."}]}
+      {"text": "The shift key is broken.", "ko": "시프트 키가 고장 났어요."}]},
+    {"id": "b2-qr-11", "prompt": "What would you like to focus on next year?", "promptKo": "내년에는 무엇에 집중하고 싶어요?", "answer": 1, "options": [
+      {"text": "I focused really hard last night.", "ko": "어젯밤에 정말 집중했어요."},
+      {"text": "Leading a project from start to finish, ideally.", "ko": "가능하면 프로젝트를 처음부터 끝까지 이끌어 보고 싶어요."},
+      {"text": "Next year is a leap year.", "ko": "내년은 윤년이에요."}]},
+    {"id": "b2-qr-12", "prompt": "I'm a bit worried about the cost.", "promptKo": "비용이 좀 걱정돼요.", "answer": 0, "options": [
+      {"text": "That's fair. We could start with a smaller pilot.", "ko": "그럴 만해요. 더 작은 시범 운영으로 시작할 수 있어요."},
+      {"text": "It costs nothing to ask.", "ko": "물어보는 건 공짜예요."},
+      {"text": "I'm worried about the weather too.", "ko": "저도 날씨가 걱정돼요."}]},
+    {"id": "b2-qr-13", "prompt": "Do you have something else lined up?", "promptKo": "다른 자리 구해 놨어?", "answer": 2, "options": [
+      {"text": "The line was really long.", "ko": "줄이 정말 길었어."},
+      {"text": "I lined up early for tickets.", "ko": "표 사려고 일찍 줄 섰어."},
+      {"text": "Not yet, but I have a couple of interviews.", "ko": "아직. 근데 면접이 두어 개 있어."}]},
+    {"id": "b2-qr-14", "prompt": "Has the car ever been in an accident?", "promptKo": "이 차 사고 난 적 있어요?", "answer": 1, "options": [
+      {"text": "I'll drive it home.", "ko": "제가 집까지 운전할게요."},
+      {"text": "Just a minor one, and it's all in the report.", "ko": "가벼운 거 하나요, 보고서에 다 있어요."},
+      {"text": "It was an accident, sorry.", "ko": "실수였어요, 죄송해요."}]},
+    {"id": "b2-qr-15", "prompt": "Would you consider a smaller increase?", "promptKo": "인상 폭을 줄여 주실 수 있나요?", "answer": 0, "options": [
+      {"text": "If you sign for two years, I could do five percent.", "ko": "2년 계약하시면 5퍼센트까지 가능해요."},
+      {"text": "It increased last year.", "ko": "작년에 올랐어요."},
+      {"text": "I consider you a friend.", "ko": "당신을 친구로 생각해요."}]},
+    {"id": "b2-qr-16", "prompt": "Our policy doesn't allow refunds for this fare.", "promptKo": "이 요금은 규정상 환불이 안 됩니다.", "answer": 2, "options": [
+      {"text": "The fare was cheap.", "ko": "요금이 쌌어요."},
+      {"text": "I'll pay by card.", "ko": "카드로 낼게요."},
+      {"text": "But you canceled the flight, not me.", "ko": "그래도 결항은 제가 아니라 그쪽이 한 거잖아요."}]},
+    {"id": "b2-qr-17", "prompt": "Could you break that quote down for me?", "promptKo": "그 견적을 항목별로 알려 주실 수 있나요?", "answer": 1, "options": [
+      {"text": "It broke down on the highway.", "ko": "고속도로에서 고장 났어요."},
+      {"text": "Sure. About half is parts and half is labor.", "ko": "그럼요. 절반은 부품, 절반은 공임이에요."},
+      {"text": "That's a famous quote.", "ko": "유명한 명언이죠."}]},
+    {"id": "b2-qr-18", "prompt": "Do you think AI will replace your job?", "promptKo": "AI가 당신 일을 대체할 것 같아요?", "answer": 0, "options": [
+      {"text": "Some tasks, maybe, but not the whole job.", "ko": "일부 업무는 그럴 수도 있지만 일 전체는 아니에요."},
+      {"text": "I replaced the battery.", "ko": "배터리를 교체했어요."},
+      {"text": "My job is in the city.", "ko": "제 직장은 도심에 있어요."}]},
+    {"id": "b2-qr-19", "prompt": "Would you rather rent or buy?", "promptKo": "월세가 좋아, 사는 게 좋아?", "answer": 2, "options": [
+      {"text": "I bought it on sale.", "ko": "세일할 때 샀어."},
+      {"text": "The rent is due today.", "ko": "월세 오늘까지야."},
+      {"text": "Rent for now. I like the flexibility.", "ko": "지금은 월세. 자유로운 게 좋아."}]},
+    {"id": "b2-qr-20", "prompt": "Did I offend you in the meeting?", "promptKo": "회의에서 제가 기분 상하게 했나요?", "answer": 1, "options": [
+      {"text": "The meeting room is booked.", "ko": "회의실 예약됐어요."},
+      {"text": "A little, but I know you didn't mean it personally.", "ko": "조금요. 그래도 개인적인 뜻이 아니었던 거 알아요."},
+      {"text": "I'll defend you next time.", "ko": "다음엔 제가 편들어 줄게요."}]},
+    {"id": "b2-qr-21", "prompt": "Have you told your current employer yet?", "promptKo": "지금 회사에 말했어요?", "answer": 0, "options": [
+      {"text": "Not yet. I'm giving notice on Monday.", "ko": "아직요. 월요일에 퇴사 통보할 거예요."},
+      {"text": "They employ about fifty people.", "ko": "직원이 50명 정도예요."},
+      {"text": "I told a funny story.", "ko": "웃긴 얘기를 했어요."}]},
+    {"id": "b2-qr-22", "prompt": "What's the downside of living there?", "promptKo": "거기 사는 단점이 뭐야?", "answer": 2, "options": [
+      {"text": "It's upside down.", "ko": "거꾸로 뒤집혔어."},
+      {"text": "I live downstairs.", "ko": "나 아래층에 살아."},
+      {"text": "It's pretty far from the subway.", "ko": "지하철에서 꽤 멀어."}]},
+    {"id": "b2-qr-23", "prompt": "Can I get an itemized receipt?", "promptKo": "항목별 영수증 받을 수 있나요?", "answer": 1, "options": [
+      {"text": "These items are on sale.", "ko": "이 물건들은 세일 중이에요."},
+      {"text": "Of course, I'll email it to you.", "ko": "물론이죠, 메일로 보내 드릴게요."},
+      {"text": "I received it yesterday.", "ko": "어제 받았어요."}]},
+    {"id": "b2-qr-24", "prompt": "Congratulations on the promotion!", "promptKo": "승진 축하해요!", "answer": 0, "options": [
+      {"text": "Thanks, I couldn't have done it without the team.", "ko": "고마워요, 팀 없이는 못 했을 거예요."},
+      {"text": "The promotion ends on Sunday.", "ko": "프로모션은 일요일에 끝나요."},
+      {"text": "I'm moving to the third floor.", "ko": "저 3층으로 옮겨요."}]}
   ],
   "sets": [
     {"id": "b2-c-01", "type": "conversation", "titleKo": "캠페인 예산 초과",
@@ -99,6 +155,103 @@
      "questions": [
       {"q": "What is the exhibit?", "qKo": "전시물은 무엇인가요?", "answer": 1, "options": ["A painting", "An ancient fishing boat", "A statue", "An old map"]},
       {"q": "How was it found?", "qKo": "어떻게 발견됐나요?", "answer": 0, "options": ["During harbor construction", "By divers", "In a museum basement", "By a farmer"]},
-      {"q": "Why is the room kept cool and dark?", "qKo": "방을 서늘하고 어둡게 하는 이유는?", "answer": 2, "options": ["To save energy", "For a light show", "To protect the fragile wood", "For visitor comfort"]}]}
+      {"q": "Why is the room kept cool and dark?", "qKo": "방을 서늘하고 어둡게 하는 이유는?", "answer": 2, "options": ["To save energy", "For a light show", "To protect the fragile wood", "For visitor comfort"]}]},
+    {"id": "b2-c-04", "type": "conversation", "titleKo": "월세 인상 협상",
+     "lines": [
+      {"speaker": 0, "text": "I'm afraid I need to raise the rent by two hundred starting in March. Property taxes went up again.", "ko": "죄송하지만 3월부터 월세를 200 올려야 해요. 재산세가 또 올랐어요."},
+      {"speaker": 1, "text": "I understand, but that's almost a fifteen percent increase. I've never been late with a payment.", "ko": "이해하지만 거의 15퍼센트 인상이에요. 저는 한 번도 연체한 적이 없어요."},
+      {"speaker": 0, "text": "That's true. You've been a great tenant. What did you have in mind?", "ko": "맞아요. 정말 좋은 세입자셨죠. 생각하신 게 있어요?"},
+      {"speaker": 1, "text": "If I sign a two-year lease, could we make it one hundred instead?", "ko": "2년 계약하면 100으로 해 주실 수 있을까요?"},
+      {"speaker": 0, "text": "Let's say one twenty, and I'll repaint the living room before summer.", "ko": "120으로 하죠. 그리고 여름 전에 거실 페인트를 새로 칠해 드릴게요."}],
+     "questions": [
+      {"q": "Why is the rent going up?", "qKo": "월세가 오르는 이유는?", "answer": 2, "options": ["Repairs", "A new kitchen", "Higher property taxes", "Higher interest rates"]},
+      {"q": "What does the tenant offer?", "qKo": "세입자가 제안한 것은?", "answer": 0, "options": ["To sign a two-year lease", "To pay in cash", "To move out early", "To do repairs himself"]},
+      {"q": "What will the landlord do before summer?", "qKo": "집주인이 여름 전에 할 일은?", "answer": 3, "options": ["Fix the heater", "Replace the windows", "Clean the carpets", "Repaint the living room"]}]},
+    {"id": "b2-c-05", "type": "conversation", "titleKo": "고객사 제안",
+     "lines": [
+      {"speaker": 0, "text": "So the main idea is to move a third of your ad budget from search to short-form video.", "ko": "핵심은 광고 예산의 3분의 1을 검색에서 숏폼 영상으로 옮기는 거예요."},
+      {"speaker": 1, "text": "That's a big shift. Our board is quite conservative about trying new channels.", "ko": "큰 변화네요. 저희 이사회는 새 채널에 꽤 보수적이에요."},
+      {"speaker": 0, "text": "Then we could run a three-month test in just one region and share weekly results.", "ko": "그럼 한 지역에서만 3개월 테스트를 하고 매주 결과를 공유할 수 있어요."},
+      {"speaker": 1, "text": "That would be much easier to approve. Can you send a short proposal by Friday?", "ko": "그게 훨씬 승인받기 쉽겠네요. 금요일까지 짧은 제안서를 보내 줄 수 있어요?"}],
+     "questions": [
+      {"q": "What does the agency want to change?", "qKo": "에이전시가 바꾸려는 것은?", "answer": 1, "options": ["The company logo", "Where the ad budget is spent", "The product price", "The sales team"]},
+      {"q": "What is the client's concern?", "qKo": "고객의 걱정은?", "answer": 3, "options": ["The cost of video", "Bad results last year", "A short deadline", "A conservative board"]},
+      {"q": "What will the agency send by Friday?", "qKo": "에이전시가 금요일까지 보낼 것은?", "answer": 0, "options": ["A short proposal", "A contract", "An invoice", "A finished video"]}]},
+    {"id": "b2-c-06", "type": "conversation", "titleKo": "자동차 수리",
+     "lines": [
+      {"speaker": 0, "text": "Your front tires are worn, the brake pads are thin, and there's a small coolant leak.", "ko": "앞 타이어가 닳았고 브레이크 패드가 얇아졌고 냉각수가 조금 새요."},
+      {"speaker": 1, "text": "How much would it be to fix all of that? I just paid for a new battery last month.", "ko": "다 고치면 얼마예요? 지난달에 배터리를 새로 갈았는데요."},
+      {"speaker": 0, "text": "Around eleven hundred, but the brakes are the only thing that really can't wait.", "ko": "1,100 정도예요. 하지만 정말 미룰 수 없는 건 브레이크뿐이에요."},
+      {"speaker": 1, "text": "Then let's do the brakes today and the rest after payday.", "ko": "그럼 오늘은 브레이크만 하고 나머지는 월급날 이후에 할게요."}],
+     "questions": [
+      {"q": "What did the woman replace last month?", "qKo": "여자가 지난달 바꾼 것은?", "answer": 2, "options": ["The tires", "The brakes", "The battery", "The oil"]},
+      {"q": "Which repair is most urgent?", "qKo": "가장 급한 수리는?", "answer": 1, "options": ["The tires", "The brakes", "The coolant leak", "The lights"]},
+      {"q": "When will she fix the other problems?", "qKo": "나머지는 언제 고치나요?", "answer": 0, "options": ["After payday", "Tomorrow", "Next year", "Never"]}]},
+    {"id": "b2-c-07", "type": "conversation", "titleKo": "평판 조회",
+     "lines": [
+      {"speaker": 0, "text": "We're considering Daniel for a team lead role. How was he at managing people?", "ko": "다니엘을 팀장 자리에 고려 중이에요. 사람 관리는 어땠나요?"},
+      {"speaker": 1, "text": "He was great at giving clear feedback, and his team trusted him completely.", "ko": "명확한 피드백을 잘 줬고 팀원들이 완전히 신뢰했어요."},
+      {"speaker": 0, "text": "Was there anything he struggled with?", "ko": "어려워한 부분이 있었나요?"},
+      {"speaker": 1, "text": "Saying no to other departments. He sometimes took on too much and his team got overloaded.", "ko": "다른 부서에 거절하는 거요. 가끔 일을 너무 많이 받아서 팀이 과부하됐어요."}],
+     "questions": [
+      {"q": "What role is Daniel being considered for?", "qKo": "다니엘이 고려되는 자리는?", "answer": 3, "options": ["Sales manager", "Designer", "Intern", "Team lead"]},
+      {"q": "What was Daniel good at?", "qKo": "다니엘의 강점은?", "answer": 0, "options": ["Giving clear feedback", "Writing code", "Public speaking", "Saving money"]},
+      {"q": "What did he struggle with?", "qKo": "어려워한 점은?", "answer": 2, "options": ["Being on time", "Technical skills", "Saying no to other departments", "Working remotely"]}]},
+    {"id": "b2-c-08", "type": "conversation", "titleKo": "해외 근무 제안",
+     "lines": [
+      {"speaker": 0, "text": "They offered me the Berlin position. It's a two-year contract with housing included.", "ko": "베를린 자리를 제안받았어. 주거 포함 2년 계약이야."},
+      {"speaker": 1, "text": "That's incredible! But what about your apartment here and your cat?", "ko": "대단하다! 근데 여기 집이랑 고양이는?"},
+      {"speaker": 0, "text": "I could sublet the apartment, and my sister already said she'd take care of Mochi.", "ko": "집은 전대하면 되고, 모찌는 언니가 이미 돌봐 주겠다고 했어."},
+      {"speaker": 1, "text": "Sounds like you've already decided. When do you leave?", "ko": "이미 결정한 것 같네. 언제 떠나?"},
+      {"speaker": 0, "text": "Probably early January, right after the holidays.", "ko": "아마 1월 초, 연휴 끝나자마자."}],
+     "questions": [
+      {"q": "What is included in the offer?", "qKo": "제안에 포함된 것은?", "answer": 1, "options": ["A car", "Housing", "Flights for family", "German lessons"]},
+      {"q": "Who will take care of the cat?", "qKo": "고양이는 누가 돌보나요?", "answer": 3, "options": ["A friend", "A neighbor", "A pet hotel", "Her sister"]},
+      {"q": "When will she leave?", "qKo": "언제 떠나나요?", "answer": 0, "options": ["Early January", "Next week", "In the summer", "In December"]}]},
+    {"id": "b2-t-04", "type": "talk", "titleKo": "사내 정책 공지",
+     "lines": [
+      {"speaker": 0, "text": "Good morning, everyone. Starting next quarter, we're moving to a hybrid model with three office days a week.", "ko": "좋은 아침입니다. 다음 분기부터 주 3일 출근하는 하이브리드 근무로 바뀝니다."},
+      {"speaker": 0, "text": "Each team can choose its own days, but Tuesday will be a company-wide office day for meetings.", "ko": "팀별로 요일을 정할 수 있지만 화요일은 회의를 위한 전사 출근일입니다."},
+      {"speaker": 0, "text": "We'll review the policy in six months based on your feedback, so please fill out the survey.", "ko": "여러분의 의견을 바탕으로 6개월 뒤 정책을 재검토할 예정이니 설문에 꼭 참여해 주세요."}],
+     "questions": [
+      {"q": "How many office days will there be per week?", "qKo": "일주일에 며칠 출근하나요?", "answer": 2, "options": ["Two", "Five", "Three", "Four"]},
+      {"q": "What is special about Tuesday?", "qKo": "화요일은 무엇이 특별한가요?", "answer": 0, "options": ["Everyone is in the office", "It's a day off", "Teams work from home", "There are no meetings"]},
+      {"q": "When will the policy be reviewed?", "qKo": "정책은 언제 재검토되나요?", "answer": 3, "options": ["Next month", "Next year", "In two years", "In six months"]}]},
+    {"id": "b2-t-05", "type": "talk", "titleKo": "건강 검진 안내",
+     "lines": [
+      {"speaker": 0, "text": "Hello, this is a message from Riverside Clinic about your annual checkup next Thursday at eight.", "ko": "리버사이드 병원에서 다음 주 목요일 8시 정기 검진에 대해 안내드립니다."},
+      {"speaker": 0, "text": "Please don't eat or drink anything except water for twelve hours before your blood test.", "ko": "혈액 검사 전 12시간 동안 물 외에는 아무것도 드시지 마세요."},
+      {"speaker": 0, "text": "If you need to reschedule, call us at least forty-eight hours in advance to avoid a cancellation fee.", "ko": "일정 변경이 필요하면 취소 수수료를 피하기 위해 최소 48시간 전에 전화해 주세요."}],
+     "questions": [
+      {"q": "When is the checkup?", "qKo": "검진은 언제인가요?", "answer": 1, "options": ["This Thursday at eight", "Next Thursday at eight", "Next Tuesday at eight", "Next Thursday at noon"]},
+      {"q": "What can the patient have before the test?", "qKo": "검사 전 먹을 수 있는 것은?", "answer": 2, "options": ["Coffee", "A light meal", "Water", "Juice"]},
+      {"q": "How can patients avoid a fee?", "qKo": "수수료를 피하려면?", "answer": 0, "options": ["Call 48 hours ahead to reschedule", "Pay online", "Arrive early", "Bring their ID"]}]},
+    {"id": "b2-t-06", "type": "talk", "titleKo": "부동산 뉴스",
+     "lines": [
+      {"speaker": 0, "text": "Rents in the city rose another seven percent this year, the biggest jump in over a decade.", "ko": "올해 도시 월세가 또 7퍼센트 올라 10여 년 만에 가장 큰 폭을 기록했습니다."},
+      {"speaker": 0, "text": "Experts say the main cause is a shortage of new apartments, especially smaller units for young workers.", "ko": "전문가들은 신규 아파트, 특히 젊은 직장인용 소형 주택 부족을 주원인으로 꼽습니다."},
+      {"speaker": 0, "text": "The city plans to build five thousand affordable homes, but most won't be ready until twenty twenty-nine.", "ko": "시는 저렴한 주택 5천 호를 지을 계획이지만 대부분 2029년에야 완공됩니다."}],
+     "questions": [
+      {"q": "How much did rents rise this year?", "qKo": "올해 월세는 얼마나 올랐나요?", "answer": 3, "options": ["Three percent", "Five percent", "Ten percent", "Seven percent"]},
+      {"q": "What is the main cause, according to experts?", "qKo": "전문가가 말한 주원인은?", "answer": 1, "options": ["High interest rates", "Not enough new apartments", "Tourism", "New taxes"]},
+      {"q": "When will most of the new homes be ready?", "qKo": "새 주택은 대부분 언제 완공되나요?", "answer": 2, "options": ["Next year", "In 2027", "In 2029", "In 2035"]}]},
+    {"id": "b2-t-07", "type": "talk", "titleKo": "인터넷 장애 안내",
+     "lines": [
+      {"speaker": 0, "text": "Thank you for calling. We're aware of an outage affecting customers in the north district since six p.m.", "ko": "전화 주셔서 감사합니다. 오후 6시부터 북부 지역 고객에게 영향을 주는 장애를 확인했습니다."},
+      {"speaker": 0, "text": "Our engineers are working on it, and we expect service to return by midnight.", "ko": "엔지니어들이 작업 중이며 자정까지는 복구될 것으로 예상합니다."},
+      {"speaker": 0, "text": "Affected customers will automatically receive a one-day credit on their next bill.", "ko": "영향을 받은 고객은 다음 청구서에 하루치 요금이 자동으로 차감됩니다."}],
+     "questions": [
+      {"q": "Who is affected by the outage?", "qKo": "누가 장애의 영향을 받나요?", "answer": 0, "options": ["Customers in the north district", "All customers", "Business customers only", "Mobile users"]},
+      {"q": "When should service return?", "qKo": "언제 복구되나요?", "answer": 2, "options": ["By six p.m.", "Tomorrow morning", "By midnight", "In a week"]},
+      {"q": "What will affected customers get?", "qKo": "영향받은 고객이 받는 것은?", "answer": 1, "options": ["A new router", "A one-day credit", "A free month", "A gift card"]}]},
+    {"id": "b2-t-08", "type": "talk", "titleKo": "독서 모임 안내",
+     "lines": [
+      {"speaker": 0, "text": "Welcome to the November meeting of our book club. This month we're discussing a novel about two sisters in post-war Japan.", "ko": "11월 독서 모임에 오신 걸 환영해요. 이번 달엔 전후 일본의 두 자매 이야기를 다룬 소설을 이야기합니다."},
+      {"speaker": 0, "text": "We'll start with first impressions, then talk about the ending, which I know many of you have strong feelings about.", "ko": "첫인상부터 시작해서, 많은 분이 할 말이 많을 결말 이야기를 할 거예요."},
+      {"speaker": 0, "text": "Next month's book was chosen by vote, and it's a short memoir, so it should be a quick read.", "ko": "다음 달 책은 투표로 정한 짧은 회고록이라 금방 읽으실 거예요."}],
+     "questions": [
+      {"q": "What is this month's book about?", "qKo": "이번 달 책의 내용은?", "answer": 0, "options": ["Two sisters in post-war Japan", "A detective in London", "A family business", "A trip around the world"]},
+      {"q": "What will they discuss second?", "qKo": "두 번째로 이야기할 것은?", "answer": 3, "options": ["The author", "The cover", "Next month's book", "The ending"]},
+      {"q": "What kind of book is next month's?", "qKo": "다음 달 책의 종류는?", "answer": 1, "options": ["A long novel", "A short memoir", "A poetry book", "A cookbook"]}]}
   ]
 }

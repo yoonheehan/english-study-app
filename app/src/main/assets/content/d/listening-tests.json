@@ -1,0 +1,254 @@
+{
+  "qr": [
+    {"id": "d-qr-01", "prompt": "Is there a liquidated damages clause in the contract?", "promptKo": "계약서에 손해배상액 예정 조항이 있나요?", "answer": 1, "options": [
+      {"text": "The contract is in my drawer.", "ko": "계약서는 제 서랍에 있어요."},
+      {"text": "Yes, two percent per week of delay.", "ko": "네, 지연 1주당 2퍼센트예요."},
+      {"text": "The liquid was damaged in transit.", "ko": "운송 중에 액체가 손상됐어요."}]},
+    {"id": "d-qr-02", "prompt": "Is your trademark registered in that category?", "promptKo": "그 분야에 상표가 등록돼 있나요?", "answer": 0, "options": [
+      {"text": "Yes, since twenty twenty-two.", "ko": "네, 2022년부터요."},
+      {"text": "The category is on the left.", "ko": "카테고리는 왼쪽에 있어요."},
+      {"text": "I registered for the conference.", "ko": "콘퍼런스에 등록했어요."}]},
+    {"id": "d-qr-03", "prompt": "Was anyone else let go in the restructuring?", "promptKo": "구조 조정에서 다른 사람도 해고됐나요?", "answer": 2, "options": [
+      {"text": "Let it go, it's not worth it.", "ko": "잊어버려요, 그럴 가치 없어요."},
+      {"text": "The structure is very old.", "ko": "건물 구조가 아주 오래됐어요."},
+      {"text": "No, only me, and they've already advertised my job.", "ko": "아니요, 저만요. 그리고 벌써 제 자리를 공고했어요."}]},
+    {"id": "d-qr-04", "prompt": "Does the pain spread anywhere?", "promptKo": "통증이 다른 곳으로 퍼지나요?", "answer": 1, "options": [
+      {"text": "I spread butter on toast.", "ko": "토스트에 버터를 발라요."},
+      {"text": "Yes, down my left arm.", "ko": "네, 왼팔 아래로요."},
+      {"text": "Anywhere is fine with me.", "ko": "아무 데나 괜찮아요."}]},
+    {"id": "d-qr-05", "prompt": "Are you taking any supplements or herbal remedies?", "promptKo": "영양제나 한약 드시는 거 있으세요?", "answer": 0, "options": [
+      {"text": "Just vitamin D and St. John's wort.", "ko": "비타민 D랑 세인트존스워트만요."},
+      {"text": "I'm taking the bus home.", "ko": "버스 타고 집에 가요."},
+      {"text": "The remedy was too expensive.", "ko": "그 해결책은 너무 비쌌어요."}]},
+    {"id": "d-qr-06", "prompt": "What happens if rates go up next year?", "promptKo": "내년에 금리가 오르면 어떻게 되나요?", "answer": 2, "options": [
+      {"text": "The rates are on our website.", "ko": "요금은 웹사이트에 있어요."},
+      {"text": "I'll go up the stairs.", "ko": "계단으로 올라갈게요."},
+      {"text": "Your monthly payment would increase.", "ko": "월 상환액이 늘어나요."}]},
+    {"id": "d-qr-07", "prompt": "What's driving the margin compression?", "promptKo": "마진 하락의 원인이 뭐죠?", "answer": 1, "options": [
+      {"text": "I drive to work.", "ko": "차로 출근해요."},
+      {"text": "Mainly higher shipping costs.", "ko": "주로 운송비 상승이요."},
+      {"text": "The margins on the page are too wide.", "ko": "페이지 여백이 너무 넓어요."}]},
+    {"id": "d-qr-08", "prompt": "Can you be more specific about the control weakness?", "promptKo": "통제 약점에 대해 더 구체적으로 말씀해 주시겠어요?", "answer": 0, "options": [
+      {"text": "Managers approve their own team's expenses without review.", "ko": "관리자가 검토 없이 자기 팀 경비를 승인해요."},
+      {"text": "My remote control is weak.", "ko": "리모컨이 약해요."},
+      {"text": "Specifically, I'd like a coffee.", "ko": "구체적으로는 커피 한 잔이요."}]},
+    {"id": "d-qr-09", "prompt": "Is your desk in a separate room?", "promptKo": "책상이 별도의 방에 있나요?", "answer": 2, "options": [
+      {"text": "I separated the recycling.", "ko": "분리수거를 했어요."},
+      {"text": "The desk is made of oak.", "ko": "책상은 참나무예요."},
+      {"text": "No, it's in a corner of the living room.", "ko": "아니요, 거실 구석에 있어요."}]},
+    {"id": "d-qr-10", "prompt": "Is the overspend temporary, or should we reforecast?", "promptKo": "초과 지출이 일시적인가요, 다시 전망해야 하나요?", "answer": 1, "options": [
+      {"text": "The forecast says rain.", "ko": "예보는 비래요."},
+      {"text": "Temporary. The new hires start next month.", "ko": "일시적이에요. 새 직원들이 다음 달에 와요."},
+      {"text": "I spent too much on lunch.", "ko": "점심에 너무 많이 썼어요."}]},
+    {"id": "d-qr-11", "prompt": "Why does the option pool come out of our share?", "promptKo": "왜 옵션 풀이 우리 몫에서 나가죠?", "answer": 0, "options": [
+      {"text": "Investors want it created before their money comes in.", "ko": "투자자가 투자금 전에 만들라고 해서요."},
+      {"text": "The pool is closed for cleaning.", "ko": "수영장은 청소 중이에요."},
+      {"text": "I'd like to share my lunch.", "ko": "점심을 나눠 먹고 싶어요."}]},
+    {"id": "d-qr-12", "prompt": "Should I split this function up?", "promptKo": "이 함수를 나눌까요?", "answer": 2, "options": [
+      {"text": "Let's split the bill.", "ko": "계산은 나누죠."},
+      {"text": "The function starts at seven.", "ko": "행사는 7시에 시작해요."},
+      {"text": "Yes, it'll make testing much easier.", "ko": "네, 테스트가 훨씬 쉬워질 거예요."}]},
+    {"id": "d-qr-13", "prompt": "What if the cache is stale?", "promptKo": "캐시가 오래된 값이면요?", "answer": 1, "options": [
+      {"text": "The bread is stale too.", "ko": "빵도 오래됐어요."},
+      {"text": "We check stock directly at checkout.", "ko": "결제 시 재고를 직접 확인해요."},
+      {"text": "Cash only, please.", "ko": "현금만 받아요."}]},
+    {"id": "d-qr-14", "prompt": "When did you click the link?", "promptKo": "링크를 언제 눌렀어요?", "answer": 0, "options": [
+      {"text": "About ten minutes ago.", "ko": "10분쯤 전에요."},
+      {"text": "I clicked with my friends.", "ko": "친구들이랑 잘 맞았어요."},
+      {"text": "The link is broken.", "ko": "링크가 깨졌어요."}]},
+    {"id": "d-qr-15", "prompt": "What's out of scope for version one?", "promptKo": "1버전에서 제외할 건 뭐죠?", "answer": 2, "options": [
+      {"text": "Version two is better.", "ko": "2버전이 더 나아요."},
+      {"text": "The scope is on the desk.", "ko": "망원경은 책상 위에 있어요."},
+      {"text": "Editing scheduled posts. That comes later.", "ko": "예약 게시물 수정이요. 그건 나중에 해요."}]},
+    {"id": "d-qr-16", "prompt": "Is the user's data in backups too?", "promptKo": "사용자 데이터가 백업에도 있나요?", "answer": 1, "options": [
+      {"text": "Back up a little, please.", "ko": "조금 뒤로 물러나 주세요."},
+      {"text": "Yes, and backups are overwritten every ninety days.", "ko": "네, 백업은 90일마다 덮어써져요."},
+      {"text": "The user is too.", "ko": "사용자도 그래요."}]},
+    {"id": "d-qr-17", "prompt": "How much time did the interruptions cost us?", "promptKo": "방해로 시간을 얼마나 잃었어요?", "answer": 0, "options": [
+      {"text": "About a third of the sprint.", "ko": "스프린트의 3분의 1쯤이요."},
+      {"text": "It cost twelve dollars.", "ko": "12달러였어요."},
+      {"text": "Sorry for interrupting.", "ko": "끼어들어서 죄송해요."}]},
+    {"id": "d-qr-18", "prompt": "How does the model do on non-English inputs?", "promptKo": "모델이 영어 외 입력에선 어때요?", "answer": 2, "options": [
+      {"text": "The model is very tall.", "ko": "그 모델은 키가 아주 커요."},
+      {"text": "I speak three languages.", "ko": "저는 3개 국어를 해요."},
+      {"text": "Slightly worse than the old one.", "ko": "예전 것보다 조금 못해요."}]},
+    {"id": "d-qr-19", "prompt": "What should I do if something spills on my skin?", "promptKo": "피부에 뭐가 묻으면 어떻게 해요?", "answer": 1, "options": [
+      {"text": "Spill the tea, then.", "ko": "그럼 다 말해 봐."},
+      {"text": "Use the emergency shower and rinse for fifteen minutes.", "ko": "비상 샤워기로 15분 씻어요."},
+      {"text": "Skin care is important.", "ko": "피부 관리는 중요해요."}]},
+    {"id": "d-qr-20", "prompt": "Reviewer two says the sample is too narrow.", "promptKo": "심사위원 2가 표본이 너무 좁대요.", "answer": 0, "options": [
+      {"text": "Fair point. Let's limit the claims in the abstract.", "ko": "일리 있어요. 초록의 주장을 좁히죠."},
+      {"text": "The sample was delicious.", "ko": "시식이 맛있었어요."},
+      {"text": "The road is too narrow.", "ko": "길이 너무 좁아요."}]},
+    {"id": "d-qr-21", "prompt": "How much inventory do we have on hand?", "promptKo": "현재 재고가 얼마나 있어요?", "answer": 2, "options": [
+      {"text": "I have two hands.", "ko": "손이 두 개예요."},
+      {"text": "We invented it last year.", "ko": "작년에 발명했어요."},
+      {"text": "About five weeks at the current rate.", "ko": "현재 속도로 5주쯤이요."}]},
+    {"id": "d-qr-22", "prompt": "What exactly is the discrepancy?", "promptKo": "정확히 어떤 불일치예요?", "answer": 1, "options": [
+      {"text": "It's a beautiful country.", "ko": "아름다운 나라예요."},
+      {"text": "The invoice says four hundred units, but the list says four twenty.", "ko": "송장은 400개인데 명세서는 420개예요."},
+      {"text": "I agree completely.", "ko": "전적으로 동의해요."}]},
+    {"id": "d-qr-23", "prompt": "Why not just go with the cheapest vendor?", "promptKo": "그냥 제일 싼 업체로 하면 안 돼요?", "answer": 0, "options": [
+      {"text": "Their total cost over three years is actually higher.", "ko": "3년 총비용은 오히려 더 높아요."},
+      {"text": "The vendor sells hot dogs.", "ko": "그 상인은 핫도그를 팔아요."},
+      {"text": "Cheap flights are available.", "ko": "저렴한 항공권이 있어요."}]},
+    {"id": "d-qr-24", "prompt": "Do we have evidence of bribes, or just unusual payments?", "promptKo": "뇌물 증거가 있어요, 아니면 이상한 지급 내역뿐이에요?", "answer": 2, "options": [
+      {"text": "We paid the bill.", "ko": "계산했어요."},
+      {"text": "It's unusual weather.", "ko": "이상한 날씨네요."},
+      {"text": "Bank records of payments, plus two sources on the purpose.", "ko": "지급 은행 기록과 목적에 대한 소식통 두 명이요."}]}
+  ],
+  "sets": [
+    {"id": "d-c-01", "type": "conversation", "titleKo": "[법률] 계약 위반",
+     "lines": [
+      {"speaker": 0, "text": "Our supplier delivered six weeks late, and we had to cancel a launch event because of it.", "ko": "공급 업체가 6주 늦게 납품해서 출시 행사를 취소해야 했어요."},
+      {"speaker": 1, "text": "Does the contract include a penalty for late delivery?", "ko": "계약서에 납기 지연 위약금이 있나요?"},
+      {"speaker": 0, "text": "Yes, one and a half percent of the order value per week, up to a maximum of ten percent.", "ko": "네, 주당 주문 금액의 1.5퍼센트, 최대 10퍼센트예요."},
+      {"speaker": 1, "text": "Then we'll send a formal notice of breach this week and claim the full ten percent before discussing other losses.", "ko": "그럼 이번 주에 공식 위반 통지를 보내고 다른 손실을 논의하기 전에 10퍼센트 전액을 청구하죠."}],
+     "questions": [
+      {"q": "How late was the delivery?", "qKo": "납품은 얼마나 늦었나요?", "answer": 2, "options": ["Two weeks", "Four weeks", "Six weeks", "Ten weeks"]},
+      {"q": "What is the weekly penalty?", "qKo": "주당 위약금은?", "answer": 0, "options": ["1.5 percent", "2 percent", "10 percent", "5 percent"]},
+      {"q": "What will the lawyer do first?", "qKo": "변호사가 먼저 할 일은?", "answer": 3, "options": ["File a lawsuit", "Call the supplier", "Cancel the contract", "Send a formal notice of breach"]}]},
+    {"id": "d-c-02", "type": "conversation", "titleKo": "[의료] 응급실",
+     "lines": [
+      {"speaker": 0, "text": "How long have you had the abdominal pain, and where exactly is it?", "ko": "복통이 얼마나 됐고 정확히 어디가 아파요?"},
+      {"speaker": 1, "text": "Since about midnight. It started around my belly button and moved to the lower right side.", "ko": "자정쯤부터요. 배꼽 주변에서 시작해서 오른쪽 아래로 옮겨 갔어요."},
+      {"speaker": 0, "text": "That pattern can suggest appendicitis. Have you had a fever or been sick?", "ko": "그 양상은 맹장염일 수 있어요. 열이 나거나 토했나요?"},
+      {"speaker": 1, "text": "A slight fever, and I threw up once around three a.m.", "ko": "열이 조금 있고 새벽 3시쯤 한 번 토했어요."}],
+     "questions": [
+      {"q": "When did the pain start?", "qKo": "통증은 언제 시작됐나요?", "answer": 1, "options": ["Yesterday morning", "Around midnight", "At three a.m.", "Last week"]},
+      {"q": "Where is the pain now?", "qKo": "지금 통증 위치는?", "answer": 3, "options": ["Upper left", "Around the belly button", "Lower back", "Lower right side"]},
+      {"q": "What condition does the nurse mention?", "qKo": "간호사가 언급한 질환은?", "answer": 0, "options": ["Appendicitis", "Food poisoning", "A kidney stone", "Flu"]}]},
+    {"id": "d-c-03", "type": "conversation", "titleKo": "[금융] 대출 상담",
+     "lines": [
+      {"speaker": 0, "text": "The five-year fixed rate is four point five percent. The variable is three point nine right now.", "ko": "5년 고정 금리는 4.5퍼센트, 변동은 지금 3.9퍼센트예요."},
+      {"speaker": 1, "text": "If rates rose by one point, how much more would we pay each month on the variable option?", "ko": "금리가 1포인트 오르면 변동 금리로는 매달 얼마를 더 내나요?"},
+      {"speaker": 0, "text": "On a loan of this size, roughly two hundred and twenty dollars more per month.", "ko": "이 규모 대출이면 한 달에 대략 220달러 더예요."},
+      {"speaker": 1, "text": "We couldn't absorb that comfortably, so we'll take the fixed rate for peace of mind.", "ko": "그건 편하게 감당 못 하니 안심하려고 고정 금리로 할게요."}],
+     "questions": [
+      {"q": "What is the current variable rate?", "qKo": "현재 변동 금리는?", "answer": 2, "options": ["4.5 percent", "4.2 percent", "3.9 percent", "3.5 percent"]},
+      {"q": "How much more would a one-point rise cost per month?", "qKo": "1포인트 오르면 월 얼마 더?", "answer": 0, "options": ["About $220", "About $100", "About $450", "About $50"]},
+      {"q": "What do they choose?", "qKo": "무엇을 선택하나요?", "answer": 1, "options": ["The variable rate", "The fixed rate", "No loan", "A shorter loan"]}]},
+    {"id": "d-c-04", "type": "conversation", "titleKo": "[IT] 보안 사고",
+     "lines": [
+      {"speaker": 0, "text": "I think I entered my password on a fake login page about fifteen minutes ago.", "ko": "15분쯤 전에 가짜 로그인 페이지에 비밀번호를 입력한 것 같아요."},
+      {"speaker": 1, "text": "Thank you for telling us so quickly. We're resetting your password and ending all your active sessions now.", "ko": "빨리 알려 줘서 고마워요. 지금 비밀번호를 초기화하고 모든 활성 세션을 종료할게요."},
+      {"speaker": 0, "text": "Do I need to do anything else?", "ko": "제가 더 할 일이 있나요?"},
+      {"speaker": 1, "text": "Forward us the email, and don't reuse that password anywhere else. We'll check your account for unusual activity.", "ko": "그 메일을 전달해 주시고 그 비밀번호는 다른 데서 재사용하지 마세요. 계정에 이상 활동이 있는지 확인할게요."}],
+     "questions": [
+      {"q": "When did the employee enter the password?", "qKo": "직원이 비밀번호를 입력한 시점은?", "answer": 3, "options": ["Yesterday", "An hour ago", "This morning", "About fifteen minutes ago"]},
+      {"q": "What is the security team doing now?", "qKo": "보안팀이 지금 하는 일은?", "answer": 1, "options": ["Replacing the laptop", "Resetting the password and ending sessions", "Calling the police", "Deleting the account"]},
+      {"q": "What should the employee do?", "qKo": "직원이 할 일은?", "answer": 0, "options": ["Forward the email", "Delete the email", "Change computers", "Go home"]}]},
+    {"id": "d-c-05", "type": "conversation", "titleKo": "[IT] AI 모델 출시",
+     "lines": [
+      {"speaker": 0, "text": "Overall accuracy went from eighty-nine to ninety-four percent. I think we're ready to launch.", "ko": "전체 정확도가 89에서 94퍼센트로 올랐어요. 출시 준비가 된 것 같아요."},
+      {"speaker": 1, "text": "Before we do, what does performance look like for smaller groups, like non-English speakers?", "ko": "하기 전에, 영어 비사용자 같은 소수 집단에서 성능은 어때요?"},
+      {"speaker": 0, "text": "Slightly worse than the current model, about two points lower.", "ko": "현재 모델보다 조금 나빠요. 2포인트쯤 낮아요."},
+      {"speaker": 1, "text": "Then let's launch in English-speaking markets first and fix that gap before going global.", "ko": "그럼 영어권 시장부터 출시하고 전 세계로 가기 전에 그 격차를 고치죠."}],
+     "questions": [
+      {"q": "What is the new overall accuracy?", "qKo": "새 전체 정확도는?", "answer": 2, "options": ["89 percent", "92 percent", "94 percent", "98 percent"]},
+      {"q": "Which group performs worse?", "qKo": "성능이 더 나쁜 집단은?", "answer": 0, "options": ["Non-English speakers", "Older users", "Mobile users", "New users"]},
+      {"q": "What is the launch plan?", "qKo": "출시 계획은?", "answer": 3, "options": ["Launch everywhere now", "Cancel the launch", "Wait a year", "Launch in English-speaking markets first"]}]},
+    {"id": "d-c-06", "type": "conversation", "titleKo": "[운영] 공급 지연",
+     "lines": [
+      {"speaker": 0, "text": "Our chip supplier has delayed shipments by eight weeks after a fire at their factory.", "ko": "칩 공급 업체가 공장 화재로 출하를 8주 미뤘어요."},
+      {"speaker": 1, "text": "How long will our current stock last?", "ko": "현재 재고로 얼마나 버틸 수 있어요?"},
+      {"speaker": 0, "text": "About five weeks, so there's a three-week gap we need to cover.", "ko": "5주쯤이라 메워야 할 공백이 3주예요."},
+      {"speaker": 1, "text": "Start approving the backup supplier today, and focus production on our most profitable models.", "ko": "오늘부터 예비 공급 업체 승인을 시작하고 가장 수익성 높은 모델에 생산을 집중하세요."}],
+     "questions": [
+      {"q": "Why are shipments delayed?", "qKo": "출하가 지연된 이유는?", "answer": 1, "options": ["A strike", "A factory fire", "Bad weather", "A shortage of trucks"]},
+      {"q": "How long is the gap?", "qKo": "공백 기간은?", "answer": 0, "options": ["Three weeks", "Five weeks", "Eight weeks", "One week"]},
+      {"q": "Which products get priority?", "qKo": "우선 생산할 제품은?", "answer": 2, "options": ["The cheapest models", "New models", "The most profitable models", "The oldest models"]}]},
+    {"id": "d-c-07", "type": "conversation", "titleKo": "[연구] 임상시험",
+     "lines": [
+      {"speaker": 0, "text": "If patients choose their own treatment, the healthier ones may pick the new drug and skew the results.", "ko": "환자가 직접 치료를 고르면 더 건강한 사람이 신약을 골라 결과를 왜곡할 수 있어요."},
+      {"speaker": 1, "text": "So we randomize, and make it double-blind so neither doctors nor patients know who gets what.", "ko": "그래서 무작위 배정하고 이중맹검으로 해서 의사도 환자도 누가 뭘 받는지 모르게 하죠."},
+      {"speaker": 0, "text": "And we fix the primary outcome now, before any data comes in.", "ko": "그리고 데이터가 들어오기 전에 1차 결과 지표를 지금 정해 두죠."},
+      {"speaker": 1, "text": "Readmission within ninety days. It's objective, and it's what patients actually care about.", "ko": "90일 내 재입원이요. 객관적이고 환자가 실제로 신경 쓰는 거예요."}],
+     "questions": [
+      {"q": "What problem are they trying to avoid?", "qKo": "피하려는 문제는?", "answer": 3, "options": ["High costs", "Slow recruitment", "Side effects", "Healthier patients choosing the new drug"]},
+      {"q": "What does double-blind mean here?", "qKo": "여기서 이중맹검의 의미는?", "answer": 1, "options": ["Two drugs are tested", "Neither doctors nor patients know the treatment", "Patients wear eye masks", "Two hospitals take part"]},
+      {"q": "What is the primary outcome?", "qKo": "1차 결과 지표는?", "answer": 0, "options": ["Readmission within 90 days", "Patient satisfaction", "Cost of treatment", "Length of surgery"]}]},
+    {"id": "d-c-08", "type": "conversation", "titleKo": "[운영] 통관",
+     "lines": [
+      {"speaker": 0, "text": "Customs is holding your shipment because the invoice and the packing list don't match.", "ko": "송장과 포장 명세서가 맞지 않아 세관이 화물을 보류하고 있어요."},
+      {"speaker": 1, "text": "What's the difference between them?", "ko": "둘 사이에 차이가 뭐예요?"},
+      {"speaker": 0, "text": "The invoice lists four hundred units, but the packing list says four hundred and twenty.", "ko": "송장에는 400개, 포장 명세서에는 420개로 돼 있어요."},
+      {"speaker": 1, "text": "The extra twenty are free samples. I'll send a corrected invoice showing them at zero value within an hour.", "ko": "추가 20개는 무료 샘플이에요. 한 시간 안에 0원으로 표시한 수정 송장을 보낼게요."}],
+     "questions": [
+      {"q": "Why is the shipment being held?", "qKo": "화물이 보류된 이유는?", "answer": 2, "options": ["Unpaid taxes", "Damaged boxes", "The documents don't match", "Missing labels"]},
+      {"q": "How many units are on the packing list?", "qKo": "포장 명세서상 수량은?", "answer": 0, "options": ["420", "400", "20", "440"]},
+      {"q": "What are the extra units?", "qKo": "추가 수량의 정체는?", "answer": 1, "options": ["Spare parts", "Free samples", "Returns", "A mistake"]}]},
+    {"id": "d-t-01", "type": "talk", "titleKo": "[의료] 수술 전 설명",
+     "lines": [
+      {"speaker": 0, "text": "Tomorrow's procedure will be done through three small incisions, and most patients go home the same evening.", "ko": "내일 수술은 작은 절개 세 곳으로 하고 대부분 당일 저녁에 퇴원해요."},
+      {"speaker": 0, "text": "Please don't eat anything after midnight, although you may drink water until six a.m.", "ko": "자정 이후엔 아무것도 드시지 마세요. 다만 물은 오전 6시까지 드셔도 돼요."},
+      {"speaker": 0, "text": "You'll need someone to drive you home, as you won't be allowed to drive for twenty-four hours.", "ko": "24시간 동안 운전이 금지되니 집까지 데려다줄 사람이 필요해요."}],
+     "questions": [
+      {"q": "How many incisions will there be?", "qKo": "절개는 몇 군데인가요?", "answer": 1, "options": ["One", "Three", "Five", "Six"]},
+      {"q": "Until when can the patient drink water?", "qKo": "물은 언제까지 마실 수 있나요?", "answer": 3, "options": ["Midnight", "Eight a.m.", "Noon", "Six a.m."]},
+      {"q": "Why does the patient need someone to drive?", "qKo": "운전해 줄 사람이 필요한 이유는?", "answer": 0, "options": ["Driving isn't allowed for 24 hours", "The hospital is far away", "Parking is expensive", "The surgery is at night"]}]},
+    {"id": "d-t-02", "type": "talk", "titleKo": "[금융] 실적 발표",
+     "lines": [
+      {"speaker": 0, "text": "Revenue for the quarter rose eleven percent to two point four billion dollars, ahead of guidance.", "ko": "분기 매출은 11퍼센트 늘어 24억 달러로 가이던스를 웃돌았습니다."},
+      {"speaker": 0, "text": "Gross margin declined two points, mainly due to freight costs and a one-time inventory write-down in Europe.", "ko": "매출총이익률은 주로 운임과 유럽의 일회성 재고 평가 손실 때문에 2포인트 하락했습니다."},
+      {"speaker": 0, "text": "With new shipping contracts in place, we expect margins to recover by the fourth quarter.", "ko": "새 운송 계약이 체결되어 4분기까지 마진이 회복될 것으로 예상합니다."}],
+     "questions": [
+      {"q": "How much did revenue grow?", "qKo": "매출은 얼마나 늘었나요?", "answer": 2, "options": ["Two percent", "Four percent", "Eleven percent", "Twenty-four percent"]},
+      {"q": "What was one reason for lower margins?", "qKo": "마진 하락의 이유 중 하나는?", "answer": 1, "options": ["Higher salaries", "Freight costs", "Lower prices", "New taxes"]},
+      {"q": "When should margins recover?", "qKo": "마진은 언제 회복되나요?", "answer": 0, "options": ["By the fourth quarter", "Next month", "In two years", "Never"]}]},
+    {"id": "d-t-03", "type": "talk", "titleKo": "[연구] 실험실 안전",
+     "lines": [
+      {"speaker": 0, "text": "Welcome to the lab. Safety goggles and lab coats are required at all times, with no exceptions.", "ko": "실험실에 오신 걸 환영해요. 보안경과 실험복은 예외 없이 항상 착용해야 합니다."},
+      {"speaker": 0, "text": "Volatile chemicals must only be handled inside the fume hoods, and no one may work alone after six p.m.", "ko": "휘발성 화학물질은 흄 후드 안에서만 다루고, 오후 6시 이후엔 누구도 혼자 작업할 수 없어요."},
+      {"speaker": 0, "text": "If anything touches your skin, use the emergency shower for fifteen minutes and report it immediately.", "ko": "피부에 무엇이 닿으면 비상 샤워기를 15분 사용하고 즉시 보고하세요."}],
+     "questions": [
+      {"q": "When must goggles be worn?", "qKo": "보안경은 언제 써야 하나요?", "answer": 3, "options": ["Only with chemicals", "Only after six", "Only near the fume hood", "At all times"]},
+      {"q": "What is not allowed after six p.m.?", "qKo": "오후 6시 이후 금지된 것은?", "answer": 0, "options": ["Working alone", "Using the fume hood", "Eating", "Leaving the lab"]},
+      {"q": "How long should you use the emergency shower?", "qKo": "비상 샤워기는 얼마나 써야 하나요?", "answer": 2, "options": ["Five minutes", "Ten minutes", "Fifteen minutes", "Thirty minutes"]}]},
+    {"id": "d-t-04", "type": "talk", "titleKo": "[IT] 장애 보고",
+     "lines": [
+      {"speaker": 0, "text": "Yesterday's outage lasted fifty-two minutes and affected about twelve percent of users in North America.", "ko": "어제 장애는 52분간 지속됐고 북미 사용자의 약 12퍼센트에 영향을 줬습니다."},
+      {"speaker": 0, "text": "The root cause was an expired security certificate that our monitoring failed to flag in advance.", "ko": "근본 원인은 모니터링이 미리 알리지 못한 만료된 보안 인증서였습니다."},
+      {"speaker": 0, "text": "We've now added automatic alerts thirty days before any certificate expires.", "ko": "이제 모든 인증서 만료 30일 전에 자동 알림을 추가했습니다."}],
+     "questions": [
+      {"q": "How long did the outage last?", "qKo": "장애는 얼마나 지속됐나요?", "answer": 1, "options": ["Twelve minutes", "Fifty-two minutes", "Two hours", "Thirty minutes"]},
+      {"q": "What caused it?", "qKo": "원인은?", "answer": 2, "options": ["A power cut", "A cyber attack", "An expired certificate", "A bad update"]},
+      {"q": "What has been added?", "qKo": "무엇이 추가됐나요?", "answer": 0, "options": ["Alerts 30 days before expiry", "A new data center", "More engineers", "Daily backups"]}]},
+    {"id": "d-t-05", "type": "talk", "titleKo": "[운영] 개인정보 정책 안내",
+     "lines": [
+      {"speaker": 0, "text": "Starting next month, we'll delete inactive customer accounts after three years without a login.", "ko": "다음 달부터 3년간 로그인이 없는 휴면 고객 계정을 삭제합니다."},
+      {"speaker": 0, "text": "Customers will receive two email reminders, at sixty days and at seven days before deletion.", "ko": "고객은 삭제 60일 전과 7일 전 두 번 이메일 알림을 받게 됩니다."},
+      {"speaker": 0, "text": "This reduces our security risk and keeps us in line with data minimization rules.", "ko": "이를 통해 보안 위험을 줄이고 최소 수집 원칙을 지킬 수 있습니다."}],
+     "questions": [
+      {"q": "When will inactive accounts be deleted?", "qKo": "휴면 계정은 언제 삭제되나요?", "answer": 3, "options": ["After one year", "After six months", "After five years", "After three years"]},
+      {"q": "When are the reminders sent?", "qKo": "알림은 언제 보내나요?", "answer": 1, "options": ["30 and 3 days before", "60 and 7 days before", "90 and 30 days before", "Only once"]},
+      {"q": "What is one reason for the policy?", "qKo": "정책의 이유 중 하나는?", "answer": 0, "options": ["Reducing security risk", "Saving electricity", "Selling data", "Hiring fewer staff"]}]},
+    {"id": "d-t-06", "type": "talk", "titleKo": "[법률] 계약 조항 요약",
+     "lines": [
+      {"speaker": 0, "text": "To summarize the key changes in the revised lease, the landlord now remains responsible for the roof and the building's structure.", "ko": "수정 임대차 계약의 주요 변경을 요약하면, 지붕과 건물 구조는 이제 임대인 책임으로 남습니다."},
+      {"speaker": 0, "text": "You'll have three months rent-free to complete the renovation before opening.", "ko": "개업 전 인테리어를 마칠 수 있도록 석 달간 임대료가 면제됩니다."},
+      {"speaker": 0, "text": "There's also a break clause allowing you to leave after two years with six months' notice.", "ko": "또 6개월 전 통보로 2년 후 나갈 수 있는 중도 해지 조항도 있습니다."}],
+     "questions": [
+      {"q": "Who is now responsible for the roof?", "qKo": "지붕은 누구 책임인가요?", "answer": 2, "options": ["The tenant", "Both equally", "The landlord", "An insurer"]},
+      {"q": "How long is the rent-free period?", "qKo": "임대료 면제 기간은?", "answer": 0, "options": ["Three months", "Six months", "One month", "Two years"]},
+      {"q": "When can the tenant use the break clause?", "qKo": "중도 해지는 언제 가능한가요?", "answer": 1, "options": ["Any time", "After two years", "After six months", "Never"]}]},
+    {"id": "d-t-07", "type": "talk", "titleKo": "[연구] 학회 발표 요약",
+     "lines": [
+      {"speaker": 0, "text": "Our method predicts machine failures up to two days in advance using vibration data from factory sensors.", "ko": "저희 방법은 공장 센서의 진동 데이터로 기계 고장을 최대 이틀 전에 예측합니다."},
+      {"speaker": 0, "text": "In controlled tests, it identified ninety-one percent of failures with few false alarms.", "ko": "통제된 테스트에서 오경보가 적은 상태로 고장의 91퍼센트를 식별했습니다."},
+      {"speaker": 0, "text": "However, with cheaper, noisier sensors, accuracy dropped significantly, which is the focus of our next study.", "ko": "다만 더 저렴하고 노이즈가 많은 센서에선 정확도가 크게 떨어졌고, 그게 다음 연구의 초점입니다."}],
+     "questions": [
+      {"q": "How far in advance can failures be predicted?", "qKo": "고장을 얼마나 미리 예측하나요?", "answer": 1, "options": ["Two hours", "Two days", "Two weeks", "One month"]},
+      {"q": "What percentage of failures were identified?", "qKo": "고장의 몇 퍼센트를 식별했나요?", "answer": 3, "options": ["Fifty-one", "Seventy", "Eighty-one", "Ninety-one"]},
+      {"q": "What is the main limitation?", "qKo": "주요 한계는?", "answer": 0, "options": ["Cheaper, noisier sensors", "High cost", "Slow processing", "Too few factories"]}]},
+    {"id": "d-t-08", "type": "talk", "titleKo": "[운영] 사용자 조사 결과",
+     "lines": [
+      {"speaker": 0, "text": "We interviewed twelve customers who abandoned checkout in the past month.", "ko": "지난달 결제를 중단한 고객 열두 명을 인터뷰했습니다."},
+      {"speaker": 0, "text": "Most weren't worried about price. They weren't sure whether their payment had gone through, and some were charged twice.", "ko": "대부분은 가격을 걱정하지 않았어요. 결제가 됐는지 확신이 없었고 일부는 두 번 청구됐습니다."},
+      {"speaker": 0, "text": "We recommend a clear confirmation screen and an email receipt within one minute of payment.", "ko": "명확한 확인 화면과 결제 후 1분 이내 이메일 영수증을 권장합니다."}],
+     "questions": [
+      {"q": "How many customers were interviewed?", "qKo": "몇 명을 인터뷰했나요?", "answer": 2, "options": ["Two", "Twenty", "Twelve", "Forty"]},
+      {"q": "What was the main problem?", "qKo": "주요 문제는?", "answer": 0, "options": ["Not knowing if payment went through", "High prices", "Slow delivery", "Too many ads"]},
+      {"q": "What is recommended?", "qKo": "권장 사항은?", "answer": 1, "options": ["Lower prices", "A confirmation screen and quick email receipt", "A new payment provider", "Free shipping"]}]}
+  ]
+}

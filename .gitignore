@@ -20,3 +20,10 @@ key/
 # firestore.rules.example is the template to copy.
 app/google-services.json
 firestore.rules
+
+# Signing keys and any local secrets
+*.jks
+*.keystore
+keystore.properties
+.env
+.env.*

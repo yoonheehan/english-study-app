@@ -151,8 +151,8 @@ interface WordDao {
     fun priorityCount(): Flow<Int>
 
     /** Words added from one source (a story id or a web address), to highlight them while reading. */
-    @Query("SELECT * FROM word WHERE deleted = 0 AND sourceUrl = :sourceUrl")
-    fun bySource(sourceUrl: String): Flow<List<WordEntity>>
+    @Query("SELECT * FROM word WHERE deleted = 0 AND sourceUrl IN (:sources)")
+    fun bySource(sources: List<String>): Flow<List<WordEntity>>
 
 
     @Query("SELECT * FROM word WHERE deleted = 0 AND reviewStage > 0 AND nextReviewAt <= :dueBefore ORDER BY nextReviewAt LIMIT :limit")
@@ -247,7 +247,7 @@ class WordRepository(private val dao: WordDao) {
 
     fun priorityCount(): Flow<Int> = dao.priorityCount()
 
-    fun bySource(sourceUrl: String): Flow<List<WordEntity>> = dao.bySource(sourceUrl)
+    fun bySource(vararg sources: String): Flow<List<WordEntity>> = dao.bySource(sources.toList())
 
     sealed interface AddResult {
         data class Added(val word: WordEntity) : AddResult

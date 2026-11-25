@@ -6,6 +6,9 @@
 "year": 1812,
 "level": "EASY",
 "words": 1138,
+"chapters": [
+{
+"title": "1장",
 "blocks": [
 {
 "t": "p",
@@ -34,7 +37,12 @@
 {
 "t": "p",
 "x": "till, long before morning, all was done again."
+}
+]
 },
+{
+"title": "2장",
+"blocks": [
 {
 "t": "p",
 "x": "The king was greatly delighted to see all this glittering treasure; but still he had not enough: so he took the miller’s daughter to a yet larger heap, and said, ‘All this must be spun tonight; and if it is, you shall be my queen.’ As soon as she was alone that dwarf came in, and said, ‘What will you give me to spin gold for you this third time?’ ‘I have nothing left,’ said she. ‘Then say you will give me,’ said the little man, ‘the first little child that you may have when you are queen.’ ‘That may never be,’ thought the miller’s daughter: and as she knew no other way to get her task done, she said she would do what he asked. Round went the wheel again to the old song, and the manikin once more spun the heap into gold. The king came in the morning, and, finding all he wanted, was forced to keep his word; so he married the miller’s daughter, and she really became queen."
@@ -66,6 +74,8 @@
 {
 "t": "p",
 "x": "Then he made the best of his way off, while the nurse laughed and the baby crowed; and all the court jeered at him for having had so much trouble for nothing, and said, ‘We wish you a very good morning, and a merry feast, Mr RUMPLESTILTSKIN!’"
+}
+]
 }
 ]
 }

@@ -39,6 +39,7 @@ class SpeakDailyApp : Application() {
     val speech by lazy { SpeechInput(this) }
     val stories by lazy { com.grayman.englishstudy.data.StoryLibrary(this) }
     val videos by lazy { com.grayman.englishstudy.data.video.YouTubeCaptions(this) }
+    val videoSearch by lazy { com.grayman.englishstudy.data.video.YouTubeSearch() }
 
     /** Lives as long as the process, for work that must outlast any one screen. */
     val appScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)

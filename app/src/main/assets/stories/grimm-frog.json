@@ -6,6 +6,9 @@
 "year": 1812,
 "level": "EASY",
 "words": 1192,
+"chapters": [
+{
+"title": "1장",
 "blocks": [
 {
 "t": "p",
@@ -22,7 +25,12 @@
 {
 "t": "p",
 "x": "‘Open the door, my princess dear, Open the door to thy true love here! And mind the words that thou and I said By the fountain cool, in the greenwood shade.’"
+}
+]
 },
+{
+"title": "2장",
+"blocks": [
 {
 "t": "p",
 "x": "Then the princess ran to the door and opened it, and there she saw the frog, whom she had quite forgotten. At this sight she was sadly frightened, and shutting the door as fast as she could came back to her seat. The king, her father, seeing that something had frightened her, asked her what was the matter. ‘There is a nasty frog,’ said she, ‘at the door, that lifted my ball for me out of the spring this morning: I told him that he should live with me here, thinking that he could never get out of the spring; but there he is at the door, and he wants to come in.’"
@@ -62,6 +70,8 @@
 {
 "t": "p",
 "x": "They then took leave of the king, and got into the coach with eight horses, and all set out, full of joy and merriment, for the prince’s kingdom, which they reached safely; and there they lived happily a great many years."
+}
+]
 }
 ]
 }

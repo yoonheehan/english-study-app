@@ -1,0 +1,241 @@
+{
+"id": "aesop",
+"title": "Aesop's Fables",
+"titleKo": "이솝 우화",
+"author": "Aesop (tr. G. F. Townsend)",
+"year": 1867,
+"level": "EASY",
+"words": 2517,
+"chapters": [
+{
+"title": "양치기 소년과 늑대 · The Shepherd’s Boy and the Wolf",
+"blocks": [
+{
+"t": "p",
+"x": "A shepherd-boy, who watched a flock of sheep near a village, brought out the villagers three or four times by crying out, “Wolf! Wolf!” and when his neighbors came to help him, laughed at them for their pains. The Wolf, however, did truly come at last. The Shepherd-boy, now really alarmed, shouted in an agony of terror: “Pray, do come and help me; the Wolf is killing the sheep;” but no one paid any heed to his cries, nor rendered any assistance. The Wolf, having no cause of fear, at his leisure lacerated or destroyed the whole flock."
+},
+{
+"t": "p",
+"x": "There is no believing a liar, even when he speaks the truth."
+}
+]
+},
+{
+"title": "여우와 포도 · The Fox and the Grapes",
+"blocks": [
+{
+"t": "p",
+"x": "A famished fox saw some clusters of ripe black grapes hanging from a trellised vine. She resorted to all her tricks to get at them, but wearied herself in vain, for she could not reach them. At last she turned away, hiding her disappointment and saying: “The Grapes are sour, and not ripe as I thought.”"
+}
+]
+},
+{
+"title": "양의 탈을 쓴 늑대 · The Wolf in Sheep’s Clothing",
+"blocks": [
+{
+"t": "p",
+"x": "Once upon A time a Wolf resolved to disguise his appearance in order to secure food more easily. Encased in the skin of a sheep, he pastured with the flock deceiving the shepherd by his costume. In the evening he was shut up by the shepherd in the fold; the gate was closed, and the entrance made thoroughly secure. But the shepherd, returning to the fold during the night to obtain meat for the next day, mistakenly caught up the Wolf instead of a sheep, and killed him instantly."
+},
+{
+"t": "p",
+"x": "Harm seek, harm find."
+}
+]
+},
+{
+"title": "토끼와 거북 · The Hare and the Tortoise",
+"blocks": [
+{
+"t": "p",
+"x": "A hare one day ridiculed the short feet and slow pace of the Tortoise, who replied, laughing: “Though you be swift as the wind, I will beat you in a race.” The Hare, believing her assertion to be simply impossible, assented to the proposal; and they agreed that the Fox should choose the course and fix the goal. On the day appointed for the race the two started together. The Tortoise never for a moment stopped, but went on with a slow but steady pace straight to the end of the course. The Hare, lying down by the wayside, fell fast asleep. At last waking up, and moving as fast as he could, he saw the Tortoise had reached the goal, and was comfortably dozing after her fatigue."
+},
+{
+"t": "p",
+"x": "Slow but steady wins the race."
+}
+]
+},
+{
+"title": "개미와 베짱이 · The Ants and the Grasshopper",
+"blocks": [
+{
+"t": "p",
+"x": "The ants were spending a fine winter’s day drying grain collected in the summertime. A Grasshopper, perishing with famine, passed by and earnestly begged for a little food. The Ants inquired of him, “Why did you not treasure up food during the summer?” He replied, “I had not leisure enough. I passed the days in singing.” They then said in derision: “If you were foolish enough to sing all the summer, you must dance supperless to bed in the winter.”"
+}
+]
+},
+{
+"title": "북풍과 해님 · The North Wind and the Sun",
+"blocks": [
+{
+"t": "p",
+"x": "The north wind and the Sun disputed as to which was the most powerful, and agreed that he should be declared the victor who could first strip a wayfaring man of his clothes. The North Wind first tried his power and blew with all his might, but the keener his blasts, the closer the Traveler wrapped his cloak around him, until at last, resigning all hope of victory, the Wind called upon the Sun to see what he could do. The Sun suddenly shone out with all his warmth. The Traveler no sooner felt his genial rays than he took off one garment after another, and at last, fairly overcome with heat, undressed and bathed in a stream that lay in his path."
+},
+{
+"t": "p",
+"x": "Persuasion is better than Force."
+}
+]
+},
+{
+"title": "개와 그림자 · The Dog and the Shadow",
+"blocks": [
+{
+"t": "p",
+"x": "A dog, crossing a bridge over a stream with a piece of flesh in his mouth, saw his own shadow in the water and took it for that of another Dog, with a piece of meat double his own in size. He immediately let go of his own, and fiercely attacked the other Dog to get his larger piece from him. He thus lost both: that which he grasped at in the water, because it was a shadow; and his own, because the stream swept it away."
+}
+]
+},
+{
+"title": "도시 쥐와 시골 쥐 · The Town Mouse and the Country Mouse",
+"blocks": [
+{
+"t": "p",
+"x": "A country mouse invited a Town Mouse, an intimate friend, to pay him a visit and partake of his country fare. As they were on the bare plowlands, eating there wheat-stocks and roots pulled up from the hedgerow, the Town Mouse said to his friend, “You live here the life of the ants, while in my house is the horn of plenty. I am surrounded by every luxury, and if you will come with me, as I wish you would, you shall have an ample share of my dainties.” The Country Mouse was easily persuaded, and returned to town with his friend. On his arrival, the Town Mouse placed before him bread, barley, beans, dried figs, honey, raisins, and, last of all, brought a dainty piece of cheese from a basket. The Country Mouse, being much delighted at the sight of such good cheer, expressed his satisfaction in warm terms and lamented his own hard fate. Just as they were beginning to eat, someone opened the door, and they both ran off squeaking, as fast as they could, to a hole so narrow that two could only find room in it by squeezing. They had scarcely begun their repast again when someone else entered to take something out of a cupboard, whereupon the two Mice, more frightened than before, ran away and hid themselves. At last the Country Mouse, almost famished, said to his friend: “Although you have prepared for me so dainty a feast, I must leave you to enjoy it by yourself. It is surrounded by too many dangers to please me. I prefer my bare plowlands and roots from the hedgerow, where I can live in safety, and without fear.”"
+}
+]
+},
+{
+"title": "까마귀와 물병 · The Crow and the Pitcher",
+"blocks": [
+{
+"t": "p",
+"x": "A crow perishing with thirst saw a pitcher, and hoping to find water, flew to it with delight. When he reached it, he discovered to his grief that it contained so little water that he could not possibly get at it. He tried everything he could think of to reach the water, but all his efforts were in vain. At last he collected as many stones as he could carry and dropped them one by one with his beak into the pitcher, until he brought the water within his reach and thus saved his life."
+},
+{
+"t": "p",
+"x": "Necessity is the mother of invention."
+}
+]
+},
+{
+"title": "쥐들의 회의 · The Mice in Council",
+"blocks": [
+{
+"t": "p",
+"x": "The mice summoned a council to decide how they might best devise means of warning themselves of the approach of their great enemy the Cat. Among the many plans suggested, the one that found most favour was the proposal to tie a bell to the neck of the Cat, so that the Mice, being warned by the sound of the tinkling, might run away and hide themselves in their holes at his approach. But when the Mice further debated who among them should thus “bell the Cat,” there was no one found to do it."
+}
+]
+},
+{
+"title": "황금알을 낳는 닭 · The Hen and the Golden Eggs",
+"blocks": [
+{
+"t": "p",
+"x": "A cottager and his wife had a Hen that laid a golden egg every day. They supposed that the Hen must contain a great lump of gold in its inside, and in order to get the gold they killed it. Having done so, they found to their surprise that the Hen differed in no respect from their other hens. The foolish pair, thus hoping to become rich all at once, deprived themselves of the gain of which they were assured day by day."
+}
+]
+},
+{
+"title": "여우와 까마귀 · The Fox and the Crow",
+"blocks": [
+{
+"t": "p",
+"x": "A crow having stolen a bit of meat, perched in a tree and held it in her beak. A Fox, seeing this, longed to possess the meat himself, and by a wily stratagem succeeded. “How handsome is the Crow,” he exclaimed, “in the beauty of her shape and in the fairness of her complexion! Oh, if her voice were only equal to her beauty, she would deservedly be considered the Queen of Birds!” This he said deceitfully; but the Crow, anxious to refute the reflection cast upon her voice, set up a loud caw and dropped the flesh. The Fox quickly picked it up, and thus addressed the Crow: “My good Crow, your voice is right enough, but your wit is wanting.”"
+}
+]
+},
+{
+"title": "소년과 개암 열매 · The Boy and the Filberts",
+"blocks": [
+{
+"t": "p",
+"x": "A boy put his hand into a pitcher full of filberts. He grasped as many as he could possibly hold, but when he tried to pull out his hand, he was prevented from doing so by the neck of the pitcher. Unwilling to lose his filberts, and yet unable to withdraw his hand, he burst into tears and bitterly lamented his disappointment. A bystander said to him, “Be satisfied with half the quantity, and you will readily draw out your hand.”"
+},
+{
+"t": "p",
+"x": "Do not attempt too much at once."
+}
+]
+},
+{
+"title": "농부와 아들들 · The Farmer and His Sons",
+"blocks": [
+{
+"t": "p",
+"x": "A father, being on the point of death, wished to be sure that his sons would give the same attention to his farm as he himself had given it. He called them to his bedside and said, “My sons, there is a great treasure hid in one of my vineyards.” The sons, after his death, took their spades and mattocks and carefully dug over every portion of their land. They found no treasure, but the vines repaid their labor by an extraordinary and superabundant crop."
+}
+]
+},
+{
+"title": "구두쇠 · The Miser",
+"blocks": [
+{
+"t": "p",
+"x": "A miser sold all that he had and bought a lump of gold, which he buried in a hole in the ground by the side of an old wall and went to look at daily. One of his workmen observed his frequent visits to the spot and decided to watch his movements. He soon discovered the secret of the hidden treasure, and digging down, came to the lump of gold, and stole it. The Miser, on his next visit, found the hole empty and began to tear his hair and to make loud lamentations. A neighbor, seeing him overcome with grief and learning the cause, said, “Pray do not grieve so; but go and take a stone, and place it in the hole, and fancy that the gold is still lying there. It will do you quite the same service; for when the gold was there, you had it not, as you did not make the slightest use of it.”"
+}
+]
+},
+{
+"title": "사랑에 빠진 사자 · The Lion in Love",
+"blocks": [
+{
+"t": "p",
+"x": "A lion demanded the daughter of a woodcutter in marriage. The Father, unwilling to grant, and yet afraid to refuse his request, hit upon this expedient to rid himself of his importunities. He expressed his willingness to accept the Lion as the suitor of his daughter on one condition: that he should allow him to extract his teeth, and cut off his claws, as his daughter was fearfully afraid of both. The Lion cheerfully assented to the proposal. But when the toothless, clawless Lion returned to repeat his request, the Woodman, no longer afraid, set upon him with his club, and drove him away into the forest."
+}
+]
+},
+{
+"title": "왕을 원한 개구리들 · The Frogs Asking for a King",
+"blocks": [
+{
+"t": "p",
+"x": "The frogs, grieved at having no established Ruler, sent ambassadors to Jupiter entreating for a King. Perceiving their simplicity, he cast down a huge log into the lake. The Frogs were terrified at the splash occasioned by its fall and hid themselves in the depths of the pool. But as soon as they realized that the huge log was motionless, they swam again to the top of the water, dismissed their fears, climbed up, and began squatting on it in contempt. After some time they began to think themselves ill-treated in the appointment of so inert a Ruler, and sent a second deputation to Jupiter to pray that he would set over them another sovereign. He then gave them an Eel to govern them. When the Frogs discovered his easy good nature, they sent yet a third time to Jupiter to beg him to choose for them still another King. Jupiter, displeased with all their complaints, sent a Heron, who preyed upon the Frogs day by day till there were none left to croak upon the lake."
+}
+]
+},
+{
+"title": "소년과 쐐기풀 · The Boy and the Nettles",
+"blocks": [
+{
+"t": "p",
+"x": "A boy was stung by a Nettle. He ran home and told his Mother, saying, “Although it hurts me very much, I only touched it gently.” “That was just why it stung you,” said his Mother. “The next time you touch a Nettle, grasp it boldly, and it will be soft as silk to your hand, and not in the least hurt you.”"
+},
+{
+"t": "p",
+"x": "Whatever you do, do with all your might."
+}
+]
+},
+{
+"title": "소금 장수와 당나귀 · The Salt Merchant and His Ass",
+"blocks": [
+{
+"t": "p",
+"x": "A peddler drove his Ass to the seashore to buy salt. His road home lay across a stream into which his Ass, making a false step, fell by accident and rose up again with his load considerably lighter, as the water melted the sack. The Peddler retraced his steps and refilled his panniers with a larger quantity of salt than before. When he came again to the stream, the Ass fell down on purpose in the same spot, and, regaining his feet with the weight of his load much diminished, brayed triumphantly as if he had obtained what he desired. The Peddler saw through his trick and drove him for the third time to the coast, where he bought a cargo of sponges instead of salt. The Ass, again playing the fool, fell down on purpose when he reached the stream, but the sponges became swollen with water, greatly increasing his load. And thus his trick recoiled on him, for he now carried on his back a double burden."
+}
+]
+},
+{
+"title": "허영심 많은 갈까마귀 · The Vain Jackdaw",
+"blocks": [
+{
+"t": "p",
+"x": "Jupiter determined, it is said, to create a sovereign over the birds, and made proclamation that on a certain day they should all present themselves before him, when he would himself choose the most beautiful among them to be king. The Jackdaw, knowing his own ugliness, searched through the woods and fields, and collected the feathers which had fallen from the wings of his companions, and stuck them in all parts of his body, hoping thereby to make himself the most beautiful of all. When the appointed day arrived, and the birds had assembled before Jupiter, the Jackdaw also made his appearance in his many feathered finery. But when Jupiter proposed to make him king because of the beauty of his plumage, the birds indignantly protested, and each plucked from him his own feathers, leaving the Jackdaw nothing but a Jackdaw."
+}
+]
+},
+{
+"title": "노인과 죽음 · The Old Man and Death",
+"blocks": [
+{
+"t": "p",
+"x": "An old man was employed in cutting wood in the forest, and, in carrying the faggots to the city for sale one day, became very wearied with his long journey. He sat down by the wayside, and throwing down his load, besought “Death” to come. “Death” immediately appeared in answer to his summons and asked for what reason he had called him. The Old Man hurriedly replied, “That, lifting up the load, you may place it again upon my shoulders.”"
+}
+]
+},
+{
+"title": "두 항아리 · The Two Pots",
+"blocks": [
+{
+"t": "p",
+"x": "A river carried down in its stream two Pots, one made of earthenware and the other of brass. The Earthen Pot said to the Brass Pot, “Pray keep at a distance and do not come near me, for if you touch me ever so slightly, I shall be broken in pieces, and besides, I by no means wish to come near you.”"
+},
+{
+"t": "p",
+"x": "Equals make the best friends."
+}
+]
+}
+]
+}

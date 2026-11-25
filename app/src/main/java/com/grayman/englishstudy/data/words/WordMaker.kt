@@ -26,10 +26,10 @@ object WordMaker {
         LEMMA: the dictionary form of the word (for example "ran" -> "run", "boxes" -> "box"; keep phrases as they are)
         POS: one of noun, verb, adjective, adverb, preposition, conjunction, pronoun, phrase
         IPA: American pronunciation in slashes
-        MEANING: the Korean meaning as used in the sentence first, then one or two other common Korean meanings, separated by commas
-        SENTENCE_KO: a natural Korean translation of the sentence (write - if there is no sentence)
-        EXAMPLE: a new short, natural English example sentence that uses the word in the same meaning
-        EXAMPLE_KO: a natural Korean translation of that example
+        MEANING: one to three short Korean dictionary meanings, the one used in the sentence first, separated by commas; each a few words at most, no explanations, no repeats (e.g. "극심한 고통" or "(양·새의) 떼, 무리")
+        SENTENCE_KO: a natural Korean translation of the sentence, in Korean only (write - if there is no sentence)
+        EXAMPLE: a new short, everyday English sentence that uses the word in the same meaning
+        EXAMPLE_KO: a natural Korean translation of that example, in Korean only
     """.trimIndent()
 
     private val keys = listOf("LEMMA", "POS", "IPA", "MEANING", "SENTENCE_KO", "EXAMPLE", "EXAMPLE_KO")
@@ -50,12 +50,39 @@ object WordMaker {
             lemma = v("LEMMA").takeIf { it.isNotEmpty() && it.length <= 40 }.orEmpty(),
             partOfSpeech = pos,
             pronunciation = ipa,
-            meaning = v("MEANING"),
-            sentenceKo = v("SENTENCE_KO"),
+            meaning = tidyMeaning(v("MEANING")),
+            sentenceKo = v("SENTENCE_KO").takeIf(::looksLikeKorean).orEmpty(),
             example = v("EXAMPLE"),
-            exampleKo = v("EXAMPLE_KO"),
+            exampleKo = v("EXAMPLE_KO").takeIf(::looksLikeKorean).orEmpty(),
         )
     }
+
+    /**
+     * Keeps a meaning short and clear: at most three parts, none repeated or contained in another
+     * ("극심한 고통, 참혹함, 극도의 공포, 심한 고통" becomes "극심한 고통, 참혹함, 극도의 공포").
+     */
+    fun tidyMeaning(meaning: String): String {
+        val kept = mutableListOf<String>()
+        meaning.split(',', ';', '/').map { it.trim().trim('.', '"') }.filter { it.isNotEmpty() }.forEach { part ->
+            val c = part.replace(squeeze, "")
+            val dup = kept.any { k -> val kc = k.replace(squeeze, ""); kc.contains(c) || c.contains(kc) }
+            if (!dup && kept.size < MAX_MEANINGS) kept += part
+        }
+        return kept.joinToString(", ")
+    }
+
+    /** A translation the small model garbled: English left in it, or the same syllables repeated. */
+    fun looksLikeKorean(text: String): Boolean {
+        if (text.isBlank() || Regex("[A-Za-z]{3,}").containsMatchIn(text)) return false
+        val hangul = text.count { it in '가'..'힣' }
+        if (hangul < text.count { !it.isWhitespace() } / 2) return false
+        return !repeated.containsMatchIn(text)
+    }
+
+    private val squeeze = Regex("""[\s()·~]""")
+    private val repeated = Regex("""(\S{2,})\s*\1""")
+
+    private const val MAX_MEANINGS = 3
 
     private val POS = listOf("noun", "verb", "adjective", "adverb", "preposition", "conjunction", "pronoun", "phrase")
 

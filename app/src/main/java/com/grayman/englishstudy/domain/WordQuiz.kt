@@ -34,7 +34,7 @@ data class StudySettings(
     val method: AnswerMethod = AnswerMethod.HANDWRITING,
 ) {
     companion object {
-        val COUNTS = listOf(10, 20, 50, 100)
+        val COUNTS = listOf(10, 20, 30, 40, 50)
     }
 }
 

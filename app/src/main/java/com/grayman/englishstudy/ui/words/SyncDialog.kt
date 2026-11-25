@@ -48,6 +48,7 @@ fun SyncDialog(
     status: SyncStatus,
     pending: Int,
     contentInfo: String?,
+    uploadProblem: String? = null,
     account: String?,
     connecting: Boolean,
     accountMessage: String?,
@@ -77,6 +78,9 @@ fun SyncDialog(
                         style = MaterialTheme.typography.bodyMedium,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
+                }
+                uploadProblem?.let {
+                    Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.error)
                 }
                 contentInfo?.let {
                     Text(

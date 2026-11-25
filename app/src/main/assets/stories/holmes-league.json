@@ -6,11 +6,10 @@
 "year": 1891,
 "level": "HARD",
 "words": 9105,
-"blocks": [
+"chapters": [
 {
-"t": "h",
-"x": "Part I"
-},
+"title": "1장",
+"blocks": [
 {
 "t": "p",
 "x": "I had called upon my friend, Mr. Sherlock Holmes, one day in the autumn of last year and found him in deep conversation with a very stout, florid-faced, elderly gentleman with fiery red hair. With an apology for my intrusion, I was about to withdraw when Holmes pulled me abruptly into the room and closed the door behind me."
@@ -78,7 +77,12 @@
 {
 "t": "p",
 "x": "“How, in the name of good-fortune, did you know all that, Mr. Holmes?” he asked. “How did you know, for example, that I did manual labour. It’s as true as gospel, for I began as a ship’s carpenter.”"
+}
+]
 },
+{
+"title": "2장",
+"blocks": [
 {
 "t": "p",
 "x": "“Your hands, my dear sir. Your right hand is quite a size larger than your left. You have worked with it, and the muscles are more developed.”"
@@ -182,7 +186,12 @@
 {
 "t": "p",
 "x": "“‘Why that?’ I asks."
+}
+]
 },
+{
+"title": "3장",
+"blocks": [
 {
 "t": "p",
 "x": "“‘Why,’ says he, ‘here’s another vacancy on the League of the Red-headed Men. It’s worth quite a little fortune to any man who gets it, and I understand that there are more vacancies than there are men, so that the trustees are at their wits’ end what to do with the money. If my hair would only change colour, here’s a nice little crib all ready for me to step into.’"
@@ -242,7 +251,12 @@
 {
 "t": "p",
 "x": "“Your experience has been a most entertaining one,” remarked Holmes as his client paused and refreshed his memory with a huge pinch of snuff. “Pray continue your very interesting statement.”"
+}
+]
 },
+{
+"title": "4장",
+"blocks": [
 {
 "t": "p",
 "x": "“There was nothing in the office but a couple of wooden chairs and a deal table, behind which sat a small man with a head that was even redder than mine. He said a few words to each candidate as he came up, and then he always managed to find some fault in them which would disqualify them. Getting a vacancy did not seem to be such a very easy matter, after all. However, when our turn came the little man was much more favourable to me than to any of the others, and he closed the door as we entered, so that he might have a private word with us."
@@ -350,7 +364,12 @@
 {
 "t": "p",
 "x": "“‘Then, good-bye, Mr. Jabez Wilson, and let me congratulate you once more on the important position which you have been fortunate enough to gain.’ He bowed me out of the room and I went home with my assistant, hardly knowing what to say or do, I was so pleased at my own good fortune."
+}
+]
 },
+{
+"title": "5장",
+"blocks": [
 {
 "t": "p",
 "x": "“Well, I thought over the matter all day, and by evening I was in low spirits again; for I had quite persuaded myself that the whole affair must be some great hoax or fraud, though what its object might be I could not imagine. It seemed altogether past belief that anyone could make such a will, or that they would pay such a sum for doing anything so simple as copying out the Encyclopædia Britannica. Vincent Spaulding did what he could to cheer me up, but by bedtime I had reasoned myself out of the whole thing. However, in the morning I determined to have a look at it anyhow, so I bought a penny bottle of ink, and with a quill-pen, and seven sheets of foolscap paper, I started off for Pope’s Court."
@@ -430,7 +449,12 @@
 {
 "t": "p",
 "x": "“And what did you do then?” asked Holmes."
+}
+]
 },
+{
+"title": "6장",
+"blocks": [
 {
 "t": "p",
 "x": "“I went home to Saxe-Coburg Square, and I took the advice of my assistant. But he could not help me in any way. He could only say that if I waited I should hear by post. But that was not quite good enough, Mr. Holmes. I did not wish to lose such a place without a struggle, so, as I had heard that you were good enough to give advice to poor folk who were in need of it, I came right away to you.”"
@@ -558,7 +582,12 @@
 {
 "t": "p",
 "x": "“Then put on your hat and come. I am going through the City first, and we can have some lunch on the way. I observe that there is a good deal of German music on the programme, which is rather more to my taste than Italian or French. It is introspective, and I want to introspect. Come along!”"
+}
+]
 },
+{
+"title": "7장",
+"blocks": [
 {
 "t": "p",
 "x": "We travelled by the Underground as far as Aldersgate; and a short walk took us to Saxe-Coburg Square, the scene of the singular story which we had listened to in the morning. It was a poky, little, shabby-genteel place, where four lines of dingy two-storied brick houses looked out into a small railed-in enclosure, where a lawn of weedy grass and a few clumps of faded laurel bushes made a hard fight against a smoke-laden and uncongenial atmosphere. Three gilt balls and a brown board with “JABEZ WILSON” in white letters, upon a corner house, announced the place where our red-headed client carried on his business. Sherlock Holmes stopped in front of it with his head on one side and looked it all over, with his eyes shining brightly between puckered lids. Then he walked slowly up the street, and then down again to the corner, still looking keenly at the houses. Finally he returned to the pawnbroker’s, and, having thumped vigorously upon the pavement with his stick two or three times, he went up to the door and knocked. It was instantly opened by a bright-looking, clean-shaven young fellow, who asked him to step in."
@@ -634,7 +663,12 @@
 {
 "t": "p",
 "x": "“Why serious?”"
+}
+]
 },
+{
+"title": "8장",
+"blocks": [
 {
 "t": "p",
 "x": "“A considerable crime is in contemplation. I have every reason to believe that we shall be in time to stop it. But to-day being Saturday rather complicates matters. I shall want your help to-night.”"
@@ -698,7 +732,12 @@
 {
 "t": "p",
 "x": "Sherlock Holmes was not very communicative during the long drive and lay back in the cab humming the tunes which he had heard in the afternoon. We rattled through an endless labyrinth of gas-lit streets until we emerged into Farrington Street."
+}
+]
 },
+{
+"title": "9장",
+"blocks": [
 {
 "t": "p",
 "x": "“We are close there now,” my friend remarked. “This fellow Merryweather is a bank director, and personally interested in the matter. I thought it as well to have Jones with us also. He is not a bad fellow, though an absolute imbecile in his profession. He has one positive virtue. He is as brave as a bulldog and as tenacious as a lobster if he gets his claws upon anyone. Here we are, and they are waiting for us.”"
@@ -766,7 +805,12 @@
 {
 "t": "p",
 "x": "“Then we have stopped all the holes. And now we must be silent and wait.”"
+}
+]
 },
+{
+"title": "10장",
+"blocks": [
 {
 "t": "p",
 "x": "What a time it seemed! From comparing notes afterwards it was but an hour and a quarter, yet it appeared to me that the night must have almost gone, and the dawn be breaking above us. My limbs were weary and stiff, for I feared to change my position; yet my nerves were worked up to the highest pitch of tension, and my hearing was so acute that I could not only hear the gentle breathing of my companions, but I could distinguish the deeper, heavier in-breath of the bulky Jones from the thin, sighing note of the bank director. From my position I could look over the case in the direction of the floor. Suddenly my eyes caught the glint of a light."
@@ -830,7 +874,12 @@
 {
 "t": "p",
 "x": "“I have had one or two little scores of my own to settle with Mr. John Clay,” said Holmes. “I have been at some small expense over this matter, which I shall expect the bank to refund, but beyond that I am amply repaid by having had an experience which is in many ways unique, and by hearing the very remarkable narrative of the Red-headed League.”"
+}
+]
 },
+{
+"title": "11장",
+"blocks": [
 {
 "t": "p",
 "x": "“You see, Watson,” he explained in the early hours of the morning as we sat over a glass of whisky and soda in Baker Street, “it was perfectly obvious from the first that the only possible object of this rather fantastic business of the advertisement of the League, and the copying of the Encyclopædia, must be to get this not over-bright pawnbroker out of the way for a number of hours every day. It was a curious way of managing it, but, really, it would be difficult to suggest a better. The method was no doubt suggested to Clay’s ingenious mind by the colour of his accomplice’s hair. The £ 4 a week was a lure which must draw him, and what was it to them, who were playing for thousands? They put in the advertisement, one rogue has the temporary office, the other rogue incites the man to apply for it, and together they manage to secure his absence every morning in the week. From the time that I heard of the assistant having come for half wages, it was obvious to me that he had some strong motive for securing the situation.”"
@@ -870,6 +919,8 @@
 {
 "t": "p",
 "x": "He shrugged his shoulders. “Well, perhaps, after all, it is of some little use,” he remarked. “‘L’homme c’est rien—l’œuvre c’est tout,’ as Gustave Flaubert wrote to George Sand.”"
+}
+]
 }
 ]
 }

@@ -13,14 +13,18 @@ class StoryContentTest {
     private val index = json.decodeFromString(StoryIndex.serializer(), File(dir, "index.json").readText())
 
     @Test fun everyStoryInTheIndexLoads() {
-        assertTrue(index.stories.size >= 12)
+        assertTrue(index.stories.size >= 14)
+        assertEquals(22, index.stories.first { it.id == "aesop" }.chapters)
         assertEquals(index.stories.size, index.stories.map { it.id }.toSet().size)
         StoryLevel.entries.forEach { level -> assertTrue("no $level story", index.stories.any { it.storyLevel == level }) }
         index.stories.forEach { info ->
             val story = json.decodeFromString(Story.serializer(), File(dir, "${info.id}.json").readText())
             assertEquals(info.id, story.id)
-            assertTrue("${info.id} is too short", story.blocks.count { !it.isHeading } >= 5)
-            assertEquals(info.words, story.blocks.filter { !it.isHeading }.sumOf { it.x.split(" ").size })
+            assertEquals(info.chapters, story.chapters.size)
+            assertTrue("${info.id} has an empty chapter", story.chapters.all { c -> c.blocks.count { !it.isHeading } >= 1 && c.title.isNotBlank() })
+            assertEquals(info.words, story.chapters.sumOf { it.words })
+            // Chapters are one sitting each: none is a wall of text.
+            assertTrue("${info.id} has a chapter that is too long", story.chapters.all { it.words <= 1300 })
         }
     }
 

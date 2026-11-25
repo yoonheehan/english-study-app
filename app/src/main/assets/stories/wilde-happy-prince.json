@@ -6,6 +6,9 @@
 "year": 1888,
 "level": "MEDIUM",
 "words": 3471,
+"chapters": [
+{
+"title": "1장",
 "blocks": [
 {
 "t": "p",
@@ -98,7 +101,12 @@
 {
 "t": "p",
 "x": "“I am the Happy Prince.”"
+}
+]
 },
+{
+"title": "2장",
+"blocks": [
 {
 "t": "p",
 "x": "“Why are you weeping then?” asked the Swallow; “you have quite drenched me.”"
@@ -146,7 +154,12 @@
 {
 "t": "p",
 "x": "“I hope my dress will be ready in time for the State-ball,” she answered; “I have ordered passion-flowers to be embroidered on it; but the seamstresses are so lazy.”"
+}
+]
 },
+{
+"title": "3장",
+"blocks": [
 {
 "t": "p",
 "x": "He passed over the river, and saw the lanterns hanging to the masts of the ships. He passed over the Ghetto, and saw the old Jews bargaining with each other, and weighing out money in copper scales. At last he came to the poor house and looked in. The boy was tossing feverishly on his bed, and the mother had fallen asleep, she was so tired. In he hopped, and laid the great ruby on the table beside the woman’s thimble. Then he flew gently round the bed, fanning the boy’s forehead with his wings. “How cool I feel,” said the boy, “I must be getting better”; and he sank into a delicious slumber."
@@ -206,7 +219,12 @@
 {
 "t": "p",
 "x": "“I am beginning to be appreciated,” he cried; “this is from some great admirer. Now I can finish my play,” and he looked quite happy."
+}
+]
 },
+{
+"title": "4장",
+"blocks": [
 {
 "t": "p",
 "x": "The next day the Swallow flew down to the harbour. He sat on the mast of a large vessel and watched the sailors hauling big chests out of the hold with ropes. “Heave a-hoy!” they shouted as each chest came up. “I am going to Egypt”! cried the Swallow, but nobody minded, and when the moon rose he flew back to the Happy Prince."
@@ -270,7 +288,12 @@
 {
 "t": "p",
 "x": "“I am covered with fine gold,” said the Prince, “you must take it off, leaf by leaf, and give it to my poor; the living always think that gold can make them happy.”"
+}
+]
 },
+{
+"title": "5장",
+"blocks": [
 {
 "t": "p",
 "x": "Leaf after leaf of the fine gold the Swallow picked off, till the Happy Prince looked quite dull and grey. Leaf after leaf of the fine gold he brought to the poor, and the children’s faces grew rosier, and they laughed and played games in the street. “We have bread now!” they cried."
@@ -346,6 +369,8 @@
 {
 "t": "p",
 "x": "“You have rightly chosen,” said God, “for in my garden of Paradise this little bird shall sing for evermore, and in my city of gold the Happy Prince shall praise me.”"
+}
+]
 }
 ]
 }

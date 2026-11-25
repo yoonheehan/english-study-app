@@ -219,11 +219,5 @@ class YouTubeCaptions(private val context: Context) {
             Client("ANDROID", "20.10.38", "com.google.android.youtube/20.10.38 (Linux; U; Android 14) gzip", ""","androidSdkVersion":34"""),
             Client("IOS", "20.10.4", "com.google.ios.youtube/20.10.4 (iPhone16,2; U; CPU iOS 18_3 like Mac OS X)", ""","deviceModel":"iPhone16,2""""),
         )
-
-        /** Two talks known to have good English subtitles, to try the feature right away. */
-        val SUGGESTED = listOf(
-            RecentVideo("arj7oStGLkU", "Inside the Mind of a Master Procrastinator", "TED · Tim Urban"),
-            RecentVideo("UF8uR6Z6KLc", "Steve Jobs' 2005 Stanford Commencement Address", "Stanford"),
-        )
     }
 }

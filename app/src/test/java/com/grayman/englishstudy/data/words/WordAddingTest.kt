@@ -46,6 +46,24 @@ class WordAddingTest {
         assertNull(WordMaker.parse("Sorry, I can't help with that."))
     }
 
+    @Test fun meaningsStayShortAndWithoutRepeats() {
+        assertEquals("극심한 고통, 참혹함, 극도의 공포", WordMaker.tidyMeaning("극심한 고통, 참혹함, 극도의 공포, 심한 고통"))
+        assertEquals("목동 소년, 양치기 소년", WordMaker.tidyMeaning("목동 소년, 양치기 소년, 목동"))
+        assertEquals("(양·새의) 떼, 무리", WordMaker.tidyMeaning("(양·새의) 떼, 무리"))
+        assertEquals("주의, 귀 기울이다", WordMaker.tidyMeaning("주의; 귀 기울이다"))
+    }
+
+    @Test fun garbledTranslationsAreRejected() {
+        assertTrue(WordMaker.looksLikeKorean("하지만 아무도 그의 외침에 귀 기울이지 않았다."))
+        assertFalse(WordMaker.looksLikeKorean("그 병사는 적과faced할 때 극도의 공포를 느꼈다."))
+        assertFalse(WordMaker.looksLikeKorean("마을 사람들을 울부        울부르짖어 데리고 나왔다."))
+        assertFalse(WordMaker.looksLikeKorean(""))
+        val fill = WordMaker.parse("MEANING: 극심한 고통, 심한 고통\nSENTENCE_KO: 그는 faced 했다\nEXAMPLE: He was in agony.\nEXAMPLE_KO: 그는 고통스러웠다.")!!
+        assertEquals("극심한 고통", fill.meaning)
+        assertEquals("", fill.sentenceKo)
+        assertEquals("그는 고통스러웠다.", fill.exampleKo)
+    }
+
     @Test fun cardKeepsTheSentenceAsFirstExample() {
         val ai = WordMaker.AiFill("run", "verb", "/rʌn/", "달리다", "그는 역으로 달려갔다.", "I run every morning.", "나는 매일 아침 달린다.")
         val f = WordMaker.fields("ran", "He ran to the station.", "달렸다", "그는 역까지 달렸다.", ai)

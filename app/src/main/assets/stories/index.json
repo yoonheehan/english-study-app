@@ -2,14 +2,15 @@
  "source": "Public-domain texts from Project Gutenberg (www.gutenberg.org), with the Project Gutenberg header and license removed.",
  "stories": [
   {
-   "id": "aesop-1",
-   "title": "Aesop's Fables I",
-   "titleKo": "이솝 우화 1",
+   "id": "aesop",
+   "title": "Aesop's Fables",
+   "titleKo": "이솝 우화",
    "author": "Aesop (tr. G. F. Townsend)",
    "year": 1867,
    "level": "EASY",
-   "words": 601,
-   "note": "짧은 이야기마다 마지막 한 줄이 교훈이에요."
+   "words": 2517,
+   "chapters": 22,
+   "note": "한 장이 이야기 하나예요. 마지막 한 줄이 교훈이에요."
   },
   {
    "id": "grimm-elves",
@@ -19,17 +20,8 @@
    "year": 1812,
    "level": "EASY",
    "words": 743,
+   "chapters": 1,
    "note": ""
-  },
-  {
-   "id": "aesop-2",
-   "title": "Aesop's Fables II",
-   "titleKo": "이솝 우화 2",
-   "author": "Aesop (tr. G. F. Townsend)",
-   "year": 1867,
-   "level": "EASY",
-   "words": 944,
-   "note": "짧은 이야기마다 마지막 한 줄이 교훈이에요."
   },
   {
    "id": "grimm-rumpel",
@@ -39,6 +31,7 @@
    "year": 1812,
    "level": "EASY",
    "words": 1138,
+   "chapters": 2,
    "note": ""
   },
   {
@@ -49,6 +42,18 @@
    "year": 1812,
    "level": "EASY",
    "words": 1192,
+   "chapters": 2,
+   "note": ""
+  },
+  {
+   "id": "grimm-goose",
+   "title": "The Golden Goose",
+   "titleKo": "황금 거위",
+   "author": "Brothers Grimm (tr. Edgar Taylor & Marian Edwardes)",
+   "year": 1812,
+   "level": "EASY",
+   "words": 1582,
+   "chapters": 3,
    "note": ""
   },
   {
@@ -59,16 +64,7 @@
    "year": 1888,
    "level": "MEDIUM",
    "words": 1652,
-   "note": ""
-  },
-  {
-   "id": "alice-3",
-   "title": "Alice in Wonderland 3: A Caucus-Race and a Long Tale",
-   "titleKo": "이상한 나라의 앨리스 3장 · 코커스 경주와 긴 이야기",
-   "author": "Lewis Carroll",
-   "year": 1865,
-   "level": "MEDIUM",
-   "words": 1694,
+   "chapters": 2,
    "note": ""
   },
   {
@@ -79,26 +75,18 @@
    "year": 1905,
    "level": "MEDIUM",
    "words": 2057,
+   "chapters": 3,
    "note": "마지막 반전이 유명한 단편이에요."
   },
   {
-   "id": "alice-2",
-   "title": "Alice in Wonderland 2: The Pool of Tears",
-   "titleKo": "이상한 나라의 앨리스 2장 · 눈물 웅덩이",
-   "author": "Lewis Carroll",
-   "year": 1865,
+   "id": "grimm-fisherman",
+   "title": "The Fisherman and His Wife",
+   "titleKo": "어부와 아내",
+   "author": "Brothers Grimm (tr. Edgar Taylor & Marian Edwardes)",
+   "year": 1812,
    "level": "MEDIUM",
-   "words": 2093,
-   "note": ""
-  },
-  {
-   "id": "alice-1",
-   "title": "Alice in Wonderland 1: Down the Rabbit-Hole",
-   "titleKo": "이상한 나라의 앨리스 1장 · 토끼 굴 아래로",
-   "author": "Lewis Carroll",
-   "year": 1865,
-   "level": "MEDIUM",
-   "words": 2141,
+   "words": 2115,
+   "chapters": 4,
    "note": ""
   },
   {
@@ -109,6 +97,7 @@
    "year": 1888,
    "level": "MEDIUM",
    "words": 2323,
+   "chapters": 3,
    "note": ""
   },
   {
@@ -119,6 +108,7 @@
    "year": 1812,
    "level": "MEDIUM",
    "words": 2929,
+   "chapters": 6,
    "note": ""
   },
   {
@@ -129,6 +119,7 @@
    "year": 1888,
    "level": "MEDIUM",
    "words": 3471,
+   "chapters": 5,
    "note": ""
   },
   {
@@ -139,6 +130,29 @@
    "year": 1888,
    "level": "MEDIUM",
    "words": 4323,
+   "chapters": 6,
+   "note": ""
+  },
+  {
+   "id": "alice",
+   "title": "Alice's Adventures in Wonderland",
+   "titleKo": "이상한 나라의 앨리스",
+   "author": "Lewis Carroll",
+   "year": 1865,
+   "level": "MEDIUM",
+   "words": 13283,
+   "chapters": 14,
+   "note": "1~6장이에요."
+  },
+  {
+   "id": "holmes-identity",
+   "title": "A Case of Identity",
+   "titleKo": "신랑의 정체",
+   "author": "Arthur Conan Doyle",
+   "year": 1891,
+   "level": "HARD",
+   "words": 6975,
+   "chapters": 9,
    "note": ""
   },
   {
@@ -149,7 +163,8 @@
    "year": 1891,
    "level": "HARD",
    "words": 8518,
-   "note": "셜록 홈즈 첫 단편. 길어서 읽은 곳을 기억해 둬요."
+   "chapters": 10,
+   "note": "셜록 홈즈 첫 단편이에요."
   },
   {
    "id": "holmes-league",
@@ -159,6 +174,7 @@
    "year": 1891,
    "level": "HARD",
    "words": 9105,
+   "chapters": 11,
    "note": ""
   }
  ]

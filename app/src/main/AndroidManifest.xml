@@ -41,28 +41,5 @@
             </intent-filter>
         </activity>
 
-        <!--
-            Receives plain text only, from the selection menu and the share sheet.
-            Nothing in the text is executed or opened; it is shown for the learner to pick from.
-        -->
-        <activity
-            android:name=".capture.CaptureActivity"
-            android:excludeFromRecents="true"
-            android:exported="true"
-            android:label="@string/capture_label"
-            android:taskAffinity=""
-            android:theme="@style/Theme.SpeakDaily.Capture"
-            android:windowSoftInputMode="adjustResize">
-            <intent-filter>
-                <action android:name="android.intent.action.PROCESS_TEXT" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="text/plain" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.SEND" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="text/plain" />
-            </intent-filter>
-        </activity>
     </application>
 </manifest>

@@ -6,11 +6,10 @@
 "year": 1891,
 "level": "HARD",
 "words": 8518,
-"blocks": [
+"chapters": [
 {
-"t": "h",
-"x": "Part I"
-},
+"title": "Part I (1/4)",
+"blocks": [
 {
 "t": "p",
 "x": "To Sherlock Holmes she is always the woman. I have seldom heard him mention her under any other name. In his eyes she eclipses and predominates the whole of her sex. It was not that he felt any emotion akin to love for Irene Adler. All emotions, and that one particularly, were abhorrent to his cold, precise but admirably balanced mind. He was, I take it, the most perfect reasoning and observing machine that the world has seen, but as a lover he would have placed himself in a false position. He never spoke of the softer passions, save with a gibe and a sneer. They were admirable things for the observer—excellent for drawing the veil from men’s motives and actions. But for the trained reasoner to admit such intrusions into his own delicate and finely adjusted temperament was to introduce a distracting factor which might throw a doubt upon all his mental results. Grit in a sensitive instrument, or a crack in one of his own high-power lenses, would not be more disturbing than a strong emotion in a nature such as his. And yet there was but one woman to him, and that woman was the late Irene Adler, of dubious and questionable memory."
@@ -54,7 +53,12 @@
 {
 "t": "p",
 "x": "He chuckled to himself and rubbed his long, nervous hands together."
+}
+]
 },
+{
+"title": "Part I (2/4)",
+"blocks": [
 {
 "t": "p",
 "x": "“It is simplicity itself,” said he; “my eyes tell me that on the inside of your left shoe, just where the firelight strikes it, the leather is scored by six almost parallel cuts. Obviously they have been caused by someone who has very carelessly scraped round the edges of the sole in order to remove crusted mud from it. Hence, you see, my double deduction that you had been out in vile weather, and that you had a particularly malignant boot-slitting specimen of the London slavey. As to your practice, if a gentleman walks into my rooms smelling of iodoform, with a black mark of nitrate of silver upon his right forefinger, and a bulge on the right side of his top-hat to show where he has secreted his stethoscope, I must be dull, indeed, if I do not pronounce him to be an active member of the medical profession.”"
@@ -146,7 +150,12 @@
 {
 "t": "p",
 "x": "As he spoke there was the sharp sound of horses’ hoofs and grating wheels against the curb, followed by a sharp pull at the bell. Holmes whistled."
+}
+]
 },
+{
+"title": "Part I (3/4)",
+"blocks": [
 {
 "t": "p",
 "x": "“A pair, by the sound,” said he. “Yes,” he continued, glancing out of the window. “A nice little brougham and a pair of beauties. A hundred and fifty guineas apiece. There’s money in this case, Watson, if there is nothing else.”"
@@ -242,7 +251,12 @@
 {
 "t": "p",
 "x": "“But you can understand,” said our strange visitor, sitting down once more and passing his hand over his high white forehead, “you can understand that I am not accustomed to doing such business in my own person. Yet the matter was so delicate that I could not confide it to an agent without putting myself in his power. I have come incognito from Prague for the purpose of consulting you.”"
+}
+]
 },
+{
+"title": "Part I (4/4)",
+"blocks": [
 {
 "t": "p",
 "x": "“Then, pray consult,” said Holmes, shutting his eyes once more."
@@ -490,11 +504,12 @@
 {
 "t": "p",
 "x": "“Then, good-night, your Majesty, and I trust that we shall soon have some good news for you. And good-night, Watson,” he added, as the wheels of the royal brougham rolled down the street. “If you will be good enough to call to-morrow afternoon at three o’clock I should like to chat this little matter over with you.”"
+}
+]
 },
 {
-"t": "h",
-"x": "Part II"
-},
+"title": "Part II (1/5)",
+"blocks": [
 {
 "t": "p",
 "x": "At three o’clock precisely I was at Baker Street, but Holmes had not yet returned. The landlady informed me that he had left the house shortly after eight o’clock in the morning. I sat down beside the fire, however, with the intention of awaiting him, however long he might be. I was already deeply interested in his inquiry, for, though it was surrounded by none of the grim and strange features which were associated with the two crimes which I have already recorded, still, the nature of the case and the exalted station of his client gave it a character of its own. Indeed, apart from the nature of the investigation which my friend had on hand, there was something in his masterly grasp of a situation, and his keen, incisive reasoning, which made it a pleasure to me to study his system of work, and to follow the quick, subtle methods by which he disentangled the most inextricable mysteries. So accustomed was I to his invariable success that the very possibility of his failing had ceased to enter into my head."
@@ -542,7 +557,12 @@
 {
 "t": "p",
 "x": "“I am following you closely,” I answered."
+}
+]
 },
+{
+"title": "Part II (2/5)",
+"blocks": [
 {
 "t": "p",
 "x": "“I was still balancing the matter in my mind when a hansom cab drove up to Briony Lodge, and a gentleman sprang out. He was a remarkably handsome man, dark, aquiline, and moustached—evidently the man of whom I had heard. He appeared to be in a great hurry, shouted to the cabman to wait, and brushed past the maid who opened the door with the air of a man who was thoroughly at home."
@@ -634,7 +654,12 @@
 {
 "t": "p",
 "x": "“But what is it you wish?”"
+}
+]
 },
+{
+"title": "Part II (3/5)",
+"blocks": [
 {
 "t": "p",
 "x": "“When Mrs. Turner has brought in the tray I will make it clear to you. Now,” he said as he turned hungrily on the simple fare that our landlady had provided, “I must discuss it while I eat, for I have not much time. It is nearly five now. In two hours we must be on the scene of action. Miss Irene, or Madame, rather, returns from her drive at seven. We must be at Briony Lodge to meet her.”"
@@ -754,7 +779,12 @@
 {
 "t": "p",
 "x": "“She will not be able to. But I hear the rumble of wheels. It is her carriage. Now carry out my orders to the letter.”"
+}
+]
 },
+{
+"title": "Part II (4/5)",
+"blocks": [
 {
 "t": "p",
 "x": "As he spoke the gleam of the sidelights of a carriage came round the curve of the avenue. It was a smart little landau which rattled up to the door of Briony Lodge. As it pulled up, one of the loafing men at the corner dashed forward to open the door in the hope of earning a copper, but was elbowed away by another loafer, who had rushed up with the same intention. A fierce quarrel broke out, which was increased by the two guardsmen, who took sides with one of the loungers, and by the scissors-grinder, who was equally hot upon the other side. A blow was struck, and in an instant the lady, who had stepped from her carriage, was the centre of a little knot of flushed and struggling men, who struck savagely at each other with their fists and sticks. Holmes dashed into the crowd to protect the lady; but, just as he reached her, he gave a cry and dropped to the ground, with the blood running freely down his face. At his fall the guardsmen took to their heels in one direction and the loungers in the other, while a number of better dressed people, who had watched the scuffle without taking part in it, crowded in to help the lady and to attend to the injured man. Irene Adler, as I will still call her, had hurried up the steps; but she stood at the top with her superb figure outlined against the lights of the hall, looking back into the street."
@@ -834,7 +864,12 @@
 {
 "t": "p",
 "x": "“Then they carried me in. She was bound to have me in. What else could she do? And into her sitting-room, which was the very room which I suspected. It lay between that and her bedroom, and I was determined to see which. They laid me on a couch, I motioned for air, they were compelled to open the window, and you had your chance.”"
+}
+]
 },
+{
+"title": "Part II (5/5)",
+"blocks": [
 {
 "t": "p",
 "x": "“How did that help you?”"
@@ -874,11 +909,12 @@
 {
 "t": "p",
 "x": "“I’ve heard that voice before,” said Holmes, staring down the dimly lit street. “Now, I wonder who the deuce that could have been.”"
+}
+]
 },
 {
-"t": "h",
-"x": "Part III"
-},
+"title": "Part III",
+"blocks": [
 {
 "t": "p",
 "x": "I slept at Baker Street that night, and we were engaged upon our toast and coffee in the morning when the King of Bohemia rushed into the room."
@@ -1054,6 +1090,8 @@
 {
 "t": "p",
 "x": "And that was how a great scandal threatened to affect the kingdom of Bohemia, and how the best plans of Mr. Sherlock Holmes were beaten by a woman’s wit. He used to make merry over the cleverness of women, but I have not heard him do it of late. And when he speaks of Irene Adler, or when he refers to her photograph, it is always under the honourable title of the woman."
+}
+]
 }
 ]
 }

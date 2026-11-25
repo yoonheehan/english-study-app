@@ -83,6 +83,7 @@ import com.grayman.englishstudy.data.words.WordDuplicates
 import com.grayman.englishstudy.data.words.WordMaker
 import com.grayman.englishstudy.ui.Game
 import com.grayman.englishstudy.ui.GameProgressBar
+import com.grayman.englishstudy.ui.ChunkyButton
 import com.grayman.englishstudy.ui.words.WordAddCard
 import kotlinx.coroutines.withTimeoutOrNull
 
@@ -116,7 +117,7 @@ fun StoryShelf(onOpen: (String) -> Unit, modifier: Modifier = Modifier) {
             ) {
                 Text("소설 읽으며 단어 모으기", style = MaterialTheme.typography.titleLarge, color = Game.LagoonEdge, fontWeight = FontWeight.Bold)
                 Text(
-                    "모르는 단어를 누르면 이 문장에서의 뜻이 나오고, 바로 단어장에 넣을 수 있어요. 문단을 길게 누르면 번역돼요.",
+                    "이야기를 고르고 한 장씩 읽어요. 모르는 단어를 누르면 이 문장에서의 뜻이 나오고, 바로 단어장에 넣을 수 있어요. 문단을 길게 누르면 번역돼요.",
                     style = MaterialTheme.typography.bodyMedium,
                 )
                 if (priority > 0) {
@@ -148,7 +149,7 @@ fun StoryShelf(onOpen: (String) -> Unit, modifier: Modifier = Modifier) {
 @Composable
 private fun StoryCard(story: StoryInfo, onClick: () -> Unit) {
     val app = LocalContext.current.app
-    val percent = remember(story.id) { app.stories.progress(story.id) }
+    val percent = remember(story.id) { app.stories.progress(story) }
     Column(
         Modifier
             .fillMaxWidth()
@@ -162,7 +163,7 @@ private fun StoryCard(story: StoryInfo, onClick: () -> Unit) {
         Text(story.titleKo, style = MaterialTheme.typography.titleMedium, color = Game.LagoonEdge)
         Text(story.title, style = MaterialTheme.typography.bodyLarge, fontFamily = FontFamily.Serif)
         Text("${story.author} · ${story.year}", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-        Text("약 ${story.minutes}분 · ${story.words}단어", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        Text("${story.chapters}장 · 약 ${story.minutes}분 · ${story.words}단어", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
         if (story.note.isNotEmpty()) Text(story.note, style = MaterialTheme.typography.bodySmall)
         if (percent > 0) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -181,33 +182,106 @@ private val PickSaver = Saver<Pick?, List<Any>>(
     restore = { v -> if (v.size == 5) Pick(v[0] as Int, v[1] as Int, v[2] as Int, v[3] as String, v[4] as String) else null },
 )
 
-/**
- * Reading one story. Tap a word to see its meaning in that sentence and add it to the word book;
- * long-press a paragraph to translate it. On a wide screen the word card sits beside the text;
- * on a phone or a portrait tablet it opens as a bottom sheet.
- */
-@OptIn(ExperimentalMaterial3Api::class)
+/** A story's chapters: pick one, or continue where reading stopped. */
 @Composable
-fun StoryReaderScreen(storyId: String, onExit: () -> Unit) {
+fun StoryChaptersScreen(storyId: String, onOpenChapter: (Int) -> Unit, onExit: () -> Unit) {
     val app = LocalContext.current.app
     val library = app.stories
     val story = remember(storyId) { library.load(storyId) }
     val info = remember(storyId) { library.info(storyId) }
+    // Re-read when coming back from a chapter, so the read marks are fresh.
+    var read by remember { mutableStateOf(library.readChapters(storyId)) }
+    var last by remember { mutableIntStateOf(library.lastChapter(storyId)) }
+    androidx.lifecycle.compose.LifecycleResumeEffect(storyId) {
+        read = library.readChapters(storyId)
+        last = library.lastChapter(storyId)
+        onPauseOrDispose { }
+    }
+    val next = story.chapters.indices.firstOrNull { it !in read && it >= last } ?: story.chapters.indices.firstOrNull { it !in read } ?: 0
+    Column(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background).windowInsetsPadding(WindowInsets.safeDrawing)) {
+        Row(Modifier.fillMaxWidth().padding(horizontal = 4.dp, vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
+            IconButton(onClick = onExit) { Icon(Icons.AutoMirrored.Rounded.ArrowBack, contentDescription = "뒤로") }
+            Column(Modifier.weight(1f)) {
+                Text(info?.titleKo ?: story.title, style = MaterialTheme.typography.titleLarge, maxLines = 1)
+                Text("${story.title} · ${story.author}", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 1)
+            }
+        }
+        LazyColumn(
+            Modifier.fillMaxSize(),
+            contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+        ) {
+            item {
+                Column(Modifier.widthIn(max = 720.dp).fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Text("${story.chapters.size}장 · 읽은 장 ${read.size}개", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    ChunkyButton(
+                        if (read.isEmpty()) "처음부터 읽기" else "이어 읽기 · ${story.chapters[next].title}",
+                        onClick = { onOpenChapter(next) },
+                        modifier = Modifier.fillMaxWidth(),
+                    )
+                }
+            }
+            itemsIndexed(story.chapters, key = { i, _ -> i }) { i, chapter ->
+                val done = i in read
+                Row(
+                    Modifier
+                        .widthIn(max = 720.dp)
+                        .fillMaxWidth()
+                        .clip(RoundedCornerShape(14.dp))
+                        .background(if (done) Game.GoodSoft else MaterialTheme.colorScheme.surface)
+                        .border(1.dp, MaterialTheme.colorScheme.outline, RoundedCornerShape(14.dp))
+                        .clickable(role = Role.Button) { onOpenChapter(i) }
+                        .padding(horizontal = 16.dp, vertical = 12.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(12.dp),
+                ) {
+                    Text("${i + 1}", style = MaterialTheme.typography.titleMedium, color = Game.LagoonEdge, modifier = Modifier.widthIn(min = 28.dp))
+                    Column(Modifier.weight(1f)) {
+                        Text(chapter.title, style = MaterialTheme.typography.titleSmall)
+                        Text("${chapter.words}단어 · 약 ${maxOf(1, (chapter.words + 149) / 150)}분", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    }
+                    if (done) Text("읽음", style = MaterialTheme.typography.labelLarge, color = Game.OnGoodSoft)
+                }
+            }
+        }
+    }
+}
+
+/**
+ * Reading one chapter. Tap a word to see its meaning in that sentence and add it to the word book;
+ * long-press a paragraph to translate it. On a wide screen the word card sits beside the text;
+ * on a phone or a portrait tablet it opens as a bottom sheet. The end of a chapter leads to the next.
+ */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun StoryReaderScreen(storyId: String, chapter: Int, onExit: () -> Unit, onOpenChapter: (Int) -> Unit) {
+    val app = LocalContext.current.app
+    val library = app.stories
+    val fullStory = remember(storyId) { library.load(storyId) }
+    val info = remember(storyId) { library.info(storyId) }
+    val chapterIndex = chapter.coerceIn(0, fullStory.chapters.lastIndex)
+    val current = fullStory.chapters[chapterIndex]
+    // The rest of this screen reads `blocks`: the blocks of this chapter only.
+    val story = fullStory
+    val blocks = current.blocks
     val source = StoryInfo.sourceOf(storyId)
+    val sources = remember(storyId) { StoryInfo.sourcesOf(storyId) }
     var textSize by rememberSaveable { mutableIntStateOf(library.textSize) }
-    var pick by rememberSaveable(stateSaver = PickSaver) { mutableStateOf<Pick?>(null) }
+    var pick by rememberSaveable(chapterIndex, stateSaver = PickSaver) { mutableStateOf<Pick?>(null) }
     var showSaved by rememberSaveable { mutableStateOf(false) }
-    val translations = remember { mutableStateMapOf<Int, String>() }
-    val saved by remember(source) { app.words.bySource(source) }.collectAsState(initial = emptyList())
+    val translations = remember(chapterIndex) { mutableStateMapOf<Int, String>() }
+    val saved by remember(storyId) { app.words.bySource(*sources.toTypedArray()) }.collectAsState(initial = emptyList())
     // Highlight both the saved card's word (often the dictionary form) and the form tapped in the text.
     val savedForms = remember(saved) { savedFormsOf(saved) }
-    val listState = rememberLazyListState(initialFirstVisibleItemIndex = library.position(storyId).coerceIn(0, story.blocks.lastIndex.coerceAtLeast(0)))
+    val listState = rememberLazyListState(initialFirstVisibleItemIndex = library.position(storyId, chapterIndex).coerceIn(0, blocks.lastIndex.coerceAtLeast(0)))
 
     LaunchedEffect(listState) {
         snapshotFlow { listState.firstVisibleItemIndex to (listState.layoutInfo.visibleItemsInfo.lastOrNull()?.index ?: 0) }
             .collect { (first, last) ->
-                val percent = if (story.blocks.isEmpty()) 0 else ((last + 1) * 100 / story.blocks.size).coerceIn(0, 100)
-                library.savePosition(storyId, first, percent)
+                library.savePosition(storyId, chapterIndex, first)
+                // The end item (after the last paragraph) is on screen: this chapter is read.
+                if (last >= blocks.size) library.markRead(storyId, chapterIndex)
             }
     }
 
@@ -218,7 +292,7 @@ fun StoryReaderScreen(storyId: String, onExit: () -> Unit) {
         Column(Modifier.fillMaxSize()) {
             ReaderTopBar(
                 title = info?.titleKo ?: story.title,
-                subtitle = "${story.title} · ${story.author}",
+                subtitle = "${chapterIndex + 1}/${fullStory.chapters.size} · ${current.title}",
                 savedCount = saved.size,
                 onBack = onExit,
                 onSmaller = { textSize = (textSize - 2).coerceAtLeast(14); library.textSize = textSize },
@@ -233,7 +307,7 @@ fun StoryReaderScreen(storyId: String, onExit: () -> Unit) {
                     verticalArrangement = Arrangement.spacedBy(14.dp),
                     horizontalAlignment = Alignment.CenterHorizontally,
                 ) {
-                    itemsIndexed(story.blocks, key = { i, _ -> i }) { i, block ->
+                    itemsIndexed(blocks, key = { i, _ -> i }) { i, block ->
                         // A comfortable line length on wide screens.
                         Column(Modifier.widthIn(max = 720.dp).fillMaxWidth()) {
                             if (block.isHeading) {
@@ -276,7 +350,19 @@ fun StoryReaderScreen(storyId: String, onExit: () -> Unit) {
                         }
                     }
                     item {
-                        Text("— 끝 —", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.padding(vertical = 24.dp))
+                        Column(
+                            Modifier.widthIn(max = 720.dp).fillMaxWidth().padding(vertical = 24.dp),
+                            verticalArrangement = Arrangement.spacedBy(10.dp),
+                            horizontalAlignment = Alignment.CenterHorizontally,
+                        ) {
+                            if (chapterIndex < fullStory.chapters.lastIndex) {
+                                Text("${chapterIndex + 1}장 끝", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                                ChunkyButton("다음 장 · ${fullStory.chapters[chapterIndex + 1].title}", onClick = { onOpenChapter(chapterIndex + 1) }, modifier = Modifier.fillMaxWidth())
+                            } else {
+                                Text("— 끝 —", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                            }
+                            TextButton(onClick = onExit) { Text("장 목록으로") }
+                        }
                     }
                 }
                 if (wide) {

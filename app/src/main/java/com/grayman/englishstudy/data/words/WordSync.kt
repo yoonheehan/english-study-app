@@ -222,9 +222,34 @@ class WordSync(
         pendingCount.distinctUntilChanged().collectLatest { count ->
             if (count == 0) return@collectLatest
             delay(PUSH_DEBOUNCE_MS)
-            pushPending()
+            // An upload that is refused must not stop sync: words still come down from Firestore, and
+            // the refused changes stay pending and are tried again later (or after the rules change).
+            var wait = RETRY_START_MS
+            while (true) {
+                try {
+                    pushPending()
+                    _uploadProblem.value = null
+                    break
+                } catch (e: CancellationException) {
+                    throw e
+                } catch (e: Exception) {
+                    Log.w(TAG, "upload failed, will retry", e)
+                    _uploadProblem.value = if (e is FirebaseFirestoreException && e.code == FirebaseFirestoreException.Code.PERMISSION_DENIED) {
+                        "이 기기의 변경 ${count}개가 Firestore 규칙에 막혀 아직 올라가지 못했어요. 규칙을 최신으로 게시해 주세요."
+                    } else {
+                        "이 기기의 변경 ${count}개를 아직 올리지 못했어요. 인터넷이 되면 다시 올려요."
+                    }
+                    delay(wait)
+                    wait = (wait * 2).coerceAtMost(RETRY_MAX_MS)
+                }
+            }
         }
     }
+
+    private val _uploadProblem = MutableStateFlow<String?>(null)
+
+    /** Why this device's changes are not uploaded yet, or null when nothing is stuck. */
+    val uploadProblem: StateFlow<String?> = _uploadProblem
 
     private suspend fun pushPending() {
         pushCreates()
@@ -271,7 +296,7 @@ class WordSync(
                     } else {
                         Log.w(TAG, "adding words is not allowed by the Firestore rules yet")
                         _addBlocked.value = true
-                        return
+                        throw e
                     }
                 }
             }
@@ -328,6 +353,8 @@ class WordSync(
         const val CONTENT_UPLOADED = "contentUploaded"
         const val PREF_PULLED_MS = "pulled_ms"
         const val PUSH_DEBOUNCE_MS = 1_500L
+        const val RETRY_START_MS = 30_000L
+        const val RETRY_MAX_MS = 15 * 60_000L
 
         /** Firestore allows 500 writes per batch. */
         const val BATCH_SIZE = 400

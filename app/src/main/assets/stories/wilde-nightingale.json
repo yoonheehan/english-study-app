@@ -6,6 +6,9 @@
 "year": 1888,
 "level": "MEDIUM",
 "words": 2323,
+"chapters": [
+{
+"title": "1장",
 "blocks": [
 {
 "t": "p",
@@ -94,7 +97,12 @@
 {
 "t": "p",
 "x": "“My roses are yellow,” it answered; “as yellow as the hair of the mermaiden who sits upon an amber throne, and yellower than the daffodil that blooms in the meadow before the mower comes with his scythe. But go to my brother who grows beneath the Student’s window, and perhaps he will give you what you want.”"
+}
+]
 },
+{
+"title": "2장",
+"blocks": [
 {
 "t": "p",
 "x": "So the Nightingale flew over to the Rose-tree that was growing beneath the Student’s window."
@@ -170,7 +178,12 @@
 {
 "t": "p",
 "x": "And when the Moon shone in the heavens the Nightingale flew to the Rose-tree, and set her breast against the thorn. All night long she sang with her breast against the thorn, and the cold crystal Moon leaned down and listened. All night long she sang, and the thorn went deeper and deeper into her breast, and her life-blood ebbed away from her."
+}
+]
 },
+{
+"title": "3장",
+"blocks": [
 {
 "t": "p",
 "x": "She sang first of the birth of love in the heart of a boy and a girl. And on the top-most spray of the Rose-tree there blossomed a marvellous rose, petal following petal, as song followed song. Pale was it, at first, as the mist that hangs over the river—pale as the feet of the morning, and silver as the wings of the dawn. As the shadow of a rose in a mirror of silver, as the shadow of a rose in a water-pool, so was the rose that blossomed on the topmost spray of the Tree."
@@ -254,6 +267,8 @@
 {
 "t": "p",
 "x": "So he returned to his room and pulled out a great dusty book, and began to read."
+}
+]
 }
 ]
 }

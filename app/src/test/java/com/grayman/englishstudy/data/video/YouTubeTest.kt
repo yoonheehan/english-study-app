@@ -42,6 +42,26 @@ with you today</text>
         assertEquals(emptyList<String>(), CaptionParser.align(en, emptyList()))
     }
 
+    @Test fun searchResultsAndNextPageAreRead() {
+        val response = """
+            {"contents":{"sectionListRenderer":{"contents":[
+              {"itemSectionRenderer":{"contents":[
+                {"videoRenderer":{"videoId":"arj7oStGLkU","title":{"runs":[{"text":"Inside the Mind of a Master Procrastinator"}]},
+                  "ownerText":{"runs":[{"text":"TED"}]},"lengthText":{"simpleText":"14:04"},"shortViewCountText":{"simpleText":"62M views"}}},
+                {"videoRenderer":{"videoId":"liveStream01","title":{"runs":[{"text":"Live now"}]}}},
+                {"videoRenderer":{"videoId":"bad","title":{"runs":[{"text":"broken id"}]},"lengthText":{"simpleText":"1:00"}}}
+              ]}},
+              {"continuationItemRenderer":{"continuationEndpoint":{"continuationCommand":{"token":"NEXT_TOKEN"}}}}
+            ]}}}
+        """.trimIndent()
+        val page = YouTubeSearch.parse(kotlinx.serialization.json.Json.parseToJsonElement(response))
+        assertEquals(listOf("arj7oStGLkU"), page.items.map { it.videoId })
+        assertEquals("TED", page.items.first().channel)
+        assertEquals("14:04", page.items.first().length)
+        assertEquals("NEXT_TOKEN", page.next)
+        assertEquals("https://i.ytimg.com/vi/arj7oStGLkU/mqdefault.jpg", page.items.first().thumbnail)
+    }
+
     @Test fun currentLineIsFoundByTime() {
         val c = VideoCaptions("x", "t", "a", 10, false, listOf(Cue(1000, 1000, "a"), Cue(2000, 1000, "b"), Cue(5000, 1000, "c")))
         assertEquals(-1, c.indexAt(500))

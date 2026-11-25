@@ -52,6 +52,9 @@ private data object StudySetupRoute : NavKey
 private data class StoryRoute(val storyId: String) : NavKey
 
 @Serializable
+private data class ChapterRoute(val storyId: String, val chapter: Int) : NavKey
+
+@Serializable
 private data class VideoRoute(val videoId: String) : NavKey
 
 @Serializable
@@ -62,26 +65,8 @@ private data class ToeicRoute(val part: ToeicPart?, val level: ToeicLevel, val a
 private data class StudyRoute(val settings: StudySettings, val attempt: Int = 0) : NavKey
 
 class MainActivity : ComponentActivity() {
-    /** A YouTube video shared to the app (through CaptureActivity), to open once the screen is up. */
-    private val sharedVideo = kotlinx.coroutines.flow.MutableStateFlow<String?>(null)
-
-    override fun onNewIntent(intent: android.content.Intent) {
-        super.onNewIntent(intent)
-        readSharedVideo(intent)
-    }
-
-    private fun readSharedVideo(intent: android.content.Intent?) {
-        // Any app can start this activity, so only a well-formed video id is accepted.
-        intent?.getStringExtra(EXTRA_VIDEO_ID)?.let { com.grayman.englishstudy.data.video.YouTubeLinks.videoId(it) }?.let { sharedVideo.value = it }
-    }
-
-    companion object {
-        const val EXTRA_VIDEO_ID = "video_id"
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        readSharedVideo(intent)
         enableEdgeToEdge()
         // Starts the speech engine early, so the first lesson's audio does not lag.
         app.voice
@@ -89,13 +74,6 @@ class MainActivity : ComponentActivity() {
             SpeakDailyTheme {
                 Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
                     val backStack = rememberNavBackStack(HomeRoute)
-                    val shared by sharedVideo.collectAsState()
-                    LaunchedEffect(shared) {
-                        shared?.let {
-                            backStack.add(VideoRoute(it))
-                            sharedVideo.value = null
-                        }
-                    }
                     NavDisplay(
                         backStack = backStack,
                         onBack = { backStack.removeLastOrNull() },
@@ -116,7 +94,23 @@ class MainActivity : ComponentActivity() {
                                 com.grayman.englishstudy.ui.video.VideoStudyScreen(route.videoId, onExit = { backStack.removeLastOrNull() })
                             }
                             entry<StoryRoute> { route ->
-                                com.grayman.englishstudy.ui.reader.StoryReaderScreen(route.storyId, onExit = { backStack.removeLastOrNull() })
+                                com.grayman.englishstudy.ui.reader.StoryChaptersScreen(
+                                    route.storyId,
+                                    onOpenChapter = { backStack.add(ChapterRoute(route.storyId, it)) },
+                                    onExit = { backStack.removeLastOrNull() },
+                                )
+                            }
+                            entry<ChapterRoute> { route ->
+                                com.grayman.englishstudy.ui.reader.StoryReaderScreen(
+                                    route.storyId,
+                                    route.chapter,
+                                    onExit = { backStack.removeLastOrNull() },
+                                    // The next chapter replaces this one, so "back" returns to the chapter list.
+                                    onOpenChapter = {
+                                        backStack.removeLastOrNull()
+                                        backStack.add(ChapterRoute(route.storyId, it))
+                                    },
+                                )
                             }
                             entry<LessonRoute> { route ->
                                 LessonScreen(route.lessonId, onExit = { backStack.removeLastOrNull() })

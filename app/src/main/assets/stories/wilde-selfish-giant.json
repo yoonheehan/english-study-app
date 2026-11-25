@@ -6,6 +6,9 @@
 "year": 1888,
 "level": "MEDIUM",
 "words": 1652,
+"chapters": [
+{
+"title": "1장",
 "blocks": [
 {
 "t": "p",
@@ -66,7 +69,12 @@
 {
 "t": "p",
 "x": "What did he see?"
+}
+]
 },
+{
+"title": "2장",
+"blocks": [
 {
 "t": "p",
 "x": "He saw a most wonderful sight. Through a little hole in the wall the children had crept in, and they were sitting in the branches of the trees. In every tree that he could see there was a little child. And the trees were so glad to have the children back again that they had covered themselves with blossoms, and were waving their arms gently above the children’s heads. The birds were flying about and twittering with delight, and the flowers were looking up through the green grass and laughing. It was a lovely scene, only in one corner it was still winter. It was the farthest corner of the garden, and in it was standing a little boy. He was so small that he could not reach up to the branches of the tree, and he was wandering all round it, crying bitterly. The poor tree was still quite covered with frost and snow, and the North Wind was blowing and roaring above it. “Climb up! little boy,” said the Tree, and it bent its branches down as low as it could; but the boy was too tiny."
@@ -134,6 +142,8 @@
 {
 "t": "p",
 "x": "And when the children ran in that afternoon, they found the Giant lying dead under the tree, all covered with white blossoms."
+}
+]
 }
 ]
 }

@@ -6,6 +6,9 @@
 "year": 1888,
 "level": "MEDIUM",
 "words": 4323,
+"chapters": [
+{
+"title": "1장",
 "blocks": [
 {
 "t": "p",
@@ -82,7 +85,12 @@
 {
 "t": "p",
 "x": "“Sometimes, indeed, the neighbours thought it strange that the rich Miller never gave little Hans anything in return, though he had a hundred sacks of flour stored away in his mill, and six milch cows, and a large flock of woolly sheep; but Hans never troubled his head about these things, and nothing gave him greater pleasure than to listen to all the wonderful things the Miller used to say about the unselfishness of true friendship."
+}
+]
 },
+{
+"title": "2장",
+"blocks": [
 {
 "t": "p",
 "x": "“So little Hans worked away in his garden. During the spring, the summer, and the autumn he was very happy, but when the winter came, and he had no fruit or flowers to bring to the market, he suffered a good deal from cold and hunger, and often had to go to bed without any supper but a few dried pears or some hard nuts. In the winter, also, he was extremely lonely, as the Miller never came to see him then."
@@ -130,7 +138,12 @@
 {
 "t": "p",
 "x": "“‘Why, what a good heart you have!’ cried his Wife; ‘you are always thinking of others. And mind you take the big basket with you for the flowers.’"
+}
+]
 },
+{
+"title": "3장",
+"blocks": [
 {
 "t": "p",
 "x": "“So the Miller tied the sails of the windmill together with a strong iron chain, and went down the hill with the basket on his arm."
@@ -202,7 +215,12 @@
 {
 "t": "p",
 "x": "“‘Well, really,’ answered the Miller, ‘as I have given you my wheelbarrow, I don’t think that it is much to ask you for a few flowers. I may be wrong, but I should have thought that friendship, true friendship, was quite free from selfishness of any kind.’"
+}
+]
 },
+{
+"title": "4장",
+"blocks": [
 {
 "t": "p",
 "x": "“‘My dear friend, my best friend,’ cried little Hans, ‘you are welcome to all the flowers in my garden. I would much sooner have your good opinion than my silver buttons, any day’; and he ran and plucked all his pretty primroses, and filled the Miller’s basket."
@@ -274,7 +292,12 @@
 {
 "t": "p",
 "x": "“‘Well, really,’ answered the Miller, ‘I do not think it is much to ask of you, considering that I am going to give you my wheelbarrow; but of course if you refuse I will go and do it myself.’"
+}
+]
 },
+{
+"title": "5장",
+"blocks": [
 {
 "t": "p",
 "x": "“‘Oh! on no account,’ cried little Hans and he jumped out of bed, and dressed himself, and went up to the barn."
@@ -354,7 +377,12 @@
 {
 "t": "p",
 "x": "“‘Well, never mind, I will do without it,’ cried little Hans, and he took down his great fur coat, and his warm scarlet cap, and tied a muffler round his throat, and started off."
+}
+]
 },
+{
+"title": "6장",
+"blocks": [
 {
 "t": "p",
 "x": "“What a dreadful storm it was! The night was so black that little Hans could hardly see, and the wind was so strong that he could scarcely stand. However, he was very courageous, and after he had been walking about three hours, he arrived at the Doctor’s house, and knocked at the door."
@@ -454,6 +482,8 @@
 {
 "t": "p",
 "x": "“Ah! that is always a very dangerous thing to do,” said the Duck."
+}
+]
 }
 ]
 }

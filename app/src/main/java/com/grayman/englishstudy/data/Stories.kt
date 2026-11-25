@@ -21,6 +21,8 @@ data class StoryInfo(
     val level: String,
     val words: Int,
     val note: String = "",
+    /** How many chapters (short sections, read one at a time) the story has. */
+    val chapters: Int = 1,
 ) {
     val storyLevel: StoryLevel get() = StoryLevel.entries.firstOrNull { it.name == level } ?: StoryLevel.MEDIUM
 
@@ -32,6 +34,13 @@ data class StoryInfo(
 
     companion object {
         fun sourceOf(id: String) = "story:$id"
+
+        /** Sources to highlight saved words from, including stories that were one file before chapters. */
+        fun sourcesOf(id: String): List<String> = listOf(sourceOf(id)) + when (id) {
+            "aesop" -> listOf("aesop-1", "aesop-2")
+            "alice" -> listOf("alice-1", "alice-2", "alice-3")
+            else -> emptyList()
+        }.map(::sourceOf)
     }
 }
 
@@ -44,6 +53,12 @@ data class StoryBlock(val t: String, val x: String) {
     val isHeading: Boolean get() = t == "h"
 }
 
+/** One sitting's worth of a story: a fable, or 600-1100 words of a longer one. */
+@Serializable
+data class StoryChapter(val title: String, val blocks: List<StoryBlock>) {
+    val words: Int get() = blocks.filter { !it.isHeading }.sumOf { it.x.split(" ").size }
+}
+
 @Serializable
 data class Story(
     val id: String,
@@ -53,7 +68,7 @@ data class Story(
     val year: Int,
     val level: String,
     val words: Int,
-    val blocks: List<StoryBlock>,
+    val chapters: List<StoryChapter>,
 )
 
 /**
@@ -73,15 +88,27 @@ class StoryLibrary(private val context: Context) {
     fun load(id: String): Story =
         json.decodeFromString(Story.serializer(), context.assets.open("stories/$id.json").bufferedReader().use { it.readText() })
 
-    /** The block the learner was reading, so a story opens where it was left. */
-    fun position(id: String): Int = prefs.getInt("pos_$id", 0)
+    /** The paragraph the learner was reading in a chapter, so it opens where it was left. */
+    fun position(id: String, chapter: Int): Int = prefs.getInt("pos_${id}_$chapter", 0)
 
-    /** 0-100, how far into the story the learner has read. */
-    fun progress(id: String): Int = prefs.getInt("pct_$id", 0)
-
-    fun savePosition(id: String, block: Int, percent: Int) {
-        prefs.edit().putInt("pos_$id", block).putInt("pct_$id", maxOf(percent, progress(id))).apply()
+    fun savePosition(id: String, chapter: Int, block: Int) {
+        prefs.edit().putInt("pos_${id}_$chapter", block).putInt("last_$id", chapter).apply()
     }
+
+    /** The chapter opened last, to continue from. */
+    fun lastChapter(id: String): Int = prefs.getInt("last_$id", 0)
+
+    /** Chapters read to the end. */
+    fun readChapters(id: String): Set<Int> =
+        prefs.getString("read_$id", "").orEmpty().split(',').mapNotNull { it.toIntOrNull() }.toSet()
+
+    fun markRead(id: String, chapter: Int) {
+        val read = readChapters(id) + chapter
+        prefs.edit().putString("read_$id", read.sorted().joinToString(",")).apply()
+    }
+
+    /** 0-100, how many of the story's chapters have been read. */
+    fun progress(info: StoryInfo): Int = readChapters(info.id).size * 100 / info.chapters.coerceAtLeast(1)
 
     var textSize: Int
         get() = prefs.getInt("text_size", 20)

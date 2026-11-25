@@ -6,6 +6,9 @@
 "year": 1812,
 "level": "EASY",
 "words": 743,
+"chapters": [
+{
+"title": "전체",
 "blocks": [
 {
 "t": "p",
@@ -46,6 +49,8 @@
 {
 "t": "p",
 "x": "The good couple saw them no more; but everything went well with them from that time forward, as long as they lived."
+}
+]
 }
 ]
 }

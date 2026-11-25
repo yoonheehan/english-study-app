@@ -96,6 +96,7 @@ fun WordsTab(onStudy: () -> Unit) {
     val counts by remember { app.words.counts() }.collectAsState(initial = WordCounts(0, 0, 0, 0))
     val syncStatus by app.wordSync.status.collectAsState()
     val syncContent by app.wordSync.contentInfo.collectAsState()
+    val uploadProblem by app.wordSync.uploadProblem.collectAsState()
     val syncPending by remember { app.wordSync.pendingCount }.collectAsState(initial = 0)
     var showSync by remember { mutableStateOf(false) }
     val account by app.googleAccount.email.collectAsState()
@@ -151,6 +152,7 @@ fun WordsTab(onStudy: () -> Unit) {
             status = syncStatus,
             pending = syncPending,
             contentInfo = syncContent,
+            uploadProblem = uploadProblem,
             account = account,
             connecting = connecting,
             accountMessage = accountMessage,
